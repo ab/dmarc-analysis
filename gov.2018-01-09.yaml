@@ -1,0 +1,1162 @@
+---
+nih.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+ca.gov: 
+weather.gov: 
+nasa.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarcmail@mail.nasa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+state.gov: v=DMARC1;p=none;fo=0;rua=mailto:dmarcreport@state.gov
+irs.gov: v=DMARC1; p=none; rua=mailto:dmarc-agg-feed@ofdp.irs.gov
+ed.gov: v=DMARC1; p=none; rua=mailto:dmarc@ed.gov; aspf=r; pct=100; rf=afrf; ri=345600;
+  sp=none
+ny.gov: 
+noaa.gov: 
+healthcare.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+cdc.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+uscis.gov: 
+ssa.gov: v=DMARC1; p=quarantine; rua=mailto:dmarc@ssa.gov; fo=1; adkim=r; aspf=r;
+  pct=100; ri=86400; sp=quarantine
+fcc.gov: v=DMARC1; p=none; rua=mailto:postmaster@fcc.gov
+usgs.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+dhs.gov: v=DMARC1; p=none; pct=100; rua=mailto:DMARC@hq.dhs.gov
+medlineplus.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+wa.gov: 
+nyc.gov: 
+usajobs.gov: 
+usda.gov: 
+usembassy.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+nps.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+va.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:va@rua.agari.com,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:va@ruf.agari.com
+texas.gov: 
+loc.gov: 
+uspto.gov: 
+sec.gov: v=DMARC1; p=none; pct=100; rua=mailto:DMARC@sec.gov
+epa.gov: v=DMARC1;p=none;pct=100;rua=mailto:DMARC_RUA_epa.gov@epa.gov;ruf=mailto:DMARC_RUF_epa.gov@epa.gov;rua=mailto:reports@dmarc.cyber.dhs.gov;ruf=mailto:reports@dmarc.cyber.dhs.gov;fo=1
+fda.gov: v=DMARC1; p=none; fo=1; rua=mailto:rua.dmarc@fda.hhs.gov; ruf=mailto:ruf.dmarc@fda.hhs.gov;
+nist.gov: 
+ohio.gov: 
+virginia.gov: 
+uscourts.gov: v=DMARC1; p=none; rua=mailto:postmaster@uscourts.gov
+house.gov: v=DMARC1;p=none;pct=100;rua=mailto:DMARC-aggregate@mail.house.gov,mailto:dmarc_agg@auth.returnpath.net
+studentloans.gov: v=DMARC1; p=none; rua=mailto:dmarc@ed.gov; aspf=r; pct=10; rf=afrf;
+  ri=345600; sp=none
+in.gov: 
+census.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc+rua@other.mail.census.gov,mailto:u-s-census-bureau@rua.agari.com;
+  ruf=mailto:dmarc+ruf@other.mail.census.gov
+bls.gov: v=DMARC1;p=none;rua=mailto:dmarcreport@bls.gov
+whitehouse.gov: 
+pa.gov: 
+michigan.gov: 
+faa.gov: v=DMARC1; p=none; rua=mailto:9-AIF-340-DMARC-REPORTS@faa.gov; ruf=mailto:9-AIF-340-DMARC-REPORTS@faa.gov
+cia.gov: 
+mo.gov: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+usa.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+cbp.gov: v=DMARC1; p=reject; fo=1; rua=mailto:DMARC@hq.dhs.gov; ruf=mailto:DMARC@hq.dhs.gov
+utah.gov: 
+maryland.gov: v=DMARC1; p=none; rua=mailto:7fxzmlcg@ag.dmarcian.com,mailto:dmarc_agg@vali.email;
+  ruf=mailto:7fxzmlcg@fr.dmarcian.com
+ftc.gov: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarcemails@ftc.gov; ruf=mailto:dmarcemails@ftc.gov;
+  rf=afrf; pct=100; ri=86400
+oregon.gov: 
+illinois.gov: v=DMARC1;p=none;sp=none;rua=mailto:DoIT.RUA-Reports@illinois.gov!35m;ruf=mailto:DoIT.RUF-Reports@illinois.gov!35m;rf=afrf;pct=100;ri=86400
+senate.gov: v=DMARC1;p=reject;sp=none;rua=mailto:saadmarc-reports@saa.senate.gov;ruf=mailto:saadmarc_afrf@saa.senate.gov;rf=afrf;pct=100
+archives.gov: v=DMARC1; p=reject
+opm.gov: 
+mass.gov: 
+energy.gov: v=DMARC1; p=none; sp=none; fo=1; pct=50; adkim=r; aspf=r; rf=afrf; ri=86400;
+  rua=eits.dmarcrua@energy.gov; ruf=eits.dmarcruf@energy.gov
+dot.gov: 
+wi.gov: 
+congress.gov: 
+fbi.gov: v=DMARC1; p=reject; adkim=r; aspf=r; rua=mailto:dmarc-feedback@fbi.gov; ruf=mailto:dmarc-feedback@fbi.gov;
+  pct=100
+lacounty.gov: 
+ct.gov: 
+hhs.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+tsp.gov: v=DMARC1; p=none; sp=none; ruf=mailto:dmarc@tsp.gov!10m; rua=mailto:dmarc@tsp.gov!10m;
+  rf=afrf; pct=100; ri=86400
+ga.gov: 
+clinicaltrials.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;
+  ruf=mailto:hhs@ruf.agari.com
+cancer.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+tsa.gov: 
+colorado.gov: 
+cms.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+justice.gov: 
+login.gov: v=DMARC1; p=reject; pct=100; fo=1; ri=3600; rua=mailto:gsalogin@rua.agari.com,mailto:dmarc-reports@login.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarc-forensics@login.gov
+dc.gov: 
+flhsmv.gov: 
+osha.gov: v=DMARC1; p=reject; rua=mailto:abuse@osha.gov; aspf=r; pct=100; ri=86400
+georgia.gov: 
+tn.gov: 
+usaid.gov: v=DMARC1; p=none; rua=mailto:messaging-dmarc@usaid.gov; pct=0
+fema.gov: v=DMARC1; p=none; pct=100; rua=mailto:DMARC@fema.dhs.gov
+usps.gov: v=DMARC1; p=reject; fo=1; rua=mailto:u-s-postal-service@rua.agari.com; ruf=mailto:u-s-postal-service@ruf.agari.com
+treasury.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+eftps.gov: v=DMARC1;p=none;pct=100;fo=1;rua=mailto:dl_treasurydmarcrua@treasury.gov;ruf=mailto:dl_treasurydmarcruf@treasury.gov
+ky.gov: 
+medicare.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+eia.gov: v=DMARC1; p=none; sp=none; fo=1; pct=50; adkim=r; aspf=r; rf=afrf; ri=86400;
+  rua=mailto:DMARC@eia.gov; ruf=mailto:DMARC@eia.gov
+nsf.gov: v=DMARC1;p=none; fo=1; pct=100;rua=mailto:dmarcemails@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:fremailsdmarc@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+seattle.gov: 
+defense.gov: 
+mn.gov: 
+sba.gov: 
+drugabuse.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+dol.gov: v=DMARC1; p=reject; rua=mailto:abuse@dol.gov; aspf=r; pct=100; ri=86400
+aviationweather.gov: 
+pay.gov: 
+wisconsin.gov: 
+recreation.gov: 
+idaho.gov: 
+nysed.gov: 
+sc.gov: 
+lbl.gov: 
+nv.gov: 
+pr.gov: 
+kingcounty.gov: 
+nj.gov: 
+nwcg.gov: 
+alaska.gov: 
+nc.gov: 
+gpo.gov: 
+ncdot.gov: 
+hud.gov: 
+miamidade.gov: 
+gsa.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+panynj.gov: 
+nhtsa.gov: 
+treasurydirect.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+fafsa.gov: v=DMARC1; p=none; rua=mailto:dmarc@ed.gov; sp=none; aspf=r; pct=10; ri=345600;
+  fo=0; rf=afrf
+export.gov: 
+mt.gov: 
+bart.gov: 
+ok.gov: 
+usastaffing.gov: 
+alabama.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+nrel.gov: v=DMARC1; p=reject; sp=none; pct=100; rua=mailto:dmarc@nrel.gov; ruf=mailto:3100-WinEng-Messaging@nrel.gov;
+  adkim=r; aspf=r
+fueleconomy.gov: 
+federalreserve.gov: v=DMARC1; p=reject; rua=mailto:dmarcreports@frb.gov,mailto:reports@dmarc.cyber.dhs.gov
+delaware.gov: 
+nh.gov: 
+iowa.gov: 
+txdmv.gov: 
+maricopa.gov: v=spf1 mx ip4:156.42.184.98/32 ip4:156.42.184.99/32 ip4:156.42.186.98/32
+  -all
+austintexas.gov: 
+peacecorps.gov: v=DMARC1;p=none;rua=mailto:Dmarc@peacecorps.gov;ruf=mailto:Dmarc@peacecorps.gov;fo=0;adkim=r;aspf=r;rf=afrf;sp=none
+fairfaxcounty.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:fairfax@rua.agari.com;
+  ruf=mailto:fairfax@ruf.agari.com
+wicourts.gov: 
+anl.gov: 
+consumerfinance.gov: v=DMARC1;p=none;rua=mailto:CFPB_SOC@cfpb.gov
+arkansas.gov: 
+az.gov: 
+maine.gov: 
+phila.gov: 
+sandiego.gov: 
+fws.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+fbo.gov: 
+nebraska.gov: v=DMARC1; p=none; rua=mailto:OCIO.DMARCReports@nebraska.gov; ruf=mailto:OCIO.DMARCReports@nebraska.gov;
+nycourts.gov: 
+llnl.gov: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-rua@llnl.gov;
+hawaii.gov: v=DMARC1; p=none; rua=mailto:dmarc@hawaii.gov; ruf=mailto:dmarc@hawaii.gov;
+  sp=none; ri=84600; fo=0
+copyright.gov: 
+montgomerycountymd.gov: 
+ne.gov: 
+marylandhealthconnection.gov: 
+airnow.gov: 
+data.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+osti.gov: v=DMARC1;p=none;pct=100;rua=mailto:mailadmin@osti.gov
+nd.gov: 
+louisiana.gov: 
+boston.gov: 
+ilsos.gov: 
+ice.gov: 
+donotcall.gov: v=DMARC1; p=reject; rua=mailto:dmarc@donotcall.gov; ruf=mailto:dmarc@donotcall.gov;
+  fo=1
+ri.gov: 
+portlandoregon.gov: 
+attorneygeneral.gov: 
+lanl.gov: v=DMARC1;p=none;fo=1;rua=mailto:nsoc-dmarc@lanl.gov;ruf=nsoc-dmarc@lanl.gov
+la.gov: 
+vermont.gov: 
+fnal.gov: v=DMARC1;p=none;
+mymedicare.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+houstontx.gov: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+ms.gov: 
+sandia.gov: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@sandia.gov; rf=afrf; pct=100;
+  ri=86400
+njcourts.gov: v=DMARC1; p=none; pct=100; rua_=mailto:postmaster.mailbox@njcourts.gov;
+  ruf_=mailto:postmaster.mailbox@njcourts.gov; fo=1
+phoenix.gov: 
+energystar.gov: 
+grants.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+disasterassistance.gov: 
+ahrq.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+cpsc.gov: v=DMARC1; p=none; rua=mailto:dmarc@cpsc.gov
+pacer.gov: 
+ks.gov: 
+ornl.gov: v=DMARC1;p=none;rua=mailto:ornl_rua_reports@ornl.gov;ruf=mailto:ornl_ruf_reports@ornl.gov
+ncpublicschools.gov: 
+eeoc.gov: v=DMARC1; pct=100; p=none; rua=mailto:aggrep@eeoc.gov
+sss.gov: v=DMARC1; p=reject; rua=mailto:soc@sss.gov; ncats@hq.dhs.gov; ruf=mailto:soc@sss.gov;
+  fo=0; adkim=r; aspf=r; rf=afrf; sp=reject
+federalregister.gov: 
+choosemyplate.gov: 
+doe.gov: v=DMARC1; p=none; sp=none; fo=1; pct=50; adkim=r; aspf=r; rf=afrf; ri=86400;
+  rua=eits.dmarcrua@doe.gov; ruf=eits.dmarcruf@doe.gov
+ecfr.gov: 
+vets.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:va@rua.agari.com,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:va@ruf.agari.com
+tnk12.gov: 
+america.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+wisconsindot.gov: 
+usitc.gov: v=DMARC1; p=none; rua=mailto:reports@usitc.gov, mailto:reports@dmarc.cyber.dhs.gov;
+clarkcountynv.gov: 
+fbijobs.gov: 
+hrsa.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+supremecourt.gov: 
+nrc.gov: v=DMARC1; p=none; pct=100; rua=mailto:postmaster@nrc.gov; ruf=mailto:postmaster@nrc.gov;
+evus.gov: 
+bnl.gov: 
+samhsa.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+pima.gov: 
+nashville.gov: 
+time.gov: 
+science.gov: v=DMARC1;p=none;pct=100;rua=mailto:mailadmin@science.gov
+safercar.gov: 
+azdot.gov: 
+usmint.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+usdoj.gov: 
+sd.gov: 
+genome.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+fec.gov: v=DMARC1; p=quarantine; rua=mailto:postoffice@fec.gov; ruf=mailto:postoffice@fec.gov;
+  pct=100
+mi.gov: 
+fdic.gov: v=DMARC1;p=reject;sp=reject;fo=1;ri=3600;rua=mailto:fdic@rua.agari.com,mailto:reports@dmarc.cyber.dhs.gov;ruf=mailto:fdic@ruf.agari.com
+benefits.gov: v=DMARC1; p=none; fo=1; rua=mailto:newg.bpartner@dol.gov; ruf=mailto:newg.bpartner@dol.gov
+blm.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+treas.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov; ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+ready.gov: 
+americorps.gov: v=DMARC1; p=none; rua=mailto:DMARCNotify@cns.gov;
+doleta.gov: 
+loudoun.gov: 
+bop.gov: 
+nga.gov: 
+doi.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+baltimorecity.gov: 
+wv.gov: v=DMARC1; p=none; rua=mailto:8d02889b0b9e351@rep.dmarcanalyzer.com; ruf=mailto:8d02889b0b9e351@for.dmarcanalyzer.com;
+  fo=1;
+medicaid.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+neh.gov: v=DMARC1; p=none; pct=100; rua=mailto:oirm@neh.gov,mailto:reports@dmarc.cyber.dhs.gov
+sam.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+ehawaii.gov: 
+nationalservice.gov: 
+us-cert.gov: 
+nsa.gov: 
+ilga.gov: 
+bea.gov: 
+commerce.gov: 
+cuidadodesalud.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;
+  ruf=mailto:hhs@ruf.agari.com
+raleighnc.gov: 
+milwaukee.gov: 
+transportation.gov: 
+tucsonaz.gov: 
+atf.gov: 
+climate.gov: 
+txdot.gov: 
+foodsafety.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+orau.gov: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@orau.org!10m; ruf=mailto:dmarc@orau.org!10m;
+  rf=afrf; pct=100; ri=86400
+investor.gov: 
+cftc.gov: 
+trade.gov: v=DMARC1; p=none; rua=mailto:dmarc_reports@trade.gov; ruf=mailto:dmarc_reports@trade.gov;
+  sp=reject
+gsaauctions.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+healthearizonaplus.gov: 
+floridahealth.gov: 
+cabq.gov: v=DMARC1; p=none; pct=100; rua=mailto:re+t2jbosbdmug@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+mncourts.gov: 
+usbr.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+traviscountytx.gov: 
+usability.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+fortworthtexas.gov: 
+nvsos.gov: 
+santaclaraca.gov: v=DMARC1; p=none; pct=100; rua=mailto:re+fzhbnnam9xx@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+gao.gov: 
+columbus.gov: 
+sbcounty.gov: 
+ada.gov: v=DMARC1; p=none; aspf=s; rua=mailto:reports@dmarc.cyber.dhs.gov,mailto:dmarcreports@usdoj.gov
+ntsb.gov: v=DMARC1;p=none;pct=100;rua=mailto:postmaster@ntsb.gov
+txcourts.gov: 
+sandiegocounty.gov: 
+utcourts.gov: 
+malegislature.gov: 
+cambridgema.gov: 
+indy.gov: 
+plano.gov: 
+sanjoseca.gov: 
+pnnl.gov: v=DMARC1;p=none;rua=mailto:dmarcinfo@pnnl.gov;ruf=mailto:dmarcinfo@pnnl.gov
+dea.gov: 
+nationalmap.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov
+aztaxes.gov: 
+womenshealth.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+ncjrs.gov: 
+longbeach.gov: 
+regulations.gov: 
+fdot.gov: 
+educateiowa.gov: 
+bouldercolorado.gov: 
+mdcourts.gov: 
+sosnc.gov: 
+doc.gov: 
+ncifcrf.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+americaslibrary.gov: 
+azcc.gov: 
+cbo.gov: 
+sanantonio.gov: 
+lakecountyil.gov: 
+hiv.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+newmexico.gov: 
+health.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+capnhq.gov: 
+huduser.gov: v=DMARC1; p=none; sp=none; rua=mailto:mailauth-reports@huduser.gov; ruf=mailto:mailauth-reports@huduser.gov
+bts.gov: 
+ncdor.gov: 
+honolulu.gov: 
+kansas.gov: 
+missouri.gov: 
+ourdocuments.gov: v=DMARC1; p=reject
+employeeexpress.gov: 
+nysenate.gov: "v=DMARC1; p=none;\r\nrua=mailto:dmarcreports@nysenate.gov"
+childwelfare.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+healthit.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+stlouis-mo.gov: 
+codot.gov: 
+wyo.gov: 
+azed.gov: 
+iowadot.gov: 
+atlantaga.gov: 
+stopbullying.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+monroecounty.gov: 
+ftccomplaintassistant.gov: v=DMARC1; p=reject; rua=mailto:dmarc@consumersentinel.gov;
+  ruf=mailto:dmarc@consumersentinel.gov; fo=1
+ic3.gov: 
+franklincountyohio.gov: 
+azdes.gov: 
+fultoncountyga.gov: 
+alabamavotes.gov: 
+healthypeople.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+riversideca.gov: 
+dekalbcountyga.gov: 
+nassaucountyny.gov: 
+collincountytx.gov: 
+charlottenc.gov: 
+vaccines.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+santabarbaraca.gov: 
+cjis.gov: 
+md.gov: 
+okc.gov: 
+nola.gov: 
+bjs.gov: 
+minneapolismn.gov: 
+ttb.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov; ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+jobs4tn.gov: 
+ohiodnr.gov: 
+mesaaz.gov: 
+ffiec.gov: v=DMARC1; p=reject; rua=mailto:dmarcreports@frb.gov,mailto:reports@dmarc.cyber.dhs.gov
+njconsumeraffairs.gov: 
+ustr.gov: 
+tempe.gov: v=DMARC1; p=none; pct=100; rua=mailto:re+yaafmwzhrb3@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+marylandtaxes.gov: 
+azdor.gov: 
+il.gov: 
+arts.gov: 
+lasvegasnevada.gov: v=DMARC1; p=none; rua=mailto:DMARC@LasVegasNevada.GOV; ruf=mailto:DMARC@LasVegasNevada.GOV;fo=1
+glendaleca.gov: 
+nsopw.gov: 
+longmontcolorado.gov: v=DMARC1; p=none; rua=mailto:ted.trembler@longmontcolorado.gov;
+  ruf=mailto:ted.trembler@longmontcolorado.gov; sp=none; ri=86400
+harriscountytx.gov: 
+sbir.gov: 
+alacourt.gov: 
+cityofboston.gov: 
+uspsoig.gov: 
+applicationmanager.gov: 
+azleg.gov: 
+chesterfield.gov: 
+ferc.gov: 
+polkcountyiowa.gov: 
+intelligencecareers.gov: 
+usadf.gov: 
+flsenate.gov: 
+scottsdaleaz.gov: 
+penndot.gov: 
+healthfinder.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+nvsilverflume.gov: 
+globalchange.gov: 
+fortlauderdale.gov: 
+privacyshield.gov: 
+majury.gov: 
+identitytheft.gov: v=DMARC1; p=reject; rua=mailto:dmarc@identitytheft.gov; ruf=mailto:dmarc@identitytheft.gov;
+  fo=1
+daviscountyutah.gov: 
+nij.gov: 
+reginfo.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+eugene-or.gov: 
+illinoiscourts.gov: 
+baltimorecountymd.gov: 
+ihs.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+usap.gov: 
+alexandriava.gov: 
+usconsulate.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+azdhs.gov: 
+nyjuror.gov: 
+smokefree.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+suffolkcountyny.gov: 
+gps.gov: 
+faasafety.gov: 
+princegeorgescountymd.gov: _dmarc.princegeorgescountymd.gov text = "v=DMARC1; p=none;
+  fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarc_aggdata@exampledestination.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com,mailto:dmarc_forensic@exampledestination.com"
+utahcounty.gov: 
+azcourts.gov: 
+durhamnc.gov: 
+cookcountyil.gov: 
+aqmd.gov: 
+arkansased.gov: 
+texasattorneygeneral.gov: 
+nifc.gov: v=DMARC1;p=reject;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+teachiowa.gov: 
+roundrocktexas.gov: v=DMARC1; p=none; rua=mailto:DL_DMARC@ROUNDROCKTEXAS.GOV; ruf=mailto:DL_DMARC@ROUNDROCKTEXAS.GOV;
+  sp=none; fo=1; aspf=s; adkim=s; ri=86400
+detroitmi.gov: 
+uspis.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:u-s-postal-service@rua.agari.com;
+  ruf=mailto:u-s-postal-service@ruf.agari.com
+lexingtonky.gov: 
+oregonlegislature.gov: 
+iowadnr.gov: 
+mecknc.gov: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@mecknc.gov; ruf=mailto:dmarc@mecknc.gov;
+  fo=1
+cstx.gov: 
+nersc.gov: 
+ncdhhs.gov: 
+como.gov: 
+mountainview.gov: 
+scstatehouse.gov: v=DMARC1; p=none; rua=mailto:dmarc_admin@scstatehouse.gov; ruf=mailto:dmarc_admin@scstatehouse.gov;fo=1
+louisvilleky.gov: 
+dni.gov: 
+pnl.gov: 
+read.gov: 
+stpaul.gov: 
+inl.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarc_ruainl@inl.gov;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com,mailto:dmarc_rufinl@inl.gov
+flhealthsource.gov: 
+erie.gov: 
+fincen.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+snohomishcountywa.gov: 
+azsos.gov: 
+nmcourts.gov: 
+fpds.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+ncdps.gov: 
+kentucky.gov: 
+uscg.gov: 
+gsaadvantage.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+coloradosprings.gov: 
+usalearning.gov: 
+kcmo.gov: 
+chandleraz.gov: 
+cincinnati-oh.gov: 
+broadbandmap.gov: v=DMARC1; p=none; rua=mailto:postmaster@fcc.gov
+financialresearch.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+pittsburghpa.gov: 
+azdoa.gov: 
+visitthecapitol.gov: v=spf1 ip4:12.46.25.95 ip4:12.46.25.120 ip4:65.119.127.95 ip4:65.119.127.120
+  mx ~all
+pinalcountyaz.gov: 
+msha.gov: 
+ncworks.gov: 
+ncsbe.gov: 
+seminolecountyfl.gov: 
+ohioattorneygeneral.gov: 
+charleston-sc.gov: 
+greensboro-nc.gov: 
+ntis.gov: v=DMARC1; p=none; aspf=r; fo=1:s; rua=mailto:webmail@ntis.gov; ruf=mailto:ntisruf@ntis.gov;
+  ri=86400; sp=none
+flhealth.gov: 
+jobcorps.gov: v=DMARC1; p=quarantine; pct=100; sp=none; fo=1; ri=86400; rua=mailto:dmarc@jobcorps.gov;
+  ruf=mailto:dmarc@jobcorps.gov
+sanmarcostx.gov: v=DMARC1; p=quarantine
+tva.gov: v=DMARC1; p=none
+tzdz.gov: 
+somervillema.gov: 
+oregonstudentaid.gov: 
+ncparks.gov: 
+torranceca.gov: v=DMARC1;p=none;rua=mailto:postmaster@torranceca.gov
+elpasotexas.gov: v=DMARC1; p=none; sp=none;rua=mailto:1b195901@mxtoolbox.dmarc-report.com;
+  ruf=mailto:dmarcforensics@elpasotexas.gov; rf=afrf; pct=100; ri=86400
+cityofpleasantonca.gov: 
+shelbycountytn.gov: 
+iowaworkforcedevelopment.gov: 
+patreasury.gov: 
+troymi.gov: 
+acl.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+howardcountymd.gov: 
+itis.gov: 
+augustaga.gov: 
+nutrition.gov: 
+oregonmetro.gov: 
+miamibeachfl.gov: 
+ussc.gov: 
+fletc.gov: 
+dccourts.gov: 
+fortbendcountytx.gov: v=DMARC1; p=quarantine; pct=100; rua=mailto:DMARCReports@fortbendcountytx.gov;
+  ruf=mailto:DMARCReports@fortbendcountytx.gov; fo=1
+fresno.gov: 
+cityofrochester.gov: 
+norfolk.gov: 
+osac.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+akronohio.gov: 
+washingtondc.gov: 
+usmarshals.gov: 
+ashevillenc.gov: 
+wichita.gov: 
+iowacore.gov: 
+pmf.gov: 
+aoc.gov: 
+floridadep.gov: 
+nyassembly.gov: 
+deldot.gov: 
+jct.gov: v=DMARC1;p=none;pct=100;rua=mailto:DMARC-aggregate@mail.house.gov,mailto:dmarc_agg@auth.returnpath.net
+azahcccs.gov: 
+pbgc.gov: v=DMARC1; p=none; rua=mailto:DMARCReport@pbgc.gov;
+moneyfactorystore.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+sugarlandtx.gov: 
+guideline.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+speaker.gov: 
+hawaiicounty.gov: v=DMARC1; p=reject; rua=mailto:systemssupport@hawaiicounty.gov;
+  ruf=mailto:systemssupport@hawaiicounty.gov; sp=none; ri=84600
+acquisition.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+huntingtonbeachca.gov: 
+orangecountync.gov: 
+portlandmaine.gov: 
+hillsboro-oregon.gov: 
+secretservice.gov: v=DMARC1; p=none; pct=100; rua=mailto:DMARC@hq.dhs.gov
+gilbertaz.gov: 
+ndcourts.gov: 
+greenecountymo.gov: 
+psc.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+nebraskalegislature.gov: 
+dconc.gov: 
+azgfd.gov: 
+azdps.gov: 
+redmond.gov: 
+azre.gov: 
+511wi.gov: 
+brevardfl.gov: 
+leoncountyfl.gov: v=DMARC1; p=none; rua=mailto:9b1e28555e13872@rep.dmarcanalyzer.com,mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:9b1e28555e13872@for.dmarcanalyzer.com,mailto:dmarc_ruf@emaildefense.proofpoint.com;
+  pct=20; fo=1
+fhfa.gov: v=DMARC1; p=none; rua=mailto:re+tyhvbiueh7q@dmarc.postmarkapp.com; sp=none;
+rrb.gov: v=DMARC1; p=none; sp=none; rua=mailto:DMARC@rrb.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  rf=afrf; pct=100; ri=86400
+access-board.gov: 
+arlington-tx.gov: 
+mecklenburgcountync.gov: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@mecknc.gov;
+  ruf=mailto:dmarc@mecknc.gov; fo=1
+worcesterma.gov: 
+illinoistreasurer.gov: 
+floridahealthfinder.gov: 
+frederickcountymd.gov: 
+organdonor.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+ameslab.gov: 
+scdhec.gov: 
+majorityleader.gov: 
+truman.gov: 
+providenceri.gov: 
+sciencebase.gov: v=DMARC1;p=reject;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+fl.gov: 
+hamiltontn.gov: 
+springfieldmo.gov: 
+concordnc.gov: 
+nano.gov: 
+filelocal-wa.gov: 
+tncourts.gov: 
+mauicounty.gov: 
+kdheks.gov: 
+girlshealth.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+corvallisoregon.gov: 
+csb.gov: 
+cor.gov: 
+berkeleycountysc.gov: 
+ncua.gov: v=DMARC1; p=none; rua=mailto:dmarclogs@ncua.gov, mailto:reports@dmarc.cyber.dhs.gov
+fedshirevets.gov: 
+fremont.gov: 
+savannahga.gov: 
+ncagr.gov: 
+id.gov: 
+nlrb.gov: v=DMARC1;p=none;rua=mailto:postmaster@nlrb.gov,mailto:reports@dmarc.cyber.dhs.gov;ruf=mailto:postmaster@nlrb.gov,mailto:reports@dmarc.cyber.dhs.gov
+tsunami.gov: 
+outdoornebraska.gov: 
+huntingtonny.gov: 
+fayetteville-ar.gov: 
+rsa-al.gov: 
+usbg.gov: 
+hayward-ca.gov: 
+ncrec.gov: 
+starkcountyohio.gov: 
+courtswv.gov: 
+newtonma.gov: 
+usaspending.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+bellevuewa.gov: 
+vistacampus.gov: v=DMARC1; p=none; rua=mailto:DMARCNotify@cns.gov;
+ncdcr.gov: 
+chattanooga.gov: 
+sunrisefl.gov: 
+pppl.gov: v=DMARC1;p=none;rua=mailto:rua_reports@pppl.gov;ruf=mailto:ruf_reports@pppl.gov
+huntsvilleal.gov: v=DMARC1; p=none;  rua=mailto:dmarc-rep@huntsvilleal.gov; ruf=mailto:dmarc-rep@huntsvilleal.gov;
+  sp=none; pct=100
+newportbeachca.gov: 
+iowacourts.gov: 
+occ.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov; ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+ttbonline.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+pearlandtx.gov: v=DMARC1; p=none; rua=mailto:911ddbe89a9b060@rep.dmarcanalyzer.com;
+  ruf=mailto:911ddbe89a9b060@for.dmarcanalyzer.com; sp=none; fo=1;
+research.gov: v=DMARC1;p=none; fo=1; pct=100;rua=mailto:dmarcemails@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:fremailsdmarc@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+eac.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+blacksburg.gov: 
+wy.gov: 
+globe.gov: v=DMARC1; p=none; fo=1;  rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarcmail@mail.nasa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+jccs.gov: 
+energycodes.gov: 
+mspb.gov: 
+lansingmi.gov: v=spf1 include:spf.messagelabs.com -all
+youth.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+carlsbadca.gov: 
+oh.gov: 
+mpro.gov: 
+harrisonburgva.gov: 
+nm.gov: 
+votetexas.gov: 
+pompanobeachfl.gov: 
+vehiclehistory.gov: 
+daniabeachfl.gov: 
+cityofkeywest-fl.gov: 
+bernco.gov: 
+rockvillemd.gov: 
+stlouiscountymn.gov: 
+ojp.gov: 
+grandrapidsmi.gov: 
+waukeshacounty.gov: 
+floridasnursing.gov: 
+indianaffairs.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+dojmt.gov: 
+nicsezcheckfbi.gov: 
+montgomerycountyva.gov: 
+boem.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+friscotexas.gov: 
+brazoscountytx.gov: 
+nnva.gov: 
+ncdoj.gov: 
+cio.gov: v=spf1 -all
+smartgrid.gov: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@nrel.gov; ruf=mailto:3100-WinEng-Messaging@nrel.gov
+registertovoteflorida.gov: 
+recalls.gov: v=DMARC1; p=none; rua=mailto:dmarc@cpsc.gov
+usmission.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+selectusa.gov: 
+science360.gov: v=DMARC1;p=none; fo=1; pct=100;rua=mailto:dmarcemails@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:fremailsdmarc@nsf.gov,mailto:reports@dmarc.cyber.dhs.gov;
+uscc.gov: 
+hobokennj.gov: 
+bloomingtonmn.gov: 
+dublinohiousa.gov: 
+cedarparktexas.gov: 
+surgeongeneral.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+idahoworks.gov: 
+claytoncountyga.gov: 
+fjc.gov: v=DMARC1; p=none; rua=mailto:FJC_dmarc@fjc.gov
+plainlanguage.gov: 
+nystax.gov: 
+peoriaaz.gov: 
+azasrs.gov: 
+daytonohio.gov: 
+godirect.gov: 
+memphistn.gov: 
+mentalhealth.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+highpointnc.gov: 
+nnlm.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+randolphcountync.gov: 
+foia.gov: 
+vetbiz.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:va@rua.agari.com,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:va@ruf.agari.com
+ars-grin.gov: 
+ar.gov: 
+charlottecountyfl.gov: v=DMARC1; pct=100; p=none
+pepfar.gov: v=DMARC1;p=reject;adkim=r;rua=mailto:DMARCReport@state.gov
+knoxvilletn.gov: 
+tigard-or.gov: 
+kentwa.gov: 
+opensource.gov: 
+bpa.gov: 
+romi.gov: 
+fairfaxva.gov: 
+brooklinema.gov: 
+bia.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+ncsbi.gov: 
+newhavenct.gov: 
+mariettaga.gov: 
+helpwithmybank.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+everettwa.gov: v=DMARC1; p=none; rua=mailto:rua@everettwa.gov; ruf=mailto:ruf@everettwa.gov;
+  sp=none; fo=s; ri=86400
+presidentialserviceawards.gov: v=DMARC1; p=none; rua=mailto:DMARCNotify@cns.gov;
+normanok.gov: 
+azag.gov: 
+govinfo.gov: 
+garlandtx.gov: v=DMARC1;p=none;pct=100;rua=mailto:postmaster@garlandtx.gov
+rochestermn.gov: 
+chcoc.gov: 
+alamedaca.gov: 
+iarpa.gov: 
+albanyny.gov: 
+kirklandwa.gov: 
+roanokeva.gov: 
+southbendin.gov: 
+hartford.gov: 
+mcleancountyil.gov: 
+lakecountyfl.gov: 
+arlingtontx.gov: 
+azdeq.gov: 
+catawbacountync.gov: 
+harp.gov: v=DMARC1; p=none; rua=mailto:dmarcreports@fhfa.gov
+lakecountyohio.gov: 
+gop.gov: 
+burlingtonvt.gov: 
+moneyfactory.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+columbiasc.gov: 
+claycountymo.gov: 
+digitalgov.gov: 
+myfloridahouse.gov: 
+surpriseaz.gov: 
+de.gov: 
+ojjdp.gov: 
+burbankca.gov: 
+cherokeecounty-nc.gov: 
+mahoningcountyoh.gov: 
+manchesternh.gov: 
+baaqmd.gov: 
+max.gov: v=DMARC1;p=none;aspf=s;adkim=s;fo=0:1:d:s;ruf=mailto:dmarcreports@omb.gov;rua=mailto:dmarcreports@omb.gov
+leesburgva.gov: 
+wyoming.gov: 
+nvcourts.gov: 
+exim.gov: v=DMARC1; p=none; pct=100; rua=mailto:dmarc_agg@exim.gov,mailto:reports@dmarc.cyber.dhs.gov
+nicic.gov: 
+reno.gov: 
+nmlegis.gov: 
+healthdata.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+chulavistaca.gov: 
+lehi-ut.gov: 
+columbiacountyga.gov: 
+cap.gov: 
+sfwmd.gov: 
+beavertonoregon.gov: 
+santafenm.gov: 
+ndstudies.gov: 
+farmersbranchtx.gov: 
+opic.gov: 
+brookhavenny.gov: 
+dutchessny.gov: 
+imls.gov: 
+mcc.gov: v=DMARC1; p=none; pct=100; rua=mailto:reports@dmarc.cyber.dhs.gov
+section508.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+ustaxcourt.gov: 
+osc.gov: 
+rentonwa.gov: v=DMARC1; p=reject; sp=reject; rua=mailto:postmaster@rentonwa.gov; ruf=mailto:postmaster@rentonwa.gov;
+  rf=afrf; pct=100; ri=86400; adkim=r; aspf=s
+presidio.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@presidio.gov
+scijinks.gov: v=DMARC1; p=none; fo=1;  rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarcmail@mail.nasa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+artax.gov: 
+brokenarrowok.gov: v=DMARC1; p=none; rua=mailto:jfreeman@brokenarrowok.gov; ruf=mailto:jfreeman@brokenarrowok.gov;
+  fo=1;
+everykidinapark.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarcfailures@gsa.gov
+maplegrovemn.gov: 
+prc.gov: 
+getkansasbenefits.gov: 
+kauai.gov: 
+hamiltoncountyohio.gov: 
+azjobconnection.gov: 
+yorkcountypa.gov: 
+milwaukieoregon.gov: 
+eulesstx.gov: v=DMARC1; p=none; rua=mailto:postmaster@eulesstx.gov;
+abmc.gov: 
+usphs.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+killeentexas.gov: v=DMARC1; p=none;
+gaithersburgmd.gov: 
+palmspringsca.gov: 
+lewiscountywa.gov: 
+azunclaimed.gov: 
+wakeforestnc.gov: 
+houselive.gov: 
+irsvideos.gov: v=DMARC1; p=none; rua=mailto:dmarc-agg-feed@ofdp.irs.gov
+cecc.gov: 
+mymoney.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+greenvillesc.gov: 
+18f.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarcfailures@gsa.gov
+azbn.gov: 
+amarillo.gov: 
+rowancountync.gov: v=DMARC1; p=none; pct=100
+uscurrency.gov: v=DMARC1; p=reject; rua=mailto:dmarcreports@frb.gov,mailto:reports@dmarc.cyber.dhs.gov
+westhartfordct.gov: 
+lynchburgva.gov: v=DMARC1; p=none
+westalliswi.gov: 
+needhamma.gov: 
+eriecountypa.gov: 
+jamescitycountyva.gov: 
+cns.gov: v=DMARC1; p=none; rua=mailto:DMARCNotify@cns.gov;
+bsee.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+yonkersny.gov: 
+fsd.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+azroc.gov: 
+morriscountynj.gov: 
+virginiageneralassembly.gov: 
+consumidor.gov: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarcemails@ftc.gov; ruf=mailto:dmarcemails@ftc.gov;
+  rf=afrf; pct=100; ri=86400
+vote.gov: 
+fauquiercounty.gov: 
+tompkinscountyny.gov: 
+rogersar.gov: 
+mrlc.gov: v=DMARC1;p=reject;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+nixonlibrary.gov: v=DMARC1; p=reject
+williamsoncounty-tn.gov: 
+sandyspringsga.gov: 
+alea.gov: 
+brazoriacountytx.gov: 
+montanaworks.gov: 
+invasivespeciesinfo.gov: 
+texasagriculture.gov: 
+bldrdoc.gov: 
+shreveportla.gov: 
+ohiohouse.gov: 
+crs.gov: 
+hanford.gov: 
+scdps.gov: 
+costamesaca.gov: 
+staffordcountyva.gov: 
+bbg.gov: 
+mycreditunion.gov: 
+stocktonca.gov: 
+shrewsburyma.gov: 
+edinamn.gov: 
+consumer.gov: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarcemails@ftc.gov; ruf=mailto:dmarcemails@ftc.gov;
+  rf=afrf; pct=100; ri=86400
+temeculaca.gov: 
+losgatosca.gov: v=DMARC1; p=quarantine; rua=mailto:dmarcnotify@losgatosca.gov
+ncbar.gov: 
+fvap.gov: 
+efiletexas.gov: 
+scdhhs.gov: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+phe.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+leesburgflorida.gov: 
+beavercountypa.gov: 
+duluthmn.gov: 
+lexingtonma.gov: 
+oakridgetn.gov: 
+govsales.gov: v=DMARC1; p=none; pct=100; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+hampton.gov: 
+saude.gov: 
+911.gov: 
+grantsolutions.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+louisvilleco.gov: 
+islandcountywa.gov: 
+auburnwa.gov: 
+buckeyeaz.gov: 
+fargond.gov: 
+econsumer.gov: v=DMARC1; p=reject; rua=mailto:dmarc@consumersentinel.gov; ruf=mailto:dmarc@consumersentinel.gov;
+  fo=1
+thewoodlandstownship-tx.gov: 
+lis.gov: 
+ndhealth.gov: 
+scottcountymn.gov: 
+eastfishkillny.gov: 
+feedthefuture.gov: 
+alabamapublichealth.gov: 
+harfordcountymd.gov: 
+hickorync.gov: 
+mtsosfilings.gov: 
+amberalert.gov: 
+cityofmidlandmi.gov: 
+azmd.gov: 
+leandertx.gov: 
+udall.gov: 
+sdlegislature.gov: 
+crimesolutions.gov: 
+illinoisattorneygeneral.gov: 
+westlinnoregon.gov: 
+wvsao.gov: 
+stamfordct.gov: 
+ohiosenate.gov: 
+arc.gov: 
+mbda.gov: 
+springfield-ma.gov: 
+southamptontownny.gov: 
+healthvermont.gov: 
+buyusa.gov: 
+fedramp.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+arcadiaca.gov: 
+plymouthmn.gov: 
+hru.gov: 
+ohioauditor.gov: 
+yumaaz.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+tax.gov: v=DMARC1; p=none; rua=mailto:dmarc-agg-feed@ofdp.irs.gov
+roswell-nm.gov: 
+intelink.gov: 
+democraticleader.gov: 
+dmtvet.gov: 
+bentoncountyar.gov: 
+drought.gov: 
+oregonchildsupport.gov: 
+wylietexas.gov: 
+ulstercountyny.gov: 
+idahofallsidaho.gov: 
+chatham-ma.gov: 
+coppelltx.gov: 
+fayettecountyga.gov: 
+mobilecountyal.gov: 
+murrietaca.gov: 
+hanovercounty.gov: 
+cdfifund.gov: v=DMARC1; p=none; fo=1; rua=mailto:_dl_treasurydmarcrua@treasury.gov;
+  ruf=mailto:_dl_treasurydmarcruf@treasury.gov
+madisoncountyal.gov: 
+kpl.gov: 
+tvceara.gov: 
+roanokecountyva.gov: v=DMARC1; p=none; rua=mailto:postmaster@roanokecountyva.gov
+nypa.gov: v=DMARC1; p=none; sp=none; rua=mailto:TVM.Services@nypa.gov; ruf=mailto:TVM.Services@nypa.gov;
+  rf=afrf; pct=100; ri=86400
+middlesexcountynj.gov: 
+ontarioca.gov: 
+lynnwoodwa.gov: 
+coronaca.gov: 
+galvestoncountytx.gov: 
+midlandtexas.gov: 
+flightschoolcandidates.gov: 
+littlerock.gov: 
+azgovernor.gov: 
+marylandattorneygeneral.gov: 
+fltreasurehunt.gov: 
+birminghamal.gov: 
+greenwoodsc.gov: 
+franklintn.gov: 
+fgdc.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+prescott-az.gov: 
+sussexcountyde.gov: 
+democraticwhip.gov: 
+ucrdatatool.gov: 
+greenvillenc.gov: 
+desotocountyms.gov: 
+victorvilleca.gov: 
+yorkcounty.gov: 
+cpars.gov: 
+challenge.gov: v=DMARC1; p=none; pct=10; fo=1; ri=86400; rua=mailto:dmarcreports@gsa.gov;
+  rua=mailto:reports@dmarc.cyber.dhs.gov; ruf=mailto:dmarcfailures@gsa.gov
+azcorrections.gov: 
+oge.gov: v=DMARC1; p=reject; sp=none; rua=mailto:ogepostmaster@oge.gov; ruf=mailto:ogepostmaster@oge.gov;
+  rf=afrf; pct=100; ri=86400
+goes-r.gov: 
+paulding.gov: 
+geomac.gov: v=DMARC1;p=reject;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+losaltosca.gov: 
+galvestontx.gov: 
+portsmouthva.gov: 
+sbmtd.gov: 
+reaganlibrary.gov: v=DMARC1; p=reject
+lowellma.gov: 
+champaignil.gov: 
+cfda.gov: 
+hursttx.gov: 
+monroecountypa.gov: 
+pflugervilletx.gov: 
+olympiawa.gov: 
+newbrightonmn.gov: 
+murfreesborotn.gov: 
+foreignassistance.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+uscirf.gov: 
+ovcttac.gov: 
+nro.gov: 
+mansfieldtexas.gov: 
+wilmingtonde.gov: 
+concordnh.gov: 
+rutherfordcountytn.gov: 
+bismarcknd.gov: 
+fallschurchva.gov: v=DMARC1; p=none; rua=mailto:cfcsupport@fallschurchva.gov; ruf=mailto:cfcsupport@fallschurchva.gov;
+  sp=reject; ri=84600;
+woodburymn.gov: 
+or-medicaid.gov: 
+floridaspharmacy.gov: 
+wichitafallstx.gov: 
+visitnh.gov: 
+wvdnr.gov: 
+westminster-ca.gov: 
+lafayettela.gov: 
+grapevinetexas.gov: 
+nevadatreasurer.gov: 
+westfordma.gov: 
+arlingtonma.gov: 
+orovalleyaz.gov: 
+framinghamma.gov: 
+brunswickcountync.gov: 
+docline.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+burlingtonnc.gov: 
+bedfordcountyva.gov: 
+aikencountysc.gov: 
+rockinghamcountyva.gov: 
+beaumonttexas.gov: 
+glastonbury-ct.gov: 
+g5.gov: v=DMARC1; p=quarantine; rua=mailto:dmarc@ed.gov; sp=none; aspf=r; pct=100;
+  ri=345600; fo=0; rf=afrf
+insurekidsnow.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;
+  ruf=mailto:hhs@ruf.agari.com
+shorelinewa.gov: 
+natickma.gov: 
+cahwnet.gov: 
+smyrnaga.gov: 
+volunteer.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+tukwilawa.gov: 
+nashuanh.gov: 
+wellingtonfl.gov: 
+rpvca.gov: 
+desmoineswa.gov: 
+firstnet.gov: v=DMARC1; p=none; rua=mailto:dmarc-rua@firstnet.gov
+ag.gov: 
+stopfakes.gov: 
+goodyearaz.gov: 
+belmont-ma.gov: 
+webercountyutah.gov: 
+lakeway-tx.gov: 
+dunwoodyga.gov: 
+bendoregon.gov: 
+viennava.gov: 
+yumacountyaz.gov: v=DMARC1; p=none; rua=mailto:dmarc@yumacountyaz.gov; ruf=mailto:dmarc@yumacountyaz.gov;
+  rf=afrf; pct=30
+cravencountync.gov: 
+abilenetx.gov: v=DMARC1; p=none; pct=5; rua=mailto:postmaster@abilenetx.com
+az511.gov: 
+brentwoodtn.gov: 
+dol-esa.gov: 
+baldwincountyal.gov: 
+azlibrary.gov: 
+newarkde.gov: 
+nationsreportcard.gov: v=DMARC1; p=quarantine; rua=mailto:dmarc@ed.gov; sp=none; aspf=r;
+  pct=100; ri=345600; fo=0; rf=afrf
+englewoodco.gov: 
+nevadamo.gov: 
+wilmingtonnc.gov: 
+santafecountynm.gov: 
+miramarfl.gov: 
+coag.gov: 
+socialsecurity.gov: v=DMARC1; p=reject; rua=mailto:dmarc@ssa.gov; fo=1; adkim=r; aspf=r;
+  pct=100; ri=86400; sp=reject
+adlnet.gov: v=DMARC1; pct=10; p=none; adkim=r; aspf=r
+alacop.gov: 
+wrga.gov: 
+wdol.gov: 
+voa.gov: 
+wyomingmi.gov: 
+indianaunclaimed.gov: 
+nelsoncounty-va.gov: 
+centrecountypa.gov: 
+akleg.gov: 
+dorchestercountysc.gov: 
+guam.gov: 
+baycounty911-mi.gov: 
+floridasdentistry.gov: 
+locatorplus.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+lomalinda-ca.gov: 
+warrickcounty.gov: 
+westportct.gov: 
+kingsporttn.gov: 
+ankenyiowa.gov: 
+tualatinoregon.gov: 
+iprcenter.gov: 
+bryantx.gov: v=DMARC1; p=none; sp=none; adkim=r; fo=1; ri=14400; rua=mailto:ashearer@bryantx.gov;
+  ruf=mailto:ashearer@bryantx.gov
+fayettevillenc.gov: 
+iowacollegeaid.gov: 
+sealbeachca.gov: 
+rileycountyks.gov: 
+hallcountyne.gov: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_rua@hallcountyne.gov;
+  ruf=mailto:dmarc_ruf@hallcountyne.gov; rf=afrf; adkim=s; aspf=s; pct=100; ri=86400;
+  fo=1
+amherstma.gov: 
+johnscreekga.gov: 
+chelseama.gov: 
+aldoi.gov: 
+groton-ct.gov: 
+nantucket-ma.gov: 
+osmre.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+storycountyiowa.gov: 
+jccbi.gov: 
+illinoiscomptroller.gov: 
+9-11commission.gov: v=DMARC1; p=reject
+annapolis.gov: v=DMARC1; p=reject; rua=mailto:pnveres@annapolis.gov; ruf=mailto:pnveres@annapolis.gov
+azica.gov: 
+newtown-ct.gov: 
+navajo-nsn.gov: 
+bja.gov: 
+mylacounty.gov: 
+police.gov: 
+sdsos.gov: 
+azftf.gov: 
+safetyworksmaine.gov: 
+charlescountymd.gov: 
+fatherhood.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com;ruf=mailto:hhs@ruf.agari.com
+miamicountyohio.gov: v=DMARC1; p=none; rua=mailto:IT@MiamiCountyOhio.gov
+ehamptonny.gov: 
+dmv.gov: 
+ncd.gov: 
+hialeahfl.gov: 
+newarknj.gov: 
+nccpaboard.gov: 
+lodi.gov: 
+wvoasis.gov: 
+jacksonms.gov: 

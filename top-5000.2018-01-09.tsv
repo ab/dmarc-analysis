@@ -1,0 +1,5000 @@
+google.com	reject	self:google
+youtube.com	reject	self:google
+facebook.com	reject	agari,self
+baidu.com	DNE	
+wikipedia.org	none	self
+reddit.com	reject	self
+yahoo.com	reject	self
+google.co.in	reject	self:google
+qq.com	none	self
+amazon.com	quarantine	self:amazon
+taobao.com	quarantine	self
+tmall.com	quarantine	self
+twitter.com	reject	agari
+vk.com	reject	self
+live.com	none	agari
+instagram.com	reject	agari
+sohu.com	DNE	
+google.co.jp	reject	self:google
+sina.com.cn	DNE	
+jd.com	none	self
+weibo.com	DNE	
+360.cn	DNE	
+google.de	reject	self:google
+google.co.uk	reject	self:google
+google.com.br	reject	self:google
+list.tmall.com	DNE	
+google.fr	reject	self:google
+google.ru	reject	self:google
+yandex.ru	none	returnpath,self
+netflix.com	reject	netcraft,self
+google.it	reject	self:google
+google.com.hk	reject	self:google
+pornhub.com	DNE	
+t.co	reject	agari
+linkedin.com	reject	agari
+google.es	reject	self:google
+twitch.tv	reject	agari
+xvideos.com	reject	dmarcian
+alipay.com	quarantine	self
+ebay.com	none	agari,returnpath
+yahoo.co.jp	DNE	
+google.ca	reject	self:google
+google.com.mx	reject	self:google
+bing.com	DNE	
+ok.ru	reject	agari,self
+imgur.com	quarantine	self
+microsoft.com	reject	agari
+imdb.com	DNE	
+mail.ru	reject	agari,self
+wikia.com	invalid	
+aliexpress.com	quarantine	self
+tumblr.com	none	self
+csdn.net	DNE	
+hao123.com	DNE	
+msn.com	none	agari
+wordpress.com	quarantine	dmarcian
+bongacams.com	DNE	
+office.com	quarantine	agari
+google.com.tr	reject	self:google
+amazon.co.jp	quarantine	self:amazon
+apple.com	none	agari
+deloton.com	DNE	
+livejasmin.com	DNE	
+google.com.au	reject	self:google
+google.com.tw	reject	self:google
+popads.net	DNE	
+whatsapp.com	reject	
+paypal.com	reject	agari
+detail.tmall.com	DNE	
+blogspot.com	reject	self:google
+google.pl	reject	self:google
+xhamster.com	none	self
+github.com	none	self
+google.co.id	reject	self:google
+microsoftonline.com	none	agari
+stackoverflow.com	reject	self
+pinterest.com	reject	250ok.com
+diply.com	none	postmarkapp
+amazon.de	quarantine	self:amazon
+google.com.ar	reject	self:google
+amazon.co.uk	quarantine	self:amazon
+coccoc.com	none	self
+so.com	DNE	
+coinmarketcap.com	DNE	
+soso.com	DNE	
+adobe.com	reject	agari
+tianya.cn	DNE	
+xnxx.com	reject	dmarcian
+google.com.ua	reject	self:google
+espn.com	none	proofpoint
+nicovideo.jp	DNE	
+amazon.in	quarantine	self:amazon
+google.com.pk	reject	self:google
+savefrom.net	DNE	
+thepiratebay.org	DNE	
+googleusercontent.com	none	self:google
+google.com.sa	reject	self:google
+google.co.th	reject	self:google
+dropbox.com	reject	agari,self
+pixnet.net	DNE	
+bbc.co.uk	none	easysolutions
+google.com.eg	reject	self:google
+google.nl	reject	self:google
+craigslist.org	quarantine	dmarcian,self
+bbc.com	DNE	
+soundcloud.com	quarantine	self
+txxx.com	DNE	
+cnn.com	quarantine	valimail,agari
+nytimes.com	none	self
+onlinesbi.com	DNE	
+rakuten.co.jp	none	self
+chaturbate.com	none	dmarcanalyzer
+booking.com	reject	agari,returnpath,self
+roblox.com	quarantine	self
+detik.com	DNE	
+thestartmagazine.com	DNE	
+gmw.cn	DNE	
+google.co.ve	reject	self:google
+google.co.za	reject	self:google
+exdynsrv.com	DNE	
+ask.com	DNE	
+ebay.de	none	agari,returnpath
+steamcommunity.com	DNE	
+amazonaws.com	DNE	
+spotify.com	reject	250ok.com
+hitcpm.com	DNE	
+openload.co	quarantine	
+tribunnews.com	invalid	
+xinhuanet.com	DNE	
+aparat.com	DNE	
+chase.com	reject	agari
+vimeo.com	none	dmarcian
+iwanttodeliver.com	DNE	
+mediafire.com	none	self
+softonic.com	DNE	
+google.gr	reject	self:google
+stackexchange.com	reject	self
+youth.cn	DNE	
+quora.com	reject	self
+naver.com	DNE	
+fbcdn.net	DNE	
+coinbase.com	reject	netcraft
+google.com.ph	reject	self:google
+zhihu.com	DNE	
+flipkart.com	quarantine	self
+discordapp.com	quarantine	
+dailymotion.com	none	
+google.se	reject	self:google
+theguardian.com	DNE	
+google.com.sg	reject	self:google
+google.be	reject	self:google
+cnet.com	DNE	
+steampowered.com	DNE	
+mozilla.org	DNE	
+fc2.com	DNE	
+ebay.co.uk	none	agari,returnpath
+ettoday.net	quarantine	
+douyu.com	DNE	
+blogger.com	quarantine	self:google
+google.az	reject	self:google
+vice.com	reject	self
+walmart.com	quarantine	proofpoint
+avito.ru	quarantine	self
+binance.com	DNE	
+providr.com	DNE	
+salesforce.com	none	agari
+google.co.ao	reject	self:google
+nih.gov	none	agari
+deviantart.com	DNE	
+doubleclick.net	none	self:google
+4chan.org	reject	
+etsy.com	reject	self
+google.com.co	reject	self:google
+redd.it	DNE	
+amazon.fr	quarantine	self:amazon
+dailymail.co.uk	DNE	
+twimg.com	DNE	
+google.at	reject	self:google
+babytree.com	DNE	
+google.co.kr	reject	self:google
+exosrv.com	DNE	
+mercadolivre.com.br	reject	self,netcraft
+alibaba.com	none	self
+globo.com	DNE	
+amazon.it	quarantine	self:amazon
+pinimg.com	reject	
+tokopedia.com	invalid	
+google.cn	reject	self:google
+google.com.vn	reject	self:google
+exoclick.com	none	self
+1688.com	DNE	
+buzzfeed.com	quarantine	self,dmarcian
+china.com	DNE	
+google.com.ng	reject	self:google
+cloudfront.net	DNE	
+spankbang.com	DNE	
+washingtonpost.com	none	self
+indeed.com	quarantine	self
+adf.ly	none	self
+wikihow.com	quarantine	self
+mama.cn	DNE	
+china.com.cn	DNE	
+redtube.com	invalid	
+google.cz	reject	self:google
+messenger.com	reject	agari,self
+bittrex.com	none	250ok.com
+blastingnews.com	DNE	
+sogou.com	DNE	
+google.ch	reject	self:google
+uol.com.br	DNE	
+google.no	reject	self:google
+onlinevideoconverter.com	DNE	
+google.ro	reject	self:google
+bet9ja.com	DNE	
+godaddy.com	none	returnpath
+yelp.com	quarantine	self,valimail
+metropcs.mobi	DNE	
+w3schools.com	DNE	
+spotscenered.info	DNE	
+gearbest.com	DNE	
+google.com.pe	reject	self:google
+newstrend.news	DNE	
+google.pt	reject	self:google
+people.com.cn	DNE	
+google.cl	reject	self:google
+google.ae	reject	self:google
+nextoptim.com	DNE	
+force.com	reject	agari
+bankofamerica.com	reject	self,agari
+ladbible.com	DNE	
+mega.nz	DNE	
+youporn.com	DNE	
+bestbuy.com	DNE	
+slideshare.net	reject	agari
+wellsfargo.com	reject	returnpath
+yts.am	DNE	
+amazon.es	quarantine	self:amazon
+hulu.com	none	self,proofpoint
+39.net	DNE	
+bp.blogspot.com	DNE	
+eastday.com	DNE	
+forbes.com	DNE	
+caijing.com.cn	DNE	
+kakaku.com	DNE	
+indiatimes.com	none	self
+speedtest.net	DNE	
+bukalapak.com	none	self
+google.ie	reject	self:google
+bilibili.com	DNE	
+9gag.com	DNE	
+weather.com	none	self
+huanqiu.com	invalid	
+dkn.tv	DNE	
+ikea.com	reject	proofpoint
+gamepedia.com	DNE	
+youm7.com	DNE	
+abs-cbn.com	DNE	
+google.dk	reject	self:google
+rambler.ru	none	self
+codeonclick.com	DNE	
+amazon.ca	quarantine	self:amazon
+breitbart.com	none	self
+genius.com	invalid	
+google.dz	reject	self:google
+foxnews.com	none	self
+liputan6.com	DNE	
+kinopoisk.ru	DNE	
+hclips.com	DNE	
+wikimedia.org	none	self
+bitauto.com	DNE	
+livejournal.com	reject	
+dingit.tv	DNE	
+target.com	none	self
+google.hu	reject	self:google
+upornia.com	DNE	
+irctc.co.in	none	self
+popcash.net	DNE	
+google.fi	reject	self:google
+scribd.com	DNE	
+huffingtonpost.com	none	dmarcian
+leboncoin.fr	reject	returnpath
+telegram.org	quarantine	self
+ebay-kleinanzeigen.de	none	agari
+tripadvisor.com	none	self
+slack.com	none	dmarcian
+h8vzwpv.com	DNE	
+ltn.com.tw	DNE	
+kompas.com	DNE	
+files.wordpress.com	DNE	
+google.co.il	reject	self:google
+wetransfer.com	DNE	
+aol.com	reject	agari
+digikala.com	DNE	
+amazon.cn	quarantine	self:amazon
+velocecdn.com	DNE	
+subject.tmall.com	DNE	
+ign.com	none	self
+sberbank.ru	reject	self
+allegro.pl	DNE	
+cnblogs.com	DNE	
+medium.com	reject	self
+archive.org	DNE	
+zillow.com	DNE	
+gmx.net	DNE	
+livedoor.jp	DNE	
+aliyun.com	quarantine	self
+trello.com	none	self,postmarkapp
+zippyshare.com	invalid	
+goodreads.com	DNE	
+battle.net	reject	proofpoint
+sabah.com.tr	DNE	
+researchgate.net	none	self
+mmoframes.com	DNE	
+web.de	DNE	
+rutracker.org	none	self
+gamefaqs.com	DNE	
+utorrent.com	DNE	
+google.sk	reject	self:google
+ameblo.jp	invalid	
+shutterstock.com	quarantine	self
+outbrain.com	DNE	
+xfinity.com	none	self
+freepik.com	none	dmarcian
+businessinsider.com	DNE	
+usps.com	reject	agari
+onoticioso.com	DNE	
+rottentomatoes.com	DNE	
+speakol.com	DNE	
+lifedaily.com	DNE	
+wittyfeed.com	DNE	
+duckduckgo.com	DNE	
+youdao.com	DNE	
+ci123.com	DNE	
+rednet.cn	DNE	
+google.kz	reject	self:google
+ouo.io	DNE	
+thesaurus.com	DNE	
+iqoption.com	none	self
+1337x.to	DNE	
+myway.com	DNE	
+hola.com	quarantine	self
+doublepimp.com	DNE	
+livedoor.com	DNE	
+userapi.com	reject	self
+asos.com	none	cyberint
+higheurest.com	DNE	
+iqiyi.com	DNE	
+ndtv.com	DNE	
+setn.com	DNE	
+airbnb.com	reject	self
+olx.ua	DNE	
+ups.com	reject	agari
+udemy.com	reject	self
+varzesh3.com	DNE	
+zendesk.com	reject	dmarcian
+rarbg.to	DNE	
+canva.com	reject	dmarcian
+rt.com	quarantine	self
+sourceforge.net	quarantine	dmarcian
+momoshop.com.tw	DNE	
+orange.fr	DNE	
+gfycat.com	DNE	
+ouedkniss.com	DNE	
+accuweather.com	DNE	
+flickr.com	reject	self
+k618.cn	DNE	
+buzzadnetwork.com	DNE	
+hp.com	DNE	
+skype.com	reject	agari,netcraft
+siteadvisor.com	DNE	
+samsung.com	none	self
+reverso.net	DNE	
+feedly.com	none	
+icloud.com	none	agari
+hotstar.com	DNE	
+wordreference.com	none	self
+slickdeals.net	DNE	
+playstation.com	DNE	
+capitalone.com	reject	agari
+weebly.com	DNE	
+intuit.com	none	returnpath
+nfl.com	DNE	
+cricbuzz.com	DNE	
+subscene.com	DNE	
+mailchimp.com	none	dmarcian
+americanexpress.com	reject	returnpath
+bestadbid.com	DNE	
+ntd.tv	DNE	
+sabq.org	DNE	
+banvenez.com	DNE	
+uptodown.com	DNE	
+kaskus.co.id	reject	self
+line.me	DNE	
+rumble.com	reject	self
+hdfcbank.com	none	unknown:dmarc@noc.softcell.com,unknown:rua.softcell@progist.in,unknown:dmarc_failure@noc.softcell.com
+haber7.com	DNE	
+google.com.kw	reject	self:google
+blpmovies.com	DNE	
+sciencedirect.com	none	agari,unknown:dmarc-a@lexisnexis.com
+pipeschannels.com	DNE	
+mi.com	DNE	
+123movieshub.to	DNE	
+okdiario.com	DNE	
+onet.pl	DNE	
+myanimelist.net	DNE	
+ultimate-guitar.com	none	self
+mercadolibre.com.ar	reject	self,netcraft
+wish.com	reject	dmarcian,250ok.com
+beeg.com	DNE	
+doublepimpssl.com	DNE	
+friv.com	DNE	
+mercadolibre.com.mx	reject	self,netcraft
+ensonhaber.com	DNE	
+patreon.com	reject	dmarcian
+banggood.com	DNE	
+gdax.com	reject	netcraft
+seasonvar.ru	DNE	
+fedex.com	reject	returnpath,self
+t-online.de	DNE	
+wp.pl	DNE	
+kissanime.ru	DNE	
+dmm.co.jp	DNE	
+homedepot.com	none	self
+shiltirs.com	DNE	
+uidai.gov.in	DNE	
+primosearch.com	DNE	
+free.fr	DNE	
+taboola.com	quarantine	self
+perfecttoolmedia.com	DNE	
+yadi.sk	DNE	
+theverge.com	none	dmarcian
+espncricinfo.com	DNE	
+elpais.com	DNE	
+indoxxi.net	DNE	
+office365.com	reject	agari
+go.com	DNE	
+v3rjvtt.com	DNE	
+google.co.nz	reject	self:google
+giphy.com	DNE	
+flvto.biz	DNE	
+dell.com	none	self
+pixabay.com	none	self
+telegraph.co.uk	none	self
+ajkzd9h.com	DNE	
+lazada.co.id	DNE	
+google.lk	reject	self:google
+lie2anyone.com	DNE	
+oracle.com	none	proofpoint
+gismeteo.ru	none	
+gizmodo.com	invalid	
+tradingview.com	DNE	
+media.tumblr.com	DNE	
+hdzog.com	DNE	
+kapanlagi.com	DNE	
+17ok.com	DNE	
+theepochtimes.com	DNE	
+google.bg	reject	self:google
+informationvine.com	DNE	
+fromdoctopdf.com	DNE	
+seznam.cz	none	self
+ebay.com.au	none	agari,returnpath
+fwbntw.com	DNE	
+fiverr.com	DNE	
+taringa.net	quarantine	self
+nownews.com	DNE	
+alicdn.com	DNE	
+macys.com	none	proofpoint,self
+rediff.com	DNE	
+elfagr.com	DNE	
+wordpress.org	none	dmarcian
+poloniex.com	reject	self
+convert2mp3.net	DNE	
+eskimi.com	DNE	
+brilio.net	DNE	
+ebay.it	none	agari,returnpath
+repubblica.it	DNE	
+crunchyroll.com	invalid	
+onedio.com	DNE	
+torrentz2.eu	DNE	
+independent.co.uk	none	self
+citi.com	reject	agari,self
+wix.com	quarantine	returnpath,valimail,self
+chip.de	DNE	
+oload.stream	DNE	
+usatoday.com	DNE	
+kooora.com	DNE	
+marca.com	DNE	
+bloomberg.com	invalid	
+albawabhnews.com	DNE	
+merdeka.com	DNE	
+newegg.com	reject	self
+discogs.com	DNE	
+telewebion.com	invalid	
+pikabu.ru	DNE	
+jrj.com.cn	DNE	
+pandora.com	none	dmarcian
+sex.com	DNE	
+ibm.com	none	proofpoint
+behance.net	reject	agari
+glassdoor.com	quarantine	self
+51sole.com	DNE	
+google.by	reject	self:google
+wowhead.com	DNE	
+daum.net	DNE	
+asus.com	DNE	
+ytimg.com	reject	self:google
+icicibank.com	reject	self,agari
+taleo.net	none	self
+evernote.com	reject	self
+biobiochile.cl	DNE	
+naver.jp	DNE	
+blueseek.com	DNE	
+patch.com	none	postmarkapp
+nike.com	DNE	
+bitmedianetwork.com	DNE	
+digitaldsp.com	DNE	
+groupon.com	reject	agari,self
+leagueoflegends.com	DNE	
+shaparak.ir	DNE	
+billdesk.com	DNE	
+nba.com	DNE	
+spiegel.de	DNE	
+nextlnk1.com	DNE	
+dictionary.com	DNE	
+zoho.com	DNE	
+primevideo.com	DNE	
+cambridge.org	DNE	
+xda-developers.com	DNE	
+goo.ne.jp	DNE	
+kinogo.cc	DNE	
+mit.edu	DNE	
+manoramaonline.com	DNE	
+umblr.com	reject	self
+gamer.com.tw	DNE	
+souq.com	DNE	
+vporn.com	DNE	
+gyazo.com	DNE	
+tube8.com	DNE	
+wiktionary.org	DNE	
+suning.com	DNE	
+libero.it	quarantine	self,returnpath
+thebalance.com	none	agari
+filehippo.com	DNE	
+sahibinden.com	DNE	
+livescore.com	DNE	
+webmd.com	DNE	
+list-manage.com	invalid	
+google.com.do	reject	self:google
+appledaily.com	DNE	
+olx.pl	none	postmarkapp
+urbandictionary.com	none	postmarkapp,unknown:support.3102.36a040a51293da99@helpscout.net
+baike.com	none	self:netease
+bandcamp.com	none	self
+themeforest.net	DNE	
+investopedia.com	none	self
+google.com.ly	reject	self:google
+ria.ru	DNE	
+cnzz.com	DNE	
+instructure.com	DNE	
+hm.com	none	returnpath
+premierleague.com	DNE	
+naukri.com	DNE	
+sindonews.com	DNE	
+addthis.com	none	self
+google.rs	reject	self:google
+wattpad.com	none	self
+adhoc2.net	DNE	
+cnbc.com	DNE	
+atlassian.net	invalid	
+google.com.mm	reject	self:google
+linkshrink.net	DNE	
+namnak.com	DNE	
+upwork.com	reject	valimail,agari
+jianshu.com	DNE	
+rutube.ru	none	
+att.com	none	self
+pages.tmall.com	DNE	
+blog.jp	DNE	
+ptt.cc	DNE	
+wixsite.com	DNE	
+shopify.com	quarantine	self
+wsj.com	DNE	
+thewhizmarketing.com	DNE	
+hurriyet.com.tr	DNE	
+investing.com	DNE	
+ck101.com	DNE	
+japanpost.jp	DNE	
+nordstrom.com	none	agari,self
+thepennyhoarder.com	DNE	
+4shared.com	DNE	
+rarbg.is	DNE	
+drom.ru	DNE	
+sarkariresult.com	DNE	
+animeflv.net	none	
+box.com	reject	dmarcian,agari
+t.me	DNE	
+pantip.com	DNE	
+blackboard.com	none	self
+stockstar.com	DNE	
+bild.de	DNE	
+bldaily.com	DNE	
+m73lae5cpmgrv38.com	DNE	
+emol.com	DNE	
+lifehacker.com	invalid	
+idntimes.com	DNE	
+yandex.ua	none	returnpath,self
+ebc.net.tw	DNE	
+inquirer.net	DNE	
+paytm.com	reject	self
+offergold.online	DNE	
+okta.com	reject	dmarcian
+hashflare.io	DNE	
+fidelity.com	quarantine	proofpoint
+google.hr	reject	self:google
+moneycontrol.com	none	unknown:sysops@nw18.com
+kinokrad.co	DNE	
+bitconnect.co	DNE	
+y8.com	invalid	
+voc.com.cn	DNE	
+163.com	DNE	
+allrecipes.com	none	agari
+blockchain.info	quarantine	self
+weblio.jp	DNE	
+gogoanime.io	DNE	
+xe.com	DNE	
+adp.com	reject	agari
+comcast.net	none	self
+beytoote.com	DNE	
+bmovies.is	DNE	
+uploaded.net	none	self
+videoyoum7.com	DNE	
+wunderground.com	DNE	
+verizonwireless.com	reject	returnpath
+gsmarena.com	reject	self
+yourporn.sexy	DNE	
+addroplet.com	DNE	
+elmundo.es	DNE	
+digitalprivacyalert.org	DNE	
+tutorialspoint.com	DNE	
+jawabkom.com	DNE	
+nametests.com	DNE	
+mellowads.com	DNE	
+engadget.com	none	agari
+eyny.com	DNE	
+lifewire.com	none	agari
+drive2.ru	none	self
+wp.com	none	dmarcian
+wiley.com	DNE	
+rbc.ru	none	self
+tistory.com	DNE	
+uptobox.com	DNE	
+videodownloadconverter.com	DNE	
+bitfinex.com	DNE	
+newtabtv.com	DNE	
+intoday.in	DNE	
+mercadolibre.com.ve	reject	self,netcraft
+baskino.co	DNE	
+ieee.org	DNE	
+hubspot.com	none	dmarcian
+rolloid.net	DNE	
+givemesport.com	DNE	
+getpocket.com	none	postmarkapp
+reuters.com	DNE	
+kissasian.ch	DNE	
+piet2eix3l.com	DNE	
+discover.com	none	returnpath
+eanswers.com	DNE	
+bleacherreport.com	invalid	
+npr.org	DNE	
+cryptopia.co.nz	invalid	
+lenta.ru	DNE	
+cdiscount.com	quarantine	dmarcanalyzer
+norton.com	none	agari
+olx.com.br	DNE	
+coingecko.com	none	self
+zhanqi.tv	DNE	
+gmarket.co.kr	none	agari
+hatena.ne.jp	DNE	
+epochtimes.com	DNE	
+academia.edu	quarantine	self
+costco.com	none	returnpath
+nextlnk2.com	DNE	
+zapmeta.ws	DNE	
+qingdaonews.com	DNE	
+nocookie.net	DNE	
+drudgereport.com	DNE	
+rapidgator.net	DNE	
+readms.net	DNE	
+cryptocompare.com	DNE	
+humblebundle.com	DNE	
+thehill.com	DNE	
+coursera.org	DNE	
+bet365.com	quarantine	self
+as.com	DNE	
+kickstarter.com	quarantine	dmarcian
+coindesk.com	none	self
+thefreedictionary.com	DNE	
+chinadaily.com.cn	DNE	
+0123movies.com	DNE	
+goal.com	DNE	
+kohls.com	none	self
+bitcointalk.org	DNE	
+caliente.mx	DNE	
+nur.kz	DNE	
+voot.com	DNE	
+squarespace.com	reject	agari
+bles.com	DNE	
+myfreecams.com	DNE	
+vidio.com	DNE	
+springer.com	DNE	
+nypost.com	DNE	
+kumparan.com	DNE	
+express.co.uk	DNE	
+lazada.com.my	DNE	
+jw.org	DNE	
+google.com.ec	reject	self:google
+gamespot.com	DNE	
+cqnews.net	DNE	
+thesun.co.uk	DNE	
+lapatilla.com	DNE	
+hespress.com	DNE	
+kizlarsoruyor.com	quarantine	postmarkapp
+easypdfcombine.com	DNE	
+expedia.com	none	returnpath,250ok.com
+quizlet.com	reject	postmarkapp
+mobafire.com	DNE	
+chinaz.com	DNE	
+queuecosm.bid	DNE	
+trackingclick.net	DNE	
+google.tn	reject	self:google
+lenovo.com	none	proofpoint,dmarcian
+pchome.com.tw	DNE	
+intel.com	DNE	
+popmyads.com	DNE	
+cdstm.cn	DNE	
+calcch.com	DNE	
+myntra.com	DNE	
+zara.com	DNE	
+grid.id	DNE	
+dmm.com	DNE	
+techradar.com	DNE	
+lemonde.fr	quarantine	self
+bhphotovideo.com	DNE	
+flirt4free.com	quarantine	self
+cerpen.co.id	DNE	
+interia.pl	DNE	
+mysearch.com	DNE	
+youjizz.com	DNE	
+cinecalidad.to	DNE	
+eksisozluk.com	DNE	
+ask.fm	DNE	
+putlockers.fm	DNE	
+1and1.com	DNE	
+tomsguide.com	DNE	
+wtoip.com	DNE	
+disqus.com	none	postmarkapp
+google.com.my	reject	self:google
+kraken.com	reject	self
+motherless.com	DNE	
+ebay.fr	none	agari,returnpath
+hotels.com	none	250ok.com
+timeanddate.com	invalid	
+banesconline.com	DNE	
+conservativetribune.com	DNE	
+divar.ir	DNE	
+tvbs.com.tw	DNE	
+ca.gov	DNE	
+lazada.com.ph	DNE	
+jeuxvideo.com	DNE	
+milliyet.com.tr	DNE	
+cbssports.com	DNE	
+kijiji.ca	none	agari
+hatenablog.com	DNE	
+corriere.it	DNE	
+blogspot.mx	reject	self:google
+bancodevenezuela.com	DNE	
+yaplakal.com	DNE	
+ccm.net	DNE	
+badoo.com	reject	self
+xbox.com	DNE	
+allocine.fr	DNE	
+tomshardware.com	reject	unknown:helpdesk@purch.com
+fbsbx.com	DNE	
+google.lt	reject	self:google
+okcupid.com	DNE	
+ivi.ru	DNE	
+4pda.ru	DNE	
+mathrubhumi.com	DNE	
+cam4.com	DNE	
+quizzstar.com	DNE	
+ssl-images-amazon.com	DNE	
+uzone.id	DNE	
+mobile01.com	DNE	
+lazada.co.th	DNE	
+asana.com	none	postmarkapp,self,dmarcanalyzer
+yenisafak.com	none	
+deviantart.net	DNE	
+lefigaro.fr	DNE	
+blogfa.com	DNE	
+business-channel4.com	DNE	
+southwest.com	quarantine	returnpath
+fanfiction.net	DNE	
+xtube.com	DNE	
+goo.gl	reject	self:google
+surveymonkey.com	none	returnpath,self
+artstation.com	DNE	
+google.tm	reject	self:google
+ruten.com.tw	DNE	
+techcrunch.com	DNE	
+blibli.com	none	self
+ea.com	DNE	
+hawaaworld.com	DNE	
+freejobalert.com	DNE	
+infusionsoft.com	none	self
+mirror.co.uk	quarantine	self
+sportbible.com	DNE	
+speed-open2.com	DNE	
+streamable.com	DNE	
+elbalad.news	reject	unknown:mohamed.salah@elbaladtv.net
+104.com.tw	DNE	
+udn.com	DNE	
+zoom.us	none	self
+dailycaller.com	DNE	
+chaoshi.tmall.com	DNE	
+doorblog.jp	DNE	
+vnexpress.net	DNE	
+bitstamp.net	DNE	
+gotporn.com	none	self
+solarmoviez.ru	DNE	
+americanas.com.br	reject	returnpath,easysolutions
+grammarly.com	none	250ok.com
+ecosia.org	DNE	
+protect-your-privacy.net	DNE	
+buyma.com	DNE	
+prpops.com	DNE	
+okezone.com	DNE	
+gstatic.com	none	self:google
+torrent9.bz	DNE	
+zaful.com	DNE	
+tabelog.com	DNE	
+etherscan.io	DNE	
+autodesk.com	none	proofpoint
+hicpm5.com	DNE	
+kotaku.com	invalid	
+lolsided.com	DNE	
+2ch.net	DNE	
+google.iq	reject	self:google
+liveinternet.ru	none	
+alodokter.com	DNE	
+merriam-webster.com	DNE	
+chatwork.com	DNE	
+labanquepostale.fr	DNE	
+suara.com	DNE	
+azlyrics.com	reject	
+17track.net	DNE	
+time.com	none	returnpath
+chess.com	none	
+caixa.gov.br	DNE	
+stanford.edu	DNE	
+putrr18.com	DNE	
+epwk.com	DNE	
+food.tmall.com	DNE	
+subito.it	none	self
+cnnindonesia.com	DNE	
+jiameng.com	DNE	
+yandex.kz	none	returnpath,self
+1tv.ru	DNE	
+google.si	reject	self:google
+khanacademy.org	none	self
+epicgames.com	DNE	
+fandango.com	DNE	
+latimes.com	none	
+knowyourmeme.com	DNE	
+worldoftanks.ru	DNE	
+metropoles.com	DNE	
+usnews.com	DNE	
+nhk.or.jp	invalid	
+dream.co.id	DNE	
+wargaming.net	none	self
+myanmarload.com	DNE	
+segmentfault.com	DNE	
+instructables.com	DNE	
+namu.wiki	DNE	
+freebitco.in	DNE	
+duolingo.com	none	postmarkapp
+lowes.com	DNE	
+commentcamarche.net	DNE	
+explicandoo.com	DNE	
+python.org	none	postmarkapp
+58.com	DNE	
+healthline.com	DNE	
+chron.com	none	proofpoint
+waudeesestew.com	DNE	
+cbsnews.com	DNE	
+google.com.af	reject	self:google
+starzplay.com	DNE	
+realtor.com	DNE	
+discuss.com.hk	DNE	
+el-nacional.com	DNE	
+friendlyappz.com	DNE	
+smallpdf.com	DNE	
+weatherblink.com	DNE	
+gazetaexpress.com	DNE	
+mawdoo3.com	DNE	
+drtuber.com	none	self
+perfectgirls.net	DNE	
+bookmyshow.com	reject	self
+donga.com	DNE	
+telllwrite.com	DNE	
+google.com.gt	reject	self:google
+ebates.com	none	250ok.com
+adexchangecloud.com	DNE	
+www.gov.uk	DNE	
+worldstarhiphop.com	invalid	
+gosuslugi.ru	reject	self
+zing.vn	none	self
+secureserver.net	DNE	
+vidzi.tv	DNE	
+avast.com	quarantine	self
+sputniknews.com	DNE	
+namasha.com	DNE	
+mobile.de	none	agari
+td.com	none	agari
+nmisr.com	DNE	
+steemit.com	none	self
+avg.com	reject	self
+delta.com	none	returnpath
+piriform.com	DNE	
+jimdo.com	DNE	
+pinterest.co.uk	reject	
+yespornplease.com	DNE	
+pcgamer.com	DNE	
+socialblade.com	DNE	
+g2a.com	none	
+agoda.com	quarantine	self
+ubi.com	none	unknown:dmarcreport@ubisoft.com
+anybunny.mobi	DNE	
+vseigru.net	DNE	
+11st.co.kr	DNE	
+boredpanda.com	DNE	
+tempo.co	DNE	
+turbobit.net	DNE	
+chouftv.ma	DNE	
+custhelp.com	none	self
+makemytrip.com	reject	postmarkapp
+ninisite.com	none	postmarkapp
+uniqlo.com	none	proofpoint
+ebay.in	none	agari,returnpath
+reimageplus.com	DNE	
+yy08037.com	DNE	
+sinoptik.ua	DNE	
+rapidvideo.com	DNE	
+kayak.com	none	self
+movie2free.com	DNE	
+howtogeek.com	DNE	
+nature.com	DNE	
+dianping.com	DNE	
+intactoffers.club	DNE	
+theatlantic.com	DNE	
+pornpics.com	DNE	
+gap.com	reject	dmarcian,returnpath
+mp3teca.com	DNE	
+fatosdesconhecidos.com.br	DNE	
+usaa.com	reject	returnpath
+rozetka.com.ua	quarantine	self
+indiamart.com	DNE	
+mileroticos.com	none	
+reallifecam.com	DNE	
+vtv.vn	DNE	
+prezi.com	reject	dmarcian,self
+imagefap.com	DNE	
+news.com.au	DNE	
+plex.tv	DNE	
+pastebin.com	DNE	
+clipconverter.cc	DNE	
+prnt.sc	DNE	
+viralcpm.com	DNE	
+argaam.com	DNE	
+douban.com	DNE	
+ticketmaster.com	none	returnpath
+eventbrite.com	DNE	
+trustpilot.com	reject	self
+dafont.com	none	self
+superuser.com	DNE	
+bankmellat.ir	quarantine	self
+imagetwist.com	none	unknown:youremailaddress@yourdomain.com
+nbcnews.com	none	valimail
+ukr.net	none	self
+comicbook.com	DNE	
+kakao.com	DNE	
+android.com	none	self:google
+huawei.com	DNE	
+bodybuilding.com	none	self
+europa.eu	DNE	
+olx.in	none	dmarcanalyzer
+ancestry.com	none	returnpath
+hamariweb.com	DNE	
+cdninstagram.com	DNE	
+op.gg	DNE	
+shink.me	DNE	
+wayfair.com	DNE	
+psu.edu	DNE	
+meb.gov.tr	DNE	
+cisco.com	none	agari,dmarcian
+politico.com	none	self
+bitly.com	none	self
+googlevideo.com	none	self:google
+mathworks.com	DNE	
+internetdownloadmanager.com	DNE	
+nhl.com	DNE	
+yy08047.com	DNE	
+mercari.com	DNE	
+impress.co.jp	DNE	
+sfr.fr	DNE	
+sephora.com	none	proofpoint
+auction.co.kr	none	agari
+hdrezka.ag	quarantine	self
+westernjournal.com	DNE	
+hitomi.la	DNE	
+hepsiburada.com	none	
+polygon.com	none	dmarcian
+neobux.com	reject	
+familydoctor.com.cn	DNE	
+nikkei.com	DNE	
+mejortorrent.com	DNE	
+provinet.net	DNE	
+brazzers.com	none	
+yesky.com	DNE	
+sapo.pt	DNE	
+kinozal.tv	DNE	
+liveleak.com	DNE	
+pussl18.com	DNE	
+focus.de	DNE	
+retailmenot.com	none	self
+nvidia.com	none	self
+uniqlo.tmall.com	DNE	
+ubisoft.com	none	self
+radiorage.com	DNE	
+issuu.com	quarantine	self
+putlockers.movie	DNE	
+webex.com	invalid	
+harvard.edu	none	proofpoint
+java.com	DNE	
+voirfilms.ws	DNE	
+3sk.tv	DNE	
+gongchang.com	DNE	
+cimaclub.com	DNE	
+arxiv.org	DNE	
+prom.ua	invalid	
+ozon.ru	none	self
+tebyan.net	DNE	
+icy-veins.com	DNE	
+usbank.com	reject	agari
+v2ex.com	DNE	
+xunlei.com	DNE	
+justdial.com	DNE	
+wired.com	DNE	
+livestrong.com	DNE	
+fidonav.com	DNE	
+eztv.ag	DNE	
+pexels.com	reject	self
+weather.gov	DNE	
+rvcj.com	DNE	
+royalbank.com	none	proofpoint
+biblegateway.com	DNE	
+freearabsexx.com	DNE	
+correios.com.br	DNE	
+redirectvoluum.com	DNE	
+pcmag.com	DNE	
+myeasylotto.com	DNE	
+sakura.ne.jp	DNE	
+ajel.sa	DNE	
+rutor.info	DNE	
+aa.com	quarantine	agari,self
+cbc.ca	DNE	
+miui.com	DNE	
+n11.com	DNE	
+vesti.ru	DNE	
+rockstargames.com	DNE	
+absoluteclickscom.com	DNE	
+besoccer.com	DNE	
+snapdeal.com	quarantine	self
+egy.best	DNE	
+idnes.cz	none	dmarcian
+meetup.com	DNE	
+fb.ru	DNE	
+1fichier.com	DNE	
+kp.ru	reject	
+poste.it	DNE	
+united.com	DNE	
+axisbank.co.in	reject	unknown:dmarc.genalerts@axisbank.com
+asahi.com	DNE	
+keepvid.com	DNE	
+plarium.com	none	self
+scribol.com	DNE	
+zhaopin.com	DNE	
+animeyt.tv	DNE	
+hitbtc.com	DNE	
+debate.com.mx	DNE	
+flashscore.com	none	
+andhrajyothy.com	DNE	
+yandex.com.tr	none	returnpath,self
+zougla.gr	DNE	
+thehindu.com	DNE	
+fishki.net	quarantine	self
+scol.com.cn	DNE	
+ashemaletube.com	none	self
+newsweek.com	DNE	
+thespruce.com	none	agari
+wykop.pl	quarantine	
+ppy.sh	DNE	
+dhl.de	reject	unknown:dmarc-reports@dhl.com
+welt.de	DNE	
+avito.ma	DNE	
+voyeurhit.com	DNE	
+pelisplus.tv	DNE	
+elsevier.com	none	agari,self
+jsmentry.com	DNE	
+ppomppu.co.kr	DNE	
+gazzetta.it	DNE	
+nasa.gov	none	proofpoint,self,dhs-nppd
+vg.no	none	dmarcian
+nexon.com	quarantine	self
+tnt-online.ru	invalid	
+mashable.com	quarantine	self
+viva.co.id	none	
+bitbucket.org	invalid	
+filmweb.pl	DNE	
+eporner.com	reject	
+bhaskar.com	DNE	
+wondershare.com	DNE	
+infobae.com	DNE	
+uber.com	quarantine	valimail
+ficbook.net	DNE	
+unity3d.com	DNE	
+tnaflix.com	DNE	
+jumia.com.ng	DNE	
+people.com	none	returnpath
+forgeofempires.com	invalid	
+sonyentertainmentnetwork.com	DNE	
+skurki.info	DNE	
+cookpad.com	DNE	
+dawn.com	DNE	
+pochta.ru	DNE	
+hearthpwn.com	DNE	
+mymovies.it	DNE	
+google.lv	reject	self:google
+provincial.com	DNE	
+wuxiaworld.com	reject	
+zomato.com	reject	
+walgreens.com	none	agari
+mangafox.la	DNE	
+bamilo.com	none	self
+gog.com	none	postmarkapp
+mynet.com	DNE	
+avgle.com	DNE	
+etoro.com	reject	dmarcanalyzer,self
+hootsuite.com	none	self
+urbanoutfitters.com	DNE	
+nintendo.com	DNE	
+codepen.io	quarantine	unknown:a+43465759@fdmarc.net,self,unknown:f+43465759@fdmarc.net
+istockphoto.com	none	self
+buffstream.com	DNE	
+digitaltrends.com	DNE	
+ted.com	none	postmarkapp
+jabong.com	DNE	
+google.com.pr	reject	self:google
+skysports.com	DNE	
+airtel.in	reject	unknown:dmarc@airtel.com
+gamestop.com	none	proofpoint
+rus.ec	DNE	
+abc.net.au	DNE	
+admaimai.com	DNE	
+visualstudio.com	DNE	
+creditkarma.com	quarantine	self,valimail
+reclameaqui.com.br	none	self
+q1-tdsge.com	DNE	
+myfitnesspal.com	DNE	
+primewire.ag	DNE	
+bitcoin.com	DNE	
+dcard.tw	invalid	
+wenxuecity.com	DNE	
+libgen.io	DNE	
+gnula.nu	DNE	
+fnac.com	none	self
+narod.ru	DNE	
+patria.org.ve	DNE	
+shutterfly.com	none	self
+deezer.com	none	self
+twoo.com	DNE	
+ebay.es	none	agari,returnpath
+jqw.com	DNE	
+otto.de	DNE	
+fotostrana.ru	reject	self
+daraz.pk	DNE	
+tmz.com	quarantine	valimail
+gumtree.com.au	none	agari
+farfetch.com	none	self
+gazeta.pl	DNE	
+fmovies.pe	DNE	
+foodnetwork.com	DNE	
+state.gov	none	self
+lequipe.fr	DNE	
+pinterest.es	reject	
+unblocked.vc	DNE	
+toutiao.com	none	self
+yifysubtitles.com	DNE	
+oneindia.com	DNE	
+edx.org	DNE	
+urdupoint.com	DNE	
+thumbzilla.com	DNE	
+download-geek.com	DNE	
+wildberries.ru	DNE	
+audible.com	DNE	
+sh.st	DNE	
+vlive.tv	DNE	
+barnesandnoble.com	DNE	
+bithumb.com	DNE	
+wiocha.pl	DNE	
+nydailynews.com	DNE	
+ixxx.com	DNE	
+ps7894.com	DNE	
+indianexpress.com	DNE	
+tandfonline.com	DNE	
+dmv.org	DNE	
+pron.tv	DNE	
+pole-emploi.fr	DNE	
+teamviewer.com	none	returnpath,self
+best2017games.com	DNE	
+abcnews.go.com	DNE	
+bastillepost.com	DNE	
+redfin.com	DNE	
+adme.ru	DNE	
+login.tmall.com	DNE	
+echo.msk.ru	DNE	
+w3school.com.cn	DNE	
+cda.pl	none	
+5ch.net	DNE	
+livedoor.biz	DNE	
+shopee.tw	none	unknown:fakeemailalert@shopeemobile.com
+ebay.ca	none	agari,returnpath
+nextlnk3.com	DNE	
+startpage.com	none	self
+ouo.press	DNE	
+att.net	DNE	
+mvideo.ru	DNE	
+reverb.com	none	postmarkapp
+2youtds.biz	DNE	
+xiami.com	DNE	
+dailypakistan.com.pk	DNE	
+trulia.com	none	proofpoint
+irs.gov	none	self
+thoughtco.com	none	agari
+bicentenariobu.com	DNE	
+pornmd.com	DNE	
+pof.com	none	self
+yallakora.com	DNE	
+zappos.com	invalid	
+geeksforgeeks.org	DNE	
+gomovies.tech	DNE	
+pirateproxy.ist	DNE	
+ed.gov	none	self
+xiaomi.com	DNE	
+gazeta.ru	DNE	
+kompasiana.com	DNE	
+nate.com	DNE	
+launchpage.org	quarantine	
+studfiles.net	reject	
+pinterest.de	reject	
+arstechnica.com	DNE	
+deadspin.com	invalid	
+lk21.top	DNE	
+tim.it	DNE	
+futbin.com	DNE	
+nairaland.com	DNE	
+internetspeedtracker.com	DNE	
+mediaset.it	DNE	
+porn.com	DNE	
+bedbathandbeyond.com	DNE	
+redbubble.com	DNE	
+berkeley.edu	DNE	
+slate.com	none	agari
+moradu.com	DNE	
+telekom.com	DNE	
+askubuntu.com	DNE	
+51.la	DNE	
+infourok.ru	DNE	
+t-mobile.com	DNE	
+dribbble.com	none	postmarkapp
+ibtimes.co.uk	DNE	
+yalla-shoot.com	DNE	
+bolasport.com	DNE	
+superappbox.com	DNE	
+ranker.com	DNE	
+qiita.com	DNE	
+thingiverse.com	DNE	
+secure-surf.net	DNE	
+unsplash.com	quarantine	self
+4399.com	DNE	
+bs.to	DNE	
+pinterest.fr	reject	
+lostfilm.tv	invalid	
+yodobashi.com	DNE	
+yjc.ir	DNE	
+24video.adult	DNE	
+marketwatch.com	DNE	
+ameba.jp	DNE	
+nextdoor.com	DNE	
+limetorrents.cc	DNE	
+itmedia.co.jp	DNE	
+dreamstime.com	DNE	
+postbank.de	DNE	
+eenadu.net	DNE	
+study.com	none	postmarkapp
+vox.com	none	dmarcian
+fullhdfilmizlesene.org	DNE	
+ly.com	none	self:netease
+dhl.com	reject	self
+privatbank.ua	reject	
+cb01.zone	DNE	
+idealo.de	none	self
+media-bucket.com	DNE	
+clien.net	DNE	
+sonyliv.com	DNE	
+pnc.com	none	proofpoint
+focuusing.com	DNE	
+pussl32.com	DNE	
+fast-torrent.ru	DNE	
+jumia.com.eg	DNE	
+poe.trade	DNE	
+verizon.com	quarantine	returnpath
+lavanguardia.com	DNE	
+megpacokjce.bid	DNE	
+commbank.com.au	none	self
+9anime.is	DNE	
+worldofwarcraft.com	reject	proofpoint
+schwab.com	reject	proofpoint,self
+milanuncios.com	reject	dmarcanalyzer,self
+ryanair.com	DNE	
+amazon.com.mx	DNE	
+triumph.tmall.com	DNE	
+online-convert.com	none	self
+grtyb.com	invalid	
+hexun.com	DNE	
+eobot.com	reject	
+programme-tv.net	DNE	
+neiyi.tmall.com	DNE	
+smartadtags.com	DNE	
+predictivadnetwork.com	DNE	
+znanija.com	DNE	
+3c.tmall.com	DNE	
+chegg.com	DNE	
+xhamsterlive.com	none	self
+metacritic.com	DNE	
+aimer.tmall.com	DNE	
+theweathernetwork.com	DNE	
+strava.com	DNE	
+runoob.com	DNE	
+php.net	DNE	
+curseforge.com	DNE	
+orf.at	DNE	
+tilestwra.com	DNE	
+metro.co.uk	DNE	
+gittigidiyor.com	none	returnpath
+credit-agricole.fr	none	returnpath
+nbcsports.com	DNE	
+pixhost.org	DNE	
+argos.co.uk	none	dmarcanalyzer
+efukt.com	DNE	
+feger.tmall.com	DNE	
+wikiwand.com	DNE	
+google.com.gh	reject	self:google
+mirtesen.ru	quarantine	
+irecommend.ru	DNE	
+searchencrypt.com	DNE	
+envato.com	none	self
+brand.tmall.com	DNE	
+bayt.com	DNE	
+thevideo.me	DNE	
+avefyjulko.bid	DNE	
+myhome.tmall.com	DNE	
+chosun.com	DNE	
+youku.com	DNE	
+xuite.net	invalid	
+google.com.bd	reject	self:google
+dhgate.com	DNE	
+junbi-tracker.com	DNE	
+netteller.com	DNE	
+thedailybeast.com	DNE	
+indianrail.gov.in	DNE	
+change.org	none	returnpath,250ok.com
+cnbeta.com	DNE	
+shahid4u.tv	DNE	
+nsdl.com	DNE	
+yandex.by	none	returnpath,self
+billboard.com	DNE	
+filmitorrent.org	DNE	
+etorrent.co.kr	DNE	
+crabsecret.tmall.com	DNE	
+newstarads.com	DNE	
+streamcloud.eu	DNE	
+elwatannews.com	DNE	
+emuparadise.me	DNE	
+ero-advertising.com	DNE	
+gaana.com	none	self
+heise.de	DNE	
+renren.com	DNE	
+zol.com.cn	DNE	
+mangareader.net	DNE	
+taoche.com	DNE	
+yao.tmall.com	DNE	
+ceneo.pl	DNE	
+crhoy.com	DNE	
+playground.ru	DNE	
+umich.edu	none	self
+marumaru.in	DNE	
+kongregate.com	DNE	
+clips4sale.com	invalid	
+last.fm	DNE	
+tamilrockers.tv	DNE	
+liveadexchanger.com	DNE	
+india.com	DNE	
+yobit.net	DNE	
+news18.com	DNE	
+farsnews.com	DNE	
+paheal.net	DNE	
+adidas.com	none	proofpoint
+paytm.in	DNE	
+cheatsheet.com	DNE	
+jio.com	DNE	
+24smi.info	DNE	
+tfetimes.com	none	sendinblue
+51cto.com	DNE	
+championat.com	DNE	
+kknews.cc	DNE	
+disq.us	DNE	
+minecraft.net	DNE	
+marriott.com	none	proofpoint
+126.com	none	
+247sports.com	invalid	
+cima4u.tv	DNE	
+coolmath-games.com	DNE	
+manyvids.com	DNE	
+sankei.com	DNE	
+miniclip.com	DNE	
+arcot.com	DNE	
+ozee.com	DNE	
+secondlife.com	DNE	
+sporx.com	DNE	
+gameforge.com	DNE	
+ripple.com	DNE	
+feebee.com.tw	DNE	
+constantcontact.com	none	valimail,self,dmarcian,unknown:dmarcreports@endurance.com
+abc.es	DNE	
+lg.com	DNE	
+sankakucomplex.com	DNE	
+iherb.com	reject	returnpath
+sky.com	DNE	
+avclub.com	DNE	
+hbogo.com	reject	unknown:dmarc@hbo.com,valimail
+jcpenney.com	none	unknown:dmarc-rua-sm@jcp.com,unknown:dmarc-ruf-sm@jcp.com
+ayclinical.com	DNE	
+readthedocs.io	DNE	
+blog.me	DNE	
+dagospia.com	DNE	
+heavy.com	invalid	
+laposte.fr	DNE	
+skroutz.gr	DNE	
+yeniakit.com.tr	none	self
+streamango.com	quarantine	
+vanguard.com	reject	self
+clarin.com	none	
+bestbuy.ca	DNE	
+spectrum.net	DNE	
+globaltimes.cn	DNE	
+malwarebytes.com	reject	self
+rightmove.co.uk	none	dmarcian
+valuecommerce.com	DNE	
+pcpartpicker.com	quarantine	self
+kuronekoyamato.co.jp	DNE	
+01net.com	invalid	
+myworkday.com	none	self
+roaring.earth	DNE	
+clickpapa.io	DNE	
+jobrapido.com	DNE	
+syosetu.com	DNE	
+thomann.de	DNE	
+elmogaz.com	DNE	
+abril.com.br	DNE	
+360doc.com	DNE	
+google.com.cu	reject	self:google
+mercantilbanco.com	DNE	
+bittorrent.com	DNE	
+newyorker.com	DNE	
+panet.co.il	DNE	
+extratorrent.ag	DNE	
+abola.pt	DNE	
+bt.com	none	self
+geniuskitchen.com	DNE	
+serviporno.com	DNE	
+hh.ru	none	self
+canada.ca	none	self
+sfgate.com	DNE	
+tagged.com	DNE	
+bzw315.com	DNE	
+letras.mus.br	DNE	
+joins.com	DNE	
+eol.cn	DNE	
+akamaihd.net	DNE	
+mts.ru	DNE	
+maybank2u.com.my	DNE	
+books.com.tw	DNE	
+zone-telechargement.ws	DNE	
+nationalgeographic.com	DNE	
+kinoprofi.org	DNE	
+makeuseof.com	DNE	
+ioredi.com	DNE	
+sozcu.com.tr	DNE	
+futhead.com	DNE	
+shadbase.com	DNE	
+movierulz.sx	DNE	
+udacity.com	DNE	
+qiwi.com	reject	self,dmarcian
+kizi.com	DNE	
+firstpost.com	none	dmarcian
+gowatchfreemovies.to	DNE	
+businesslnk.com	DNE	
+camdolls.com	none	dmarcian
+dw.com	DNE	
+abplive.in	DNE	
+bustle.com	quarantine	self
+telegraf.com.ua	DNE	
+mydrivers.com	DNE	
+mysagagame.com	DNE	
+epfindia.gov.in	DNE	
+skyscanner.net	DNE	
+televisionfanatic.com	DNE	
+techtudo.com.br	DNE	
+href.li	DNE	
+afreecatv.com	DNE	
+gumtree.com	none	agari
+lightinthebox.com	DNE	
+directrev.com	DNE	
+kinogb.club	none	
+dominos.com	none	agari
+incometaxindiaefiling.gov.in	reject	unknown:mailreports_efiling@incometax.gov.in
+deref-gmx.net	DNE	
+pitchfork.com	DNE	
+tinder.com	reject	self
+google.jo	reject	self:google
+getbootstrap.com	DNE	
+taimienphi.vn	DNE	
+bahn.de	none	unknown:dmarc.reporting@deutschebahn.com
+archiveofourown.org	DNE	
+qualtrics.com	none	self
+codeproject.com	DNE	
+mangamura.org	DNE	
+variety.com	invalid	
+fastpic.ru	DNE	
+funnyjunk.com	DNE	
+tradedoubler.com	DNE	
+filmix.me	reject	
+i.ua	none	unknown:dmarc-rua@mi6.kiev.ua
+gismeteo.ua	DNE	
+sanook.com	none	self
+mp3party.net	DNE	
+google.com.lb	reject	self:google
+ucoz.ru	none	unknown:dmarc-report@ucoz.com
+r18.com	DNE	
+bab.la	DNE	
+nnm-club.name	DNE	
+pathofexile.com	none	unknown:dmarc@grindinggear.com
+bola.net	DNE	
+boardgamegeek.com	DNE	
+coincheck.com	quarantine	self
+caixabank.es	none	agari,unknown:cyber.soc@caixabank.com
+virgilio.it	quarantine	self,returnpath
+academic.ru	DNE	
+lentainform.com	DNE	
+ew.com	none	returnpath
+aptitudemedia.co	DNE	
+eroterest.net	DNE	
+repelis.tv	DNE	
+nicehash.com	DNE	
+popsugar.com	DNE	
+rappler.com	DNE	
+tvtropes.org	DNE	
+novinky.cz	DNE	
+gumtree.co.za	none	self
+techbang.com	DNE	
+getsuperappbox.com	DNE	
+mail.com	DNE	
+zdf.de	DNE	
+ifeng.com	DNE	
+girrrly.com	DNE	
+nikkeibp.co.jp	invalid	
+apache.org	DNE	
+ibtimes.co.in	DNE	
+biqle.ru	DNE	
+mmo-champion.com	DNE	
+ilovepdf.com	DNE	
+adbooth.com	DNE	
+filmfanatic.com	DNE	
+trafficoverlap.com	DNE	
+gofundme.com	quarantine	valimail,self
+zcool.com.cn	DNE	
+sbrf.ru	reject	unknown:dmarc_rua@sberbank.ru
+eset.com	DNE	
+todayhumor.co.kr	DNE	
+bolshoyvopros.ru	DNE	
+24h.com.vn	quarantine	self
+oceanofgames.com	DNE	
+sports.ru	DNE	
+kino-teatr.ru	DNE	
+hollywoodreporter.com	DNE	
+fivethirtyeight.com	invalid	
+otvfoco.com.br	DNE	
+opensubtitles.org	none	self
+unity.com	DNE	
+danawa.com	DNE	
+meteofrance.com	DNE	
+so-net.ne.jp	none	
+igg-games.com	DNE	
+mcafee.com	DNE	
+allkpop.com	invalid	
+google.com.sv	reject	self:google
+houzz.com	none	self
+kdnet.net	DNE	
+codecanyon.net	DNE	
+yandex.com	none	returnpath,self
+zerohedge.com	DNE	
+icims.com	reject	valimail,dmarcian
+life.tw	DNE	
+v1.cn	DNE	
+watch-series.io	DNE	
+nextlnk5.com	DNE	
+xkcd.com	DNE	
+victoriassecret.com	none	proofpoint
+altervista.org	DNE	
+seesaa.net	DNE	
+habrahabr.ru	quarantine	unknown:dmarc-receiver@habramail.net
+123rf.com	DNE	
+oup.com	DNE	
+chinatimes.com	DNE	
+turbo.az	none	postmarkapp
+cloudflare.com	quarantine	self,dmarcian
+playzonenow.com	DNE	
+p30download.com	DNE	
+shareasale.com	DNE	
+watch-series.is	DNE	
+vrfuckdolls.com	DNE	
+kepuchina.cn	DNE	
+mmaaxx.com	DNE	
+over-blog.com	DNE	
+brassring.com	DNE	
+caf.fr	invalid	
+myfood.ltd	DNE	
+tuko.co.ke	invalid	
+userscloud.com	none	self
+searchtuner.com	DNE	
+plurk.com	DNE	
+overstock.com	quarantine	self
+ccidnet.com	DNE	
+macrumors.com	DNE	
+dlsite.com	none	self
+aastocks.com	DNE	
+service-now.com	DNE	
+rei.com	DNE	
+lifebuzz.com	none	postmarkapp
+telegram.me	DNE	
+easygirls.info	DNE	
+talk2none.com	DNE	
+fortune.com	none	returnpath
+ilbe.com	DNE	
+elconfidencial.com	DNE	
+smugmug.com	none	self
+avira.com	DNE	
+quikr.com	DNE	
+otomoto.pl	DNE	
+nation.co.ke	DNE	
+aftonbladet.se	quarantine	dmarcian
+pixlr.com	DNE	
+standardmedia.co.ke	DNE	
+himado.in	DNE	
+globalsources.com	none	self
+apkpure.com	DNE	
+lloydsbank.co.uk	reject	agari
+olx.co.id	invalid	
+whitepages.com	DNE	
+myetherwallet.com	DNE	
+nutaku.net	none	
+vanguardngr.com	DNE	
+gemius.pl	DNE	
+francetvinfo.fr	DNE	
+editor.wix.com	DNE	
+imagebam.com	DNE	
+bmi.ir	DNE	
+pussl3.com	DNE	
+dumpert.nl	DNE	
+content.tmall.com	DNE	
+tut.by	DNE	
+mayoclinic.org	DNE	
+gmx.com	DNE	
+baixaki.com.br	invalid	
+torrents.me	DNE	
+rajasthan.gov.in	DNE	
+up.nic.in	DNE	
+weibo.cn	DNE	
+pornhd.com	DNE	
+shglegle.com	DNE	
+bulbagarden.net	DNE	
+seekingalpha.com	DNE	
+linternaute.com	reject	dmarcian
+hsbc.co.uk	none	agari
+reundcwkqvctq.com	DNE	
+clickfunnels.com	DNE	
+bol.uol.com.br	DNE	
+viralised.com	DNE	
+zedo.com	none	agari
+runescape.com	reject	unknown:sysadmin@jagex.com
+bol.com	quarantine	dmarcanalyzer,self
+getintopc.com	DNE	
+20minutes.fr	DNE	
+cracked.com	invalid	
+lds.org	DNE	
+nrk.no	none	dmarcian
+hjenglish.com	DNE	
+minergate.com	DNE	
+smi2.ru	DNE	
+freshdesk.com	invalid	
+si.com	none	returnpath
+chefkoch.de	DNE	
+dytt8.net	DNE	
+staticflickr.com	reject	self
+immobilienscout24.de	none	self
+distero.com	DNE	
+nyaa.si	DNE	
+runtnc.net	DNE	
+javlibrary.com	DNE	
+oschina.net	DNE	
+pinterest.jp	reject	
+lacaixa.es	none	agari,unknown:cyber.soc@caixabank.com,unknown:report@mail.secscan.xyz
+ycombinator.com	DNE	
+moddb.com	DNE	
+hilltopads.net	DNE	
+wasabisyrup.com	DNE	
+depositphotos.com	invalid	
+yesmovies.to	DNE	
+animeflv.com	DNE	
+airasia.com	none	
+windows.net	DNE	
+astrologyanswers.com	none	returnpath
+lynda.com	reject	agari
+otzovik.com	DNE	
+tabnak.ir	DNE	
+lotterypost.com	DNE	
+lanacion.com.ar	DNE	
+gleam.io	quarantine	
+nuvid.com	none	self
+hostgator.com	DNE	
+scotiabank.com	none	proofpoint
+privat24.ua	DNE	
+rakuten-card.co.jp	DNE	
+webtoons.com	DNE	
+thewhizproducts.com	DNE	
+flaticon.com	quarantine	dmarcian
+babycenter.com	DNE	
+computerbild.de	DNE	
+pornolab.net	DNE	
+tencent.com	DNE	
+panda.tv	DNE	
+google.ee	reject	self:google
+ghanaweb.com	DNE	
+online-life.club	DNE	
+bitflyer.jp	none	self,postmarkapp
+codecademy.com	DNE	
+ifixit.com	DNE	
+axisbank.com	none	self
+zeit.de	DNE	
+gutefrage.net	none	self
+citilink.ru	none	self
+androidcentral.com	DNE	
+autotrader.com	DNE	
+thepiratebay-proxylist.org	DNE	
+axdst.pro	DNE	
+fetlife.com	none	sendinblue
+fextralife.com	none	
+hotukdeals.com	DNE	
+stumbleupon.com	none	postmarkapp,self
+digialm.com	DNE	
+freelancer.com	none	self,dmarcanalyzer
+republika.co.id	DNE	
+stoloto.ru	reject	self
+elintransigente.com	DNE	
+deref-web-02.de	DNE	
+blogimg.jp	DNE	
+webgains.com	DNE	
+cornell.edu	none	self
+coinexchange.io	DNE	
+feng.com	DNE	
+adultfriendfinder.com	none	proofpoint,unknown:dmarc_report@helpcrew.com
+newsmth.net	DNE	
+jsmjmp.com	DNE	
+iobit.com	DNE	
+mediamarkt.de	DNE	
+narvar.com	none	self
+redemotoructs.co	DNE	
+greatandhra.com	DNE	
+fanserials.com	DNE	
+turkiye.gov.tr	DNE	
+qz.com	DNE	
+gomovies.sc	DNE	
+interpark.com	DNE	
+alluc.ee	DNE	
+searchdimension.com	none	
+brazzersnetwork.com	DNE	
+o2.pl	DNE	
+zone-telechargement1.com	DNE	
+pozdravok.ru	DNE	
+jalopnik.com	invalid	
+hamgardi.com	DNE	
+yggtorrent.com	none	
+spankwire.com	DNE	
+garmin.com	DNE	
+bb.com.br	none	self
+rp5.ru	DNE	
+localbitcoins.com	quarantine	self
+xing.com	none	self
+businessweekly.com.tw	none	
+tutsplus.com	DNE	
+google.com.bh	reject	self:google
+vemale.com	DNE	
+fnb.co.za	DNE	
+synchronycredit.com	DNE	
+doramatv.ru	DNE	
+boc.cn	DNE	
+anytimeastrology.com	DNE	
+jstor.org	DNE	
+nessma.tv	DNE	
+gamewith.jp	DNE	
+dnevnik.ru	invalid	
+basecamp.com	none	self
+bluehost.com	DNE	
+staples.com	none	self
+jetbrains.com	none	self,postmarkapp
+woot.com	DNE	
+amd.com	invalid	
+jb51.net	DNE	
+els-cdn.com	DNE	
+sbnation.com	none	dmarcian
+elvenar.com	invalid	
+gigazine.net	DNE	
+entrepreneur.com	none	postmarkapp
+dict.cc	DNE	
+nexusmods.com	DNE	
+tripadvisor.co.uk	none	unknown:dmarc-rua@tripadvisor.com
+filmaffinity.com	DNE	
+camster.com	DNE	
+shopee.co.id	none	unknown:fakeemailalert@shopeemobile.com
+blizzard.com	quarantine	proofpoint
+mercadolibre.com	reject	self,netcraft
+filecrypt.cc	DNE	
+razerzone.com	DNE	
+tasnimnews.com	DNE	
+kapook.com	DNE	
+1und1.de	DNE	
+collegeboard.org	none	self
+abema.tv	DNE	
+vetogate.com	DNE	
+20minutos.es	DNE	
+lego.com	none	returnpath
+colourpop.com	DNE	
+csfd.cz	DNE	
+worldlifestyle.com	DNE	
+psychologytoday.com	none	self
+iciba.com	DNE	
+internetnewsportal.com	DNE	
+elbotola.com	DNE	
+biglobe.ne.jp	none	
+coursehero.com	none	self
+mufg.jp	none	agari
+stripe.com	reject	agari,self,postmarkapp
+livetv.sx	DNE	
+ilfattoquotidiano.it	DNE	
+emag.ro	DNE	
+ilmeteo.it	DNE	
+isna.ir	DNE	
+my-hit.org	DNE	
+yemek.com	DNE	
+adright.com	DNE	
+sf-express.com	DNE	
+ap.gov.in	DNE	
+csair.com	DNE	
+haberturk.com	DNE	
+npmjs.com	DNE	
+dickssportinggoods.com	DNE	
+8maple.ru	DNE	
+wroops.com	DNE	
+concursolutions.com	DNE	
+viki.com	DNE	
+socialnewpages.com	DNE	
+dwatchseries.to	DNE	
+adidas.tmall.com	DNE	
+onlinekhabar.com	DNE	
+thefappeningblog.com	DNE	
+sagepub.com	DNE	
+surveys-xvideos.com	DNE	
+vente-privee.com	DNE	
+nipic.com	DNE	
+mercadolibre.com.co	DNE	
+forever21.com	DNE	
+warcraftlogs.com	DNE	
+kenh14.vn	DNE	
+blog.ir	DNE	
+umn.edu	none	self
+google.ba	reject	self:google
+mynavi.jp	DNE	
+illinois.edu	DNE	
+wisc.edu	none	self
+mokmhp.com	DNE	
+zipbogo.net	DNE	
+finn.no	none	self,agari
+swagbucks.com	invalid	
+donmai.us	DNE	
+sat.gob.mx	DNE	
+ucla.edu	DNE	
+leo.org	none	self
+webcrawler.com	DNE	
+ria.com	DNE	
+coinmill.com	DNE	
+depfile.us	DNE	
+cbs.com	DNE	
+faithtap.com	DNE	
+rollingstone.com	reject	self
+fitbit.com	reject	dmarcian
+elcorteingles.es	DNE	
+myvidster.com	DNE	
+bc.vc	DNE	
+newtabtvsearch.com	invalid	
+myegy.tv	DNE	
+tukif.com	DNE	
+elcomercio.com	DNE	
+zozo.jp	DNE	
+porndoe.com	DNE	
+ubuntu.com	DNE	
+livemaster.ru	none	self
+animevost.org	DNE	
+wetter.com	DNE	
+mlb.com	DNE	
+kissmanga.com	DNE	
+nyu.edu	DNE	
+ssc.nic.in	DNE	
+moe.gov.sa	DNE	
+google.com.uy	reject	self:google
+spzan.com	DNE	
+timeout.com	none	self
+mundodeportivo.com	DNE	
+shopclues.com	DNE	
+mydealz.de	none	unknown:dmarc-reports@pepper.com
+eldorado.ru	DNE	
+logitech.com	DNE	
+cex.io	DNE	
+columbia.edu	DNE	
+fast.com	reject	netcraft
+gotomeeting.com	DNE	
+tap.az	none	postmarkapp
+excite.co.jp	none	unknown:rua-mpse@mpub.ne.jp
+google.co.ma	reject	self:google
+alimama.com	DNE	
+sketchup.com	DNE	
+fazenda.gov.br	DNE	
+kukudas.com	DNE	
+dangdang.com	DNE	
+digitalocean.com	reject	dmarcian
+m3bnqqqw.com	DNE	
+6park.com	DNE	
+ny.gov	DNE	
+msi.com	DNE	
+directv.com	DNE	
+life.ru	none	
+yourtemplatefinder.com	DNE	
+kinogo.by	DNE	
+esquire.com	DNE	
+tesco.com	reject	agari,self
+mbank.pl	DNE	
+bola.com	DNE	
+streamit-online.com	DNE	
+flightradar24.com	invalid	
+javhd.com	none	self
+dm5.com	DNE	
+everydayhealth.com.tw	DNE	
+pch.com	reject	returnpath
+vulture.com	DNE	
+rt.ru	none	self
+readmanga.me	DNE	
+ontvtime.ru	DNE	
+filelist.ro	DNE	
+pussysaga.com	DNE	
+sears.com	DNE	
+jiwu.com	DNE	
+sbicard.com	DNE	
+jjwxc.net	DNE	
+itswatchseries.to	DNE	
+wowkorea.jp	DNE	
+hsbc.com.hk	none	agari
+4cdn.org	reject	
+free3dadultgames.com	DNE	
+rosegal.com	DNE	
+oxforddictionaries.com	DNE	
+pictame.com	DNE	
+vip.tmall.com	DNE	
+legacy.com	DNE	
+afrtrk.com	DNE	
+kucoin.com	DNE	
+paytmmall.com	DNE	
+match.com	quarantine	proofpoint
+game-bonuses.club	DNE	
+arabi21.com	DNE	
+hltv.org	DNE	
+ulta.com	none	proofpoint
+jcrew.com	none	dmarcian
+teletica.com	DNE	
+seria-z.net	DNE	
+johnlewis.com	DNE	
+softpedia.com	DNE	
+vmware.com	DNE	
+bluestacks.com	quarantine	self
+itau.com.br	none	returnpath
+sci-hub.tw	DNE	
+trafficshop.com	none	
+mbc.net	DNE	
+365jia.cn	DNE	
+washington.edu	DNE	
+dcinside.com	DNE	
+gettyimages.com	DNE	
+rtve.es	DNE	
+onliner.by	DNE	
+samsclub.com	quarantine	proofpoint
+wowkeren.com	DNE	
+monstercrawler.com	DNE	
+haberler.com	DNE	
+deutsche-bank.de	reject	agari,self
+k2s.cc	none	
+sprint.com	DNE	
+stubhub.com	none	agari
+koreastardaily.com	DNE	
+britannica.com	DNE	
+google.cm	reject	self:google
+opensooq.com	none	self
+nymag.com	DNE	
+wizards.com	none	
+labirint.ru	DNE	
+ondramanice.io	DNE	
+kshowonline.com	DNE	
+intentmedia.net	DNE	
+setare.com	DNE	
+kshow123.net	DNE	
+opentable.com	quarantine	valimail
+videohive.net	DNE	
+anjuke.com	DNE	
+skamaker.com	DNE	
+toysrus.com	quarantine	
+literotica.com	DNE	
+mk.ru	DNE	
+pinterest.ca	reject	
+unicredit.it	DNE	
+empflix.com	DNE	
+passportindia.gov.in	DNE	
+muz-color.ru	DNE	
+mehrnews.com	DNE	
+pinterest.com.au	reject	
+utexas.edu	DNE	
+jin115.com	DNE	
+hdvidzpro.me	DNE	
+javarchive.com	DNE	
+pcworld.com	DNE	
+cvs.com	none	proofpoint
+tamilgun.work	DNE	
+ynet.co.il	DNE	
+doodle.com	none	self
+snap-affairs.com	DNE	
+sport.es	DNE	
+marketgid.com	DNE	
+pbs.org	DNE	
+metric-conversions.org	DNE	
+vmall.com	DNE	
+encuentra24.com	DNE	
+redpop.pro	DNE	
+eonline.com	DNE	
+dpreview.com	DNE	
+payu.in	DNE	
+priceline.com	quarantine	self
+1111.com.tw	none	self
+gostream.is	DNE	
+justporno.tv	DNE	
+gamersky.com	DNE	
+filmibeat.com	DNE	
+wikiwiki.jp	DNE	
+gayboystube.com	DNE	
+easports.com	DNE	
+onclickclear.com	DNE	
+freedownloadmanager.org	DNE	
+divxtotal2.net	DNE	
+onlyindianporn.net	DNE	
+dotabuff.com	DNE	
+mvhop.com	DNE	
+cointelegraph.com	DNE	
+yr.no	none	unknown:christians@met.no
+androidauthority.com	DNE	
+indiegogo.com	reject	self
+zamunda.net	DNE	
+hotnewhiphop.com	DNE	
+aweber.com	none	self
+betradar.com	DNE	
+turnitin.com	DNE	
+banesco.com	DNE	
+monster.com	none	self
+hujiang.com	DNE	
+ft.com	reject	self
+mos.ru	reject	self
+wowprogress.com	DNE	
+os.tc	DNE	
+pussl48.com	DNE	
+kinja.com	invalid	
+dailysnark.com	DNE	
+marktplaats.nl	none	agari
+rbcroyalbank.com	none	proofpoint
+tokyomotion.net	DNE	
+porntrex.com	DNE	
+youla.io	invalid	
+2gis.ru	none	
+lagaceta.com.ar	none	dmarcian
+cricketaddictor.com	DNE	
+whattomine.com	DNE	
+techtarget.com	DNE	
+sznews.com	DNE	
+thisav.com	DNE	
+barstoolsports.com	DNE	
+talk.tw	DNE	
+index.hu	DNE	
+pagesjaunes.fr	DNE	
+36kr.com	DNE	
+lichess.org	none	self
+storm.mg	DNE	
+braintag.com	DNE	
+gemius.com	DNE	
+aminoapps.com	invalid	
+ma-sh.info	DNE	
+oui.sncf	DNE	
+wine-searcher.com	DNE	
+zoomit.ir	DNE	
+streamlabs.com	DNE	
+glcgytymbp.bid	DNE	
+mamba.ru	DNE	
+beinsports.com	DNE	
+wlp-acs.com	DNE	
+contentabc.com	DNE	
+nikkansports.com	DNE	
+boxofficemojo.com	DNE	
+santander.co.uk	reject	agari
+trafficfactory.biz	DNE	
+oneplus.net	DNE	
+pelispedia.tv	DNE	
+asriran.com	DNE	
+noaa.gov	DNE	
+heavy-r.com	DNE	
+clkntrk.com	DNE	
+b9good.com	DNE	
+fool.com	DNE	
+igetsend.ru	DNE	
+coinpot.co	DNE	
+nifty.com	none	self
+drugs.com	quarantine	postmarkapp
+akamaized.net	DNE	
+priceminister.com	none	self
+creativemarket.com	invalid	
+coupang.com	DNE	
+tvn24.pl	DNE	
+tenki.jp	DNE	
+vipergirls.to	DNE	
+jandan.net	DNE	
+sheypoor.com	none	
+spanishdict.com	DNE	
+grubhub.com	none	dmarcanalyzer,valimail
+500px.com	DNE	
+licindia.in	DNE	
+ut.ac.ir	DNE	
+realestate.com.au	none	self
+2chblog.jp	DNE	
+viber.com	DNE	
+willhaben.at	DNE	
+akoam.com	DNE	
+gst.gov.in	DNE	
+gigya.com	quarantine	self
+gulte.com	DNE	
+makeleio.gr	DNE	
+jagran.com	DNE	
+backpage.com	DNE	
+klikbca.com	DNE	
+moi.gov.sa	DNE	
+myworkdayjobs.com	DNE	
+hilton.com	DNE	
+2conv.com	DNE	
+faz.net	DNE	
+semanticscholar.org	DNE	
+liftable.com	DNE	
+cc.com	DNE	
+fiuxy.bz	quarantine	
+dnvod.tv	DNE	
+seriouseats.com	DNE	
+azet.sk	quarantine	self
+zerodha.com	DNE	
+olymptrade.com	quarantine	self
+britishcouncil.org	DNE	
+jkforum.net	DNE	
+gamiss.com	DNE	
+channelmyanmar.org	DNE	
+theringer.com	DNE	
+yourdictionary.com	DNE	
+bitcoin.org	reject	self
+haa66855mo.club	DNE	
+cbslocal.com	DNE	
+dy2018.com	DNE	
+focus.cn	DNE	
+digg.com	DNE	
+christian-dogma.com	DNE	
+javfor.me	DNE	
+bintang.com	DNE	
+starbucks.com	none	self
+olx.ro	DNE	
+raiplay.it	DNE	
+docusign.net	reject	agari
+hypebeast.com	DNE	
+complex.com	DNE	
+thepornstudy.com	DNE	
+share-videos.se	DNE	
+watsons.tmall.com	DNE	
+duba.com	DNE	
+mega.co.nz	DNE	
+google.tt	reject	self:google
+rfi.fr	DNE	
+ali213.net	DNE	
+dagbladet.no	DNE	
+nordstromrack.com	none	proofpoint
+elespanol.com	DNE	
+citibank.co.in	reject	agari,self
+iptorrents.com	DNE	
+gemini.com	reject	self,postmarkapp
+made-in-china.com	DNE	
+leparisien.fr	DNE	
+typeform.com	none	dmarcanalyzer,self
+yomiuri.co.jp	DNE	
+poiskm.co	DNE	
+rotoworld.com	DNE	
+kino-max.com	DNE	
+jmw.com.cn	none	self:netease
+pretty52.com	DNE	
+emirates.com	DNE	
+pure-t.ru	DNE	
+vanityfair.com	DNE	
+olx.com.pk	invalid	
+roletaryk.info	DNE	
+kinox.to	DNE	
+clevernt.com	quarantine	
+togetter.com	DNE	
+trustedreviews.com	DNE	
+tunein.com	DNE	
+usitech-int.com	none	mxtoolbox
+dantri.com.vn	DNE	
+truecaller.com	DNE	
+etrade.com	none	self
+ummy.net	DNE	
+cabelas.com	DNE	
+namecheap.com	none	self
+planetsuzy.org	invalid	
+afriflatry.co	DNE	
+tripadvisor.in	none	unknown:dmarc-rua@tripadvisor.com
+furaffinity.net	DNE	
+usenet.nl	none	self
+virginmedia.com	quarantine	unknown:dmarc-uk-rua@upcmail.net,dmarcian
+cima4up.tv	DNE	
+tagesschau.de	DNE	
+wappalyzer.com	DNE	
+gettvstreamnow.com	DNE	
+sporcle.com	DNE	
+inc.com	DNE	
+nitroflare.com	DNE	
+inven.co.kr	DNE	
+cargurus.com	none	self
+payoneer.com	none	proofpoint
+vppgamingnetwork.com	DNE	
+strainemergency.com	DNE	
+jkanime.net	DNE	
+grailed.com	DNE	
+star.com.tr	DNE	
+changelly.com	DNE	
+topix.com	DNE	
+opertures.com	DNE	
+downloadastro.com	invalid	
+sueddeutsche.de	DNE	
+definition.org	DNE	
+focus123.cn	DNE	
+ets.org	DNE	
+newsnow.co.uk	none	self
+spiceworks.com	none	postmarkapp
+successfactors.com	DNE	
+com-fix.support	DNE	
+usc.edu	DNE	
+pcstore.com.tw	DNE	
+hindustantimes.com	DNE	
+informer.com	DNE	
+tamin.ir	DNE	
+smh.com.au	DNE	
+celebjihad.com	DNE	
+deadline.com	invalid	
+alarabiya.net	DNE	
+piliapp.com	DNE	
+e621.net	quarantine	self
+sifyitest.com	DNE	
+3dmgame.com	DNE	
+the123movies.com	DNE	
+donanimhaber.com	DNE	
+ansa.it	DNE	
+atlassian.com	none	self
+unrealengine.com	DNE	
+commerzbank.de	DNE	
+thekitchn.com	DNE	
+tvguide.com	DNE	
+similarweb.com	DNE	
+bom.gov.au	DNE	
+glosbe.com	none	
+ibanking-services.com	DNE	
+h-98reale.com	DNE	
+magazineluiza.com.br	DNE	
+sex-and-flirt.com	DNE	
+mixi.jp	DNE	
+mightytext.net	DNE	
+societegenerale.fr	none	proofpoint
+digitalspy.com	DNE	
+clubic.com	DNE	
+theporndude.com	DNE	
+static1.squarespace.com	DNE	
+un.org	DNE	
+ssense.com	none	self
+ibtimes.com	DNE	
+lcl.fr	none	returnpath
+hdkinoclub.net	DNE	
+kbb.com	DNE	
+bancoestado.cl	none	easysolutions
+114la.com	DNE	
+go2affise.com	DNE	
+cyol.com	DNE	
+wikibooks.org	DNE	
+skidrowreloaded.com	DNE	
+zaif.jp	DNE	
+riotgames.com	DNE	
+taojindi.com	DNE	
+invisionapp.com	none	postmarkapp
+bollywoodpapa.com	DNE	
+sitepoint.com	invalid	
+tipico.de	DNE	
+olx.co.ao	invalid	
+cmoney.tw	DNE	
+dogdrip.net	DNE	
+creditmutuel.fr	DNE	
+criteo.com	none	proofpoint
+gsis.gr	DNE	
+lodynet.com	DNE	
+aljazeera.com	quarantine	unknown:dmarc-mailauth@aljazeera.net,unknown:dmarc-mailfor@aljazeera.net
+warframe.com	DNE	
+ozbargain.com.au	DNE	
+ratemyprofessors.com	DNE	
+chicagotribune.com	none	
+comandotorrents.com	DNE	
+zf.fm	DNE	
+disney.go.com	DNE	
+folha.uol.com.br	DNE	
+sabay.com.kh	DNE	
+koinex.in	DNE	
+yoox.com	DNE	
+thrillist.com	quarantine	unknown:a+24549889@fdmarc.net,dmarcian,unknown:f+24549889@fdmarc.net
+caffeinamagazine.it	DNE	
+tomshardware.co.uk	reject	unknown:helpdesk@purch.com
+eurogamer.net	DNE	
+barclaycardus.com	none	agari
+blocket.se	reject	returnpath,self,dmarcian
+soccerway.com	DNE	
+citibankonline.com	reject	agari,self
+google.com.kh	reject	self:google
+rakuten-bank.co.jp	none	unknown:rua-mpse@mpub.ne.jp
+cmu.edu	invalid	
+idealista.com	DNE	
+mindbodyonline.com	DNE	
+meituan.com	quarantine	self
+collinsdictionary.com	DNE	
+videolan.org	DNE	
+world.tmall.com	DNE	
+4tube.com	DNE	
+6pm.com	none	returnpath
+pussl44.com	DNE	
+irib.ir	DNE	
+megogo.net	none	self
+howstuffworks.com	DNE	
+hqporner.com	DNE	
+photobucket.com	DNE	
+worldoftanks.com	DNE	
+gidonline.in	DNE	
+nalog.ru	reject	self
+purdue.edu	DNE	
+jizzbunker.com	DNE	
+vodafone.de	DNE	
+horriblesubs.info	DNE	
+google.com.py	reject	self:google
+refinery29.com	DNE	
+tass.ru	DNE	
+seasonaloffers.club	DNE	
+ana.co.jp	DNE	
+khmerload.com	DNE	
+caisse-epargne.fr	none	mxtoolbox
+russia.tv	DNE	
+fudan.edu.cn	DNE	
+minuto30.com	DNE	
+atwiki.jp	DNE	
+9xmovies.info	DNE	
+upbit.com	DNE	
+worldoftanks.eu	DNE	
+ing-diba.de	reject	self
+mosaiquefm.net	DNE	
+360.com	DNE	
+dailythanthi.com	DNE	
+larousse.fr	DNE	
+brainyquote.com	DNE	
+commonapp.org	invalid	
+express.com.pk	DNE	
+mangakakalot.com	DNE	
+indishare.me	DNE	
+abc.go.com	DNE	
+dji.com	DNE	
+cosmopolitan.com	DNE	
+hotmovs.com	DNE	
+jquery.com	DNE	
+zooqle.com	DNE	
+kaspersky.com	none	self
+emojipedia.org	DNE	
+naijaloaded.com.ng	DNE	
+ncore.cc	quarantine	self
+monkamovies.com	DNE	
+vidoza.net	reject	
+icook.tw	DNE	
+cryptowat.ch	DNE	
+gatehub.net	none	self
+navyfederal.org	reject	proofpoint
+jooble.org	none	self
+express.pk	DNE	
+newgrounds.com	quarantine	postmarkapp
+meduza.io	DNE	
+alphacoders.com	DNE	
+easyjet.com	none	returnpath
+cars.com	none	dmarcian,self
+javatpoint.com	DNE	
+tsite.jp	DNE	
+ing.nl	reject	unknown:global.mail.dmarc@ing.com,dmarcian,self
+intesasanpaolo.com	DNE	
+newchic.com	DNE	
+bouyguestelecom.fr	DNE	
+rabb.it	DNE	
+club-k.net	DNE	
+aljazeera.net	reject	self,dmarcian
+submarino.com.br	reject	returnpath
+luscious.net	DNE	
+google.com.np	reject	self:google
+sky.it	DNE	
+porno365.me	DNE	
+newdelhitimes.com	DNE	
+clicknupload.org	DNE	
+auto.ru	DNE	
+giantbomb.com	DNE	
+minishing.com	DNE	
+laposte.net	quarantine	self,returnpath
+dummies.com	DNE	
+theqoo.net	DNE	
+healthcare.gov	reject	agari
+to8to.com	DNE	
+kalerkantho.com	DNE	
+vebadu.com	DNE	
+acs.org	DNE	
+fontawesome.io	DNE	
+hotpepper.jp	DNE	
+papajohns.com	DNE	
+soft98.ir	DNE	
+thepsurvey.com	DNE	
+bbva.es	none	agari
+sap.com	none	self
+rusvesna.su	DNE	
+bkrs.info	DNE	
+sportbox.ru	DNE	
+opera.com	DNE	
+omegle.com	DNE	
+olx.kz	invalid	
+esuteru.com	DNE	
+bancobrasil.com.br	DNE	
+ournewstoday.com	DNE	
+boursorama.com	DNE	
+adexchangeguru.com	DNE	
+mgid.com	DNE	
+joinhoney.com	DNE	
+ziprecruiter.com	quarantine	self
+o2tvseries.com	DNE	
+google.com.cy	reject	self:google
+ucsd.edu	DNE	
+otaghkhabar24.com	DNE	
+pngtree.com	DNE	
+tumangaonline.com	DNE	
+torrentdownloads.me	DNE	
+utoronto.ca	DNE	
+thechive.com	invalid	
+padlet.com	none	postmarkapp
+listindiario.com	DNE	
+lifehacker.ru	none	self
+dwebdigital.com	DNE	
+porntube.com	DNE	
+medscape.com	DNE	
+cdc.gov	none	agari
+mir-press.com	DNE	
+netpnb.com	DNE	
+lastampa.it	DNE	
+postimg.org	DNE	
+genti.stream	DNE	
+bama.ir	DNE	
+who.int	DNE	
+wmtransfer.com	DNE	
+autoscout24.de	DNE	
+fragrantica.com	DNE	
+worldcoinindex.com	DNE	
+upenn.edu	DNE	
+le360.ma	DNE	
+mysql.com	DNE	
+thesimsresource.com	DNE	
+fitgirl-repacks.site	DNE	
+bravo-dog.com	DNE	
+jzrputtbut.net	DNE	
+ruliweb.com	DNE	
+jumia.ma	DNE	
+rarbgmirror.xyz	DNE	
+khabaronline.ir	DNE	
+cnnic.cn	DNE	
+minecraftforum.net	DNE	
+google.com.ni	reject	self:google
+streamcomplet.me	DNE	
+teamliquid.net	reject	
+lowyat.net	DNE	
+craigslist.ca	reject	dmarcian,unknown:rufruf@craigslist.org
+consultant.ru	reject	self
+y6a7tqyr.com	DNE	
+economist.com	quarantine	dmarcanalyzer
+filmeseseriesonline.net	DNE	
+film2movie.co	DNE	
+phimmoi.net	DNE	
+foursquare.com	none	self
+www.gov.cn	DNE	
+quadrinhoseroticos.net	DNE	
+easeus.com	DNE	
+ernet.in	DNE	
+eroprofile.com	DNE	
+portaldoholanda.com.br	DNE	
+avnori.com	DNE	
+librus.pl	DNE	
+javhdasia.com	DNE	
+javbus.com	DNE	
+yonhapnews.co.kr	DNE	
+coupons.com	DNE	
+iwank.tv	DNE	
+likemag.com	DNE	
+niniban.com	DNE	
+dlbooks.to	DNE	
+brightside.me	DNE	
+jezebel.com	invalid	
+medianetnow.com	DNE	
+serebii.net	DNE	
+tdbank.com	none	agari
+manhuagui.com	DNE	
+redflagdeals.com	DNE	
+tankionline.com	quarantine	self
+kino-hd1080.ru	DNE	
+punchng.com	DNE	
+arduino.cc	none	
+history.com	DNE	
+iz.ru	DNE	
+profit-opportunity.com	DNE	
+safefinder.com	DNE	
+hentaihaven.org	DNE	
+all-free-download.com	DNE	
+docusign.com	reject	agari
+maharashtra.gov.in	DNE	
+buffer.com	reject	postmarkapp
+uloz.to	quarantine	
+nouvelobs.com	DNE	
+tiu.ru	invalid	
+17173.com	DNE	
+sjtu.edu.cn	DNE	
+biblehub.com	DNE	
+ae.com	none	proofpoint
+pptv.com	DNE	
+news24.com	DNE	
+jxnews.com.cn	DNE	
+sweetwater.com	none	self
+zhibo8.cc	DNE	
+users.wix.com	DNE	
+wwe.com	DNE	
+musica.com	DNE	
+tecmundo.com.br	invalid	
+planetromeo.com	DNE	
+trademe.co.nz	reject	unknown:n3vvlmgi@ag.dmarcian-ap.com,unknown:n3vvlmgi@fr.dmarcian-ap.com
+kitco.com	DNE	
+musixmatch.com	DNE	
+sendspace.com	none	self
+tweakers.net	DNE	
+thevintagenews.com	DNE	
+gta5-mods.com	DNE	
+wetteronline.de	DNE	
+nbc.com	invalid	
+nudevista.com	DNE	
+weevah2.top	DNE	
+popcornvod.com	DNE	
+qyer.com	DNE	
+mobileofferplace.site	DNE	
+marmiton.org	DNE	
+popmog.com	DNE	
+apartments.com	DNE	
+watchcartoononline.com	DNE	
+inoreader.com	DNE	
+ggpht.com	reject	self:google
+dolartoday.com	DNE	
+ultipro.com	none	unknown:mailauth-ruf-reports@ultimatesoftware.com,unknown:mailauth-rua-reports@ultimatesoftware.com
+rarbgproxy.org	DNE	
+aruba.it	none	self
+rg.ru	quarantine	self
+linguee.fr	DNE	
+ig.com.br	none	
+geocities.jp	DNE	
+geforce.com	DNE	
+watchcartoononline.io	DNE	
+bankbazaar.com	none	
+adbtc.top	quarantine	self
+maplestage.com	DNE	
+t66y.com	DNE	
+buy123.com.tw	DNE	
+happyon.jp	DNE	
+yournewtab.com	DNE	
+flightaware.com	DNE	
+kickass.cd	DNE	
+gumtree.pl	none	self
+goindigo.in		self
+81.cn	DNE	
+qwant.com	invalid	
+hmyquickconverter.com	DNE	
+addtoany.com	DNE	
+anidub.com	reject	
+zulily.com	none	self,returnpath
+cameraprive.com	DNE	
+girlsaskguys.com	quarantine	postmarkapp
+bsnl.in	DNE	
+check24.de	none	dmarcanalyzer,self
+ubc.ca	DNE	
+litres.ru	none	dmarcanalyzer
+aif.ru	invalid	
+suamusica.com.br	DNE	
+muzofond.org	DNE	
+imooc.com	DNE	
+webmoney.ru	DNE	
+mihanblog.com	DNE	
+declk.com	DNE	
+russianfood.com	reject	self
+itch.io	invalid	
+soompi.com	DNE	
+mainichi.jp	DNE	
+lazada.vn	DNE	
+teacherspayteachers.com	DNE	
+shimo.im	DNE	
+ledgerwallet.com	DNE	
+dns-shop.ru	invalid	
+ibt.uk	DNE	
+royalmail.com	none	unknown:rua@csp.email,unknown:ruf@csp.email
+sport-express.ru	DNE	
+tesla.com	none	
+hln.be	DNE	
+analdin.com	DNE	
+msnbc.com	none	valimail
+xero.com	none	agari
+gridoto.com	DNE	
+lastpass.com	reject	self,agari
+clksc.com	DNE	
+dealabs.com	DNE	
+dx.com	DNE	
+ebscohost.com	DNE	
+kaiserpermanente.org	none	agari
+quizalert.com	DNE	
+prothom-alo.com	DNE	
+wechat.com	DNE	
+trafyield.com	DNE	
+ren.tv	DNE	
+tupaki.com	DNE	
+megafon.ru	none	self
+pornhubpremium.com	DNE	
+translit.net	DNE	
+tarafdari.com	DNE	
+actcorp.in	DNE	
+jsfiddle.net	DNE	
+oyunskor.com	DNE	
+duden.de	DNE	
+sedty.com	DNE	
+yinyuetai.com	DNE	
+freecamsexposed.com	invalid	
+bmo.com	none	returnpath
+banquepopulaire.fr	none	mxtoolbox
+syf.com	none	agari
+origin.com	DNE	
+ipko.pl	DNE	
+heureka.cz	quarantine	self,postmarkapp
+goibibo.com	none	self
+puu.sh	DNE	
+theknot.com	none	dmarcian
+alibaba-inc.com	none	self
+squareup.com	reject	valimail,self,phishlabs
+kerala.gov.in	DNE	
+dinamalar.com	DNE	
+denizhaber.com.tr	DNE	
+google.com.et	reject	self:google
+takealot.com	DNE	
+gq.com	DNE	
+amazon.com.au	DNE	
+echoroukonline.com	DNE	
+58b.tv	DNE	
+13dl.net	DNE	
+smartpcmechanics.com	DNE	
+indiapost.gov.in	DNE	
+uscis.gov	DNE	
+mint.com	none	agari
+cooch.tv	DNE	
+rakuten.ne.jp	DNE	
+bapb.gdn	DNE	
+crunchbase.com	DNE	
+altadefinizione.pink	DNE	
+wildlatinporn.com	DNE	
+famousbirthdays.com	DNE	
+dkb.de	DNE	
+watchonlinemovies.com.pk	DNE	
+bankersadda.com	DNE	
+adobelogin.com	reject	agari
+jma.go.jp	DNE	
+hackstore.net	DNE	
+n-tv.de	DNE	
+snopes.com	DNE	
+3djuegos.com	DNE	
+walmart.com.br	reject	returnpath
+vistaprint.com	none	returnpath,self
+mangapanda.com	DNE	
+walmart.ca	DNE	
+myasiantv.se	DNE	
+futbolarena.com	DNE	
+barisderin.com	none	self
+jeemain.nic.in	DNE	
+gotowebinar.com	DNE	
+angel.co	quarantine	self
+kemdikbud.go.id	DNE	
+iwara.tv	none	
+secureinternetbank.com	DNE	
+endclothing.com	DNE	
+overdrive.com	DNE	
+google.hn	reject	self:google
+vagalume.com.br	quarantine	self
+kanald.com.tr	DNE	
+masterani.me	DNE	
+sanjesh.org	DNE	
+588ku.com	DNE	
+libertyvf.com	DNE	
+anitube.se	DNE	
+dr.dk	DNE	
+instiz.net	DNE	
+bancsabadell.com	DNE	
+woman.ru	DNE	
+anyporn.com	DNE	
+elkhamis.com	DNE	
+kicker.de	DNE	
+juegos.com	DNE	
+google.cd	reject	self:google
+binarybusinessbay.com	DNE	
+nanxie.tmall.com	DNE	
+picofile.com	DNE	
+expressvpn.com	DNE	
+google.ge	reject	self:google
+alza.cz	none	self
+eldiario.es	DNE	
+telecharger-youtube-mp3.com	DNE	
+probuilds.net	DNE	
+wolframalpha.com	DNE	
+sakshi.com	DNE	
+euronews.com	DNE	
+buy.tmall.com	DNE	
+moneyforward.com	DNE	
+wenger.tmall.com	DNE	
+mp3converter.net	DNE	
+eastpak.tmall.com	DNE	
+extremetube.com	DNE	
+getmedianetnow.com	DNE	
+tubegalore.com	DNE	
+fobshanghai.com	DNE	
+solidfiles.com	quarantine	postmarkapp
+glassdoor.co.in	DNE	
+pscp.tv	DNE	
+advertiserurl.com	DNE	
+wikidot.com	DNE	
+dostor.org	DNE	
+imore.com	DNE	
+shein.com	DNE	
+blackdoctor.org	invalid	
+barclays.co.uk	reject	agari
+qiannaimei.tmall.com	DNE	
+hitc.com	DNE	
+css-tricks.com	DNE	
+forocoches.com	DNE	
+terra.com.br	DNE	
+zimuzu.tv	DNE	
+square-enix.com	DNE	
+threegun.tmall.com	DNE	
+testbook.com	DNE	
+err.tmall.com	DNE	
+userbenchmark.com	DNE	
+anandabazar.com	DNE	
+whois.com	DNE	
+screenrant.com	DNE	
+tiscali.it	none	self
+linktender.net	DNE	
+subhd.com	DNE	
+fmovies.to	DNE	
+sbisec.co.jp	DNE	
+wemakeprice.com	DNE	
+onelogin.com	quarantine	self
+redbus.in	none	self
+data1rtb.com	DNE	
+nu.nl	DNE	
+gome.com.cn	DNE	
+infoseek.co.jp	DNE	
+alohatube.com	DNE	
+q.gs	DNE	
+lonelyplanet.com	DNE	
+lamoda.ru	quarantine	self
+joemonster.org	invalid	
+3158.cn	DNE	
+diretta.it	none	
+eater.com	none	dmarcian
+ibt.com	DNE	
+ntdtv.kr	DNE	
+jawapos.com	DNE	
+alc.co.jp	DNE	
+exblog.jp	DNE	
+olx.com.eg	DNE	
+alexa.com	DNE	
+slither.io	DNE	
+dunyanews.tv	DNE	
+guildwars2.com	DNE	
+openclassrooms.com	quarantine	
+eclash.tv	DNE	
+elnuevodiario.com.ni	DNE	
+calvinklein.tmall.com	DNE	
+nvxie.tmall.com	DNE	
+rarbgmirror.org	DNE	
+almubasher.com.sa	DNE	
+super.cz	DNE	
+cifraclub.com.br	invalid	
+tpsl-india.in	DNE	
+senscritique.com	DNE	
+sciencemag.org	DNE	
+nanzhuang.tmall.com	DNE	
+officedepot.com	none	self
+wizzair.com	DNE	
+consumerreports.org	DNE	
+hk01.com	DNE	
+scroll.in	DNE	
+pixiv.net	DNE	
+wunderlist.com	quarantine	unknown:hahassel@microsoft.com
+sammobile.com	none	unknown:dmarc@smtpeter.com
+smbc-card.com	DNE	
+wallpaperscraft.com	DNE	
+umeng.com	DNE	
+currys.co.uk	reject	agari,self
+aksalser.com	DNE	
+strawpoll.me	DNE	
+kimcartoon.me	DNE	
+tamilrockers.ro	DNE	
+sina.com.tw	DNE	
+miao.tmall.com	DNE	
+bfmtv.com	invalid	
+index.hr	DNE	
+car.tmall.com	DNE	
+1001fonts.com	DNE	
+xitek.com	DNE	
+pizzahut.com	DNE	
+tripadvisor.it	none	unknown:dmarc-rua@tripadvisor.com
+dstv.com	DNE	
+abv.bg	none	self
+autotrader.co.uk	reject	returnpath
+jstv.com	DNE	
+google.lu	reject	self:google
+torrentino.top	DNE	
+cointraffic.io	DNE	
+advertserve.com	DNE	
+fmkorea.com	invalid	
+movieweb.com	DNE	
+bungie.net	none	unknown:dmarcreports@bungie.com
+thewirecutter.com	DNE	
+halifax-online.co.uk	reject	agari
+com-directory.co	DNE	
+qatarairways.com	invalid	
+pornhublive.com	none	unknown:dmarc-reports@flyingcroc.net,unknown:dmarc-abuse-reports@flyingcroc.net
+archive.is	DNE	
+mapquest.com	none	agari
+2chan.net	DNE	
+vz.ru	DNE	
+shopbop.com	DNE	
+jetblue.com	DNE	
+imis.tmall.com	DNE	
+walla.co.il	invalid	
+91jm.com	DNE	
+gdeposylka.ru	DNE	
+wittyfeed.me	DNE	
+g22rbb7.com	DNE	
+vidto.me	DNE	
+mangahere.cc	DNE	
+watch.tmall.com	DNE	
+google.am	reject	self:google
+sony.com	DNE	
+gainreel.tmall.com	DNE	
+dek-d.com	DNE	
+sports.tmall.com	DNE	
+bancadigitalbod.com	DNE	
+suntrust.com	none	agari
+extraimage.net	DNE	
+onclkds.com	DNE	
+sportzwiki.com	DNE	
+corotos.com.do	DNE	
+cibc.com	none	proofpoint
+tawk.to	DNE	
+shouji.tmall.com	DNE	
+xataka.com	DNE	
+samehadaku.net	DNE	
+watchmenow.co	DNE	
+amctheatres.com	DNE	
+dramafever.com	DNE	
+google.com.qa	reject	self:google
+ldblog.jp	DNE	
+ccavenue.com	DNE	
+sparknotes.com	DNE	
+bd24live.com	DNE	
+nvzhuang.tmall.com	DNE	
+livescience.com	reject	unknown:helpdesk@purch.com
+unam.mx	DNE	
+trackmkxoffers.se	DNE	
+umd.edu	DNE	
+edmunds.com	none	self,postmarkapp
+3movs.com	DNE	
+semrush.com	none	self
+mercadolivre.com	reject	self,netcraft
+windowscentral.com	DNE	
+mojang.com	invalid	
+btbtdy.com	DNE	
+myreadingmanga.info	DNE	
+bag.tmall.com	DNE	
+faucethub.io	DNE	
+cafe24.com	DNE	
+liens-telechargement.com	DNE	
+fakaza.com	DNE	
+biggo.com.tw	DNE	
+bneoc.pro	DNE	
+maniform.tmall.com	DNE	
+worldfree4u.link	DNE	
+fbdown.net	DNE	
+qvc.com	DNE	
+geico.com	reject	agari
+sme.sk	invalid	
+bradesco.com.br	DNE	
+solvusoft.com	DNE	
+passinst.com	DNE	
+stonecalcom.com	DNE	
+nanopool.org	DNE	
+rivals.com	none	self
+fresherslive.com	DNE	
+agar.io	DNE	
+hi.fo	DNE	
+edmodo.com	none	self
+voanews.com	DNE	
+saturn.de	DNE	
+ddmix.net	DNE	
+bravotube.net	DNE	
+cheapoair.com	DNE	
+glaz.tv	DNE	
+jd.hk	DNE	
+almaany.com	DNE	
+moz.com	DNE	
+ebayimg.com	none	agari
+firefox.com	none	self
+pierrecardinxb.tmall.com	DNE	
+netgear.com	DNE	
+wt.tmall.com	DNE	
+alquds.co.uk	DNE	
+ntv.ru	DNE	
+mashreghnews.ir	DNE	
+uci.edu	DNE	
+giga.de	DNE	
+fossil.tmall.com	DNE	
+tnkexchange.com	DNE	
+fotor.com	DNE	
+protothema.gr	DNE	
+ooopic.com	DNE	
+thethao247.vn	DNE	
+radikal.ru	DNE	
+gamme.com.tw	DNE	
+csc.gov.in	DNE	
+iltalehti.fi	DNE	
+mangapark.me	DNE	
+szn.cz	DNE	
+tgbus.com	DNE	
+uc.cn	DNE	
+langsha.tmall.com	DNE	
+safeharborredir.com	DNE	
+zopim.com	none	dmarcian
+yle.fi	none	self
+ticketmonster.co.kr	DNE	
+slideplayer.com	DNE	
+90tv.ir	DNE	
+alarab.com	invalid	
+polyvore.com	DNE	
+farpost.ru	quarantine	
+tirto.id	DNE	
+korrespondent.net	DNE	
+nptel.ac.in	DNE	
+jia.tmall.com	DNE	
+convertio.co	DNE	
+genesis-mining.com	reject	self
+derstandard.at	DNE	
+v2profit.com	DNE	
+toyokeizai.net	DNE	
+bigcartel.com	reject	postmarkapp,netcraft
+guitarcenter.com	DNE	
+sxstube.com	DNE	
+ucdavis.edu	DNE	
+uchicago.edu	DNE	
+atozmanuals.com	DNE	
+rakuten.com	none	unknown:dmarc-report-a@rx.rakuten.co.jp
+aranzulla.it	DNE	
+findepended.com	DNE	
+disp.cc	DNE	
+carsforsale.com	DNE	
+trendyol.com	none	unknown:deliverability@euromsg.com
+freeones.com	DNE	
+elcomercio.pe	DNE	
+nnrdntrrjf.bid	DNE	
+lianjia.com	DNE	
+2ch.hk	DNE	
+charmflirt.com	DNE	
+huobi.pro	DNE	
+cltrkr.com	DNE	
+santandernet.com.br	DNE	
+serverfault.com	DNE	
+suumo.jp	invalid	
+colorado.edu	none	dmarcian
+capacitly.com	DNE	
+azure.com	none	agari
+sonhoo.com	DNE	
+yts.me	DNE	
+kisscartoon.es	DNE	
+ucoz.com	DNE	
+downloadhelper.net	DNE	
+gomovies.pet	DNE	
+indiarailinfo.com	DNE	
+guokr.com	invalid	
+quidco.com	DNE	
+hyxyr.tmall.com	DNE	
+binnitu.tmall.com	DNE	
+shahrekhabar.com	DNE	
+olx.pt	reject	self
+indeed.co.uk	DNE	
+tamilrockers.ax	DNE	
+shatel.ir	DNE	
+cic.gc.ca	DNE	
+ally.com	none	agari
+lihkg.com	DNE	
+msu.edu	none	self
+electroneum.com	DNE	
+99114.com	DNE	
+vecteezy.com	DNE	
+dikaiologitika.gr	DNE	
+alnaharegypt.com	DNE	
+cdac.in	DNE	
+azams.tmall.com	DNE	
+dict.cn	DNE	
+selectedvideos.club	DNE	
+ingdirect.es	quarantine	self,unknown:global.mail.dmarc@ing.com,dmarcian
+rsc.org	DNE	
+zapmetasearch.com	DNE	
+budsgunshop.com	DNE	
+on.cc	DNE	
+mixcloud.com	DNE	
+dailystar.co.uk	DNE	
+ftchinese.com	DNE	
+ennaharonline.com	DNE	
+znds.com	DNE	
+eluniverso.com	DNE	
+bcvc.mobi	DNE	
+myscore.com.ua	DNE	
+arga-mag.com	DNE	
+storage.googleapis.com	DNE	
+cuny.edu	DNE	
+linguee.com	DNE	
+allmusic.com	DNE	
+band.us	DNE	
+xpau.se	DNE	
+utarget.ru	none	self
+fehobmasr.com	DNE	
+himasoku.com	DNE	
+answers.com	DNE	
+zalando.de	DNE	
+shmoop.com	DNE	
+hangseng.com	none	agari
+sftwrads.com	DNE	
+evite.com	DNE	
+pandora.tv	invalid	
+sportsdirect.com	DNE	
+ipetgroup.com	DNE	
+massdrop.com	DNE	
+book.tmall.com	DNE	
+indiewire.com	DNE	
+exlibrisgroup.com	DNE	
+wallpaperswide.com	DNE	
+vrbo.com	reject	dmarcian,haspf
+ox.ac.uk	DNE	
+eluniversal.com.mx	DNE	
+ouest-france.fr	DNE	
+1337x.st	DNE	
+baomoi.com	none	postmarkapp
+ea3w.com	DNE	
+nasdaq.com	DNE	
+piratebay247.net	DNE	
+tripadvisor.ru	none	unknown:dmarc-rua@tripadvisor.com
+idope.se	DNE	
+bartarinha.ir	DNE	
+battlefield.com	DNE	
+baiduccdn1.com	DNE	
+thomsonreuters.com	none	proofpoint
+adbetclickin.pink	DNE	
+imgsrc.ru	DNE	
+impots.gouv.fr	reject	unknown:rua@dgfip.finances.gouv.fr,unknown:ruf@dgfip.finances.gouv.fr
+lazada.sg	DNE	
+clicktabs.net	DNE	
+phoenixads.co.in	DNE	
+picmonkey.com	DNE	
+chomikuj.pl	invalid	
+almowaten.net	invalid	
+mudah.my	DNE	
+wixstatic.com	DNE	
+ngacn.cc	DNE	
+read01.com	DNE	
+hotjar.com	quarantine	postmarkapp
+here.com	DNE	
+dailywire.com	DNE	
+ameritrade.com	quarantine	proofpoint
+gnavi.co.jp	DNE	
+samsonite.tmall.com	DNE	
+justwatch.com	DNE	
+darty.com	DNE	
+rutgers.edu	DNE	
+ulmart.ru	quarantine	
+telekom.de	DNE	
+thefuncoolstuff.com	DNE	
+ustc.edu.cn	DNE	
+yellowpages.com	DNE	
+torrentfreak.com	DNE	
+cncn.org.cn	DNE	
+price.com.hk	invalid	
+mercadolibre.cl	DNE	
+clkin.me	DNE	
+eslamoda.com	DNE	
+javmost.com	DNE	
+hdfilmcehennemi2.org	DNE	
+weheartit.com	DNE	
+songsterr.com	none	self
+stern.de	DNE	
+18183.com	DNE	
+51hejia.com	DNE	
+cplusplus.com	DNE	
+newsru.com	none	self
+just-eat.co.uk	none	proofpoint
+hackernoon.com	DNE	
+google.co.mz	reject	self:google
+nest.com	none	self:google
+modiseh.com	DNE	
+torrentday.com	DNE	
+dai.tmall.com	DNE	
+netsuite.com	none	self
+alfabank.ru	none	self
+jisho.org	DNE	
+zergnet.com	DNE	
+today.com	none	valimail
+kym-cdn.com	DNE	
+bu.edu	DNE	
+elzmannews.com	DNE	
+kotak.com	none	unknown:rua.kotak@progist.in
+graphicriver.net	DNE	
+teatroporno.com	DNE	
+amediahub.com	DNE	
+revimedia.com	DNE	
+ytssubtitles.com	DNE	
+raspberrypi.org	DNE	
+stardewvalleywiki.com	DNE	
+expressen.se	none	dmarcanalyzer
+oxu.az	DNE	
+google.co.bw	reject	self:google
+miomio.tv	DNE	
+baby.tmall.com	DNE	
+iheart.com	DNE	
+tcgplayer.com	DNE	
+nab.com.au	none	agari
+hearthstonetopdecks.com	DNE	
+tv2.no	DNE	
+lankasri.com	DNE	
+banco.bradesco	DNE	
+gruposantander.es	none	unknown:postmanagerdmarc@gsnetcloud.com
+multitran.ru	DNE	
+file-upload.com	DNE	
+islamweb.net	DNE	
+bytefence.com	DNE	
+ilsole24ore.com	DNE	
+gucci.com	DNE	
+funsafetab.com	DNE	
+mover.uz	DNE	
+faptitans.com	DNE	
+gitlab.com	reject	
+tororango.com	DNE	
+chsi.com.cn	DNE	
+vivino.com	DNE	
+netease.com	DNE	
+keezmovies.com	DNE	
+delish.com	DNE	
+mangvieclam.com	DNE	
+djelfa.info	DNE	
+csod.com	none	
+rfa.org	DNE	
+fritz.box	DNE	
+fantasti.cc	DNE	
+preev.com	DNE	
+arte.tv	DNE	
+qoo10.sg	DNE	
+nhaccuatui.com	DNE	
+findgofind.co	DNE	
+mango.com	DNE	
+world4ufree.to	DNE	
+elblog.com	DNE	
+skyscrapercity.com	DNE	
+bitsociety.co	DNE	
+alyamanalaraby.com	DNE	
+hugedomains.com	DNE	
+liepin.com	DNE	
+usmagazine.com	none	self
+serving-sys.com	DNE	
+b-ok.org	DNE	
+ximalaya.com	DNE	
+xing.al	DNE	
+tudou.com	DNE	
+cnyes.com	DNE	
+svyaznoy.ru	none	
+gamestorrents.to	DNE	
+digginst.com	DNE	
+trovaprezzi.it	DNE	
+michaels.com	DNE	
+mabanque.bnpparibas	DNE	
+letterboxd.com	DNE	
+javtorrent.re	DNE	
+anz.com	none	returnpath,self
+etnet.com.hk	DNE	
+finalfantasyxiv.com	DNE	
+pluralsight.com	DNE	
+comenity.net	DNE	
+netdna-ssl.com	DNE	
+thoughtcatalog.com	invalid	
+zoznam.sk	DNE	
+lidl.de	none	unknown:schwarz-dmarc-rua@mail.schwarz
+torrent-games.net	DNE	
+novelupdates.com	DNE	
+cox.net	DNE	
+redsys.es	DNE	
+timewarnercable.com	DNE	
+my.com	reject	agari,self
+bluewin.ch	DNE	
+jbhifi.com.au	none	agari
+23andme.com	none	self
+ynet.com	DNE	
+vogue.com.tw	DNE	
+ap2tg.com	DNE	
+ilacrehberi.com	DNE	
+tamilyogi.fm	DNE	
+the-star.co.ke	DNE	
+balkanweb.com	DNE	
+hdpopcorns.com	DNE	
+archdaily.com	DNE	
+otakustream.tv	DNE	
+cool3c.com	DNE	
+llbean.com	none	proofpoint
+is.fi	DNE	
+filgoal.com	DNE	
+superanimes.site	DNE	
+vsetop.com	DNE	
+salon.com	DNE	
+netshoes.com.br	reject	easysolutions
+adorocinema.com	DNE	
+wyborcza.pl	DNE	
+720pizle.com	DNE	
+freedoge.co.in	DNE	
+channel4.com	DNE	
+proxyship.click	DNE	
+statcounter.com	DNE	
+ibps.in	DNE	
+techweb.com.cn	DNE	
+scoop.it	DNE	
+planetminecraft.com	DNE	
+anthropologie.com	DNE	
+pearsoncmg.com	DNE	
+manga-zip.net	DNE	
+appmedia.jp	DNE	
+beeline.ru	reject	self
+vietnamnet.vn	DNE	
+mastercard.com.au	DNE	
+fanserials.org	DNE	
+denofgeek.com	DNE	
+traveloka.com	none	self
+autotimes.com.cn	DNE	
+linkonclick.com	DNE	
+cleartrip.com	DNE	
+yale.edu	none	valimail,proofpoint,dmarcian
+centrum24.pl	DNE	
+bigmir.net	DNE	
+theblackloop.com	DNE	
+ksl.com	DNE	
+tparser.org	DNE	
+cimbclicks.com.my	DNE	
+gsmhosting.com	DNE	
+moneysavingexpert.com	none	returnpath
+sarahah.com	none	self
+basketball-reference.com	DNE	
+computerhope.com	DNE	
+sarayanews.com	DNE	
+freecodecamp.org	DNE	
+comdirect.de	DNE	
+viralinindia.net	DNE	
+kommersant.ru	none	self
+reportersclick.com	DNE	
+kwejk.pl	DNE	
+gatech.edu	DNE	
+journaldesfemmes.com	reject	dmarcian
+clickppcbuzz.com	DNE	
+redirect2719.ws	DNE	
+replainy.co	DNE	
+at.ua	DNE	
+doubledeepclick.com	DNE	
+cryptonator.com	reject	
+alhilalalyoum.com	DNE	
+jet.com	none	proofpoint
+thinkgeek.com	none	proofpoint
+bbcgoodfood.com	DNE	
+xiachufang.com	none	self
+8muses.com	DNE	
+zimbio.com	DNE	
+blick.ch	DNE	
+hirufm.lk	DNE	
+eltiempo.es	DNE	
+injuredcandy.com	DNE	
+syri.net	DNE	
+nts.org.pk	DNE	
+accenture.com	none	proofpoint
+bookdepository.com	DNE	
+eleconomista.es	DNE	
+drakorindo.co	DNE	
+poki.com	DNE	
+qoolquiz.com	DNE	
+vercomicsporno.com	DNE	
+techwalla.com	DNE	
+freenet.de	DNE	
+aviasales.ru	none	self
+jalan.net	DNE	
+t-nation.com	DNE	
+rzd.ru	quarantine	dmarcian,self
+protonmail.com	quarantine	
+obozrevatel.com	DNE	
+socialplant.com	DNE	
+uproxx.com	DNE	
+xx1.me	DNE	
+pc6.com	DNE	
+yxdown.com	DNE	
+orbitz.com	none	250ok.com
+daftsex.com	DNE	
+ccb.com	DNE	
+light-dark.net	DNE	
+todoist.com	DNE	
+moviescounter.co	DNE	
+xiu.com	DNE	
+bobibanking.com	DNE	
+seek.com.au	none	postmarkapp
+aktuality.sk	invalid	
+stuff.co.nz	DNE	
+geniusdisplay.com	DNE	
+gazzetta.gr	DNE	
+diaforetiko.gr	DNE	
+zimbra.free.fr	DNE	
+tooxclusive.com	DNE	
+presslogic.com	DNE	
+juksy.com	DNE	
+packagetracer.com	DNE	
+gradeup.co	none	self
+docker.com	quarantine	dmarcian
+money.pl	DNE	
+backchina.com	DNE	
+mediamarkt.es	DNE	
+clckads.com	DNE	
+aftership.com	none	unknown:mail@aftership.net
+wnd.com	DNE	
+vivo.sx	DNE	
+marksandspencer.com	none	unknown:dmarc.rua_reports@marks-and-spencer.com,unknown:dmarc.ruf_reports@marks-and-spencer.com
+britishairways.com	reject	returnpath
+tureng.com	DNE	
+piaohua.com	DNE	
+listentoyoutube.com	DNE	
+voluumtrk2.com	DNE	
+fmovies.is	DNE	
+ve-porn.net	DNE	
+sapo.ao	DNE	
+smartsheet.com	DNE	
+flv2mp3.org	DNE	
+beatport.com	DNE	
+saraiva.com.br	none	self
+onlinemultfilmy.ru	DNE	
+princeton.edu	DNE	
+kotobank.jp	DNE	
+bazos.sk	DNE	
+m4ufree.com	DNE	
+pku.edu.cn	DNE	
+freemake.com	DNE	
+louisvuitton.com	none	proofpoint
+rackcdn.com	DNE	
+forumcommunity.net	invalid	
+jang.com.pk	DNE	
+qualityfilehosting.com	DNE	
+shareae.com	DNE	
+proboards.com	DNE	
+prensalibre.com	DNE	
+lesnumeriques.com	DNE	
+ihg.com	DNE	
+amarujala.com	DNE	
+dmkt-sp.jp	DNE	
+vix.com	quarantine	self,mxtoolbox
+eurosport.fr	DNE	
+diarioinenglish.com	DNE	
+bolly4u.me	DNE	
+duke.edu	none	self,proofpoint
+shabdkosh.com	DNE	
+img.yt	DNE	
+gelocal.it	DNE	
+vsco.co	DNE	
+lbldy.com	DNE	
+asu.edu	none	proofpoint
+search-privacy.biz	DNE	
+blic.rs	DNE	
+rokna.net	DNE	
+acroscow.com	DNE	
+acer.com	DNE	
+ctrip.com	DNE	
+manualslib.com	none	self
+fosshub.com	none	sendinblue
+jawharafm.net	DNE	
+sdamgia.ru	DNE	
+etecsa.net	DNE	
+ths9j89.com	DNE	
+wpbeginner.com	DNE	
+iyiou.com	none	
+pornxs.com	DNE	
+thebuzztube.com	DNE	
+earthlink.net	none	self
+duga.jp	DNE	
+finanzen.net	DNE	
+coinigy.com	DNE	
+tmearn.com	DNE	
+wetalk.tw	DNE	
+letswatchseries.ac	DNE	
+mailchi.mp	DNE	
+ssa.gov	quarantine	self
+thepost24.com	DNE	
+delfi.lt	DNE	
+eghtesadnews.com	DNE	
+tomtop.com	DNE	
+armorgames.com	DNE	
+namanbharat.net	DNE	
+livescores.com	DNE	
+cainiao.com	DNE	
+mundosexanuncio.com	none	
+topcinema.tv	DNE	
+zazzle.com	none	proofpoint
+ixbt.com	DNE	
+readcomiconline.to	DNE	
+taroot-rangi.com	DNE	
+ikinohd.club	DNE	
+netfind.com	DNE	
+one.com	none	dmarcian
+ivi.tv	DNE	
+ssraju3n.com	DNE	
+casasbahia.com.br	DNE	
+thestar.com	DNE	
+systemrequirementslab.com	DNE	
+metrolyrics.com	DNE	
+yobxvotn.bid	DNE	
+tripadvisor.fr	none	unknown:dmarc-rua@tripadvisor.com
+hkgolden.com	DNE	
+j.gs	DNE	
+yinxiang.com	reject	self
+cnki.net	DNE	
+hgtv.com	none	agari
+code.org	DNE	
+linguee.de	DNE	
+sofascore.com	DNE	
+template.net	DNE	
+yimg.jp	DNE	
+hi.ru	DNE	
+zoosi.club	DNE	
+rule34.xxx	DNE	
+tvboxnow.com	DNE	
+topwar.ru	DNE	
+alaskaair.com	none	
+serienstream.to	DNE	
+slidesharecdn.com	none	agari
+rateyourmusic.com	DNE	
+zi.media	DNE	
+producthunt.com	none	dmarcian
+anime-sharing.com	DNE	
+sina.cn	DNE	
+cna.com.tw	DNE	
+techrepublic.com	DNE	
+forumfree.it	DNE	
+globaltestmarket.com	DNE	
+webofknowledge.com	DNE	
+jpmorganchase.com	reject	agari
+searchalgo.com	DNE	
+proquest.com	none	self
+buscape.com.br	DNE	
+hpjav.com	DNE	
+oricon.co.jp	DNE	
+linustechtips.com	quarantine	postmarkapp
+elperiodico.com	DNE	
+facenama.com	DNE	
+clicknshare.net	DNE	
+cibercuba.com	DNE	
+smv.to	DNE	
+newasiantv.io	DNE	
+wikispaces.com	invalid	
+huffingtonpost.fr	DNE	
+travelocity.com	none	250ok.com
+mentalfloss.com	DNE	
+ekstrabladet.dk	DNE	
+yummyanime.com	DNE	
+nsw.gov.au	DNE	
+zalukaj.com	DNE	
+mysynchrony.com	DNE	
+bbt.com	none	agari,unknown:spoof@bbandt.com
+granbluefantasy.jp	DNE	
+about.com	none	agari
+ss.com	reject	
+cybersource.com	reject	proofpoint
+bangbros.com	invalid	
+ems.com.cn	DNE	
+hackerrank.com	DNE	
+pccomponentes.com	none	
+liontravel.com	DNE	
+gadgetsnow.com	none	self
+fararu.com	DNE	
+meaww.com	DNE	
+07073.com	DNE	
+poshmark.com	none	self
+badtameezdil.net	DNE	
+asianwiki.com	DNE	
+iloveoldschoolmusic.com	DNE	
+tsn.ca	DNE	
+freepik.es	DNE	
+macworld.co.uk	DNE	
+pagseguro.uol.com.br	DNE	
+ebay.ie	none	agari,returnpath
+yammer.com	quarantine	returnpath
+creofive.com	DNE	
+imgrum.org	DNE	
+shop-pro.jp	DNE	
+frshdmn.com	DNE	
+c-ij.com	DNE	
+net-a-porter.com	DNE	
+vidal.fr	DNE	
+jc-affiliates.com	DNE	
+riafan.ru	invalid	
+showroom-live.com	DNE	
+lacuerda.net	DNE	
+huomao.com	DNE	
+tamu.edu	DNE	
+studopedia.ru	DNE	
+gamesradar.com	DNE	
+rose-drops.com	DNE	
+69oxt4q05.com	DNE	
+freepdfconvert.com	DNE	
+tutu.ru	none	self
+alamy.com	DNE	
+amazon.com.br	quarantine	self:amazon
+yes24.com	DNE	
+unilad.co.uk	DNE	
+medicinenet.com	DNE	
+esporte.uol.com.br	DNE	
+game-game.com.ua	DNE	
+westernunion.com	reject	agari
+mintmanga.com	invalid	
+bitmain.com	DNE	
+pcgames-download.com	DNE	
+pinterest.com.mx	reject	
+origo.hu	DNE	
+imagevenue.com	DNE	
+wetter.de	DNE	
+netvasco.com.br	DNE	
+time.ir	DNE	
+kar.nic.in	DNE	
+greenhouse.io	none	self
+onlinedown.net	DNE	
+telugu360.com	DNE	
+trafficserving.com	DNE	
+proxysite.com	DNE	
+c-sharpcorner.com	DNE	
+nseindia.com	DNE	
+laptopmag.com	reject	unknown:helpdesk@purch.com
+linuxmint.com	DNE	
+redbox.com	DNE	
+yatra.com	reject	self
+tower.im	DNE	
+cpmofferconvert.com	DNE	
+goodgamestudios.com	quarantine	self
+typepad.com	DNE	
+torrenthaja.com	DNE	
+f95zone.com	none	
+fssnet.co.in	DNE	
+hardestgame.net	DNE	
+leroymerlin.fr	DNE	
+banamex.com	reject	agari,self
+torrentmovies.co	DNE	
+vodafone.in	DNE	
+moonbit.co.in	DNE	
+llnwd.net	DNE	
+kink.com	none	self
+gorillavid.in	DNE	
+xiaomi.cn	DNE	
+statista.com	DNE	
+ford.com	DNE	
+timesnownews.com	DNE	
+loteriasyapuestas.es	DNE	
+smbc-comics.com	DNE	
+ufl.edu	DNE	
+jal.co.jp	DNE	
+newdmn.com	DNE	
+leju.com	DNE	
+jhu.edu	none	dmarcian
+autozone.com	DNE	
+tribune.com.pk	DNE	
+stripchat.com	none	self
+itslearning.com	DNE	
+tradeadexchange.com	DNE	
+ovh.com	none	unknown:dmarc+ovh.com@abuse.ovh.net
+hinet.net	DNE	
+ecollege.com	none	proofpoint
+robertsspaceindustries.com	DNE	
+inbox.lv	quarantine	self
+sep.gob.mx	DNE	
+dv37.com	DNE	
+instamp3.live	DNE	
+puhutv.com	reject	self
+ntv.com.tr	DNE	
+cox.com	none	agari
+178.com	DNE	
+dmzj.com	DNE	
+infowars.com	DNE	
+campograndenews.com.br	DNE	
+ebaydesc.com	DNE	
+velocitycdn.com	DNE	
+shaadi.com	DNE	
+flipboard.com	none	self
+thewildcard.com	DNE	
+seemorgh.com	DNE	
+nerdwallet.com	DNE	
+w3.org	DNE	
+beginads.com	DNE	
+wday.ru	DNE	
+sarzamindownload.com	DNE	
+shiftdelete.net	DNE	
+mp3juices.cc	DNE	
+softbank.jp	DNE	
+ascii.jp	DNE	
+waploaded.com	DNE	
+worldbank.org	none	easysolutions
+diamond.jp	DNE	
+southcn.com	DNE	
+cmbchina.com	DNE	
+parivahan.gov.in	DNE	
+stihi.ru	DNE	
+fasttorrent.ru	DNE	
+demonoid.pw	DNE	
+huffingtonpost.jp	DNE	
+thenewslens.com	DNE	
+ethermine.org	DNE	
+google.mg	reject	self:google
+slimcdn.com	DNE	
+bpi.ir	DNE	
+cpm20.com	DNE	
+theinfo.ng	DNE	
+ogone.com	none	self
+nos.nl	DNE	
+afip.gob.ar	DNE	
+javsex.net	DNE	
+mthai.com	DNE	
+megafilmestorrents.net	DNE	
+ntdtv.com	DNE	
+cocolog-nifty.com	DNE	
+khabarfarsi.com	DNE	
+intellicast.com	DNE	
+fanatik.com.tr	DNE	
+tune.pk	DNE	
+vonvon.me	DNE	
+fuq.com	DNE	
+tsa-algerie.com	DNE	
+eurostreaming.club	DNE	
+patagonia.com	none	self
+yoitect.com	DNE	
+joyreactor.cc	DNE	
+sdmoviespoint.club	DNE	
+ifttt.com	reject	dmarcian
+mizuhobank.co.jp	DNE	
+rawstory.com	DNE	
+iflscience.com	DNE	
+kuaidi100.com	DNE	
+gdz.ru	DNE	
+ti.com	quarantine	self
+gamestar.de	DNE	
+highsnobiety.com	DNE	
+okaz.com.sa	DNE	
+stoiximan.gr	DNE	
+pussl26.com	DNE	
+gametop.com	DNE	
+aznude.com	DNE	
+torrent.ceo	DNE	
+groupme.com	DNE	
+blogsky.com	DNE	
+proxyof.com	DNE	
+canadapost.ca	DNE	
+mahaonline.gov.in	none	unknown:techops@vfirst.com
+theonion.com	DNE	
+driverscape.com	DNE	
+thevideo.us	DNE	
+cityheaven.net	DNE	
+traffic-media.co	DNE	
+yout.com	DNE	
+kdslife.com	DNE	
+efu.com.cn	DNE	
+dnsrsearch.com	DNE	
+fcc.gov	none	self
+sport24.gr	DNE	
+skyscanner.com	DNE	
+ardmediathek.de	DNE	
+cam.ac.uk	DNE	
+ih5.cn	DNE	
+regions.com	none	easysolutions
+jacquielawson.com	reject	unknown:fbl@americangreetings.com,agari
+jsmptjmp.com	DNE	
+memrise.com	DNE	
+indiabix.com	DNE	
+usgs.gov	none	self,dhs-nppd
+adveric.net	DNE	
+loverslab.com	DNE	
+canalrcn.com	DNE	
+schoology.com	DNE	
+piaotian.com	DNE	
+myfonts.com	DNE	
+mtggoldfish.com	DNE	
+kroger.com	none	returnpath
+incognitosearches.com	DNE	
+zvooq.online	DNE	
+okex.com	DNE	
+jamnews.com	DNE	
+prizegrab.com	DNE	
+westpac.com.au	DNE	
+editorialmanager.com	quarantine	
+epicurious.com	DNE	
+cosmo.ru	DNE	
+frys.com	DNE	
+wolfram.com	DNE	
+rus.porn	DNE	
+ravelry.com	quarantine	
+grand-casino19.com	DNE	
+jutarnji.hr	DNE	
+buybitcoinworldwide.com	DNE	
+ifanr.com	DNE	
+myshared.ru	none	
+national-lottery.co.uk	none	unknown:rua@camelotgroup.co.uk,unknown:ruf@camelotgroup.co.uk
+shopstyle.com	DNE	
+disney.com	DNE	
+laprensagrafica.com	DNE	
+nios.ac.in	DNE	
+techadvisor.co.uk	DNE	
+uw.edu	DNE	
+y2mate.com	DNE	
+hentai-foundry.com	none	self
+warhistoryonline.com	DNE	
+shine.com	reject	self
+tf1.fr	DNE	
+incisozluk.com.tr	invalid	
+godinworld.com	DNE	
+stitchfix.com	DNE	
+terraclicks.com	DNE	
+samplicio.us	DNE	
+futbol24.com	DNE	
+elegantthemes.com	DNE	
+resetera.com	none	unknown:resetera.dev@gmail.com
+filehorse.com	DNE	
+inps.it	DNE	
+starwoodhotels.com	DNE	
+uptvs.com	DNE	
+rstyle.me	DNE	
+bato.to	DNE	
+worldfree4u.lol	DNE	
+pcbaby.com.cn	DNE	
+ameli.fr	DNE	
+lolcounter.com	DNE	
+viid.me	DNE	
+broced.co	DNE	
+rapidtables.com	DNE	
+rocketnews24.com	reject	self
+tampermonkey.net	DNE	
+google.sn	reject	self:google
+viu.com	DNE	
+10010.com	DNE	
+porn300.com	DNE	
+finecobank.com	DNE	
+doktorsitesi.com	none	sendinblue
+shooshtime.com	DNE	
+gocomics.com	DNE	
+adsupplyads.net	DNE	
+caranddriver.com	DNE	
+creaders.net	invalid	
+camelcamelcamel.com	DNE	
+alarabonline.biz	DNE	
+venezuelaaldia.com	DNE	
+northwestern.edu	none	proofpoint
+cafebazaar.ir	none	dmarcanalyzer
+bloomingdales.com	none	proofpoint,self
+tasteofhome.com	reject	dmarcanalyzer
+rakuten-sec.co.jp	DNE	
+cuevana2.tv	DNE	
+diariolibre.com	DNE	
+pr0gramm.com	none	
+javedch.com	DNE	
+myfedloan.org	none	proofpoint
+ibb.co	DNE	
+delfi.lv	DNE	
+lexpress.fr	DNE	
+vidnode.net	DNE	
+8ch.net	DNE	
+songkick.com	none	postmarkapp
+tiket.com	DNE	
+solvettube.com	DNE	
+pcgamesn.com	DNE	
+hemailaccessonline.com	DNE	
+ganool.se	DNE	
+alwakeelnews.com	DNE	
+monsterindia.com	DNE	
+zangsisi.net	DNE	
+pagesix.com	DNE	
+space.com	reject	unknown:helpdesk@purch.com
+mosreg.ru	reject	self
+slrclub.com	DNE	
+user-bust.ru	DNE	
+parimatch.com	none	self
+pickaflick.co	DNE	
+katestube.com	DNE	
+googlesyndication.com	none	self:google
+zoopla.co.uk	invalid	
+cineulagam.com	DNE	
+akhbarak.net	DNE	
+giallozafferano.it	DNE	
+anysex.com	reject	unknown:dmarc-feedback@report.yourlustmedia.com,unknown:authfail@report.yourlustmedia.com
+ntdin.tv	DNE	
+champion.gg	DNE	
+myvideotab.com	DNE	
+ytmp3.cc	DNE	
+bzadx.pro	DNE	
+theadgateway.com	DNE	
+kookporn.com	DNE	
+krone.at	DNE	
+foxsports.com	DNE	
+nationwide.co.uk	DNE	
+bskn.pro	DNE	
+ebaumsworld.com	DNE	
+sensacine.com	DNE	
+fushaar.com	DNE	
+diary.ru	reject	self
+hot-sex-tube.com	DNE	
+akinator.com	DNE	
+sagawa-exp.co.jp	DNE	
+pcgamer.site	DNE	
+memurlar.net	DNE	
+zamzar.com	none	self
+getresponse.com	reject	self,250ok.com
+studentdoctor.net	none	dmarcanalyzer
+livelib.ru	none	self
+centrum.cz	none	self
+ismedia.jp	DNE	
+bankia.es	DNE	
+shikimori.org	DNE	
+imagecurl.com	DNE	
+notjustok.com	DNE	
+pcwelt.de	DNE	
+menshealth.com	DNE	
+imgbox.com	DNE	
+20min.ch	DNE	
+plusdede.com	DNE	
+trckonspot.com	DNE	
+blockchain.com	quarantine	unknown:dmarc-reports@blockchain.info
+grtyi.com	invalid	
+imgchili.net	DNE	
+goodhousekeeping.com	DNE	
+auspost.com.au	none	proofpoint
+null.com	DNE	
+comdotgame.com	reject	
+backcountry.com	DNE	
+crazygames.com	DNE	
+naughtyamerica.com	DNE	
+alriyadh.com	DNE	
+arcgis.com	DNE	
+blockcypher.com	DNE	
+k2nblog.com	DNE	
+standardnews.com	DNE	
+labporn.com	none	
+miaopai.com	DNE	
+onejav.com	DNE	
+telegra.ph	DNE	
+latam.com	DNE	
+tampabay.com	DNE	
+rueconomics.ru	invalid	
+chewy.com	DNE	
+porngames.adult	DNE	
+vodafone.it	DNE	
+bgr.com	DNE	
+zdnet.com	DNE	
+curiouscat.me	DNE	
+startimes.com	DNE	
+footlocker.com	DNE	
+airbnb.fr	reject	self
+staseraintv.com	DNE	
+brother.com	DNE	
+cas.sk	invalid	
+tci.ir	DNE	
+index-education.net	DNE	
+jobvite.com	DNE	
+templatemonster.com	none	
+dl-protect1.com	DNE	
+bitgrail.com	none	self
+directadvert.ru	DNE	
+totalsportek.com	DNE	
+theglobeandmail.com	DNE	
+kazagames.com	DNE	
+pons.com	DNE	
+realitykings.com	none	
+agenziaentrate.gov.it	DNE	
+getfirstcut.com	DNE	
+liaoxuefeng.com	DNE	
+wikifeet.com	DNE	
+namemc.com	DNE	
+coinspot.com.au	reject	unknown:uxlifev3@ag.dmarcian-ap.com
+teachable.com	none	
+ip138.com	DNE	
+037hd.com	DNE	
+www.nhs.uk	DNE	
+bizrate.com	DNE	
+calculator.net	DNE	
+rockpapershotgun.com	DNE	
+microcenter.com	quarantine	
+neimanmarcus.com	none	returnpath
+fmovies.ac	DNE	
+mbalib.com	DNE	
+worldcat.org	DNE	
+gmx.at	DNE	
+ovh.net	none	self
+doctissimo.fr	DNE	
+sulekha.com	invalid	
+iplayer.info	DNE	
+fontspace.com	DNE	
+hateblo.jp	DNE	
+nfemo.com	DNE	
+sky.de	none	dmarcanalyzer
+seneweb.com	DNE	
+best-muzon.fm	DNE	
+thetrainline.com	none	unknown:dmarc@trainline.com
+ilgiornale.it	DNE	
+digistyle.com	DNE	
+mangatown.com	DNE	
+docin.com	DNE	
+citationmachine.net	DNE	
+natwest.com	reject	returnpath
+gtbank.com	quarantine	self
+wikisource.org	DNE	
+hanime.tv	DNE	
+centurylink.com	none	dmarcian
+ezgif.com	DNE	
+cgpeers.com	DNE	
+a9vg.com	DNE	
+lyricstranslate.com	DNE	
+laleggepertutti.it	DNE	
+dhs.gov	none	self
+steamgifts.com	DNE	
+tsn.ua	DNE	
+manofile.com	DNE	
+qj.com.cn	DNE	
+medlineplus.gov	none	agari
+winfortuna.com	DNE	
+nieuwsblad.be	DNE	
+1plus1tv.ru	DNE	
+qatarliving.com	DNE	
+extreme-down.pro	DNE	
+venmo.com	DNE	
+experts-exchange.com	none	
+regnum.ru	DNE	
+hdeuropix.com	DNE	
+manuscriptcentral.com	quarantine	
+cinetux.io	DNE	
+kafan.cn	DNE	
+airbnb.co.uk	reject	self
+maalaimalar.com	DNE	
+pdf2doc.com	DNE	
+metrotvnews.com	DNE	
+teamtreehouse.com	DNE	
+lloydsbank.com	reject	agari
+winbank.gr	DNE	
+mysmartprice.com	DNE	
+uploadboy.com	DNE	
+greasyfork.org	DNE	
+logmein.com	reject	agari,self
+repretel.com	DNE	
+ddanzi.com	DNE	
+mrporter.com	DNE	
+mponline.gov.in	DNE	
+teespring.com	none	dmarcanalyzer,valimail
+kurir.rs	DNE	
+fedsit.com	DNE	
+reference.com	DNE	
+btcclicks.com	DNE	
+adreactor.com	DNE	
+tsetmc.com	DNE	
+jst.go.jp	DNE	
+bankrate.com	DNE	
+fdj.fr	DNE	
+adyen.com	none	self
+news24nepal.tv	DNE	
+twinfinite.net	DNE	
+wa.gov	DNE	
+mtv.com	DNE	
+unblockall.org	DNE	
+abadis.ir	DNE	
+santander.com.br	none	proofpoint
+cdkeys.com	DNE	
+koreaboo.com	DNE	
+service-public.fr	DNE	
+rentalcars.com	reject	proofpoint
+xmovies8.es	DNE	
+worktile.com	DNE	
+miercn.com	DNE	
+mycanal.fr	DNE	
+sbi.co.in	none	self
+kinokong.cc	DNE	
+tabmemfree.appspot.com	DNE	
+droom.in	DNE	
+todaypk.se	DNE	
+thepiratefilmeshd.com	DNE	
+dbs.com.sg	DNE	
+bestchange.ru	reject	
+persianblog.ir	DNE	
+olx.uz	invalid	
+virginia.edu	DNE	
+getchu.com	DNE	
+canadiantire.ca	DNE	
+porndig.com	DNE	
+9tsu.com	invalid	
+djmaza.info	DNE	
+offerup.com	none	dmarcian
+escapefromtarkov.com	none	self
+gopro.com	none	proofpoint
+playoverwatch.com	DNE	
+unc.edu	DNE	
+box.net	reject	dmarcian,agari
+donya-e-eqtesad.com	DNE	
+swzz.xyz	DNE	
+canon.com	DNE	
+thewindowsclub.com	DNE	
+carousell.com	DNE	
+edimdoma.ru	none	self
+imgmak.com	DNE	
+seamless.com	none	dmarcanalyzer
+tt1069.com	DNE	
+chinanews.com	DNE	
+tn.gov.in	DNE	
+mp3eg.com	DNE	
+aquipelis.net	DNE	
+nyc.gov	DNE	
+vivo.com.br	reject	returnpath
+warthunder.com	none	unknown:dmarc@devops.gaijin.ru
+admarketplace.net	DNE	
+ole.com.ar	none	
+2ch-c.net	DNE	
+ssisurveys.com	DNE	
+foozine.com	DNE	
+vip.com	DNE	
+hi5.com	reject	self
+fotolia.com	reject	agari
+yy.com	DNE	
+sofort.com	reject	unknown:dmarc-reports@klarna.com
+dailykos.com	DNE	
+24tv.ua	none	self
+khan.co.kr	DNE	
+infojobs.net	DNE	
+tamilwin.com	DNE	
+eltiempo.com	DNE	
+livelyoffers.club	DNE	
+591.com.tw	DNE	
+tmall.hk	DNE	
+4gamer.net	DNE	
+interpals.net	DNE	
+rai.it	DNE	
+cheezburger.com	DNE	
+oi.com.br	invalid	
+chinaunix.net	DNE	
+gusuwang.com	DNE	
+mcgill.ca	DNE	
+cumlouder.com	DNE	
+fantasypros.com	DNE	
+meishichina.com	DNE	
+pushedwebnews.com	DNE	
+zaycev.net	DNE	
+alfalfalfa.com	DNE	
+mobile.free.fr	DNE	
+idbibank.co.in	DNE	
+marinetraffic.com	none	
+transferwise.com	reject	unknown:bb3c5ff6@inbox.ondmarc.com,self
+vultr.com	DNE	
+lindaikejisblog.com	DNE	
+ethz.ch	DNE	
+shopee.com.my	none	unknown:fakeemailalert@shopeemobile.com
+kinguin.net	quarantine	self
+skrill.com	reject	returnpath,dmarcanalyzer
+hola.org	none	self
+noticias.uol.com.br	DNE	
+salamdl.info	DNE	
+akairan.com	DNE	
+plos.org	DNE	
+bitcoin.co.id	reject	self
+oanda.com	none	self
+isubtitles.in	DNE	
+aa.com.tr	DNE	
+bitclubnetwork.com	DNE	
+4dsply.com	DNE	
+bighits4u.com	DNE	
+cartooncrazy.net	DNE	
+iop.org	DNE	
+redlink.com.ar	DNE	
+movistar.es	DNE	
+kakprosto.ru	none	self
+leadzupc.com	DNE	
+techspot.com	DNE	
+sommons.co	DNE	
+nj.com	none	dmarcian
+pokemonshowdown.com	DNE	
+pogo.com	DNE	
+carwale.com	DNE	
+pdfdrive.net	DNE	
+panasonic.com	DNE	
+vokrug.tv	DNE	
+oriflame.com	DNE	
+torrentkim12.com	DNE	
+phncdn.com	DNE	
+freecharge.in	none	
+kabum.com.br	DNE	
+instant-gaming.com	none	dmarcanalyzer
+fapality.com	reject	unknown:dmarc-feedback@report.yourlustmedia.com,unknown:authfail@report.yourlustmedia.com
+boxof.porn	DNE	
+ampverified.com	DNE	
+advcash.com	reject	self
+skyrock.com	none	self
+rrdiscovery.com	DNE	
+successfactors.eu	DNE	
+pornbb.org	none	self
+dumedia.ru	DNE	
+garanti.com.tr	DNE	
+resultados-futbol.com	DNE	
+google.com.pg	reject	self:google
+uwaterloo.ca	none	self
+myutiitsl.com	DNE	
+hamusoku.com	DNE	
+hdfilmakinasi.com	DNE	
+movavi.com	quarantine	self
+hellcase.com	none	unknown:dmarc@sendgrid.com
+tc-clicks.com	DNE	
+99acres.com	none	self
+a10.com	DNE	
+domesticatedcompanion.com	DNE	
+jetstar.com	DNE	
+vogue.com	DNE	
+enstage-sas.com	DNE	
+mydramalist.com	DNE	
+twitcasting.tv	DNE	
+sony.jp	DNE	
+oberlo.com	none	
+technews.tw	DNE	
+niksalehi.com	DNE	
+animelek.com	DNE	
+indeed.co.in	DNE	
+game8.jp	DNE	
+pudelek.pl	DNE	
+lyst.com	quarantine	self
+newsx9.com	DNE	
+iu.edu	DNE	
+icdrama.se	DNE	
+infox.sg	DNE	
+goldesel.to	DNE	
+tableau.com	DNE	
+pornoxo.com	DNE	
+xiumi.us	DNE	
+explosm.net	none	
+aglasem.com	DNE	
+gogy.com	DNE	
+gujarat.gov.in	DNE	
+getformsonline.com	DNE	
+yify-torrent.org	DNE	
+irna.ir	DNE	
+paraloscuriosos.com	DNE	
+9to5mac.com	invalid	
+jiayuan.com	DNE	
+hbr.org	DNE	
+cyberforum.ru	DNE	
+cgg.gov.in	none	
+uwants.com	invalid	
+ebrun.com	DNE	
+myspace.com	invalid	
+arizona.edu	DNE	
+collider.com	DNE	
+letscorp.net	DNE	
+appfolio.com	none	self
+tubeoffline.com	DNE	
+ntu.edu.tw	DNE	
+dubizzle.com	reject	
+gate.io	DNE	
+usajobs.gov	DNE	
+fastcompany.com	DNE	
+alternativeto.net	DNE	
+fao.org	DNE	
+befunky.com	quarantine	dmarcanalyzer
+dvdvideosoft.com	DNE	
+buzzintersection.com	DNE	
+alrakoba.net	DNE	
+mediaworld.it	DNE	
+onlainfilm.me	DNE	
+tvmuse.com	none	
+androidfilehost.com	DNE	
+juntadeandalucia.es	DNE	
+boudja.com	DNE	
+football365.com	DNE	
+bien.hu	DNE	
+kolesa.kz	none	
+bollywoodshaadis.com	DNE	
+siemens.com	DNE	
+islcollective.com	DNE	
+telstra.com.au	DNE	
+optimum.net	DNE	
+retre.org	DNE	
+couchsurfing.com	reject	self,dmarcian
+javpop.com	DNE	
+forexfactory.com	DNE	
+pepecine.tv	DNE	
+ashleymadison.com	reject	self
+tineye.com	DNE	
+entekhab.ir	DNE	
+sea-saw.com	DNE	
+barlamane.com	DNE	
+blu-ray.com	DNE	
+msftconnecttest.com	DNE	
+machieved.com	DNE	
+fantasticoffers.club	DNE	
+laravel.com	DNE	
+bd-pratidin.com	DNE	
+apnews.com	DNE	
+googleblog.com	reject	self:google
+tvp.pl	DNE	
+bizjournals.com	none	self
+combo-search.com	DNE	
+peoplefindthis.com	invalid	
+faceit.com	DNE	
+sling.com	DNE	
+mheducation.com	none	agari
+sellfy.com	DNE	
+codeplex.com	DNE	
+elsalvador.com	DNE	
+privalia.com	none	self,returnpath
+zezoomglobal.com	DNE	
+movizland.com	DNE	
+yyets.com	DNE	
+topky.sk	DNE	
+kiwilimon.com	none	self
+inboxace.com	DNE	
+car.gr	none	self
+biccamera.com	DNE	
+voyeur-house.tv	DNE	
+nme.com	DNE	
+scientificamerican.com	DNE	
+anandtech.com	DNE	
+adnxs.com	DNE	
+phonearena.com	DNE	
+synology.com	quarantine	self
+theage.com.au	DNE	
+footmercato.net	DNE	
+doc88.com	DNE	
+sonymobile.com	DNE	
+ceconline.com	DNE	
+stockx.com	DNE	
+newtab.club	DNE	
+javhdporn.com	DNE	
+acm.org	DNE	
+axios.com	DNE	
+gfan.com	DNE	
+fardanews.com	DNE	
+pelisplanet.com	DNE	
+newsplatter.com	DNE	
+secretsdujeu.com	DNE	
+moonliteco.in	DNE	
+euro.com.pl	DNE	
+liverpool.com.mx	none	self
+iconfont.cn	DNE	
+todaytvseries.com	DNE	
+imvu.com	DNE	
+masrawy.com	DNE	
+putrr16.com	DNE	
+bdupload.info	DNE	
+imagerar.com	DNE	
+notification.team	DNE	
+tp-link.com	DNE	
+netacad.com	DNE	
+redhat.com	none	self
+rae.es	DNE	
+telecomitalia.it	DNE	
+lepoint.fr	DNE	
+cumicumi.com	DNE	
+next.co.uk	DNE	
+sabavision.com	DNE	
+androidpolice.com	DNE	
+vivud.com	DNE	
+etherdelta.com	DNE	
+compucalitv.com	DNE	
+qiku.com	DNE	
+bmoviesfree.net	DNE	
+yimg.com	reject	self
+corsair.com	DNE	
+siriusxm.com	none	
+pubted.com	DNE	
+normalexchange.com	DNE	
+buzzorange.com	DNE	
+16personalities.com	none	unknown:dmarc@neris.tech
+eclipse.org	DNE	
+jogos360.com.br	DNE	
+nesn.com	DNE	
+exclusiveofferings.pro	quarantine	
+strapolan.com	DNE	
+draxe.com	none	postmarkapp
+coinone.co.kr	none	
+2mdn.net	reject	self:google
+99bitcoins.com	none	self
+kijiji.it	invalid	
+exmo.me	DNE	
+nuomi.com	DNE	
+52pk.com	DNE	
+spectrum.com	DNE	
+downloadgot.com	DNE	
+toranoana.jp	DNE	
+somosmovies.com	DNE	
+scottrade.com	DNE	
+upsc.gov.in	DNE	
+sportskeeda.com	DNE	
+utah.edu	DNE	
+handy-tab.com	quarantine	
+icbc.com.cn	DNE	
+outlook.com	none	agari
+curapelanatureza.com.br	DNE	
+tv2.dk	none	dmarcian
+medianewpage.com	DNE	
+lghtds.net	DNE	
+liansuo.com	invalid	
+valemedia.net	DNE	
+youtubemp3.to	DNE	
+2nn.jp	DNE	
+larepublica.pe	DNE	
+justjared.com	DNE	
+rk.com	DNE	
+wpengine.com	none	self
+thefappening.pro	DNE	
+hani.co.kr	DNE	
+ns21.me	DNE	
+iconfinder.com	quarantine	
+wikiquote.org	DNE	
+share-online.biz	DNE	
+computerbase.de	none	
+sde.co.ke	DNE	
+boulanger.com	DNE	
+99.com	DNE	
+lufthansa.com	none	agari
+verycd.com	DNE	
+leetcode.com	DNE	
+deutschepost.de	reject	unknown:dmarc-reports@dhl.com
+oclasrv.com	DNE	
+lolesports.com	DNE	
+intercambiosvirtuales.org	DNE	
+new-rutor.org	DNE	
+xdf.cn	DNE	
+webtretho.com	DNE	
+ccn.com	DNE	
+povarenok.ru	DNE	
+tinhte.vn	none	self
+dizibox1.com	DNE	
+geektimes.ru	quarantine	unknown:dmarc-receiver@habramail.net
+litebit.eu	none	self
+debenhams.com	DNE	
+transfermarkt.de	DNE	
+baiducontent.com	DNE	
+123moviesfree.ac	DNE	
+mk.co.kr	DNE	
+clickpost.jp	DNE	
+ksu.edu.sa	quarantine	
+asda.com	none	proofpoint
+bankmandiri.co.id	DNE	
+homepage-web.com	DNE	
+tvsubtitles.net	DNE	
+mitbbs.com	DNE	
+tver.jp	DNE	
+iflix.com	DNE	
+speedrun.com	none	
+adnetworkperformance.com	DNE	
+discordapp.net	quarantine	
+aladin.co.kr	DNE	
+scbl54virared.com	DNE	
+ageofmusketeers.com	none	unknown:dns_support@gain2f.com
+liuxue86.com	DNE	
+bitcoadz.io	DNE	
+expansion.com	DNE	
+statefarm.com	DNE	
+ssg.com	DNE	
+whatismyipaddress.com	DNE	
+yoineer.com	DNE	
+cwb.gov.tw	DNE	
+animefreak.tv	DNE	
+telegraaf.nl	DNE	
+yande.re	DNE	
+dnb.no	none	self
+engageya.com	DNE	
+filejoker.net	DNE	
+kuleuven.be	DNE	
+daraz.com.bd	DNE	
+jusbrasil.com.br	none	dmarcian
+flashback.org	DNE	
+scopus.com	none	agari
+hrloo.com	DNE	
+moondash.co.in	DNE	
+keywordblocks.com	DNE	
+ufreegames.com	DNE	
+record.pt	DNE	
+minhateca.com.br	DNE	
+smbc.co.jp	none	easysolutions
+careerbuilder.com	none	self,250ok.com
+000webhostapp.com	DNE	
+menclub.hk	invalid	
+gamebanana.com	DNE	
+zoom.com.br	DNE	
+xozilla.com	DNE	
+macmillandictionary.com	DNE	
+divyabhaskar.co.in	DNE	
+videoaf.com	DNE	
+gomaji.com	none	
+usda.gov	DNE	
+extendoffice.com	DNE	
+ipg-online.com	none	agari
+adk2x.com	DNE	
+hkjc.com	none	self
+gefc.gdn	DNE	
+leafly.com	DNE	
+hrazens.com	DNE	
+nbg.gr	DNE	
+animenewsnetwork.com	DNE	
+loveroms.com	DNE	
+x-minus.me	DNE	
+stream-direct.co	DNE	
+thepaper.cn	DNE	
+newstracklive.com	DNE	
+rhymezone.com	DNE	
+linkmyc.com	DNE	
+musescore.com	none	
+amadeus.com	none	returnpath
+javstore.net	DNE	
+hentai2read.com	DNE	
+thebay.com	DNE	
+losangelespost.com	DNE	
+pastemagazine.com	DNE	
+cyberlink.com	DNE	
+raialyoum.com	DNE	
+youzan.com	DNE	
+tuoitre.vn	DNE	
+ay.gy	DNE	
+boston.com	DNE	
+ingbank.pl	none	self
+jbzdy.pl	DNE	
+drivereasy.com	DNE	
+e-reading.club	DNE	
+canalblog.com	DNE	
+zapier.com	reject	postmarkapp
+aps.org	DNE	
+turkishairlines.com	DNE	
+telangana.gov.in	DNE	
+independent.ie	DNE	
+pullandbear.com	DNE	
+slashfilm.com	DNE	
+bod.com.ve	none	easysolutions
+symbolab.com	DNE	
+mapsofindia.com	DNE	
+soycarmin.com	DNE	
+raw.githubusercontent.com	DNE	
+yahoo.com.tw	reject	unknown:dmarc_y_rua@yahoo.com
+allcalidad.com	DNE	
+rackspace.com	none	agari
+sbs.co.kr	quarantine	
+pokemondb.net	DNE	
+censor.net.ua	DNE	
+rtvonline.com	DNE	
+moviegoat.com	DNE	
+showtv.com.tr	DNE	
+2dehands.be	none	agari
+straitstimes.com	DNE	
+pbskids.org	DNE	
+cic.fr	DNE	
+kaggle.com	none	self
+i-doxs.net	DNE	
+secretchina.com	DNE	
+playbattlegrounds.com	DNE	
+kugou.com	quarantine	self:netease
+scmp.com	reject	self
+thenorthface.com	none	proofpoint
+netbarg.com	DNE	
+streamplay.to	DNE	
+vt.edu	none	dmarcian
+www.gob.mx	DNE	
+ithome.com	DNE	
+ixl.com	DNE	
+livestream.com	quarantine	self
+soccervista.com	DNE	
+theappjunkies.com	DNE	
+melon.com	DNE	
+apkmirror.com	DNE	
+saraba1st.com	DNE	
+raiffeisen.at	DNE	
+bitfun.co	DNE	
+payeer.com	quarantine	
+navient.com	DNE	
+cybozu.com	none	self
+sfacg.com	DNE	
+nairabet.com	DNE	
+sovets.net	DNE	
+misionesonline.net	DNE	
+blesk.cz	DNE	
+allabout.co.jp	DNE	
+kodi.tv	DNE	
+snapchat.com	quarantine	self
+vidup.me	DNE	
+farfeshplus.com	DNE	
+newinform.com	DNE	
+bizpacreview.com	DNE	
+governmentjobs.com	DNE	
+jorudan.co.jp	DNE	
+cutestat.com	DNE	
+aydinlik.com.tr	DNE	
+cgpersia.com	DNE	
+inceptionradionetwork.com	DNE	
+wifewine.com	DNE	
+powerschool.com	DNE	
+jiemian.com	DNE	
+planetlagu.online	DNE	
+tamilmv.re	DNE	
+probiller.com	DNE	
+katfile.com	DNE	
+icicidirect.com	reject	agari,unknown:dmarc-rua@icicibank.com,unknown:dmarc-ruf@icicibank.com
+symbaloo.com	quarantine	
+citruspay.com	DNE	
+3bmeteo.com	none	
+city-data.com	invalid	
+git-scm.com	DNE	
+daily.co.jp	DNE	
+aizhan.com	DNE	
+maintracker.org	DNE	
+itv.com	DNE	
+gamepress.gg	DNE	
+huxiu.com	DNE	
+cashnet.com	DNE	
+sanguosha.com	DNE	
+lachainemeteo.com	DNE	
+movie4k.org	DNE	
+paultan.org	DNE	
+nonno.hk	invalid	
+ipeen.com.tw	DNE	
+uznayvse.ru	none	
+detmir.ru	DNE	
+geekbuying.com	DNE	
+wondershare.net	DNE	
+netbk.co.jp	DNE	
+societe.com	none	self
+morningstar.com	none	proofpoint
+residentadvisor.net	DNE	
+familysearch.org	none	proofpoint,unknown:dmarcadmin@ldschurch.org
+thepointsguy.com	DNE	
+monotaro.com	DNE	
+activehosted.com	none	
+hc360.com	DNE	
+rozblog.com	DNE	
+tripadvisor.es	none	unknown:dmarc-rua@tripadvisor.com
+bitinfocharts.com	DNE	
+imgprime.com	DNE	
+demotywatory.pl	invalid	
+apartmenttherapy.com	invalid	
+discretesearch.com	DNE	
+carview.co.jp	DNE	
+assistindoanimesonline.com	DNE	
+powvideo.net	DNE	
+abobe.me	DNE	
+soccer24.com	DNE	
+onclickpulse.com	DNE	
+360kan.com	DNE	
+correos.es	DNE	
+asp.net	DNE	
+google.cg	reject	self:google
+speedvideo.net	DNE	
+somethingawful.com	DNE	
+nationalrail.co.uk	DNE	
+prothomalo.com	DNE	
+megaresheba.ru	DNE	
+anon-ib.la	DNE	
+emailaccountlogin.co	DNE	
+hindawi.com	none	self
+amtrak.com	quarantine	self
+plays.tv	none	self
+ipsosinteractive.com	DNE	
+opendns.com	DNE	
+ashams.com	DNE	
+9minecraft.net	DNE	
+online-freebee.ru	DNE	
+vagaro.com	DNE	
+javjunkies.com	DNE	
+kseries.co	DNE	
+matchesfashion.com	DNE	
+cont.ws	DNE	
+leroymerlin.ru	DNE	
+google.com.bn	reject	self:google
+tamasha.com	DNE	
+ssconline.nic.in	DNE	
+internshala.com	invalid	
+femmevetements.net	DNE	
+mexgroup.com	DNE	
+theindianpeople.com	DNE	
+hattrick.org	DNE	
+5dcar.com	DNE	
+aeroflot.ru	DNE	
+state.tx.us	DNE	
+tvspielfilm.de	DNE	
+zoombangla.com	DNE	
+qcloud.com	DNE	
+mail.gov.in	DNE	
+photofans.cn	DNE	
+bamtoki.com	DNE	
+clothing-marketing.com	DNE	
+srt.am	DNE	
+mexashare.com	DNE	
+fontsquirrel.com	none	
+downloadhub.ws	DNE	
+france.tv	DNE	
+yumpu.com	DNE	
+duniaku.net	DNE	
+bostonglobe.com	DNE	
+ebalka.net	DNE	
+heureka.sk	quarantine	postmarkapp,unknown:dmarc@heureka.cz
+dahe.cn	DNE	
+akiba-online.com	DNE	
+pdfconverttools.com	DNE	
+po-kaki-to.com	DNE	
+currencio.co	DNE	
+thenextweb.com	DNE	
+online-live-streaming.com	DNE	
+datacamp.com	none	
+serialssolutions.com	DNE	
+dealnews.com	invalid	
+arbeitsagentur.de	DNE	
+ubs.com	quarantine	unknown:dmarc-reports-57574806756964364169@open.ch,self
+ticketfly.com	DNE	
+sharelatex.com	none	dmarcanalyzer
+hds.to	DNE	
+cint.com	DNE	
+vector.co.jp	DNE	
+aarp.org	none	returnpath
+addic7ed.com	DNE	
+osxdaily.com	DNE	
+up-4ever.com	DNE	
+standard.co.uk	DNE	
+sigmalive.com	DNE	
+eprice.com.tw	DNE	
+top1health.com	DNE	
+pandora.net	none	dmarcian,returnpath
+carmax.com	none	proofpoint
+e1.ru	invalid	
+marthastewart.com	invalid	
+hotfiesta.com	DNE	
+eldiariony.com	none	self
+dorkly.com	DNE	
+yify.is	DNE	
+imgflip.com	DNE	
+bershka.com	DNE	
+sc.com	quarantine	self,netcraft
+google.com.tj	reject	self:google
+nzherald.co.nz	DNE	
+uchi.ru	none	
+pornohub.su	DNE	
+ixquick.com	none	self
+destyy.com	DNE	
+sport.pl	DNE	
+costco.ca	none	returnpath
+whirlpool.net.au	DNE	
+bitadexchange.com	DNE	
+yourbreakingnews.com	DNE	
+gelbooru.com	DNE	
+bookingbuddy.com	none	unknown:dmarc-rua@tripadvisor.com
+nchsoftware.com	DNE	
+srf.ch	DNE	
+monografias.com	DNE	
+frivplus.com	DNE	
+kmart.com	DNE	
+thisvid.com	DNE	
+indosport.com	DNE	
+vudu.com	DNE	
+boohoo.com	DNE	
+mackolik.com	DNE	
+lexilogos.com	DNE	
+zum.com	DNE	
+patoghu.com	DNE	
+mygreatlakes.org	none	unknown:dmarc@glhec.org,unknown:dmarc-detail@glhec.org
+shufoo.net	DNE	
+lesechos.fr	DNE	
+novaposhta.ua	none	self
+zhcw.com	DNE	
+videopornstories.com	DNE	
+allbest.ru	DNE	
+cinemablend.com	DNE	
+osu.edu	none	self,proofpoint
+superjob.ru	quarantine	self
+mirrorcreator.com	DNE	
+bluekai.com	DNE	
+cwtv.com	quarantine	valimail
+tvrain.ru	DNE	
+propaganda-eg.com	DNE	
+sponichi.co.jp	DNE	
+ucl.ac.uk	DNE	
+tube2017.com	DNE	
+companieshouse.gov.uk	DNE	
+onehallyu.com	DNE	
+usembassy.gov	none	self
+b2b.cn	DNE	
+audiojungle.net	DNE	
+7cfmnf.top	DNE	
+mismarcadores.com	none	
+selfridges.com	DNE	
+xtqimdqeekij.bid	DNE	
+symantec.com	none	agari,self,unknown:symdmarcreports@submit-44.brightmail.com
+gazetevatan.com	DNE	
+kataweb.it	DNE	
+twirpx.com	DNE	
+24sata.hr	DNE	
+clickvideodownload.com	DNE	
+russian7.ru	DNE	
+tvzvezda.ru	none	
+ralkipa.info	DNE	
+startv.com.tr	DNE	
+searchdconvertnow.com	DNE	
+torrentleex.com	DNE	
+moondoge.co.in	DNE	
+yandex.net	DNE	
+upfile.mobi	DNE	
+libgen.pw	DNE	
+minijuegos.com	DNE	
+tfile.cc	DNE	
+pravda.com.ua	DNE	
+caraotadigital.net	DNE	
+marcaapuestas.es	DNE	
+myplaycity.com	DNE	
+freshersworld.com	DNE	
+education.com	DNE	
+goglogo.com	DNE	
+cnnturk.com	DNE	
+clickbank.com	DNE	
+jamb.org.ng	DNE	
+afisha.ru	DNE	
+kanoon.ir	none	
+ubereats.com	reject	
+williams-sonoma.com	DNE	
+digiato.com	DNE	
+musiciansfriend.com	DNE	
+arab-clothing.com	DNE	
+mercurynews.com	DNE	
+mangago.me	DNE	
+decolar.com	none	self
+natalie.mu	DNE	
+vslovetv.com	DNE	
+aktualne.cz	DNE	
+showroomprive.com	none	postmarkapp
+sguru.org	DNE	
+estrenosdoramas.net	DNE	
+segodnya.ua	DNE	
+tbs.co.jp	DNE	
+underarmour.com	none	self
+adliran.ir	DNE	
+coinpan.com	DNE	
+absa.co.za	none	agari
+premiado.shop	DNE	
+wellmov.com	DNE	
+mailerlite.com	quarantine	self
+creativebloq.com	DNE	
+tuazar.com	DNE	
+goredirect.party	DNE	
+wonderhowto.com	DNE	
+desire2learn.com	DNE	
+btcmarkets.net	quarantine	self
+merrjep.com	none	postmarkapp
+boots.com	DNE	
+elitedaily.com	DNE	
+sherdog.com	DNE	
+streamfrenzy.com	DNE	
+biomedcentral.com	DNE	
+thebitcoincode.com	DNE	
+biji.co	DNE	
+toutiaoabc.com	DNE	
+sheknows.com	DNE	
+sockshare.net	DNE	
+utiitsl.com	none	self
+nokia.com	none	
+myscore.ru	none	
+adscpm.net	DNE	
+interfax.ru	DNE	
+publico.es	DNE	
+adweek.com	DNE	
+fixya.com	none	self
+victoriabrides.com	none	
+pajak.go.id	DNE	
+hpe.com	DNE	
+mobiletak.in	DNE	
+medu.ir	DNE	
+conrad.de	DNE	
+meta.ua	none	self
+mercola.com	quarantine	dmarcian,self
+eurosport.ru	DNE	
+bbb.org	reject	agari
+enotes.com	none	self
+time.mk	DNE	
+ed.ac.uk	DNE	
+ubuntuforums.org	DNE	
+winshang.com	DNE	
+topuniversities.com	DNE	
+cisfrectt.in	DNE	
+onlinemapsearch.com	DNE	
+jpdress.com	DNE	
+91porn.com	DNE	
+webmasterplan.com	DNE	
+estream.to	none	dmarcian
+historyinorbit.com	DNE	
+clickjogos.com.br	DNE	
+diario.mx	DNE	
+tfile-video.cc	DNE	
+thairath.co.th	DNE	
+nex1music.ir	DNE	
+vulcan.net.pl	DNE	
+supremenewyork.com	DNE	
+wholesale-dress.co.in	DNE	
+spyoff.com	DNE	
+raj.nic.in	DNE	
+myzuka.club	DNE	
+niusnews.com	DNE	
+jofogas.hu	DNE	
+easybib.com	DNE	
+xxlargepop.com	DNE	
+nps.gov	none	self,dhs-nppd
+applyyourself.com	DNE	
+flashx.tv	DNE	
+qichacha.com	DNE	
+gasengi.com	DNE	
+hbonow.com	reject	unknown:dmarc@hbo.com,valimail
+securecafe.com	DNE	
+docomo.ne.jp	none	
+theyoump3.com	none	
+ebay.com.hk	none	agari,returnpath
+aemet.es	DNE	
+extra.com.br	DNE	
+e-hentai.org	DNE	
+qihoo.com	DNE	
+volafile.org	DNE	
+tabloidbintang.com	DNE	
+tdameritrade.com	none	proofpoint
+tensorflow.org	DNE	
+zarinpal.com	DNE	
+chatango.com	DNE	
+subdivx.com	DNE	
+jd.id	none	self
+bigfishgames.com	DNE	
+stocktwits.com	DNE	
+shoptime.com.br	reject	returnpath
+hdfilmcehennemi.com	DNE	
+soha.vn	DNE	
+jpnn.com	DNE	
+reklama5.mk	DNE	
+ammonnews.net	DNE	
+hibapress.com	DNE	
+transaccionesbancolombia.com	DNE	
+ricardo.ch	reject	
+al.com	none	dmarcian
+inverse.com	DNE	
+saisoncard.co.jp	invalid	
+rst.ua	DNE	
+3dwwwgame.com	DNE	
+xxxbanjo.com	DNE	
+senego.com	DNE	
+imagefapusercontent.com	DNE	
+abebooks.com	DNE	
+metal-archives.com	DNE	
+pciconcursos.com.br	reject	unknown:dmarc@pci.net.br
+guenstigkleidung.de	DNE	
+funimation.com	DNE	
+google.ht	reject	self:google
+house365.com	DNE	
+muyzorras.com	DNE	
+majhinaukri.in	DNE	
+mobiletracking.ru	DNE	
+tomshw.it	DNE	
+playsport.cc	DNE	
+hdonline.is	DNE	
+mercadopago.com	reject	self,netcraft,unknown:dmarcruf@mercadolibre. com
+bonappetit.com	DNE	
+utilitooltech.com	DNE	
+conduit.com	none	self
+cliphunter.com	DNE	
+laredoute.fr	DNE	
+svpressa.ru	DNE	
+yamechanic.com	DNE	
+cineaste.co.kr	DNE	
+google.co.zm	reject	self:google
+va.gov	none	agari,dhs-nppd
+trang-phuc.com	DNE	
+timesjobs.com	quarantine	self
+santabanta.com	DNE	
+zuke.com	DNE	
+activeation.com	DNE	
+watch2gether.com	DNE	
+bludv.com	DNE	
+2cto.com	DNE	
+thequestion.ru	DNE	
+gomlab.com	DNE	
+jerseymujeres.com	DNE	
+downloadha.com	DNE	
+poringa.net	invalid	
+mp4upload.com	DNE	
+looper.com	DNE	
+thegameraccess.com	DNE	
+cloudscar.com	DNE	
+walmart.com.mx	reject	returnpath
+spring.io	DNE	
+persianv.com	DNE	
+nordvpn.com	DNE	
+beautyexchange.com.hk	invalid	
+packtpub.com	DNE	
+saramin.co.kr	DNE	
+ikman.lk	DNE	
+elbilad.net	DNE	
+ldoceonline.com	DNE	
+sciencenet.cn	DNE	
+yektanet.com	none	
+spirit.com	none	unknown:rua+spirit.com@dmarc.barracudanetworks.com,unknown:ruf+spirit.com@dmarc.barracudanetworks.com

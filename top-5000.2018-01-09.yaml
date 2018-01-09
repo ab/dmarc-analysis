@@ -1,0 +1,5513 @@
+---
+google.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+youtube.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+facebook.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com,mailto:postmaster@facebook.com;
+  ruf=mailto:d@ruf.agari.com;
+baidu.com: 
+wikipedia.org: v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;
+reddit.com: v=DMARC1; p=reject; rua=mailto:dmarc-report@reddit.com; ruf=mailto:dmarc-failures@reddit.com;
+  fo=1
+yahoo.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_y_rua@yahoo.com;
+google.co.in: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+qq.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@qq.com
+amazon.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+taobao.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-tb@service.alibaba.com
+tmall.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-tm@service.alibaba.com
+twitter.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+vk.com: v=DMARC1; p=reject; sp=reject; pct=100; rua=mailto:postmaster@vk.com
+live.com: v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+instagram.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+sohu.com: 
+google.co.jp: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+sina.com.cn: 
+jd.com: v=DMARC1;p=none;rua=mailto:dmarc@jd.com
+weibo.com: 
+360.cn: 
+google.de: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.co.uk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.com.br: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+list.tmall.com: 
+google.fr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.ru: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+yandex.ru: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+netflix.com: v=DMARC1; p=reject; fo=1; rua=mailto:netflix@rua.netcraft.com,mailto:dmarcreports@netflix.com;
+  ruf=mailto:netflix@ruf.netcraft.com,mailto:dmarcreports@netflix.com
+google.it: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.com.hk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+pornhub.com: 
+t.co: v=DMARC1; p=reject; adkim=s; aspf=s; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+linkedin.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  pct=100
+google.es: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+twitch.tv: v=DMARC1; p=reject; adkim=s; aspf=s; fo=1; ri=3600; rua=mailto:twitch@rua.agari.com;
+  ruf=mailto:twitch@ruf.agari.com
+xvideos.com: v=DMARC1; p=reject; pct=100; rua=mailto:fdpfb1lo@ag.dmarcian.com; ruf=mailto:fdpfb1lo@fr.dmarcian.com;
+alipay.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_ay@service.alibaba.com; ruf=mailto:dmarc_ay@service.alibaba.com
+ebay.com: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+yahoo.co.jp: 
+google.ca: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.com.mx: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+bing.com: 
+ok.ru: v=DMARC1;p=reject;rua=mailto:d@rua.agari.com,mailto:dmarc_rua@corp.mail.ru;ruf=mailto:d@ruf.agari.com;fo=1;
+imgur.com: v=DMARC1; p=quarantine; rua=mailto:dmarc@imgur.com
+microsoft.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+imdb.com: 
+mail.ru: v=DMARC1;p=reject;rua=mailto:d@rua.agari.com,mailto:dmarc_rua@corp.mail.ru;ruf=mailto:d@ruf.agari.com;fo=1;
+wikia.com: _globalsign-domain-verification=SQONiBgTxRVzPPtIHjei_IUGCiAa0KxoVWFw1QfVes
+aliexpress.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-ap@service.alibaba.com; ruf=mailto:dmarc-ap@service.alibaba.com
+tumblr.com: v=DMARC1; p=none; rua=mailto:dmarc-report@tumblr.com
+csdn.net: 
+hao123.com: 
+msn.com: v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:d@rua.agari.com; fo=1
+wordpress.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:0bqp2jnw@ag.dmarcian.com;
+  ruf=mailto:0bqp2jnw@fr.dmarcian.com;
+bongacams.com: 
+office.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+google.com.tr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+amazon.co.jp: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+apple.com: v=DMARC1;p=none;ruf=mailto:d@ruf.agari.com;rua=mailto:d@rua.agari.com;fo=1
+deloton.com: 
+livejasmin.com: 
+google.com.au: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.com.tw: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+popads.net: 
+whatsapp.com: v=DMARC1; p=reject; pct=100
+paypal.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com
+detail.tmall.com: 
+blogspot.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.pl: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+xhamster.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@xhamster.com
+github.com: v=DMARC1; p=none; rua=mailto:dmarc@github.com
+google.co.id: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+microsoftonline.com: v=DMARC1; p=none; pct=100; sp=quarantine; rua=mailto:d@rua.agari.com;
+  ruf=mailto:d@ruf.agari.com; fo=1
+stackoverflow.com: v=DMARC1;p=reject;sp=reject;pct=100;rua=mailto:dmarc-aggregates@stackoverflow.com;ruf=mailto:dmarc-forensics@stackoverflow.com;fo=1
+pinterest.com: v=DMARC1; p=reject; fo=1; pct=100; rua=mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_fr@dmarc.250ok.net
+diply.com: v=DMARC1; p=none; pct=100; rua=mailto:re+h9oh5hbvqkc@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+amazon.de: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+google.com.ar: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+amazon.co.uk: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+coccoc.com: v=DMARC1; p=none; rua=mailto:admin@coccoc.com
+so.com: 
+coinmarketcap.com: 
+soso.com: 
+adobe.com: v=DMARC1; p=reject; sp=quarantine; pct=100; rua=mailto:adobe@rua.agari.com;
+  ruf=mailto:adobe@ruf.agari.com; fo=1
+tianya.cn: 
+xnxx.com: v=DMARC1; p=reject; pct=100; rua=mailto:fdpfb1lo@ag.dmarcian.com; ruf=mailto:fdpfb1lo@fr.dmarcian.com;
+google.com.ua: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+espn.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+nicovideo.jp: 
+amazon.in: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+google.com.pk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+savefrom.net: 
+thepiratebay.org: 
+googleusercontent.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+google.com.sa: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.co.th: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+dropbox.com: v=DMARC1; p=reject; fo=1; pct=100; rua=mailto:dropbox@rua.agari.com,mailto:dmarc@dropbox.com;
+  ruf=mailto:dropbox@ruf.agari.com
+pixnet.net: 
+bbc.co.uk: v=DMARC1;aspf=s;p=none;pct=100;fo=0;ri=86400;rua=mailto:bbcuk_rua@dmeu.easysol.net;ruf=mailto:bbcuk_ruf@dmeu.easysol.net;
+google.com.eg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.nl: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+craigslist.org: v=DMARC1; p=quarantine; sp=none; pct=100; rua=mailto:34ndygfl@ag.dmarcian.com;
+  ruf=mailto:rufruf@craigslist.org;
+bbc.com: 
+soundcloud.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@soundcloud.com; ruf=mailto:dmarc-ruf@soundcloud.com;
+  pct=100; sp=quarantine
+txxx.com: 
+cnn.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email,mailto:tw@rua.agari.com;
+  ruf=mailto:dmarc_afrf+1a875070@vali.email,mailto:tw@ruf.agari.com
+nytimes.com: v=DMARC1; p=none; rua=mailto:paperboydmarcrua@lga2.nytimes.com; ruf=mailto:paperboydmarcruf@lga2.nytimes.com;
+onlinesbi.com: 
+rakuten.co.jp: v=DMARC1; p=none; rua=mailto:dmarc-report-a@rx.rakuten.co.jp
+chaturbate.com: v=DMARC1; p=none; rua=mailto:9b09a1a27b1c990@rep.dmarcanalyzer.com;
+  ruf=mailto:9b09a1a27b1c990@for.dmarcanalyzer.com; sp=none; fo=1;
+booking.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc@booking.com;
+  ruf=mailto:d@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net
+roblox.com: v=DMARC1; p=quarantine; sp=none; rua=mailto:dmarc_fb@roblox.com; ruf=mailto:dmarc_fr@roblox.com;
+  rf=afrf; pct=100; fo=1; adkim=r; aspf=r
+detik.com: 
+thestartmagazine.com: 
+gmw.cn: 
+google.co.ve: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.co.za: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+exdynsrv.com: 
+ask.com: 
+ebay.de: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+steamcommunity.com: 
+amazonaws.com: 
+spotify.com: v=DMARC1; p=reject; sp=reject; pct=100; fo=1; rf=afrf; rua=mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_fr@dmarc.250ok.net
+hitcpm.com: 
+openload.co: v=DMARC1; p=quarantine
+tribunnews.com: v=spf1 a mx ~all
+xinhuanet.com: 
+aparat.com: 
+chase.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+vimeo.com: v=DMARC1; p=none; fo=1; rua=mailto:pilrxc9g@ag.dmarcian.com; ruf=mailto:pilrxc9g@fr.dmarcian.com
+iwanttodeliver.com: 
+mediafire.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@mediafire.com
+softonic.com: 
+google.gr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+stackexchange.com: v=DMARC1;p=reject;sp=reject;pct=100;rua=mailto:dmarc-aggregates@stackexchange.com;ruf=mailto:dmarc-forensics@stackexchange.com;fo=1
+youth.cn: 
+quora.com: v=DMARC1; p=reject;rua=mailto:dmarc+rua@quora.com;
+naver.com: 
+fbcdn.net: 
+coinbase.com: v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; fo=1; rua=mailto:coinbase@rua.netcraft.com;
+  ruf=mailto:coinbase@ruf.netcraft.com;
+google.com.ph: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+zhihu.com: 
+flipkart.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-alert@flipkart.com; pct=100
+discordapp.com: v=DMARC1; p=quarantine
+dailymotion.com: v=DMARC1; pct=100; p=none
+google.se: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+theguardian.com: 
+google.com.sg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.be: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+cnet.com: 
+steampowered.com: 
+mozilla.org: 
+fc2.com: 
+ebay.co.uk: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+ettoday.net: v=DMARC1; p=quarantine
+douyu.com: 
+blogger.com: v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:mailauth-reports@google.com
+google.az: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+vice.com: v=DMARC1;p=reject;pct=100;rua=mailto:dmarc@vice.com
+walmart.com: v=DMARC1; p=quarantine; sp=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+avito.ru: v=DMARC1; p=quarantine; sp=none; rua=mailto:abuse@avito.ru
+binance.com: 
+providr.com: 
+salesforce.com: v=DMARC1;p=none;pct=100;fo=1;ruf=mailto:d@ruf.agari.com;rua=mailto:d@rua.agari.com
+google.co.ao: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+nih.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+deviantart.com: 
+doubleclick.net: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+4chan.org: v=DMARC1; p=reject;
+etsy.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc@etsy.com; ruf=mailto:dmarc@etsy.com
+google.com.co: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+redd.it: 
+amazon.fr: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+dailymail.co.uk: 
+twimg.com: 
+google.at: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+babytree.com: 
+google.co.kr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+exosrv.com: 
+mercadolivre.com.br: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; adkim=s;
+  aspf=r; rf=afrf; pct=100;
+alibaba.com: v=DMARC1; p=none; rua=mailto:dmarc_icbu@service.alibaba.com; ruf=mailto:dmarc_icbu@service.alibaba.com
+globo.com: 
+amazon.it: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+pinimg.com: v=DMARC1; p=reject
+tokopedia.com: v=spf1 ip4:182.253.224.176/28 -all
+google.cn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.com.vn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+exoclick.com: v=DMARC1; p=none; fo=1; ruf=mailto:postmaster@exoclick.com; rua=mailto:postmaster@exoclick.com
+1688.com: 
+buzzfeed.com: v=DMARC1; p=quarantine;pct=100; rua=mailto:buzzfeed+dmarc@buzzfeed.com,mailto:z81afvrt@ag.dmarcian.com;
+  ruf=mailto:buzzfeed+dmarc@buzzfeed.com,mailto:z81afvrt@fr.dmarcian.com
+china.com: 
+google.com.ng: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+cloudfront.net: 
+spankbang.com: 
+washingtonpost.com: v=DMARC1;p=none;rua=mailto:dmarc_rua@washpost.com;fo=1
+indeed.com: v=DMARC1; p=quarantine; pct=100; adkim=r; aspf=r; rua=mailto:dmarc@indeed.com;
+adf.ly: v=DMARC1; p=none; rua=mailto:support@adf.ly
+wikihow.com: v=DMARC1; p=quarantine; fo=0; pct=100; rua=mailto:eng+dmarc@wikihow.com
+mama.cn: 
+china.com.cn: 
+redtube.com: v=spf1 a mx include:_spf.google.com include:email.freshdesk.com mx a:smtp-scan01.mx.reflected.net
+  ip4:208.91.206.64/26 ip4:62.212.83.19/32 ip4:31.192.125.32/28 ip4:94.199.252.160/28
+  ~all
+google.cz: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+messenger.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com,mailto:postmaster@facebook.com;
+  ruf=mailto:d@ruf.agari.com;
+bittrex.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@dmarc.250ok.net; ruf=mailto:dmarc_fr@dmarc.250ok.net;
+  fo=1; pct=100; rf=afrf
+blastingnews.com: 
+sogou.com: 
+google.ch: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+uol.com.br: 
+google.no: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+onlinevideoconverter.com: 
+google.ro: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+bet9ja.com: 
+godaddy.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+yelp.com: v=DMARC1; p=quarantine; rua=mailto:dmarc@yelp.com,mailto:dmarc_agg@vali.email;
+  ruf=mailto:dmarc_fr@yelp.com; ri=14400
+metropcs.mobi: 
+w3schools.com: 
+spotscenered.info: 
+gearbest.com: 
+google.com.pe: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+newstrend.news: 
+google.pt: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+people.com.cn: 
+google.cl: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+google.ae: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+nextoptim.com: 
+force.com: v=DMARC1;p=reject;pct=100;fo=1;ruf=mailto:d@ruf.agari.com;rua=mailto:d@rua.agari.com
+bankofamerica.com: v=DMARC1; p=reject; fo=1; rua=mailto:auth.report_ns@bankofamerica.com;
+  ruf=mailto:bankofamerica@ruf.agari.com
+ladbible.com: 
+mega.nz: 
+youporn.com: 
+bestbuy.com: 
+slideshare.net: v=DMARC1; p=reject; rua=mailto:linkedin@rua.agari.com; ruf=mailto:linkedin@ruf.agari.com
+wellsfargo.com: v=DMARC1; p=reject; sp=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf; pct=100
+yts.am: 
+amazon.es: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+hulu.com: v=DMARC1; p=none; adkim=r; aspf=r; pct=100; fo=1; rua=mailto:dmarc_rua@hulu.com,mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@hulu.com,mailto:dmarc_ruf@emaildefense.proofpoint.com
+39.net: 
+bp.blogspot.com: 
+eastday.com: 
+forbes.com: 
+caijing.com.cn: 
+kakaku.com: 
+indiatimes.com: v=DMARC1; p=none; rua=mailto:accepted@indiatimes.com; ruf=mailto:quarantine@indiatimes.com;
+  rf=afrf; pct=100
+speedtest.net: 
+bukalapak.com: v=DMARC1; p=none; rua=mailto:security@bukalapak.com
+google.ie: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+bilibili.com: 
+9gag.com: 
+weather.com: v=DMARC1;p=none;rua=mailto:dmarc@weather.com
+huanqiu.com: 9c8nN6Ta
+dkn.tv: 
+ikea.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+gamepedia.com: 
+youm7.com: 
+abs-cbn.com: 
+google.dk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+rambler.ru: v=DMARC1; p=none; rua=mailto:rua_dmarc@rambler-co.ru; ruf=mailto:ruf_dmarc@rambler-co.ru
+codeonclick.com: 
+amazon.ca: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+breitbart.com: v=DMARC1; p=none; rua=mailto:dmarc@breitbart.com
+genius.com: google-site-verification=7fJqu3FnyOHBhQJWkwJ3YSOwcnzNVfWFlTk8pAjT8Fs
+google.dz: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+foxnews.com: v=DMARC1; p=none; fo=1; rua=mailto:postmaster@foxnews.com; ruf=mailto:postmaster@foxnews.com
+liputan6.com: 
+kinopoisk.ru: 
+hclips.com: 
+wikimedia.org: v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;
+bitauto.com: 
+livejournal.com: v=DMARC1;p=reject;pct=100;adkim=r;fo=1
+dingit.tv: 
+target.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@target.com; ruf=mailto:dmarc_ruf@target.com
+google.hu: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+upornia.com: 
+irctc.co.in: v=DMARC1; p=none; pct=100; rua=mailto:dmarcreport@irctc.co.in
+popcash.net: 
+google.fi: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+scribd.com: 
+huffingtonpost.com: v=DMARC1; p=none; rua=mailto:spwxn9fu@ag.dmarcian.com; ruf=mailto:spwxn9fu@ag.dmarcian.com;
+  rf=afrf
+leboncoin.fr: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+telegram.org: v=DMARC1;aspf=s; sp=quarantine; p=quarantine; rua=mailto:postmaster@telegram.org
+ebay-kleinanzeigen.de: v=DMARC1; p=none; fo=1; rua=mailto:ebay-classifieds@rua.agari.com;
+  ruf=mailto:ebay-classifieds@ruf.agari.com
+tripadvisor.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+slack.com: v=DMARC1; p=none; rua=mailto:6h0wb1pg@ag.dmarcian.com;
+h8vzwpv.com: 
+ltn.com.tw: 
+kompas.com: 
+files.wordpress.com: 
+google.co.il: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+wetransfer.com: 
+aol.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+digikala.com: 
+amazon.cn: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+velocecdn.com: 
+subject.tmall.com: 
+ign.com: v=DMARC1; p=none; rua=mailto:dmarc-reports@ign.com; ruf=mailto:dmarc-reports@ign.com;
+  rf=afrf; pct=100;
+sberbank.ru: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_rua@sberbank.ru
+allegro.pl: 
+cnblogs.com: 
+medium.com: v=DMARC1; p=reject; sp=reject; pct=100;fo=1; ri=3600;  rua=mailto:dmarc.rua@medium.com;
+  ruf=mailto:dmarc.rua@medium.com,mailto:ruf@dmarc.medium.com
+archive.org: 
+zillow.com: 
+gmx.net: 
+livedoor.jp: 
+aliyun.com: v=DMARC1; p=quarantine; pct=5;rua=mailto:dmarc@service.aliyun.com;
+trello.com: v=DMARC1; p=none; pct=100; fo=1; ruf=mailto:dmarc@trello.com; rua=mailto:re+jx6klyczak4@dmarc.postmarkapp.com,mailto:dmarc@trello.com;
+zippyshare.com: v=spf1 mx a include:zippyshare.com
+goodreads.com: 
+battle.net: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; rf=afrf; pct=100;
+sabah.com.tr: 
+researchgate.net: v=DMARC1; p=none; rua=mailto:reports@dmarc.researchgate.net; ruf=mailto:authfail@dmarc.researchgate.net
+mmoframes.com: 
+web.de: 
+rutracker.org: v=DMARC1; p=none; sp=none; rua=mailto:mx@rutracker.org
+gamefaqs.com: 
+utorrent.com: 
+google.sk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ameblo.jp: v=spf1 ip4:216.255.232.136/32 include:spf-a.ameba.jp include:spf.repica.jp
+  -all
+shutterstock.com: v=DMARC1; p=quarantine; rua=mailto:security+dmarc@shutterstock.com
+outbrain.com: 
+xfinity.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@dmarctest.comcast.net;
+freepik.com: v=DMARC1; p=none; sp=none; adkim=r; aspf=r; fo=0; rf=afrf; pct=100; ri=86400;
+  rua=mailto:54zsr2bv@ag.dmarcian.com; ruf=mailto:54zsr2bv@fr.dmarcian.com
+businessinsider.com: 
+usps.com: v=DMARC1; p=reject; fo=1; rua=mailto:u-s-postal-service@rua.agari.com; ruf=mailto:u-s-postal-service@ruf.agari.com
+onoticioso.com: 
+rottentomatoes.com: 
+speakol.com: 
+lifedaily.com: 
+wittyfeed.com: 
+duckduckgo.com: 
+youdao.com: 
+ci123.com: 
+rednet.cn: 
+google.kz: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ouo.io: 
+thesaurus.com: 
+iqoption.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@iqoption.com
+1337x.to: 
+myway.com: 
+hola.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:respuesta-dmarc@hola.com; ruf=mailto:informes-aut@hola.com
+doublepimp.com: 
+livedoor.com: 
+userapi.com: v=DMARC1; p=reject; pct=100; rua=mailto:postmaster@vk.com
+asos.com: v=DMARC1; p=none; aspf=r; adkim=r; rua=mailto:dmarc-reports@cyberint.com;
+  ruf=mailto:dmarc-reports@cyberint.com; fo=1; sp=none
+higheurest.com: 
+iqiyi.com: 
+ndtv.com: 
+setn.com: 
+airbnb.com: v=DMARC1;pct=100;ruf=mailto:dmarc.forensic@airbnb.com;rua=mailto:dmarc.aggregate@airbnb.com;p=reject;sp=reject;aspf=r;adkim=r;fo=1;ri=3600
+olx.ua: 
+ups.com: v=DMARC1; p=reject; rua=mailto:ups@rua.agari.com; ruf=mailto:ups@ruf.agari.com;
+  fo=1
+udemy.com: v=DMARC1; p=reject; rua=mailto:dmarc-udemy@udemy.com; ruf=mailto:dmarc-udemy@udemy.com;
+  rf=afrf; fo=1; pct=100
+varzesh3.com: 
+zendesk.com: v=DMARC1; p=reject; rua=mailto:bwvlu6ki@ag.dmarcian-eu.com; ruf=mailto:bwvlu6ki@fr.dmarcian-eu.com
+rarbg.to: 
+canva.com: v=DMARC1; p=reject; sp=reject; rua=mailto:vllfgpsc@ag.dmarcian.com; ruf=mailto:vllfgpsc@fr.dmarcian.com;
+  rf=afrf; pct=100; ri=21600
+rt.com: v=DMARC1;p=quarantine;sp=reject;adkim=s;aspf=s;pct=100;rua=mailto:admin@rt.com;ruf=mailto:admin@rt.com
+sourceforge.net: v=DMARC1; p=quarantine; sp=none; rua=mailto:kgtkm21q@ag.dmarcian.com;
+momoshop.com.tw: 
+orange.fr: 
+gfycat.com: 
+ouedkniss.com: 
+accuweather.com: 
+flickr.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-yahoo-rua@yahoo-inc.com;
+k618.cn: 
+buzzadnetwork.com: 
+hp.com: 
+skype.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com,mailto:skype@rua.netcraft.com;
+  fo=1; ruf=mailto:d@rua.agari.com,mailto:skype@ruf.netcraft.com;
+siteadvisor.com: 
+samsung.com: v=DMARC1; p=none; rua=mailto:postmaster@samsung.com; ruf=mailto:postmaster@samsung.com
+reverso.net: 
+feedly.com: v=DMARC1; p=none
+icloud.com: v=DMARC1; p=none; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+hotstar.com: 
+wordreference.com: v=DMARC1; p=none; ruf=mailto:forum07@wordreference.com; adkim=r;
+  aspf=r; sp=none;fo=1
+slickdeals.net: 
+playstation.com: 
+capitalone.com: v=DMARC1; p=reject; sp=reject; pct=100; rua=mailto:capital-one@rua.agari.com;
+  ruf=mailto:capital-one@ruf.agari.com;
+weebly.com: 
+intuit.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+nfl.com: 
+cricbuzz.com: 
+subscene.com: 
+mailchimp.com: v=DMARC1; p=none; rua=mailto:19ezfriw@ag.dmarcian.com; ruf=mailto:19ezfriw@fr.dmarcian.com
+americanexpress.com: v=DMARC1;p=reject;fo=1;rua=mailto:dmarc_agg@auth.returnpath.net;ruf=mailto:dmarc_afrf@auth.returnpath.net
+bestadbid.com: 
+ntd.tv: 
+sabq.org: 
+banvenez.com: 
+uptodown.com: 
+kaskus.co.id: v=DMARC1; p=reject; rua=mailto:dmarc@kaskus.co.id; adkim=s; aspf=s
+line.me: 
+rumble.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc@rumble.com; ruf=mailto:dmarc@rumble.com
+hdfcbank.com: v=DMARC1; p=none; rua=mailto:dmarc@noc.softcell.com, mailto:rua.softcell@progist.in;
+  ruf=mailto:dmarc_failure@noc.softcell.com, mailto:rua.softcell@progist.in; fo=1
+haber7.com: 
+google.com.kw: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+blpmovies.com: 
+sciencedirect.com: v=DMARC1; p=none; fo=1; rua=mailto:reed-elsevier@rua.agari.com,mailto:dmarc-a@lexisnexis.com;
+  ruf=mailto:reed-elsevier@ruf.agari.com
+pipeschannels.com: 
+mi.com: 
+123movieshub.to: 
+okdiario.com: 
+onet.pl: 
+myanimelist.net: 
+ultimate-guitar.com: v=DMARC1; p=none; sp=none; rua=mailto:mail.complaints@ultimate-guitar.com
+mercadolibre.com.ar: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; adkim=s;
+  aspf=r; rf=afrf; pct=100;
+wish.com: v=DMARC1; p=reject; rua=mailto:jaodiejb@ag.dmarcian.com,mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_fr@dmarc.250ok.net;
+beeg.com: 
+doublepimpssl.com: 
+friv.com: 
+mercadolibre.com.mx: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; aspf=r;
+  rf=afrf; pct=100;
+ensonhaber.com: 
+patreon.com: v=DMARC1; p=reject; pct=100; rua=mailto:ezqrltdi@ag.dmarcian.com; ruf=mailto:ezqrltdi@fr.dmarcian.com;
+banggood.com: 
+gdax.com: v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; fo=1; rua=mailto:coinbase@rua.netcraft.com;
+  ruf=mailto:coinbase@ruf.netcraft.com;
+seasonvar.ru: 
+fedex.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc@fedex.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:dmarc@fedex.com; fo=1
+t-online.de: 
+wp.pl: 
+kissanime.ru: 
+dmm.co.jp: 
+homedepot.com: v=DMARC1; p=none; rua=mailto:dmarc@homedepot.com; ruf=mailto:dmarcf@homedepot.com;
+  fo=1; rf=afrf; pct=100;
+shiltirs.com: 
+uidai.gov.in: 
+primosearch.com: 
+free.fr: 
+taboola.com: v=DMARC1; p=quarantine ; rua=mailto:dmarc@taboola.com
+perfecttoolmedia.com: 
+yadi.sk: 
+theverge.com: v=DMARC1; p=none; rua=mailto:zicaptxt@ag.dmarcian.com
+espncricinfo.com: 
+elpais.com: 
+indoxxi.net: 
+office365.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+go.com: 
+v3rjvtt.com: 
+google.co.nz: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+giphy.com: 
+flvto.biz: 
+dell.com: v=DMARC1; p=none; rua=mailto:dmarc-dell-rua@dell.com; ruf=mailto:dmarc-dell-ruf@dell.com
+pixabay.com: v=DMARC1; p=none; rua=mailto:hans@pixabay.com; ruf=mailto:hans@pixabay.com
+telegraph.co.uk: v=DMARC1; p=none; pct=10; rua=mailto:dmarc-dns@telegraph.co.uk
+ajkzd9h.com: 
+lazada.co.id: 
+google.lk: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+lie2anyone.com: 
+oracle.com: v=DMARC1;p=none;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+gismeteo.ru: v=DMARC1; p=none;
+gizmodo.com: _globalsign-domain-verification=63GY7DdhmEwU6Yc6mPqIRV6Tlu3atl9B6izj643Qy2
+tradingview.com: 
+media.tumblr.com: 
+hdzog.com: 
+kapanlagi.com: 
+17ok.com: 
+theepochtimes.com: 
+google.bg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+informationvine.com: 
+fromdoctopdf.com: 
+seznam.cz: v=DMARC1; p=none; rua=mailto:abuse@seznam.cz
+ebay.com.au: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+fwbntw.com: 
+fiverr.com: 
+taringa.net: v=DMARC1; p=quarantine; rua=mailto:dmarc@taringa.net
+nownews.com: 
+alicdn.com: 
+macys.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:macysdmarc@macys.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+rediff.com: 
+elfagr.com: 
+wordpress.org: v=DMARC1; p=none; rua=mailto:0bqp2jnw@ag.dmarcian.com; ruf=mailto:0bqp2jnw@fr.dmarcian.com;
+poloniex.com: v=DMARC1; p=reject; rua=mailto:postmaster@poloniex.com; ruf=mailto:postmaster@poloniex.com;
+  adkim=s; aspf=s; pct=100; fo=1; rf=afrf; ri=86400; sp=reject
+convert2mp3.net: 
+eskimi.com: 
+brilio.net: 
+ebay.it: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+repubblica.it: 
+crunchyroll.com: v=spf1 ip4:64.62.205.20 ip4:38.72.194.12 ip4:207.173.20.32/29 ip4:40.129.186.104/29
+  mx include:_spf.google.com include:_spf.atlassian.net ~all
+onedio.com: 
+torrentz2.eu: 
+independent.co.uk: v=DMARC1; p=none; rua=mailto:dmarc_a@independent.co.uk
+citi.com: v=DMARC1; p=reject; rua=mailto:citi@rua.agari.com,mailto:dmarc.reports.rua@citi.com
+wix.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc_agg@vali.email,mailto:postmaster@wix.com;
+  ruf=mailto:dmarc_afrf+2d429365@vali.email,mailto:dmarc_afrf@auth.returnpath.net
+chip.de: 
+oload.stream: 
+usatoday.com: 
+kooora.com: 
+marca.com: 
+bloomberg.com: spf2.0/pra -all
+albawabhnews.com: 
+merdeka.com: 
+newegg.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-reports@newegg.com; ruf=mailto:dmarcruf@newegg.com
+discogs.com: 
+telewebion.com: v=spf1 a mx ptr ip4:46.28.53.114 ip4:206.190.152.180 ip4:185.120.222.123
+  ip4:46.224.3.5 ip4:79.175.172.19 ip4:77.238.121.74 ip6:2606:2e00:0:3c:225:90ff:fef0:79b6
+  ip6:2a02:2498:e003:8b:225:90ff:fe85:1536 ~all
+pikabu.ru: 
+jrj.com.cn: 
+pandora.com: v=DMARC1; p=none; pct=100; rua=mailto:jpzegiki@ag.dmarcian.com; ruf=mailto:jpzegiki@fr.dmarcian.com;
+sex.com: 
+ibm.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+behance.net: v=DMARC1; p=reject; sp=reject; pct=100; rua=mailto:adobe@rua.agari.com;
+  ruf=mailto:adobe@ruf.agari.com; fo=1
+glassdoor.com: v=DMARC1; p=quarantine; rua=mailto:postmaster@glassdoor.com; ruf=mailto:postmaster-forensic@glassdoor.com;
+  pct=100;
+51sole.com: 
+google.by: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+wowhead.com: 
+daum.net: 
+asus.com: 
+ytimg.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+icicibank.com: v=DMARC1; p=reject;fo=1; rua=mailto:dmarc-rua@icicibank.com,mailto:icici-bank@rua.agari.com;ruf=mailto:dmarc-ruf@icicibank.com,mailto:icici-bank@ruf.agari.com
+taleo.net: v=DMARC1;p=none;pct=100;rua=mailto:postmaster@taleo.net;ruf=mailto:postmaster@taleo.net
+evernote.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@evernote.com; ruf=mailto:dmarc-ruf@evernote.com;
+  fo=0:s
+biobiochile.cl: 
+naver.jp: 
+blueseek.com: 
+patch.com: v=DMARC1; p=none; pct=100; rua=mailto:re+u9srkn6n0s5@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+nike.com: 
+bitmedianetwork.com: 
+digitaldsp.com: 
+groupon.com: v=DMARC1; p=reject; sp=none; fo=1; rf=afrf; rua=mailto:groupon@rua.agari.com,mailto:dmarc_rua@groupon.com;
+  ruf=mailto:groupon@ruf.agari.com,mailto:dmarc_ruf@groupon.com; pct=100
+leagueoflegends.com: 
+shaparak.ir: 
+billdesk.com: 
+nba.com: 
+spiegel.de: 
+nextlnk1.com: 
+dictionary.com: 
+zoho.com: 
+primevideo.com: 
+cambridge.org: 
+xda-developers.com: 
+goo.ne.jp: 
+kinogo.cc: 
+mit.edu: 
+manoramaonline.com: 
+umblr.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-yahoo-rua@yahoo-inc.com;
+gamer.com.tw: 
+souq.com: 
+vporn.com: 
+gyazo.com: 
+tube8.com: 
+wiktionary.org: 
+suning.com: 
+libero.it: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg_rep@libero.it,mailto:dmarc_agg@auth.returnpath.net;
+thebalance.com: v=DMARC1; p=none; fo=1; rua=mailto:thebalance@rua.agari.com; ruf=mailto:thebalance@ruf.agari.com
+filehippo.com: 
+sahibinden.com: 
+livescore.com: 
+webmd.com: 
+list-manage.com: google-site-verification=bhk0S-lNR3KBZsEpKRjlNxnyEnt3sVG4tD9sqAanEJ4
+google.com.do: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+appledaily.com: 
+olx.pl: v=DMARC1; p=none; pct=100; rua=mailto:re+o1nq8zk9biz@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+urbandictionary.com: v=DMARC1; p=none; pct=100; rua=mailto:re+p75bggqfjdv@dmarc.postmarkapp.com;
+  ruf=mailto:support.3102.36a040a51293da99@helpscout.net; sp=none; aspf=r;
+baike.com: v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com
+bandcamp.com: v=DMARC1; p=none; rua=mailto:dmarcreports@bandcamp.com
+themeforest.net: 
+investopedia.com: v=DMARC1; p=none; rua=mailto:postmaster@investopedia.com; fo=1
+google.com.ly: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ria.ru: 
+cnzz.com: 
+instructure.com: 
+hm.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+premierleague.com: 
+naukri.com: 
+sindonews.com: 
+addthis.com: v=DMARC1; p=none; rua=mailto:dmarc-reports@addthis.com
+google.rs: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+wattpad.com: v=DMARC1; p=none; rua=mailto:admin@wattpad.com
+adhoc2.net: 
+cnbc.com: 
+atlassian.net: wildcard-placeholder
+google.com.mm: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+linkshrink.net: 
+namnak.com: 
+upwork.com: v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email,mailto:upwork@rua.agari.com;
+  ruf=mailto:upwork@ruf.agari.com
+jianshu.com: 
+rutube.ru: v=DMARC1; p=none
+att.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@att.com; ruf=mailto:dmarc_ruf@att.com
+pages.tmall.com: 
+blog.jp: 
+ptt.cc: 
+wixsite.com: 
+shopify.com: v=DMARC1; p=quarantine; pct=0; fo=1; rua=mailto:dmarc-aggregate@shopify.com;
+  ruf=mailto:dmarc-reports@shopify.com
+wsj.com: 
+thewhizmarketing.com: 
+hurriyet.com.tr: 
+investing.com: 
+ck101.com: 
+japanpost.jp: 
+nordstrom.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:nordstrom@rua.agari.com,mailto:dmarc_a@nordstrom.com;
+  ruf=mailto:nordstrom@ruf.agari.com,mailto:dmarc_a@nordstrom.com
+thepennyhoarder.com: 
+4shared.com: 
+rarbg.is: 
+drom.ru: 
+sarkariresult.com: 
+animeflv.net: v=DMARC1; p=none
+box.com: v=DMARC1; p=reject; fo=1; rua=mailto:kx2dsqjd@ag.dmarcian.com,mailto:box@rua.agari.com;
+  ruf=mailto:kx2dsqjd@fr.dmarcian.com,mailto:box@ruf.agari.com
+t.me: 
+pantip.com: 
+blackboard.com: v=DMARC1;p=none;pct=100;rua=mailto:phishing@blackboard.com;fo=1;ruf=mailto:dmarcforensics@blackboard.com
+stockstar.com: 
+bild.de: 
+bldaily.com: 
+m73lae5cpmgrv38.com: 
+emol.com: 
+lifehacker.com: v=spf1 mx include:gawker.drhinternet.net include:_spf.google.com include:spf.mandrillapp.com
+  -all
+idntimes.com: 
+yandex.ua: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+ebc.net.tw: 
+inquirer.net: 
+paytm.com: v=DMARC1; p=reject; pct=100; rua=mailto:marketplace.devops@paytm.com,mailto:marketplace.devops@paytm.com;
+  ruf=mailto:marketplace.devops@paytm.com; sp=quarantine
+offergold.online: 
+okta.com: v=DMARC1; p=reject; rua=mailto:o2hvtavb@ag.dmarcian.com;
+hashflare.io: 
+fidelity.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; rf=afrf; pct=100;
+google.hr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+moneycontrol.com: v=DMARC1; p=none; rua=mailto:sysops@nw18.com
+kinokrad.co: 
+bitconnect.co: 
+y8.com: v=spf1 mx a ip4:69.55.48.104 include:spf.mandrillapp.com ~all
+voc.com.cn: 
+163.com: 
+allrecipes.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:meredith@rua.agari.com;
+  ruf=mailto:meredith@ruf.agari.com
+blockchain.info: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@blockchain.info
+weblio.jp: 
+gogoanime.io: 
+xe.com: 
+adp.com: v=DMARC1; p=reject; fo=1; rua=mailto:adp@rua.agari.com; ruf=mailto:adp@ruf.agari.com
+comcast.net: v=DMARC1; p=none; rua=mailto:dmarc-rua@dmarctest.comcast.net;
+beytoote.com: 
+bmovies.is: 
+uploaded.net: v=DMARC1; p=none; rua=mailto:dmarc@uploaded.net
+videoyoum7.com: 
+wunderground.com: 
+verizonwireless.com: v=DMARC1; p=reject; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf; pct=100
+gsmarena.com: v=DMARC1; p=reject; sp=reject; rua=mailto:postmaster@gsmarena.com; ruf=mailto:postmaster@gsmarena.com;
+  rf=afrf; pct=100; ri=86400
+yourporn.sexy: 
+addroplet.com: 
+elmundo.es: 
+digitalprivacyalert.org: 
+tutorialspoint.com: 
+jawabkom.com: 
+nametests.com: 
+mellowads.com: 
+engadget.com: v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+eyny.com: 
+lifewire.com: v=DMARC1; p=none; fo=1; rua=mailto:lifewire@rua.agari.com; ruf=mailto:lifewire@ruf.agari.com
+drive2.ru: v=DMARC1; p=none; adkim=s; aspf=s; rua=mailto:dmarc-report@drive2.ru; ruf=mailto:dmarc-forensics@drive2.ru
+wp.com: v=DMARC1; p=none; rua=mailto:0bqp2jnw@ag.dmarcian.com;
+wiley.com: 
+rbc.ru: v=DMARC1; p=none; rua=mailto:ck.dmarc@rbc.ru; ruf=mailto:ck.dmarc@rbc.ru;
+  adkim=r; aspf=s; pct=100; ri=86400; sp=none
+tistory.com: 
+uptobox.com: 
+videodownloadconverter.com: 
+bitfinex.com: 
+newtabtv.com: 
+intoday.in: 
+mercadolibre.com.ve: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; aspf=r;
+  rf=afrf; pct=100;
+baskino.co: 
+ieee.org: 
+hubspot.com: v=DMARC1;p=none;pct=100;rua=mailto:bdlk5ayo@ag.dmarcian.com;ruf=mailto:bdlk5ayo@fr.dmarcian.com
+rolloid.net: 
+givemesport.com: 
+getpocket.com: v=DMARC1; p=none; pct=100; rua=mailto:re+fssa1v2swfm@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+reuters.com: 
+kissasian.ch: 
+piet2eix3l.com: 
+discover.com: v=DMARC1; p=none; fo=1;rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+eanswers.com: 
+bleacherreport.com: globalsign-domain-verification=GAw3QxpoQCUd6MEBcIrvwmn1548c2kZ_M8jDU57Ho3
+npr.org: 
+cryptopia.co.nz: MS=ms94082295
+lenta.ru: 
+cdiscount.com: v=DMARC1; p=quarantine; pct=100; sp=quarantine; fo=1; rua=mailto:9f30547ec351588@rep.dmarcanalyzer.com;
+  ruf=mailto:9f30547ec351588@for.dmarcanalyzer.com;
+norton.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:symantec@rua.agari.com; ruf=mailto:symantec@ruf.agari.com
+olx.com.br: 
+coingecko.com: v=DMARC1; p=none; rua=mailto:hello@coingecko.com
+zhanqi.tv: 
+gmarket.co.kr: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com; ruf=mailto:ebay@ruf.agari.com;
+  fo=1; rf=afrf; pct=100
+hatena.ne.jp: 
+epochtimes.com: 
+academia.edu: v=DMARC1; p=quarantine; sp=none; ruf=mailto:clara@academia.edu; rua=mailto:clara@academia.edu;
+  rf=afrf; pct=100; ri=43200; fo=0
+costco.com: v=DMARC1; p=none; sp=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+nextlnk2.com: 
+zapmeta.ws: 
+qingdaonews.com: 
+nocookie.net: 
+drudgereport.com: 
+rapidgator.net: 
+readms.net: 
+cryptocompare.com: 
+humblebundle.com: 
+thehill.com: 
+coursera.org: 
+bet365.com: v=DMARC1;p=quarantine;pct=75;rua=mailto:dmarcaggregate@bet365.com;ruf=mailto:dmarcforensic@bet365.com;
+as.com: 
+kickstarter.com: v=DMARC1; p=quarantine; rua=mailto:8xajy4jm@ag.dmarcian.com; ruf=mailto:8xajy4jm@fr.dmarcian.com;
+coindesk.com: v=DMARC1; p=none; rua=mailto:pm@coindesk.com; ruf=mailto:pm@coindesk.com;
+  adkim=r; aspf=r; rf=afrf; ri=21600;  sp=quarantine
+thefreedictionary.com: 
+chinadaily.com.cn: 
+0123movies.com: 
+goal.com: 
+kohls.com: v=DMARC1; p=none; rua=mailto:dmarc@kohls.com
+bitcointalk.org: 
+caliente.mx: 
+nur.kz: 
+voot.com: 
+squarespace.com: v=DMARC1; p=reject; aspf=r; fo=1; pct=100; rua=mailto:squarespace@rua.agari.com;
+  ruf=mailto:squarespace@ruf.agari.com
+bles.com: 
+myfreecams.com: 
+vidio.com: 
+springer.com: 
+nypost.com: 
+kumparan.com: 
+express.co.uk: 
+lazada.com.my: 
+jw.org: 
+google.com.ec: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+gamespot.com: 
+cqnews.net: 
+thesun.co.uk: 
+lapatilla.com: 
+hespress.com: 
+kizlarsoruyor.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+eovhgt8egfm@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+easypdfcombine.com: 
+expedia.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:dmarc_fr@dmarc.250ok.net
+quizlet.com: v=DMARC1; p=reject; sp=reject; rua=mailto:re+xc2l4hwsqwz@dmarc.postmarkapp.com;
+  aspf=r;
+mobafire.com: 
+chinaz.com: 
+queuecosm.bid: 
+trackingclick.net: 
+google.tn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+lenovo.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:rz8blcvg@ag.dmarcian.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+pchome.com.tw: 
+intel.com: 
+popmyads.com: 
+cdstm.cn: 
+calcch.com: 
+myntra.com: 
+zara.com: 
+grid.id: 
+dmm.com: 
+techradar.com: 
+lemonde.fr: v=DMARC1; p=quarantine; sp=none; adkim=r; aspf=r; pct=100; rua=mailto:dmarc.report@lemonde.fr
+bhphotovideo.com: 
+flirt4free.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:postmaster@flirt4free.com
+cerpen.co.id: 
+interia.pl: 
+mysearch.com: 
+youjizz.com: 
+cinecalidad.to: 
+eksisozluk.com: 
+ask.fm: 
+putlockers.fm: 
+1and1.com: 
+tomsguide.com: 
+wtoip.com: 
+disqus.com: v=DMARC1; p=none; pct=100; rua=mailto:re+xcmmepsx0yx@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+google.com.my: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+kraken.com: v=DMARC1; p=reject; sp=reject; rua=mailto:postmaster@kraken.com, mailto:dmarc@kraken.com
+motherless.com: 
+ebay.fr: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+hotels.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@dmarc.250ok.net; ruf=mailto:dmarc_fr@dmarc.250ok.net
+timeanddate.com: v=spf1 -all
+banesconline.com: 
+conservativetribune.com: 
+divar.ir: 
+tvbs.com.tw: 
+ca.gov: 
+lazada.com.ph: 
+jeuxvideo.com: 
+milliyet.com.tr: 
+cbssports.com: 
+kijiji.ca: v=DMARC1; p=none; fo=1; rua=mailto:ebay-classifieds@rua.agari.com; ruf=mailto:ebay-classifieds@ruf.agari.com
+hatenablog.com: 
+corriere.it: 
+blogspot.mx: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+bancodevenezuela.com: 
+yaplakal.com: 
+ccm.net: 
+badoo.com: v=DMARC1; p=reject; pct=100; fo=1; rua=mailto:dmarc-rua@corp.badoo.com
+xbox.com: 
+allocine.fr: 
+tomshardware.com: v=DMARC1; p=reject; pct=100; rua=mailto:helpdesk@purch.com; ruf=mailto:helpdesk@purch.com;
+  fo=1
+fbsbx.com: 
+google.lt: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+okcupid.com: 
+ivi.ru: 
+4pda.ru: 
+mathrubhumi.com: 
+cam4.com: 
+quizzstar.com: 
+ssl-images-amazon.com: 
+uzone.id: 
+mobile01.com: 
+lazada.co.th: 
+asana.com: v=DMARC1; p=none; pct=100; rua=mailto:re+n57wzgjglj0@dmarc.postmarkapp.com,mailto:dmarcreports@asana.com;
+  ruf=mailto:849a27e445f8523@for.dmarcanalyzer.com; sp=none; aspf=r;
+yenisafak.com: v=DMARC1; p=none; sp=none; rf=afrf; pct=100; ri=86400
+deviantart.net: 
+lefigaro.fr: 
+blogfa.com: 
+business-channel4.com: 
+southwest.com: v=DMARC1; p=quarantine; sp=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf;
+fanfiction.net: 
+xtube.com: 
+goo.gl: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+surveymonkey.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:mailadmin@surveymonkey.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:mailadmin@surveymonkey.com; rf=afrf;
+  pct=100
+artstation.com: 
+google.tm: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ruten.com.tw: 
+techcrunch.com: 
+blibli.com: v=DMARC1;p=none;pct=100;fo=1;rua=mailto:postmaster@blibli.com;ruf=mailto:postmaster@blibli.com;sp=none;adkim=r;aspf=r
+ea.com: 
+hawaaworld.com: 
+freejobalert.com: 
+infusionsoft.com: v=DMARC1; p=none; rua=mailto:dmarcreports@infusionsoft.com; ruf=mailto:dmarcreports@infusionsoft.com;
+  pct=100
+mirror.co.uk: v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:dmarc@mirror.co.uk;
+  adkim=r; aspf=s
+sportbible.com: 
+speed-open2.com: 
+streamable.com: 
+elbalad.news: v=DMARC1; p=reject; rua=mailto:mohamed.salah@elbaladtv.net
+104.com.tw: 
+udn.com: 
+zoom.us: v=DMARC1;p=none; rua=mailto:bill.lu@zoom.us
+dailycaller.com: 
+chaoshi.tmall.com: 
+doorblog.jp: 
+vnexpress.net: 
+bitstamp.net: 
+gotporn.com: v=DMARC1; p=none; rua=mailto:postmaster@gotporn.com; ruf=mailto:postmaster@gotporn.com;
+  sp=none
+solarmoviez.ru: 
+americanas.com.br: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:b2wbr_rua@dm.easysol.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:b2wbr_ruf@dm.easysol.net
+grammarly.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@250ok.com; ruf=mailto:dmarc_fr@250ok.com;
+  fo=1; pct=100; rf=afrf
+ecosia.org: 
+protect-your-privacy.net: 
+buyma.com: 
+prpops.com: 
+okezone.com: 
+gstatic.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+torrent9.bz: 
+zaful.com: 
+tabelog.com: 
+etherscan.io: 
+autodesk.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+hicpm5.com: 
+kotaku.com: _globalsign-domain-verification=63GY7DdhmEwU6Yc6mPqIRV6Tlu3atl9B6izj643Qy2
+lolsided.com: 
+2ch.net: 
+google.iq: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+liveinternet.ru: v=DMARC1; p=none
+alodokter.com: 
+merriam-webster.com: 
+chatwork.com: 
+labanquepostale.fr: 
+suara.com: 
+azlyrics.com: v=DMARC1; p=reject
+17track.net: 
+time.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+chess.com: v=DMARC1; p=none;
+caixa.gov.br: 
+stanford.edu: 
+putrr18.com: 
+epwk.com: 
+food.tmall.com: 
+subito.it: v=DMARC1; p=none; rua=mailto:dmarc@subito.it
+cnnindonesia.com: 
+jiameng.com: 
+yandex.kz: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+1tv.ru: 
+google.si: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+khanacademy.org: v=DMARC1; p=none; rua=mailto:dmarc-reports@khanacademy.org; ruf=mailto:dmarc-reports@khanacademy.org
+epicgames.com: 
+fandango.com: 
+latimes.com: v=DMARC1;p=none;pct=100
+knowyourmeme.com: 
+worldoftanks.ru: 
+metropoles.com: 
+usnews.com: 
+nhk.or.jp: v=spf1 +ip4:133.127.68.0/24 +ip4:133.127.64.128/25 +ip4:133.127.69.160/27
+  +ip4:133.127.66.64/26 ~all
+dream.co.id: 
+wargaming.net: v=DMARC1; rua=mailto:postmaster@wargaming.net; sp=none; p=none;
+myanmarload.com: 
+segmentfault.com: 
+instructables.com: 
+namu.wiki: 
+freebitco.in: 
+duolingo.com: v=DMARC1; p=none; pct=100; rua=mailto:re+lhqmqj57zra@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+lowes.com: 
+commentcamarche.net: 
+explicandoo.com: 
+python.org: v=DMARC1; p=none; pct=100; rua=mailto:re+rbfssbtpllb@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+58.com: 
+healthline.com: 
+chron.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+waudeesestew.com: 
+cbsnews.com: 
+google.com.af: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+starzplay.com: 
+realtor.com: 
+discuss.com.hk: 
+el-nacional.com: 
+friendlyappz.com: 
+smallpdf.com: 
+weatherblink.com: 
+gazetaexpress.com: 
+mawdoo3.com: 
+drtuber.com: 'v=DMARC1; p=none; rua=mailto:mailstat@drtuber.com '
+perfectgirls.net: 
+bookmyshow.com: v=DMARC1; p=reject; rua=mailto:dmarcreports@bookmyshow.com;
+donga.com: 
+telllwrite.com: 
+google.com.gt: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ebates.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@dmarc.250ok.net; ruf=mailto:dmarc_fr@dmarc.250ok.net;
+  fo=1; pct=100; rf=afrf
+adexchangecloud.com: 
+www.gov.uk: 
+worldstarhiphop.com: 253735967-9223375
+gosuslugi.ru: v=DMARC1; p=reject; rua=mailto:administrator@gosuslugi.ru; sp=none
+zing.vn: v=DMARC1; p=none; rua=mailto:toasoan@zing.vn
+secureserver.net: 
+vidzi.tv: 
+avast.com: v=DMARC1; p=quarantine; sp=none; rua=mailto:dmarcrua@avast.com; ruf=mailto:itcrowd+dmarcruf@avast.com;
+  rf=afrf; pct=100; ri=86400
+sputniknews.com: 
+namasha.com: 
+mobile.de: v=DMARC1; p=none; fo=1; rua=mailto:ebay-classifieds@rua.agari.com; ruf=mailto:ebay-classifieds@ruf.agari.com
+td.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:td@rua.agari.com; ruf=mailto:td@ruf.agari.com
+nmisr.com: 
+steemit.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@steemit.com
+avg.com: v=DMARC1; p=reject; pct=100; sp=none; aspf=r; adkim=r; fo=1; rua=mailto:dmarc-reports@avg.com;
+  ruf=mailto:dmarc-forensic@avg.com;
+delta.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net;
+  rf=afrf; pct=100
+piriform.com: 
+jimdo.com: 
+pinterest.co.uk: v=DMARC1; p=reject
+yespornplease.com: 
+pcgamer.com: 
+socialblade.com: 
+g2a.com: v=DMARC1; p=none
+agoda.com: v=DMARC1; p=quarantine; sp=quarantine; pct=100; adkim=s; aspf=r; fo=1;
+  ri=172800; rua=mailto:dmarc@agoda.com;
+ubi.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarcreport@ubisoft.com
+anybunny.mobi: 
+vseigru.net: 
+11st.co.kr: 
+boredpanda.com: 
+tempo.co: 
+turbobit.net: 
+chouftv.ma: 
+custhelp.com: v=DMARC1; p=none; mailto:rua=dmarc-agg-custhelp@custhelp.com; ruf=mailto:dmarc-failure-custhelp@custhelp.com
+makemytrip.com: v=DMARC1; p=reject; pct=100; rua=mailto:re+q61qvdmnkl1@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+ninisite.com: v=DMARC1; p=none; pct=100; rua=mailto:re+r8dou9oni54@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+uniqlo.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+ebay.in: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+reimageplus.com: 
+yy08037.com: 
+sinoptik.ua: 
+rapidvideo.com: 
+kayak.com: v=DMARC1; p=none; rua=mailto:dmarc@kayak.com
+movie2free.com: 
+howtogeek.com: 
+nature.com: 
+dianping.com: 
+intactoffers.club: 
+theatlantic.com: 
+pornpics.com: 
+gap.com: v=DMARC1; p=reject; fo=1; rua=mailto:hojfhixb@ag.dmarcian.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:hojfhixb@fr.dmarcian.com,mailto:dmarc_afrf@auth.returnpath.net;
+mp3teca.com: 
+fatosdesconhecidos.com.br: 
+usaa.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+rozetka.com.ua: v=DMARC1; p=quarantine; rua=mailto:quarantine@rozetka.com.ua
+indiamart.com: 
+mileroticos.com: v=DMARC1; p=none
+reallifecam.com: 
+vtv.vn: 
+prezi.com: v=DMARC1; p=reject; sp=reject; fo=1; rua=mailto:2jedph1x@ag.dmarcian.com,mailto:dmarc-reports+rua@prezi.com;
+  ruf=mailto:2jedph1x@fr.dmarcian.com,mailto:dmarc-reports+ruf@prezi.com
+imagefap.com: 
+news.com.au: 
+plex.tv: 
+pastebin.com: 
+clipconverter.cc: 
+prnt.sc: 
+viralcpm.com: 
+argaam.com: 
+douban.com: 
+ticketmaster.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+eventbrite.com: 
+trustpilot.com: v=DMARC1; p=reject; rua=mailto:noreply-dmarc@trustpilot.com
+dafont.com: v=DMARC1; p=none; rua=mailto:postmaster@dafont.com; ruf=mailto:postmaster@dafont.com;
+  sp=none; ri=86400
+superuser.com: 
+bankmellat.ir: v=DMARC1; p=quarantine; pct=5; rua=mailto:mail-support@bankmellat.ir
+imagetwist.com: v=DMARC1;p=none;pct=100;rua=mailto:youremailaddress@yourdomain.com;ruf=mailto:youremailaddress@yourdomain.com
+nbcnews.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@vali.email
+ukr.net: v=DMARC1; p=none; rua=mailto:dmarc_reports@ukr.net
+comicbook.com: 
+kakao.com: 
+android.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+huawei.com: 
+bodybuilding.com: v=DMARC1;p=none;pct=100;rua=mailto:dmarc@bodybuilding.com
+europa.eu: 
+olx.in: v=DMARC1; rua=mailto:7cffec65d5a8509@rep.dmarcanalyzer.com; ruf=mailto:7cffec65d5a8509@for.dmarcanalyzer.com;
+  p=none; sp=none; fo=0;
+ancestry.com: v=DMARC1; p=none;rua=mailto:dmarc_agg@auth.returnpath.net;ruf=mailto:dmarc_afrf@auth.returnpath.net
+hamariweb.com: 
+cdninstagram.com: 
+op.gg: 
+shink.me: 
+wayfair.com: 
+psu.edu: 
+meb.gov.tr: 
+cisco.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:cisco@rua.agari.com,mailto:rqtp8nea@ag.dmarcian.com;
+  ruf=mailto:cisco@ruf.agari.com,mailto:rqtp8nea@fr.dmarcian.com
+politico.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@politico.com
+bitly.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@bitly.com; ruf=mailto:ruf@dmarc.bitly.net;
+  fo=1;
+googlevideo.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+mathworks.com: 
+internetdownloadmanager.com: 
+nhl.com: 
+yy08047.com: 
+mercari.com: 
+impress.co.jp: 
+sfr.fr: 
+sephora.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+auction.co.kr: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com; ruf=mailto:ebay@ruf.agari.com;
+  fo=1; rf=afrf; pct=100
+hdrezka.ag: v=DMARC1;p=quarantine;adkim=r;aspf=r;rua=mailto:support@hdrezka.ag
+westernjournal.com: 
+hitomi.la: 
+hepsiburada.com: v=DMARC1;p=none
+polygon.com: v=DMARC1; p=none; rua=mailto:zicaptxt@ag.dmarcian.com
+neobux.com: v=DMARC1; p=reject;
+familydoctor.com.cn: 
+nikkei.com: 
+mejortorrent.com: 
+provinet.net: 
+brazzers.com: v=DMARC1; p=none
+yesky.com: 
+sapo.pt: 
+kinozal.tv: 
+liveleak.com: 
+pussl18.com: 
+focus.de: 
+retailmenot.com: v=DMARC1; p=none; pct=100; adkim=s; aspf=s; sp=none; fo=1; rua=mailto:dmarc@retailmenot.com;
+  ruf=mailto:dmarc@retailmenot.com;
+nvidia.com: v=DMARC1; p=none; rua=mailto:pf-dkimreports@nvidia.com;
+uniqlo.tmall.com: 
+ubisoft.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarcreport@ubisoft.com
+radiorage.com: 
+issuu.com: v=DMARC1; p=quarantine; rua=mailto:dmarc@issuu.com
+putlockers.movie: 
+webex.com: v=spf1 mx -all
+harvard.edu: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+java.com: 
+voirfilms.ws: 
+3sk.tv: 
+gongchang.com: 
+cimaclub.com: 
+arxiv.org: 
+prom.ua: 'yandex-verification: 3416c767c71749b2'
+ozon.ru: v=DMARC1; p=none; rua=mailto:dmarc@ozon.ru;
+tebyan.net: 
+icy-veins.com: 
+usbank.com: v=DMARC1;p=reject;rua=mailto:us-bank@rua.agari.com;ruf=mailto:us-bank@ruf.agari.com;fo=1
+v2ex.com: 
+xunlei.com: 
+justdial.com: 
+wired.com: 
+livestrong.com: 
+fidonav.com: 
+eztv.ag: 
+pexels.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc.rua@pexels.com; ruf=mailto:dmarc.rua@pexels.com;
+weather.gov: 
+rvcj.com: 
+royalbank.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+biblegateway.com: 
+freearabsexx.com: 
+correios.com.br: 
+redirectvoluum.com: 
+pcmag.com: 
+myeasylotto.com: 
+sakura.ne.jp: 
+ajel.sa: 
+rutor.info: 
+aa.com: v=DMARC1; p=quarantine; sp=none; fo=1; ri=3600; rua=mailto:american@rua.agari.com,mailto:dmarc@aa.com;
+  ruf=mailto:american@ruf.agari.com,mailto:dmarc@aa.com
+cbc.ca: 
+miui.com: 
+n11.com: 
+vesti.ru: 
+rockstargames.com: 
+absoluteclickscom.com: 
+besoccer.com: 
+snapdeal.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarcreport@snapdeal.com
+egy.best: 
+idnes.cz: v=DMARC1; p=none; rua=mailto:cobphx9f@ag.dmarcian.com;
+meetup.com: 
+fb.ru: 
+1fichier.com: 
+kp.ru: v=DMARC1; p=reject; sp=none
+poste.it: 
+united.com: 
+axisbank.co.in: v=DMARC1;p=reject;pct=100;rua=mailto:dmarc.genalerts@axisbank.com
+asahi.com: 
+keepvid.com: 
+plarium.com: v=DMARC1; p=none; fo=1; rua=mailto:o.sukhariev@plarium.com; ruf=mailto:o.sukhariev@plarium.com
+scribol.com: 
+zhaopin.com: 
+animeyt.tv: 
+hitbtc.com: 
+debate.com.mx: 
+flashscore.com: v=DMARC1; p=none
+andhrajyothy.com: 
+yandex.com.tr: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+zougla.gr: 
+thehindu.com: 
+fishki.net: v=DMARC1; p=quarantine; rua=mailto:mail@fishki.net
+scol.com.cn: 
+ashemaletube.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@ashemaletube.com
+newsweek.com: 
+thespruce.com: v=DMARC1; p=none; fo=1; rua=mailto:thespruce@rua.agari.com; ruf=mailto:thespruce@ruf.agari.com
+wykop.pl: v=DMARC1; p=quarantine; adkim=r; aspf=s; sp=quarantine
+ppy.sh: 
+dhl.de: v=DMARC1; p=reject; fo=0; rua=mailto:dmarc-reports@dhl.com
+welt.de: 
+avito.ma: 
+voyeurhit.com: 
+pelisplus.tv: 
+elsevier.com: v=DMARC1; p=none; fo=1; rua=mailto:reed-elsevier@rua.agari.com,mailto:dmarc-a@elsevier.com;
+  ruf=mailto:reed-elsevier@ruf.agari.com
+jsmentry.com: 
+ppomppu.co.kr: 
+gazzetta.it: 
+nasa.gov: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarcmail@mail.nasa.gov,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+vg.no: v=DMARC1; p=none; rua=mailto:xgrgebha@ag.dmarcian-eu.com;
+nexon.com: v=DMARC1; p=quarantine; pct=100; aspf=s; rua=mailto:_mobileDM@nexon.com
+tnt-online.ru: v=spf1 +mx -all
+mashable.com: v=DMARC1; p=quarantine; rua=mailto:dmarc@mashable.com; ruf=mailto:dmarc@mashable.com
+viva.co.id: v=DMARC1; p=none
+bitbucket.org: google-site-verification=p99sO7SVcXanHfj-NuQZJKocj3_4Hkws2ZNbbieLW1M
+filmweb.pl: 
+eporner.com: v=DMARC1; p=reject; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; fo=1
+bhaskar.com: 
+wondershare.com: 
+infobae.com: 
+uber.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email
+ficbook.net: 
+unity3d.com: 
+tnaflix.com: 
+jumia.com.ng: 
+people.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+forgeofempires.com: v=spf1 ip4:212.48.98.0/24 ip4:212.48.106.5 include:mailgun.org
+  ~all
+sonyentertainmentnetwork.com: 
+skurki.info: 
+cookpad.com: 
+dawn.com: 
+pochta.ru: 
+hearthpwn.com: 
+mymovies.it: 
+google.lv: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+provincial.com: 
+wuxiaworld.com: v=DMARC1; p=reject; aspf=r
+zomato.com: v=DMARC1; p=reject; pct=100; sp=none; aspf=r;
+walgreens.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:walgreens@rua.agari.com;
+  ruf=mailto:walgreens@ruf.agari.com
+mangafox.la: 
+bamilo.com: v=DMARC1;p=none;pct=100;rua=mailto:info@bamilo.com;ruf=mailto:info@bamilo.com
+gog.com: v=DMARC1; p=none; pct=100; rua=mailto:re+lznm3dlbyoo@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+mynet.com: 
+avgle.com: 
+etoro.com: v=DMARC1; p=reject; rua=mailto:905c9455225e834@rep.dmarcanalyzer.com,mailto:dmarc-notify@etoro.com;
+  ruf=mailto:905c9455225e834@for.dmarcanalyzer.com,mailto:dmarc-notify@etoro.com;
+  sp=none; fo=1;
+hootsuite.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-rua@hootsuite.com
+urbanoutfitters.com: 
+nintendo.com: 
+codepen.io: v=DMARC1;p=quarantine;pct=100;rua=mailto:a+43465759@fdmarc.net,mailto:admin+email_agg_reports@codepen.io;ruf=mailto:f+43465759@fdmarc.net,mailto:admin+email_afrf_reports@codepen.io;ri=3600;fo=1;
+istockphoto.com: v=DMARC1; p=none; rua=mailto:dmarc.rpt@istockphoto.com
+buffstream.com: 
+digitaltrends.com: 
+ted.com: v=DMARC1; p=none; pct=100; rua=mailto:re+cnfbhpmxj7r@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+jabong.com: 
+google.com.pr: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+skysports.com: 
+airtel.in: v=DMARC1; p=reject; rua=mailto:dmarc@airtel.com; ruf=mailto:dmarc@airtel.com;
+  fo=0:1:d:s; adkim=r; aspf=s; rf=afrf; sp=reject
+gamestop.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_rua@emaildefense.proofpoint.com
+rus.ec: 
+abc.net.au: 
+admaimai.com: 
+visualstudio.com: 
+creditkarma.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-reports@creditkarma.com,mailto:dmarc_agg@vali.email;
+  rf=afrf
+reclameaqui.com.br: v=DMARC1; p=none; sp=none; fo=0; rua=mailto:infra@reclameaqui.com.br;
+  ruf=mailto:infra@reclameaqui.com.br
+q1-tdsge.com: 
+myfitnesspal.com: 
+primewire.ag: 
+bitcoin.com: 
+dcard.tw: 8TsKVzjT
+wenxuecity.com: 
+libgen.io: 
+gnula.nu: 
+fnac.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@fnac.com; ruf=mailto:dmarc-ruf@fnac.com
+narod.ru: 
+patria.org.ve: 
+shutterfly.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc@shutterfly.com; ruf=mailto:dmarc@shutterfly.com
+deezer.com: v=DMARC1; p=none; rua=mailto:dmarc_report@deezer.com
+twoo.com: 
+ebay.es: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+jqw.com: 
+otto.de: 
+fotostrana.ru: v=DMARC1; p=reject; rua=mailto:dmarc@fotostrana.ru; ruf=mailto:dmarc@fotostrana.ru;
+  adkim=s; aspf=s; rf=afrf; sp=none; pct=100
+daraz.pk: 
+tmz.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email
+gumtree.com.au: v=DMARC1; p=none; fo=1; rua=mailto:ebay-classifieds@rua.agari.com;
+  ruf=mailto:ebay-classifieds@ruf.agari.com
+farfetch.com: v=DMARC1; p=none; rua=mailto:dmarc@farfetch.com; ruf=mailto:dmarc-fail@farfetch.com;
+  ri=43200
+gazeta.pl: 
+fmovies.pe: 
+foodnetwork.com: 
+state.gov: v=DMARC1;p=none;fo=0;rua=mailto:dmarcreport@state.gov
+lequipe.fr: 
+pinterest.es: v=DMARC1; p=reject
+unblocked.vc: 
+toutiao.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@toutiao.com
+yifysubtitles.com: 
+oneindia.com: 
+edx.org: 
+urdupoint.com: 
+thumbzilla.com: 
+download-geek.com: 
+wildberries.ru: 
+audible.com: 
+sh.st: 
+vlive.tv: 
+barnesandnoble.com: 
+bithumb.com: 
+wiocha.pl: 
+nydailynews.com: 
+ixxx.com: 
+ps7894.com: 
+indianexpress.com: 
+tandfonline.com: 
+dmv.org: 
+pron.tv: 
+pole-emploi.fr: 
+teamviewer.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:rua_dmarc@teamviewer.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:ruf_dmarc@teamviewer.com; pct=100;
+best2017games.com: 
+abcnews.go.com: 
+bastillepost.com: 
+redfin.com: 
+adme.ru: 
+login.tmall.com: 
+echo.msk.ru: 
+w3school.com.cn: 
+cda.pl: v=DMARC1; p=none
+5ch.net: 
+livedoor.biz: 
+shopee.tw: v=DMARC1; p=none; rua=mailto:fakeemailalert@shopeemobile.com; ruf=mailto:fakeemailalert@shopeemobile.com;
+  adkim=r; aspf=r; rf=afrf; fo=1; ri=900
+ebay.ca: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+nextlnk3.com: 
+startpage.com: v=DMARC1; p=none; rua=mailto:dmarc@startpage.com; pct=100
+ouo.press: 
+att.net: 
+mvideo.ru: 
+reverb.com: v=DMARC1; p=none; pct=100; rua=mailto:re+ekzdrh07gsy@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+2youtds.biz: 
+xiami.com: 
+dailypakistan.com.pk: 
+trulia.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; fo=1
+irs.gov: v=DMARC1; p=none; rua=mailto:dmarc-agg-feed@ofdp.irs.gov
+thoughtco.com: v=DMARC1; p=none; fo=1; rua=mailto:thoughtco@rua.agari.com; ruf=mailto:thoughtco@ruf.agari.com
+bicentenariobu.com: 
+pornmd.com: 
+pof.com: v=DMARC1; p=none; rua=mailto:systems@pof.com; ruf=mailto:systems@pof.com
+yallakora.com: 
+zappos.com: '"v=DMARC1; p=none; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net;
+  rf=afrf; pct=100"'
+geeksforgeeks.org: 
+gomovies.tech: 
+pirateproxy.ist: 
+ed.gov: v=DMARC1; p=none; rua=mailto:dmarc@ed.gov; aspf=r; pct=100; rf=afrf; ri=345600;
+  sp=none
+xiaomi.com: 
+gazeta.ru: 
+kompasiana.com: 
+nate.com: 
+launchpage.org: v=DMARC1; p=quarantine
+studfiles.net: v=DMARC1; p=reject; sp=reject
+pinterest.de: v=DMARC1; p=reject
+arstechnica.com: 
+deadspin.com: v=spf1 mx include:gawker.drhinternet.net include:_spf.google.com include:spf.mandrillapp.com
+  -all
+lk21.top: 
+tim.it: 
+futbin.com: 
+nairaland.com: 
+internetspeedtracker.com: 
+mediaset.it: 
+porn.com: 
+bedbathandbeyond.com: 
+redbubble.com: 
+berkeley.edu: 
+slate.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:slate@rua.agari.com; ruf=mailto:slate@ruf.agari.com
+moradu.com: 
+telekom.com: 
+askubuntu.com: 
+51.la: 
+infourok.ru: 
+t-mobile.com: 
+dribbble.com: v=DMARC1; p=none; pct=100; rua=mailto:re+af9o0any5yt@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+ibtimes.co.uk: 
+yalla-shoot.com: 
+bolasport.com: 
+superappbox.com: 
+ranker.com: 
+qiita.com: 
+thingiverse.com: 
+secure-surf.net: 
+unsplash.com: v=DMARC1; p=quarantine; pct=1; rua=mailto:spam@unsplash.com
+4399.com: 
+bs.to: 
+pinterest.fr: v=DMARC1; p=reject
+lostfilm.tv: v=spf1 a:mx.lostfilm.tv a:mail.host-id.ru ip4:185.85.121.20 ip4:185.85.122.11
+  ip4:185.85.120.0/22 +all
+yodobashi.com: 
+yjc.ir: 
+24video.adult: 
+marketwatch.com: 
+ameba.jp: 
+nextdoor.com: 
+limetorrents.cc: 
+itmedia.co.jp: 
+dreamstime.com: 
+postbank.de: 
+eenadu.net: 
+study.com: v=DMARC1; p=none;pct=100; rua=mailto:re+p5muqfprkoc@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+vox.com: v=DMARC1; p=none; rua=mailto:zicaptxt@ag.dmarcian.com
+fullhdfilmizlesene.org: 
+ly.com: v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com
+dhl.com: v=DMARC1; p=reject; fo=0; rua=mailto:dmarc-reports@dhl.com
+privatbank.ua: v=DMARC1; p=reject; sp=reject; adkim=r
+cb01.zone: 
+idealo.de: v=DMARC1; p=none; fo=1; rua=mailto:dmarc-aggregation@idealo.de; ruf=mailto:dmarc-forensic@idealo.de
+media-bucket.com: 
+clien.net: 
+sonyliv.com: 
+pnc.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+focuusing.com: 
+pussl32.com: 
+fast-torrent.ru: 
+jumia.com.eg: 
+poe.trade: 
+verizon.com: v=DMARC1; p=quarantine; sp=none; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf; pct=100
+lavanguardia.com: 
+megpacokjce.bid: 
+commbank.com.au: v=DMARC1; p=none; sp=none; pct=100; rua=mailto:dmarc-rua@cba.com.au;
+  ruf=mailto:dmarc-ruf@cba.com.au; adkim=r; aspf=r; fo=1; rf=afrf; ri=86400
+9anime.is: 
+worldofwarcraft.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; rf=afrf; pct=100;
+schwab.com: v=DMARC1;p=reject;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:DMARCReporting@schwab.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+milanuncios.com: v=DMARC1; p=reject; sp=none; rua=mailto:a0ad71746c93595@rep.dmarcanalyzer.com;
+  ruf=mailto:mailreports@milanuncios.com; rf=afrf; pct=100; ri=86400
+ryanair.com: 
+amazon.com.mx: 
+triumph.tmall.com: 
+online-convert.com: v=DMARC1; p=none; rua=mailto:postmaster@online-convert.com
+grtyb.com: v=spf1 mx -all
+hexun.com: 
+eobot.com: v=DMARC1; p=reject;
+programme-tv.net: 
+neiyi.tmall.com: 
+smartadtags.com: 
+predictivadnetwork.com: 
+znanija.com: 
+3c.tmall.com: 
+chegg.com: 
+xhamsterlive.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@xhamsterlive.com
+metacritic.com: 
+aimer.tmall.com: 
+theweathernetwork.com: 
+strava.com: 
+runoob.com: 
+php.net: 
+curseforge.com: 
+orf.at: 
+tilestwra.com: 
+metro.co.uk: 
+gittigidiyor.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net;
+  rf=afrf; pct=100;
+credit-agricole.fr: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+nbcsports.com: 
+pixhost.org: 
+argos.co.uk: v=DMARC1; rua=mailto:8086c6a01ea9429@rep.dmarcanalyzer.com; ruf=mailto:8086c6a01ea9429@for.dmarcanalyzer.com;
+  p=none; sp=none; aspf=s; fo=1;
+efukt.com: 
+feger.tmall.com: 
+wikiwand.com: 
+google.com.gh: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+mirtesen.ru: v=DMARC1; p=quarantine;
+irecommend.ru: 
+searchencrypt.com: 
+envato.com: v=DMARC1; p=none; rua=mailto:postmaster@envato.com
+brand.tmall.com: 
+bayt.com: 
+thevideo.me: 
+avefyjulko.bid: 
+myhome.tmall.com: 
+chosun.com: 
+youku.com: 
+xuite.net: v=spf1 include:hibox.hinet.net a:sender.epost.hinet.net ip4:210.242.18.0/24
+  ip4:210.242.41.0/24 ip4:210.242.46.0/24 ip4:202.39.77.125/32 ip4:202.39.77.71/32
+  ip4:202.39.77.72/32 ~all
+google.com.bd: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+dhgate.com: 
+junbi-tracker.com: 
+netteller.com: 
+thedailybeast.com: 
+indianrail.gov.in: 
+change.org: v=DMARC1; p=none; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:dmarc_fr@dmarc.250ok.net;
+cnbeta.com: 
+shahid4u.tv: 
+nsdl.com: 
+yandex.by: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+billboard.com: 
+filmitorrent.org: 
+etorrent.co.kr: 
+crabsecret.tmall.com: 
+newstarads.com: 
+streamcloud.eu: 
+elwatannews.com: 
+emuparadise.me: 
+ero-advertising.com: 
+gaana.com: v=DMARC1; p=none; rua=mailto:accepted@gaana.com; ruf=mailto:quarantine@gaana.com;
+  rf=afrf; pct=100
+heise.de: 
+renren.com: 
+zol.com.cn: 
+mangareader.net: 
+taoche.com: 
+yao.tmall.com: 
+ceneo.pl: 
+crhoy.com: 
+playground.ru: 
+umich.edu: v=DMARC1;p=none;pct=100;rua=mailto:dmarc.reports@umich.edu
+marumaru.in: 
+kongregate.com: 
+clips4sale.com: google-site-verification=pRqFxQgxvrSSbMpHgkq28OfF8Pd6I4bHrvNTZX7JdQk
+last.fm: 
+tamilrockers.tv: 
+liveadexchanger.com: 
+india.com: 
+yobit.net: 
+news18.com: 
+farsnews.com: 
+paheal.net: 
+adidas.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+paytm.in: 
+cheatsheet.com: 
+jio.com: 
+24smi.info: 
+tfetimes.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m;
+  rf=afrf; pct=100; ri=86400
+51cto.com: 
+championat.com: 
+kknews.cc: 
+disq.us: 
+minecraft.net: 
+marriott.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+126.com: v=DMARC1; p=none;
+247sports.com: google-site-verification=C0bP8ereX0uzRGr9laFP1HKSjIqGzZUi02nB22R4Oyk
+cima4u.tv: 
+coolmath-games.com: 
+manyvids.com: 
+sankei.com: 
+miniclip.com: 
+arcot.com: 
+ozee.com: 
+secondlife.com: 
+sporx.com: 
+gameforge.com: 
+ripple.com: 
+feebee.com.tw: 
+constantcontact.com: v=DMARC1; p=none; sp=quarantine;rua=mailto:dmarc_agg@vali.email,mailto:dmarcreports@constantcontact.com,mailto:tk0syg54@ag.dmarcian.com;
+  ruf=mailto:dmarcreports@endurance.com,mailto:tk0syg54@fr.dmarcian.com; rf=afrf;
+  pct=10;
+abc.es: 
+lg.com: 
+sankakucomplex.com: 
+iherb.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+sky.com: 
+avclub.com: 
+hbogo.com: v=DMARC1; p=reject; rua=mailto:dmarc@hbo.com,mailto:dmarc_agg@vali.email;
+  ruf=mailto:dmarc@hbo.com
+jcpenney.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-rua-sm@jcp.com; ruf=mailto:dmarc-ruf-sm@jcp.com;
+  fo=1
+ayclinical.com: 
+readthedocs.io: 
+blog.me: 
+dagospia.com: 
+heavy.com: google-site-verification=FT0qBr-iOuo11oA_mk1Qk4IHcQiwpYashpOEbkdheZ0
+laposte.fr: 
+skroutz.gr: 
+yeniakit.com.tr: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@yeniakit.com.tr;
+  ruf=mailto:postmaster@yeniakit.com.tr; rf=afrf; pct=100; ri=86400;
+streamango.com: v=DMARC1; p=quarantine
+vanguard.com: v=DMARC1; p=reject; sp=none; rua=mailto:email_eda@vanguard.com; ruf=mailto:email_edf@vanguard.com;
+  rf=afrf; pct=100
+clarin.com: v=DMARC1; p=none; rua=dmarc@planisys.com
+bestbuy.ca: 
+spectrum.net: 
+globaltimes.cn: 
+malwarebytes.com: v=DMARC1;p=reject;pct=100;rua=mailto:dmarc-rua@malwarebytes.com;ruf=mailto:dmarc-ruf@malwarebytes.com;fo=1
+rightmove.co.uk: v=DMARC1; p=none; fo=1; pct=100; aspf=r; rua=mailto:1tqzheic@ag.dmarcian.com;
+  ruf=mailto:1tqzheic@fr.dmarcian.com;
+valuecommerce.com: 
+pcpartpicker.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc@pcpartpicker.com
+kuronekoyamato.co.jp: 
+01net.com: v=spf1 include:amazonses.com ~all
+myworkday.com: v=DMARC1;p=none;rua=mailto:abuse@myworkday.com;ruf=mailto:abuse@myworkday.com;adkim=r;ri=14400
+roaring.earth: 
+clickpapa.io: 
+jobrapido.com: 
+syosetu.com: 
+thomann.de: 
+elmogaz.com: 
+abril.com.br: 
+360doc.com: 
+google.com.cu: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+mercantilbanco.com: 
+bittorrent.com: 
+newyorker.com: 
+panet.co.il: 
+extratorrent.ag: 
+abola.pt: 
+bt.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc@bt.com; ruf=mailto:dmarc@bt.com
+geniuskitchen.com: 
+serviporno.com: 
+hh.ru: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-rua@hh.ru
+canada.ca: v=DMARC1; p=none; rua=mailto:ssc.dmarc.spc@canada.ca; adkim=s; aspf=s
+sfgate.com: 
+tagged.com: 
+bzw315.com: 
+letras.mus.br: 
+joins.com: 
+eol.cn: 
+akamaihd.net: 
+mts.ru: 
+maybank2u.com.my: 
+books.com.tw: 
+zone-telechargement.ws: 
+nationalgeographic.com: 
+kinoprofi.org: 
+makeuseof.com: 
+ioredi.com: 
+sozcu.com.tr: 
+futhead.com: 
+shadbase.com: 
+movierulz.sx: 
+udacity.com: 
+qiwi.com: v=DMARC1;p=reject;rua=mailto:dmarcreports@qiwi.com,mailto:dxosf5re@ag.dmarcian.com;ruf=mailto:dmarcreports@qiwi.com,mailto:dxosf5re@fr.dmarcian.com;fo=0;
+kizi.com: 
+firstpost.com: v=DMARC1; p=none; rua=mailto:anlf2ymv@ag.dmarcian.com
+gowatchfreemovies.to: 
+businesslnk.com: 
+camdolls.com: v=DMARC1; p=none; pct=100; rua=mailto:fdpfb1lo@ag.dmarcian.com; ruf=mailto:fdpfb1lo@fr.dmarcian.com;
+dw.com: 
+abplive.in: 
+bustle.com: v=DMARC1; p=quarantine; rua=mailto:noc@bustle.com
+telegraf.com.ua: 
+mydrivers.com: 
+mysagagame.com: 
+epfindia.gov.in: 
+skyscanner.net: 
+televisionfanatic.com: 
+techtudo.com.br: 
+href.li: 
+afreecatv.com: 
+gumtree.com: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com; ruf=mailto:ebay@ruf.agari.com;
+lightinthebox.com: 
+directrev.com: 
+kinogb.club: v=DMARC1; p=none; aspf=r; sp=none
+dominos.com: v=DMARC1; p=none; fo=1; rua=mailto:dominos@rua.agari.com; ruf=mailto:dominos@ruf.agari.com
+incometaxindiaefiling.gov.in: v=DMARC1; p=reject; rua=mailto:mailreports_efiling@incometax.gov.in;
+  adkim=s; aspf=s
+deref-gmx.net: 
+pitchfork.com: 
+tinder.com: v=DMARC1; p=reject; pct=100; rua=mailto:spam@tinder.com
+google.jo: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+getbootstrap.com: 
+taimienphi.vn: 
+bahn.de: v=DMARC1; p=none; rua=mailto:dmarc.reporting@deutschebahn.com;
+archiveofourown.org: 
+qualtrics.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-corp-rua@qualtrics.com;
+  ruf=mailto:dmarc-corp-ruf@qualtrics.com;
+codeproject.com: 
+mangamura.org: 
+variety.com: google-site-verification=XxbnzrZheWmyChqJkDZFi9jVDZjcLeLwE-_td5RwYJM
+fastpic.ru: 
+funnyjunk.com: 
+tradedoubler.com: 
+filmix.me: v=DMARC1; p=reject; adkim=s; aspf=s;
+i.ua: v=DMARC1; p=none; rua=mailto:dmarc-rua@mi6.kiev.ua
+gismeteo.ua: 
+sanook.com: v=DMARC1;p=none;pct=100;rua=mailto:posmaster@sanook.com
+mp3party.net: 
+google.com.lb: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ucoz.ru: v=DMARC1; p=none; rua=mailto:dmarc-report@ucoz.com
+r18.com: 
+bab.la: 
+nnm-club.name: 
+pathofexile.com: v=DMARC1; p=none; pct=20; rua=mailto:dmarc@grindinggear.com
+bola.net: 
+boardgamegeek.com: 
+coincheck.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-rua@coincheck.com
+caixabank.es: v=DMARC1;p=none;fo=1;ri=3600;rua=mailto:caixa-bank@rua.agari.com,mailto:cyber.soc@caixabank.com;ruf=mailto:caixa-bank@ruf.agari.com,mailto:cyber.soc@caixabank.com
+virgilio.it: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg_rep@virgilio.it,mailto:dmark_agg@auth.returnpath.net;
+academic.ru: 
+lentainform.com: 
+ew.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+aptitudemedia.co: 
+eroterest.net: 
+repelis.tv: 
+nicehash.com: 
+popsugar.com: 
+rappler.com: 
+tvtropes.org: 
+novinky.cz: 
+gumtree.co.za: v=DMARC1; p=none; sp=none; rua=mailto:dl-bolt-postmaster@ebay.com;
+  ruf=mailto:dl-bolt-postmaster@ebay.com; rf=afrf; pct=100; ri=86400
+techbang.com: 
+getsuperappbox.com: 
+mail.com: 
+zdf.de: 
+ifeng.com: 
+girrrly.com: 
+nikkeibp.co.jp: v=spf1 include:spf1.nikkeibp.co.jp -all
+apache.org: 
+ibtimes.co.in: 
+biqle.ru: 
+mmo-champion.com: 
+ilovepdf.com: 
+adbooth.com: 
+filmfanatic.com: 
+trafficoverlap.com: 
+gofundme.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email,mailto:sre+valiagg@gofundme.com;
+  ruf=mailto:sre+valifail@gofundme.com,mailto:valifail@gofundme.com
+zcool.com.cn: 
+sbrf.ru: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_rua@sberbank.ru
+eset.com: 
+todayhumor.co.kr: 
+bolshoyvopros.ru: 
+24h.com.vn: v=DMARC1; p=quarantine; rua=mailto:abuse@24h.com.vn!10m; ruf=mailto:abuse@24h.com.vn!10m;
+  rf=afrf; pct=100; ri=86400
+oceanofgames.com: 
+sports.ru: 
+kino-teatr.ru: 
+hollywoodreporter.com: 
+fivethirtyeight.com: MS=ms40671226
+otvfoco.com.br: 
+opensubtitles.org: v=DMARC1; p=none; sp=none; rua=mailto:abuse@opensubtitles.org
+unity.com: 
+danawa.com: 
+meteofrance.com: 
+so-net.ne.jp: v=DMARC1; p=none
+igg-games.com: 
+mcafee.com: 
+allkpop.com: v=spf1 a mx ptr ip4:67.228.180.208/29 include:aspmx.googlemail.com include:mailgun.org
+  ~all
+google.com.sv: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+houzz.com: v=DMARC1;p=none;pct=100;rua=mailto:unsubscribe@houzz.com
+kdnet.net: 
+codecanyon.net: 
+yandex.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc-rua@yandex.ru;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+zerohedge.com: 
+icims.com: v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email,mailto:nfivm2st@ag.dmarcian.com;
+  ruf=mailto:dmarc_afrf+c07bdb74@vali.email,mailto:nfivm2st@fr.dmarcian.com
+life.tw: 
+v1.cn: 
+watch-series.io: 
+nextlnk5.com: 
+xkcd.com: 
+victoriassecret.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+altervista.org: 
+seesaa.net: 
+habrahabr.ru: v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:dmarc-receiver@habramail.net;
+  ri=86400;
+123rf.com: 
+oup.com: 
+chinatimes.com: 
+turbo.az: v=DMARC1; p=none; pct=100; rua=mailto:re+dj47ouu3jij@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+cloudflare.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:rua@cloudflare.com, mailto:gjqhulld@ag.dmarcian.com
+playzonenow.com: 
+p30download.com: 
+shareasale.com: 
+watch-series.is: 
+vrfuckdolls.com: 
+kepuchina.cn: 
+mmaaxx.com: 
+over-blog.com: 
+brassring.com: 
+caf.fr: v=spf1 ip4:195.101.92.0/24 ip4:77.158.24.128/25 include:spf.protection.outlook.com
+  ~all
+myfood.ltd: 
+tuko.co.ke: workplace-domain-verification=28ac3803-9072-446e-b9ea-fded1adff2c4
+userscloud.com: v=DMARC1; p=none; pct=100; rua=mailto:postmaster@userscloud.com;
+searchtuner.com: 
+plurk.com: 
+overstock.com: v=DMARC1;p=quarantine;pct=90;fo=1;rua=mailto:dmarc_aggexch@overstock.com;ruf=mailto:dmarc_afrfexch@overstock.com
+ccidnet.com: 
+macrumors.com: 
+dlsite.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarkreports@dlsite.com; ruf=mailto:dmarkreports@dlsite.com
+aastocks.com: 
+service-now.com: 
+rei.com: 
+lifebuzz.com: v=DMARC1; p=none; pct=100; rua=mailto:re+fls597ql7h1@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+telegram.me: 
+easygirls.info: 
+talk2none.com: 
+fortune.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+ilbe.com: 
+elconfidencial.com: 
+smugmug.com: v=DMARC1;p=none;sp=none;pct=100;rua=mailto:postmaster-dmarc@smugmug.com
+avira.com: 
+quikr.com: 
+otomoto.pl: 
+nation.co.ke: 
+aftonbladet.se: v=DMARC1; p=quarantine; rua=mailto:xgrgebha@ag.dmarcian-eu.com; rf=afrf;
+  pct=100;
+pixlr.com: 
+standardmedia.co.ke: 
+himado.in: 
+globalsources.com: v=DMARC1; pct=100; ruf=mailto:dmarc@globalsources.com; rua=mailto:dmarc@globalsources.com;
+  p=none; sp=none; adkim=r; aspf=r; ri=86400;
+apkpure.com: 
+lloydsbank.co.uk: v=DMARC1; p=reject; ruf=mailto:d@ruf.agari.com; rua=mailto:d@rua.agari.com
+olx.co.id: google-site-verification=rtH4V8F0HYYFJn1GMRv0wN_x_GFgujGtAugk0mM5fyQ
+whitepages.com: 
+myetherwallet.com: 
+nutaku.net: v=DMARC1; p=none
+vanguardngr.com: 
+gemius.pl: 
+francetvinfo.fr: 
+editor.wix.com: 
+imagebam.com: 
+bmi.ir: 
+pussl3.com: 
+dumpert.nl: 
+content.tmall.com: 
+tut.by: 
+mayoclinic.org: 
+gmx.com: 
+baixaki.com.br: google-site-verification=rdG7YBb0tgwp6NZRqNp5nMBi3A120v3hcvJLDM7tqzs
+torrents.me: 
+rajasthan.gov.in: 
+up.nic.in: 
+weibo.cn: 
+pornhd.com: 
+shglegle.com: 
+bulbagarden.net: 
+seekingalpha.com: 
+linternaute.com: v=DMARC1; p=reject; pct=50; rua=mailto:hwi3eaxz@ag.dmarcian-eu.com;
+  ruf=mailto:hwi3eaxz@fr.dmarcian-eu.com;
+hsbc.co.uk: v=DMARC1; p=none; sp=reject;fo=1; ri=3600; rua=mailto:hsbc@rua.agari.com;
+  ruf=mailto:hsbc@ruf.agari.com
+reundcwkqvctq.com: 
+clickfunnels.com: 
+bol.uol.com.br: 
+viralised.com: 
+zedo.com: v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+runescape.com: v=DMARC1;aspf=s;adkim=s;p=reject;sp=none;pct=100;rua=mailto:sysadmin@jagex.com;ruf=mailto:sysadmin@jagex.com;rf=afrf
+bol.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:90702c89a206681@rep.dmarcanalyzer.com,mailto:dmarc@bol.com;
+  ruf=mailto:dmarc@bol.com; adkim=r; aspf=r
+getintopc.com: 
+20minutes.fr: 
+cracked.com: IPROTA_D21661-XXX
+lds.org: 
+nrk.no: v=DMARC1; p=none; rua=mailto:szcpyucn@ag.dmarcian-eu.com; ruf=mailto:szcpyucn@fr.dmarcian-eu.com;
+  fo=1
+hjenglish.com: 
+minergate.com: 
+smi2.ru: 
+freshdesk.com: v=spf1 include:sendgrid.net include:mailgun.org ~all
+si.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+chefkoch.de: 
+dytt8.net: 
+staticflickr.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-yahoo-rua@yahoo-inc.com;
+immobilienscout24.de: v=DMARC1; p=none; fo=1; rua=mailto:dmarc-aggregation@immobilienscout24.de;
+  ruf=mailto:dmarc-forensic@immobilienscout24.de
+distero.com: 
+nyaa.si: 
+runtnc.net: 
+javlibrary.com: 
+oschina.net: 
+pinterest.jp: v=DMARC1; p=reject
+lacaixa.es: v=DMARC1;p=none;fo=1;ri=3600;rua=mailto:caixa-bank@rua.agari.com,mailto:cyber.soc@caixabank.com;ruf=mailto:caixa-bank@ruf.agari.com,mailto:cyber.soc@caixabank.com,mailto:report@mail.secscan.xyz
+ycombinator.com: 
+moddb.com: 
+hilltopads.net: 
+wasabisyrup.com: 
+depositphotos.com: v=spf1 a mx ip4:167.89.55.13 ipv4:167.89.103.80 ipv4:167.89.99.199
+  ~all
+yesmovies.to: 
+animeflv.com: 
+airasia.com: v=DMARC1; p=none
+windows.net: 
+astrologyanswers.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+lynda.com: v=DMARC1; p=reject; rua=mailto:linkedin@rua.agari.com; ruf=mailto:linkedin@ruf.agari.com
+otzovik.com: 
+tabnak.ir: 
+lotterypost.com: 
+lanacion.com.ar: 
+gleam.io: v=DMARC1; p=quarantine;
+nuvid.com: 'v=DMARC1; p=none; rua=mailto:mailstat@nuvid.com '
+hostgator.com: 
+scotiabank.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+privat24.ua: 
+rakuten-card.co.jp: 
+webtoons.com: 
+thewhizproducts.com: 
+flaticon.com: v=DMARC1; p=quarantine; sp=quarantine; adkim=r; aspf=r; fo=0; rf=afrf;
+  pct=100; ri=86400; rua=mailto:54zsr2bv@ag.dmarcian.com; ruf=mailto:54zsr2bv@fr.dmarcian.com
+babycenter.com: 
+computerbild.de: 
+pornolab.net: 
+tencent.com: 
+panda.tv: 
+google.ee: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ghanaweb.com: 
+online-life.club: 
+bitflyer.jp: v=DMARC1; p=none; rua=mailto:admin+dmarc+agg@bitflyer.jp,mailto:re+uev4uommrrg@dmarc.postmarkapp.com;
+  ruf=mailto:admin+dmarc+afrf@bitflyer.jp;fo=1
+codecademy.com: 
+ifixit.com: 
+axisbank.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc.alerts@axisbank.com
+zeit.de: 
+gutefrage.net: v=DMARC1;p=none;pct=100;rua=mailto:security@gutefrage.net;aspf=r
+citilink.ru: v=DMARC1; p=none;rua=mailto:dmarc@citilink.ru
+androidcentral.com: 
+autotrader.com: 
+thepiratebay-proxylist.org: 
+axdst.pro: 
+fetlife.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m;
+  rf=afrf; pct=100; ri=86400
+fextralife.com: v=DMARC1; p=none
+hotukdeals.com: 
+stumbleupon.com: v=DMARC1; pct=100; p=none; rua=mailto:re+ndxwtiwpycn@dmarc.postmarkapp.com;
+  ruf=mailto:jmoe@stumbleupon.com; ri=86400;
+digialm.com: 
+freelancer.com: v=DMARC1; p=none; fo=1; rf=afrf; pct=100; rua=mailto:dmarc+rua@freelancer.com,mailto:56cbf07242@rep.dmarcanalyzer.com;
+  ruf=mailto:dmarc+ruf@freelancer.com,mailto:56cbf07242@for.dmarcanalyzer.com;
+republika.co.id: 
+stoloto.ru: v=DMARC1; p=reject; rua=mailto:postmaster@stoloto.ru; aspf=s; adkim=s
+elintransigente.com: 
+deref-web-02.de: 
+blogimg.jp: 
+webgains.com: 
+cornell.edu: v=DMARC1; p=none; rua=mailto:rua-reports@cornell.edu
+coinexchange.io: 
+feng.com: 
+adultfriendfinder.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarc_report@helpcrew.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+newsmth.net: 
+jsmjmp.com: 
+iobit.com: 
+mediamarkt.de: 
+narvar.com: v=DMARC1; p=none;  rua=mailto:dmarcreports@narvar.com
+redemotoructs.co: 
+greatandhra.com: 
+fanserials.com: 
+turkiye.gov.tr: 
+qz.com: 
+gomovies.sc: 
+interpark.com: 
+alluc.ee: 
+searchdimension.com: v=DMARC1; p=none
+brazzersnetwork.com: 
+o2.pl: 
+zone-telechargement1.com: 
+pozdravok.ru: 
+jalopnik.com: v=spf1 mx include:gawker.drhinternet.net include:_spf.google.com include:spf.mandrillapp.com
+  -all
+hamgardi.com: 
+yggtorrent.com: v=DMARC1; p=none
+spankwire.com: 
+garmin.com: 
+bb.com.br: v=DMARC1; p=none; rua=mailto:postmaster@bb.com.br; adkim=r; aspf=r; pct=10;
+  sp=none
+rp5.ru: 
+localbitcoins.com: v=DMARC1; p=quarantine; sp=none; rua=mailto:dmarc@localbitcoins.com;
+  ruf=mailto:dmarc@localbitcoins.com; rf=afrf; pct=100; ri=86400
+xing.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@xing.com; ruf=mailto:dmarc_afrf@xing.com;
+  pct=100; rf=afrf
+businessweekly.com.tw: v=DMARC1; p=none;
+tutsplus.com: 
+google.com.bh: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+vemale.com: 
+fnb.co.za: 
+synchronycredit.com: 
+doramatv.ru: 
+boc.cn: 
+anytimeastrology.com: 
+jstor.org: 
+nessma.tv: 
+gamewith.jp: 
+dnevnik.ru: google-site-verification=BHPW2DvFk74izBubxUqnxLF55w1-EZg9mijXwM3UTMc
+basecamp.com: v=DMARC1; rua=mailto:rua@basecamp.com; ruf=mailto:ruf@basecamp.com;
+  adkim=s; aspf=r; ri=3600; sp=none; p=none;
+bluehost.com: 
+staples.com: v=DMARC1; p=none; pct=100; rua=mailto:Dmarc@staples.com
+jetbrains.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@jetbrains.com,mailto:re+bev7vm33l2z@dmarc.postmarkapp.com;
+  ruf=mailto:dmarc-ruf@jetbrains.com; fo=1
+woot.com: 
+amd.com: amdext2.amd.com.
+jb51.net: 
+els-cdn.com: 
+sbnation.com: v=DMARC1; p=none; rua=mailto:zicaptxt@ag.dmarcian.com
+elvenar.com: v=spf1 ip4:212.48.98.0/24 ip4:212.48.106.5 include:mailgun.org ~all
+gigazine.net: 
+entrepreneur.com: 'v=DMARC1; p=none; pct=100; rua=mailto: re+mrv07vhx9x2@dmarc.postmarkapp.com;
+  sp=none; aspf=r;'
+dict.cc: 
+nexusmods.com: 
+tripadvisor.co.uk: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+filmaffinity.com: 
+camster.com: 
+shopee.co.id: v=DMARC1; p=none; rua=mailto:fakeemailalert@shopeemobile.com; ruf=mailto:fakeemailalert@shopeemobile.com;
+  adkim=r; aspf=r; rf=afrf; fo=1; ri=900
+blizzard.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; rf=afrf; pct=100;
+mercadolibre.com: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; rf=afrf;
+  pct=100
+filecrypt.cc: 
+razerzone.com: 
+tasnimnews.com: 
+kapook.com: 
+1und1.de: 
+collegeboard.org: v=DMARC1; p=none; adkim=s; aspf=s; pct=100; rua=mailto:DMARCrua@Collegeboard.org;
+  ruf=mailto:DMARCruf@Collegeboard.org
+abema.tv: 
+vetogate.com: 
+20minutos.es: 
+lego.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net;
+colourpop.com: 
+csfd.cz: 
+worldlifestyle.com: 
+psychologytoday.com: v=DMARC1;p=none;rua=mailto:admin@psychologytoday.com;adkim=r;aspf=r;sp=quarantine
+iciba.com: 
+internetnewsportal.com: 
+elbotola.com: 
+biglobe.ne.jp: v=DMARC1; p=none
+coursehero.com: v=DMARC1; p=none; rua=mailto:rua@coursehero.com; ruf=mailto:rua@coursehero.com;
+  sp=none; ri=86400
+mufg.jp: v=DMARC1; p=none; fo=1; rua=mailto:bank-of-tokyo-mitsubishi@rua.agari.com;
+  ruf=mailto:bank-of-tokyo-mitsubishi@ruf.agari.com
+stripe.com: v=DMARC1; p=reject; pct=100; fo=1; rua=mailto:stripe@rua.agari.com,mailto:dmarc-reports@stripe.com,mailto:re+hniosnr2hox@dmarc.postmarkapp.com;
+  ruf=mailto:stripe@ruf.agari.com,mailto:dmarc-forensics@stripe.com
+livetv.sx: 
+ilfattoquotidiano.it: 
+emag.ro: 
+ilmeteo.it: 
+isna.ir: 
+my-hit.org: 
+yemek.com: 
+adright.com: 
+sf-express.com: 
+ap.gov.in: 
+csair.com: 
+haberturk.com: 
+npmjs.com: 
+dickssportinggoods.com: 
+8maple.ru: 
+wroops.com: 
+concursolutions.com: 
+viki.com: 
+socialnewpages.com: 
+dwatchseries.to: 
+adidas.tmall.com: 
+onlinekhabar.com: 
+thefappeningblog.com: 
+sagepub.com: 
+surveys-xvideos.com: 
+vente-privee.com: 
+nipic.com: 
+mercadolibre.com.co: 
+forever21.com: 
+warcraftlogs.com: 
+kenh14.vn: 
+blog.ir: 
+umn.edu: v=DMARC1; p=none; rua=mailto:mailadm@umn.edu
+google.ba: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+mynavi.jp: 
+illinois.edu: 
+wisc.edu: v=DMARC1; p=none; rua=mailto:dmarc-reports@wisc.edu; ruf=mailto:dmarc-forensics@wisc.edu;
+  fo=1;
+mokmhp.com: 
+zipbogo.net: 
+finn.no: v=DMARC1; p=none; rua=mailto:dmarc@finn.no,mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com
+swagbucks.com: v=spf1 mx ip4:68.71.250.0/24 ip4:216.225.24.0/24 include:sendgrid.net
+  include:_spf.google.com include:spf.cintindex.com ~all
+donmai.us: 
+sat.gob.mx: 
+ucla.edu: 
+leo.org: v=DMARC1; p=none; pct=100; rua=mailto:postmaster@leo.org
+webcrawler.com: 
+ria.com: 
+coinmill.com: 
+depfile.us: 
+cbs.com: 
+faithtap.com: 
+rollingstone.com: v=DMARC1;p=reject;pct=100;rua=mailto:dmarc@rollingstone.com
+fitbit.com: v=DMARC1; p=reject; rua=mailto:on8wov6z@ag.dmarcian.com; ruf=mailto:on8wov6z@fr.dmarcian.com;
+elcorteingles.es: 
+myvidster.com: 
+bc.vc: 
+newtabtvsearch.com: google-site-verification=1Akrqg3gyg_OjlvgnVV527_921REHW62Lq5gpAcUvVk
+myegy.tv: 
+tukif.com: 
+elcomercio.com: 
+zozo.jp: 
+porndoe.com: 
+ubuntu.com: 
+livemaster.ru: v=DMARC1; p=none; rua=mailto:postmaster@livemaster.ru
+animevost.org: 
+wetter.com: 
+mlb.com: 
+kissmanga.com: 
+nyu.edu: 
+ssc.nic.in: 
+moe.gov.sa: 
+google.com.uy: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+spzan.com: 
+timeout.com: v=DMARC1; p=none; rua=mailto:postmaster@timeout.com
+mundodeportivo.com: 
+shopclues.com: 
+mydealz.de: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-reports@pepper.com;
+eldorado.ru: 
+logitech.com: 
+cex.io: 
+columbia.edu: 
+fast.com: v=DMARC1; p=reject; fo=1; rua=mailto:netflix@rua.netcraft.com; ruf=mailto:netflix@ruf.netcraft.com
+gotomeeting.com: 
+tap.az: v=DMARC1; p=none; pct=100; rua=mailto:re+jsprooiq7vt@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+excite.co.jp: v=DMARC1; p=none; rua=mailto:rua-mpse@mpub.ne.jp
+google.co.ma: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+alimama.com: 
+sketchup.com: 
+fazenda.gov.br: 
+kukudas.com: 
+dangdang.com: 
+digitalocean.com: v=DMARC1; p=reject; pct=100; rua=mailto:fdpfb1lo@ag.dmarcian.com;
+  ruf=mailto:fdpfb1lo@fr.dmarcian.com
+m3bnqqqw.com: 
+6park.com: 
+ny.gov: 
+msi.com: 
+directv.com: 
+life.ru: v=DMARC1; p=none;
+yourtemplatefinder.com: 
+kinogo.by: 
+esquire.com: 
+tesco.com: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:tesco-plc@rua.agari.com,mailto:dmarc@uk.tesco.com;
+  ruf=mailto:tesco-plc@ruf.agari.com
+mbank.pl: 
+bola.com: 
+streamit-online.com: 
+flightradar24.com: google-site-verification=aieTAZGl4RSpdnJRaUwX2YmgEUg8uS4KpyZPOuQsabw
+javhd.com: v=DMARC1; p=none; rua=mailto:dmarc-reports@javhd.com
+dm5.com: 
+everydayhealth.com.tw: 
+pch.com: v=DMARC1; p=reject; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net;
+  rf=afrf; pct=100
+vulture.com: 
+rt.ru: v=DMARC1;p=none;sp=none;aspf=s;rua=mailto:dmarc@rt.ru
+readmanga.me: 
+ontvtime.ru: 
+filelist.ro: 
+pussysaga.com: 
+sears.com: 
+jiwu.com: 
+sbicard.com: 
+jjwxc.net: 
+itswatchseries.to: 
+wowkorea.jp: 
+hsbc.com.hk: v=DMARC1; p=none; sp=reject;fo=1; ri=3600; rua=mailto:hsbc@rua.agari.com;
+  ruf=mailto:hsbc@ruf.agari.com
+4cdn.org: v=DMARC1; p=reject;
+free3dadultgames.com: 
+rosegal.com: 
+oxforddictionaries.com: 
+pictame.com: 
+vip.tmall.com: 
+legacy.com: 
+afrtrk.com: 
+kucoin.com: 
+paytmmall.com: 
+match.com: v=DMARC1; p=quarantine; sp=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+game-bonuses.club: 
+arabi21.com: 
+hltv.org: 
+ulta.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+jcrew.com: v=DMARC1; p=none; rua=mailto:mw1o3dgx@ag.dmarcian.com; ruf=mailto:mw1o3dgx@fr.dmarcian.com
+teletica.com: 
+seria-z.net: 
+johnlewis.com: 
+softpedia.com: 
+vmware.com: 
+bluestacks.com: v=DMARC1; p=quarantine; pct=100; fo=1; rua=mailto:dmarc-reports@bluestacks.com;
+  ruf=mailto:dmarc-reports@bluestacks.com
+itau.com.br: v=DMARC1; p=none; sp=none; fo=1; pct=100; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf
+sci-hub.tw: 
+trafficshop.com: v=DMARC1; p=none
+mbc.net: 
+365jia.cn: 
+washington.edu: 
+dcinside.com: 
+gettyimages.com: 
+rtve.es: 
+onliner.by: 
+samsclub.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+wowkeren.com: 
+monstercrawler.com: 
+haberler.com: 
+deutsche-bank.de: v=DMARC1; p=reject; rua=mailto:deutsche-bank@rua.agari.com; ruf=mailto:dmarc.reports@db.com;
+  ri=3600
+k2s.cc: v=DMARC1; p=none; sp=none;
+sprint.com: 
+stubhub.com: v=DMARC1;p=none;pct=100;ruf=mailto:d@ruf.agari.com;rua=mailto:d@rua.agari.com
+koreastardaily.com: 
+britannica.com: 
+google.cm: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+opensooq.com: v=DMARC1; p=none; adkim=s; aspf=r; rf=afrf; pct=20; rua=mailto:admin@opensooq.com;
+  sp=none;
+nymag.com: 
+wizards.com: v=DMARC1; p=none; pct=100
+labirint.ru: 
+ondramanice.io: 
+kshowonline.com: 
+intentmedia.net: 
+setare.com: 
+kshow123.net: 
+opentable.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email
+videohive.net: 
+anjuke.com: 
+skamaker.com: 
+toysrus.com: v=DMARC1;p=quarantine;aspf=r;sp=none
+literotica.com: 
+mk.ru: 
+pinterest.ca: v=DMARC1; p=reject
+unicredit.it: 
+empflix.com: 
+passportindia.gov.in: 
+muz-color.ru: 
+mehrnews.com: 
+pinterest.com.au: v=DMARC1; p=reject
+utexas.edu: 
+jin115.com: 
+hdvidzpro.me: 
+javarchive.com: 
+pcworld.com: 
+cvs.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+tamilgun.work: 
+ynet.co.il: 
+doodle.com: v=DMARC1; p=none; rua=mailto:msbusy@doodle.com
+snap-affairs.com: 
+sport.es: 
+marketgid.com: 
+pbs.org: 
+metric-conversions.org: 
+vmall.com: 
+encuentra24.com: 
+redpop.pro: 
+eonline.com: 
+dpreview.com: 
+payu.in: 
+priceline.com: v=DMARC1;p=quarantine;pct=100;rua=mailto:dmarcstats@priceline.com;ruf=mailto:dmarcmessages@priceline.com
+1111.com.tw: v=DMARC1; p=none; rua=mailto:dmarc@staff.1111.com.tw
+gostream.is: 
+justporno.tv: 
+gamersky.com: 
+filmibeat.com: 
+wikiwiki.jp: 
+gayboystube.com: 
+easports.com: 
+onclickclear.com: 
+freedownloadmanager.org: 
+divxtotal2.net: 
+onlyindianporn.net: 
+dotabuff.com: 
+mvhop.com: 
+cointelegraph.com: 
+yr.no: v=DMARC1; p=none; rua=mailto:christians@met.no; sp=none; ri=86400
+androidauthority.com: 
+indiegogo.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@indiegogo.com; ruf=mailto:dmarc@indiegogo.com
+zamunda.net: 
+hotnewhiphop.com: 
+aweber.com: v=DMARC1; p=none; rua=mailto:dmarc@dmarc.aweber.com; ruf=mailto:dmarc@dmarc.aweber.com;
+  rf=afrf; pct=100
+betradar.com: 
+turnitin.com: 
+banesco.com: 
+monster.com: v=DMARC1; p=none; aspf=s; adkim=r; pct=100; rua=mailto:dmarc-feedback@monster.com;
+  ruf=mailto:dmarc-reports@monster.com;
+hujiang.com: 
+ft.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@ft.com
+mos.ru: v=DMARC1; p=reject; sp=none; rua=mailto:dmarc_rua@mos.ru; fo=1; ruf=mailto:dmarc_afrf@mos.ru
+wowprogress.com: 
+os.tc: 
+pussl48.com: 
+kinja.com: _globalsign-domain-verification=63GY7DdhmEwU6Yc6mPqIRV6Tlu3atl9B6izj643Qy2
+dailysnark.com: 
+marktplaats.nl: v=DMARC1; p=none; fo=1; rua=mailto:ebay-classifieds@rua.agari.com;
+  ruf=mailto:ebay-classifieds@ruf.agari.com
+rbcroyalbank.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+tokyomotion.net: 
+porntrex.com: 
+youla.io: v=spf1 redirect=_spf.mail.ru
+2gis.ru: v=DMARC1; p=none
+lagaceta.com.ar: v=DMARC1; p=none; rua=mailto:pvwjxulo@ag.dmarcian.com; adkim=r; aspf=r;
+  sp=none
+cricketaddictor.com: 
+whattomine.com: 
+techtarget.com: 
+sznews.com: 
+thisav.com: 
+barstoolsports.com: 
+talk.tw: 
+index.hu: 
+pagesjaunes.fr: 
+36kr.com: 
+lichess.org: v=DMARC1; p=none; rua=mailto:postmaster@lichess.org; ruf=mailto:postmaster@lichess.org;
+  ri=604800
+storm.mg: 
+braintag.com: 
+gemius.com: 
+aminoapps.com: spf2.0/pra a mx include:amazonses.com include:aspmx.googlemail.com
+  include:_spf.google.com include:mail.zendesk.com ~all
+ma-sh.info: 
+oui.sncf: 
+wine-searcher.com: 
+zoomit.ir: 
+streamlabs.com: 
+glcgytymbp.bid: 
+mamba.ru: 
+beinsports.com: 
+wlp-acs.com: 
+contentabc.com: 
+nikkansports.com: 
+boxofficemojo.com: 
+santander.co.uk: v=DMARC1; p=reject; fo=1; rua=mailto:santander@rua.agari.com; ruf=mailto:santander@ruf.agari.com
+trafficfactory.biz: 
+oneplus.net: 
+pelispedia.tv: 
+asriran.com: 
+noaa.gov: 
+heavy-r.com: 
+clkntrk.com: 
+b9good.com: 
+fool.com: 
+igetsend.ru: 
+coinpot.co: 
+nifty.com: v=DMARC1; p=none; rua=mailto:dmarc-rua-com@nifty.com
+drugs.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+my5zn2slbja@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+akamaized.net: 
+priceminister.com: v=DMARC1; p=none; rua=mailto:dmarc@priceminister.com;ruf=mailto:dmarc@priceminister.com;
+  rf=afrf; pct=100;
+creativemarket.com: v=spf1 include:_spf.google.com include:mail.zendesk.com ~all
+coupang.com: 
+tvn24.pl: 
+tenki.jp: 
+vipergirls.to: 
+jandan.net: 
+sheypoor.com: v=DMARC1; p=none
+spanishdict.com: 
+grubhub.com: v=DMARC1; p=none; rua=mailto:9b038150044e830@rep.dmarcanalyzer.com,mailto:dmarc_agg@vali.email
+500px.com: 
+licindia.in: 
+ut.ac.ir: 
+realestate.com.au: v=DMARC1;p=none;pct=100;rua=mailto:dmarc@realestate.com.au
+2chblog.jp: 
+viber.com: 
+willhaben.at: 
+akoam.com: 
+gst.gov.in: 
+gigya.com: v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:postmaster@gigya.com;
+  ruf=mailto:postmaster@gigya.com; rf=afrf; pct=100; ri=86400
+gulte.com: 
+makeleio.gr: 
+jagran.com: 
+backpage.com: 
+klikbca.com: 
+moi.gov.sa: 
+myworkdayjobs.com: 
+hilton.com: 
+2conv.com: 
+faz.net: 
+semanticscholar.org: 
+liftable.com: 
+cc.com: 
+fiuxy.bz: v=DMARC1; p=quarantine; sp=quarantine
+dnvod.tv: 
+seriouseats.com: 
+azet.sk: v=DMARC1; p=quarantine; pct=100; adkim=r; aspf=r; sp=none; rua=mailto:test.jun@azet.sk;
+  ruf=mailto:test.jun@azet.sk
+zerodha.com: 
+olymptrade.com: v=DMARC1; p=quarantine; pct=30; aspf=s; adkim=s; sp=reject; rua=mailto:support@olymptrade.com
+britishcouncil.org: 
+jkforum.net: 
+gamiss.com: 
+channelmyanmar.org: 
+theringer.com: 
+yourdictionary.com: 
+bitcoin.org: v=DMARC1;p=reject;pct=100;rua=mailto:spam@bitcoin.org
+haa66855mo.club: 
+cbslocal.com: 
+dy2018.com: 
+focus.cn: 
+digg.com: 
+christian-dogma.com: 
+javfor.me: 
+bintang.com: 
+starbucks.com: v=DMARC1; p=none; ruf=mailto:authfail@starbucks.com; rua=mailto:aggrep@starbucks.com;
+  fo=1;
+olx.ro: 
+raiplay.it: 
+docusign.net: v=DMARC1; p=reject; sp=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  rf=afrf; pct=100
+hypebeast.com: 
+complex.com: 
+thepornstudy.com: 
+share-videos.se: 
+watsons.tmall.com: 
+duba.com: 
+mega.co.nz: 
+google.tt: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+rfi.fr: 
+ali213.net: 
+dagbladet.no: 
+nordstromrack.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+elespanol.com: 
+citibank.co.in: v=DMARC1; p=reject; rua=mailto:citi@rua.agari.com,mailto:dmarc.reports.rua@citi.com
+iptorrents.com: 
+gemini.com: v=DMARC1; aspf=r; adkim=r; p=reject; sp=reject; fo=1; rua=mailto:spam-alerts@gemini.com,mailto:re+xpqlwmnpvcc@dmarc.postmarkapp.com;
+  ruf=mailto:spam-alerts@gemini.com
+made-in-china.com: 
+leparisien.fr: 
+typeform.com: v=DMARC1; rua=mailto:99d6778ca567168@rep.dmarcanalyzer.com,mailto:reports@dmarc-report.typeform.com;
+  ruf=mailto:99d6778ca567168@for.dmarcanalyzer.com; p=none; sp=none; fo=1;
+yomiuri.co.jp: 
+poiskm.co: 
+rotoworld.com: 
+kino-max.com: 
+jmw.com.cn: v=DMARC1; p=none; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com
+pretty52.com: 
+emirates.com: 
+pure-t.ru: 
+vanityfair.com: 
+olx.com.pk: v=spf1 ip4:119.81.96.136/29 include:aspmx.googlemail.com ?include:mail.zendesk.com
+  -all
+roletaryk.info: 
+kinox.to: 
+clevernt.com: v=DMARC1; p=quarantine
+togetter.com: 
+trustedreviews.com: 
+tunein.com: 
+usitech-int.com: v=DMARC1; p=none; pct=100; rua=mailto:de0fad85@mxtoolbox.dmarc-report.com;
+  ruf=mailto:de0fad85@forensics.dmarc-report.com; sp=none;
+dantri.com.vn: 
+truecaller.com: 
+etrade.com: v=DMARC1; p=none; rua=mailto:rua_poc@etrade.com;
+ummy.net: 
+cabelas.com: 
+namecheap.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@namecheap.com
+planetsuzy.org: v=spf1 a mx ip4:77.247.177.28 include:mailer.planetsuzy.org ~all
+afriflatry.co: 
+tripadvisor.in: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+furaffinity.net: 
+usenet.nl: v=DMARC1;p=none;pct=100;rua=mailto:dmarc@noreply.usenet.nl;ruf=mailto:dmarc@noreply.usenet.nl;adkim=r;aspf=r
+virginmedia.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-uk-rua@upcmail.net,mailto:jn2qdxcl@ag.dmarcian-eu.com;
+  ruf=mailto:jn2qdxcl@fr.dmarcian-eu.com;
+cima4up.tv: 
+tagesschau.de: 
+wappalyzer.com: 
+gettvstreamnow.com: 
+sporcle.com: 
+inc.com: 
+nitroflare.com: 
+inven.co.kr: 
+cargurus.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc_alerts@cargurus.com; ruf=mailto:dmarc_alerts@cargurus.com
+payoneer.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+vppgamingnetwork.com: 
+strainemergency.com: 
+jkanime.net: 
+grailed.com: 
+star.com.tr: 
+changelly.com: 
+topix.com: 
+opertures.com: 
+downloadastro.com: google-site-verification=y0Ta996JT8dcjerZ-Flc_iyUkycYh_QzzBPx5bz3NME
+sueddeutsche.de: 
+definition.org: 
+focus123.cn: 
+ets.org: 
+newsnow.co.uk: v=DMARC1;p=none;sp=none;pct=100;adkim=r;aspf=r;fo=1;ri=86400;rua=mailto:dmarc-admin@newsnow.co.uk
+spiceworks.com: v=DMARC1; p=none; pct=100; rua=mailto:re+w5bhslwyuo1@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+successfactors.com: 
+com-fix.support: 
+usc.edu: 
+pcstore.com.tw: 
+hindustantimes.com: 
+informer.com: 
+tamin.ir: 
+smh.com.au: 
+celebjihad.com: 
+deadline.com: spf2.0/pra include:aspmx.sailthru.com include:_spf.google.com include:servers.mcsv.net
+  ~all
+alarabiya.net: 
+piliapp.com: 
+e621.net: v=DMARC1; p=quarantine; sp=reject; aspf=s; rua=mailto:kira@e621.net, mailto:dari@e621.net
+sifyitest.com: 
+3dmgame.com: 
+the123movies.com: 
+donanimhaber.com: 
+ansa.it: 
+atlassian.com: v=DMARC1; p=none; rua=mailto:dmarcreports@atlassian.com
+unrealengine.com: 
+commerzbank.de: 
+thekitchn.com: 
+tvguide.com: 
+similarweb.com: 
+bom.gov.au: 
+glosbe.com: v=DMARC1; p=none
+ibanking-services.com: 
+h-98reale.com: 
+magazineluiza.com.br: 
+sex-and-flirt.com: 
+mixi.jp: 
+mightytext.net: 
+societegenerale.fr: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+digitalspy.com: 
+clubic.com: 
+theporndude.com: 
+static1.squarespace.com: 
+un.org: 
+ssense.com: v=DMARC1; p=none; rua=mailto:feedbackloop@ssense.com; ruf=mailto:feedbackloop@ssense.com;
+  pct=100
+ibtimes.com: 
+lcl.fr: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+hdkinoclub.net: 
+kbb.com: 
+bancoestado.cl: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:bancoestado_rua@dm.easysol.net;ruf=mailto:bancoestado_ruf@dm.easysol.net
+114la.com: 
+go2affise.com: 
+cyol.com: 
+wikibooks.org: 
+skidrowreloaded.com: 
+zaif.jp: 
+riotgames.com: 
+taojindi.com: 
+invisionapp.com: v=DMARC1; p=none; pct=100; rua=mailto:re+fg8vlgqhpcd@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+bollywoodpapa.com: 
+sitepoint.com: loaderio=51d4d7f7bc29bfd708b80864e1533f66
+tipico.de: 
+olx.co.ao: MPG85N9K
+cmoney.tw: 
+dogdrip.net: 
+creditmutuel.fr: 
+criteo.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+gsis.gr: 
+lodynet.com: 
+aljazeera.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-mailauth@aljazeera.net; ruf=mailto:dmarc-mailfor@aljazeera.net;
+  fo=s;
+warframe.com: 
+ozbargain.com.au: 
+ratemyprofessors.com: 
+chicagotribune.com: v=DMARC1;p=none;pct=100
+comandotorrents.com: 
+zf.fm: 
+disney.go.com: 
+folha.uol.com.br: 
+sabay.com.kh: 
+koinex.in: 
+yoox.com: 
+thrillist.com: v=DMARC1;p=quarantine;pct=30;rua=mailto:a+24549889@fdmarc.net,mailto:ijqf8cva@ag.dmarcian.com;ruf=mailto:f+24549889@fdmarc.net,mailto:ijqf8cva@fr.dmarcian.com;ri=3600;fo=1;
+caffeinamagazine.it: 
+tomshardware.co.uk: v=DMARC1; p=reject; pct=100; rua=mailto:helpdesk@purch.com; ruf=mailto:helpdesk@purch.com;
+  fo=1
+eurogamer.net: 
+barclaycardus.com: v=DMARC1;p=none;fo=1;ri=3600;rua=mailto:barclays@rua.agari.com;ruf=mailto:barclays@ruf.agari.com
+blocket.se: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc@blocket.se,mailto:xgrgebha@ag.dmarcian-eu.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:dmarc@blocket.se,mailto:xgrgebha@fr.dmarcian-eu.com
+soccerway.com: 
+citibankonline.com: v=DMARC1; p=reject; rua=mailto:citibank@rua.agari.com,mailto:dmarc.reports.rua@citi.com
+google.com.kh: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+rakuten-bank.co.jp: v=DMARC1; p=none; rua=mailto:rua-mpse@mpub.ne.jp
+cmu.edu: "[NRDR29993_IN_TXT_v=DMARC1;p=none;rua=mailto:report-dmarc@andrew.cmu.eduq0zdc4tec81yqjldQbbngQ]"
+idealista.com: 
+mindbodyonline.com: 
+meituan.com: v=DMARC1; p=quarantine; rua=mailto:edm.dmarc@meituan.com;pct=80
+collinsdictionary.com: 
+videolan.org: 
+world.tmall.com: 
+4tube.com: 
+6pm.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+pussl44.com: 
+irib.ir: 
+megogo.net: v=DMARC1; p=none; adkim=s; aspf=r; rua=mailto:esputnik.email.distribution.errors@megogo.net
+howstuffworks.com: 
+hqporner.com: 
+photobucket.com: 
+worldoftanks.com: 
+gidonline.in: 
+nalog.ru: v=DMARC1;p=reject;pct=100;aspf=r;adkim=r;sp=none;rua=mailto:dmarc_a@nalog.ru;fo=1;ruf=mailto:dmarc_f@nalog.ru;ri=86400;
+purdue.edu: 
+jizzbunker.com: 
+vodafone.de: 
+horriblesubs.info: 
+google.com.py: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+refinery29.com: 
+tass.ru: 
+seasonaloffers.club: 
+ana.co.jp: 
+khmerload.com: 
+caisse-epargne.fr: v=DMARC1;p=none;rua=mailto:04b142b1@mxtoolbox.dmarc-report.com;ruf=mailto:04b142b1@forensics.dmarc-report.com;
+russia.tv: 
+fudan.edu.cn: 
+minuto30.com: 
+atwiki.jp: 
+9xmovies.info: 
+upbit.com: 
+worldoftanks.eu: 
+ing-diba.de: v=DMARC1; p=reject; adkim=r; aspf=r; ruf=mailto:dmarc-forensic@ing-diba.de;
+  pct=100
+mosaiquefm.net: 
+360.com: 
+dailythanthi.com: 
+larousse.fr: 
+brainyquote.com: 
+commonapp.org: google-site-verification=2EqbDYjAj_IKTL3rjL57ub3UWkVEyJP6xse21OUi4rw
+express.com.pk: 
+mangakakalot.com: 
+indishare.me: 
+abc.go.com: 
+dji.com: 
+cosmopolitan.com: 
+hotmovs.com: 
+jquery.com: 
+zooqle.com: 
+kaspersky.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc-report@kaspersky.com; ruf=mailto:dmarc-report@kaspersky.com;
+  fo=1
+emojipedia.org: 
+naijaloaded.com.ng: 
+ncore.cc: v=DMARC1; p=quarantine; rua=mailto:webmaster@ncore.cc
+monkamovies.com: 
+vidoza.net: v=DMARC1; p=reject
+icook.tw: 
+cryptowat.ch: 
+gatehub.net: v=DMARC1; p=none; rua=mailto:security+dmarc@gatehub.net
+navyfederal.org: v=DMARC1; p=reject; sp=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+jooble.org: v=DMARC1; p=none; sp=none; rua=mailto:reporter@jooble.org; ruf=mailto:reporter@jooble.org;
+  rf=afrf; pct=100; ri=86400
+express.pk: 
+newgrounds.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+jdeanatwbcs@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+meduza.io: 
+alphacoders.com: 
+easyjet.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+cars.com: v=DMARC1; p=none; rua=mailto:whfg9qhu@ag.dmarcian.com,mailto:akerasotes@cars.com;
+  ruf=mailto:whfg9qhu@fr.dmarcian.com;
+javatpoint.com: 
+tsite.jp: 
+ing.nl: v=DMARC1;p=reject;rua=mailto:Global.Mail.DMARC@ing.com,mailto:ejdvezzq@ag.dmarcian-eu.com,mailto:dmarc.feedback@ing.nl
+intesasanpaolo.com: 
+newchic.com: 
+bouyguestelecom.fr: 
+rabb.it: 
+club-k.net: 
+aljazeera.net: v=DMARC1; p=reject; rua=mailto:dmarc-mailauth@aljazeera.net,mailto:ujrnpxoi@ag.dmarcian.com;
+  ruf=mailto:dmarc-mailfor@aljazeera.net,mailto:ujrnpxoi@fr.dmarcian.com; fo=s; sp=quarantine;
+submarino.com.br: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+luscious.net: 
+google.com.np: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+sky.it: 
+porno365.me: 
+newdelhitimes.com: 
+clicknupload.org: 
+auto.ru: 
+giantbomb.com: 
+minishing.com: 
+laposte.net: v=DMARC1;p=quarantine;sp=reject;rua=mailto:dmarc.agg@laposte.net,mailto:dmarc_agg@auth.returnpath.net;ruf=mailto:dmarc.afrf@laposte.net,mailto:dmarc_afrf@auth.returnpath.net;rf=afrf;
+dummies.com: 
+theqoo.net: 
+healthcare.gov: v=DMARC1; p=reject; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+to8to.com: 
+kalerkantho.com: 
+vebadu.com: 
+acs.org: 
+fontawesome.io: 
+hotpepper.jp: 
+papajohns.com: 
+soft98.ir: 
+thepsurvey.com: 
+bbva.es: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:bbva-group@rua.agari.com; ruf=mailto:bbva-group@ruf.agari.com
+sap.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@sap.com
+rusvesna.su: 
+bkrs.info: 
+sportbox.ru: 
+opera.com: 
+omegle.com: 
+olx.kz: google-site-verification=NJgtnGX3EaDLCIxJBGw83soMoFs0gr7E0CqzzTfRChE
+esuteru.com: 
+bancobrasil.com.br: 
+ournewstoday.com: 
+boursorama.com: 
+adexchangeguru.com: 
+mgid.com: 
+joinhoney.com: 
+ziprecruiter.com: v=DMARC1; p=quarantine; sp=none; adkim=r; aspf=r; rua=mailto:dmarc-agg-reports@ziprecruiter.com;
+  ruf=mailto:dmarc-ruf-reports@ziprecruiter.com; rf=afrf; pct=100; ri=86400
+o2tvseries.com: 
+google.com.cy: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ucsd.edu: 
+otaghkhabar24.com: 
+pngtree.com: 
+tumangaonline.com: 
+torrentdownloads.me: 
+utoronto.ca: 
+thechive.com: v=spf1 include:spf.mandrillapp.com include:_spf.google.com include:sparkpostmail.com
+  include:spf.braintreegateway.com include:mail.zendesk.com ~all
+padlet.com: v=DMARC1; p=none; pct=100; rua=mailto:re+uqepaywb8mf@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+listindiario.com: 
+lifehacker.ru: v=DMARC1; p=none; sp=none; rua=mailto:mailer@lifehacker.ru
+dwebdigital.com: 
+porntube.com: 
+medscape.com: 
+cdc.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+mir-press.com: 
+netpnb.com: 
+lastampa.it: 
+postimg.org: 
+genti.stream: 
+bama.ir: 
+who.int: 
+wmtransfer.com: 
+autoscout24.de: 
+fragrantica.com: 
+worldcoinindex.com: 
+upenn.edu: 
+le360.ma: 
+mysql.com: 
+thesimsresource.com: 
+fitgirl-repacks.site: 
+bravo-dog.com: 
+jzrputtbut.net: 
+ruliweb.com: 
+jumia.ma: 
+rarbgmirror.xyz: 
+khabaronline.ir: 
+cnnic.cn: 
+minecraftforum.net: 
+google.com.ni: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+streamcomplet.me: 
+teamliquid.net: v=DMARC1;p=reject;pct=25
+lowyat.net: 
+craigslist.ca: v=DMARC1; p=reject; pct=100; rua=mailto:34ndygfl@ag.dmarcian.com; ruf=mailto:rufruf@craigslist.org;
+consultant.ru: v=DMARC1; p=reject; rua=mailto:dmarc-rua@consultant.ru
+y6a7tqyr.com: 
+economist.com: v=DMARC1; rua=mailto:8b6e2b3e2183643@rep.dmarcanalyzer.com; ruf=mailto:8b6e2b3e2183643@for.dmarcanalyzer.com;
+  p=quarantine; pct=100; sp=none; fo=1;
+filmeseseriesonline.net: 
+film2movie.co: 
+phimmoi.net: 
+foursquare.com: v=DMARC1; p=none; rua=mailto:dmarc@foursquare.com
+www.gov.cn: 
+quadrinhoseroticos.net: 
+easeus.com: 
+ernet.in: 
+eroprofile.com: 
+portaldoholanda.com.br: 
+avnori.com: 
+librus.pl: 
+javhdasia.com: 
+javbus.com: 
+yonhapnews.co.kr: 
+coupons.com: 
+iwank.tv: 
+likemag.com: 
+niniban.com: 
+dlbooks.to: 
+brightside.me: 
+jezebel.com: _globalsign-domain-verification=63GY7DdhmEwU6Yc6mPqIRV6Tlu3atl9B6izj643Qy2
+medianetnow.com: 
+serebii.net: 
+tdbank.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:td@rua.agari.com; ruf=mailto:td@ruf.agari.com
+manhuagui.com: 
+redflagdeals.com: 
+tankionline.com: 'v=DMARC1; p=quarantine; rua=mailto: adm@tankionline.com '
+kino-hd1080.ru: 
+punchng.com: 
+arduino.cc: v=DMARC1; p=none
+history.com: 
+iz.ru: 
+profit-opportunity.com: 
+safefinder.com: 
+hentaihaven.org: 
+all-free-download.com: 
+docusign.com: v=DMARC1; p=reject; sp=reject; adkim=r; aspf=r; rua=mailto:d@rua.agari.com;
+  ruf=mailto:d@ruf.agari.com; rf=afrf; pct=100
+maharashtra.gov.in: 
+buffer.com: v=DMARC1; p=reject; pct=100; rua=mailto:re+ksaastlxqg4@dmarc.postmarkapp.com;
+uloz.to: v=DMARC1; p=quarantine; fo=0; sp=none
+nouvelobs.com: 
+tiu.ru: 'yandex-verification: 58cd0013999d810b'
+17173.com: 
+sjtu.edu.cn: 
+biblehub.com: 
+ae.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+pptv.com: 
+news24.com: 
+jxnews.com.cn: 
+sweetwater.com: v=DMARC1; p=none; rua=mailto:dmarc-a@sweetwater.com
+zhibo8.cc: 
+users.wix.com: 
+wwe.com: 
+musica.com: 
+tecmundo.com.br: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMVF6NM/c6Exdd8hnK8GTSHRoqNFSLB2HRXRPjAR+fVLwOwXHcszHJWMGcqkXT2wlgRBhYiid/LEtV1+4CCnwKy979WAAEI6qCUl4QYQmk5esB2jhpGPkFD2c7hafkMPOHFcKBSuA+17oWPC/yaIGAcnbzLM/rWLBHgm9ByK/drwIDAQAB
+planetromeo.com: 
+trademe.co.nz: v=DMARC1; p=reject; rua=mailto:n3vvlmgi@ag.dmarcian-ap.com; ruf=mailto:n3vvlmgi@fr.dmarcian-ap.com;
+kitco.com: 
+musixmatch.com: 
+sendspace.com: v=DMARC1;p=none;rua=mailto:dmarc-feedback@sendspace.com
+tweakers.net: 
+thevintagenews.com: 
+gta5-mods.com: 
+wetteronline.de: 
+nbc.com: inbound
+nudevista.com: 
+weevah2.top: 
+popcornvod.com: 
+qyer.com: 
+mobileofferplace.site: 
+marmiton.org: 
+popmog.com: 
+apartments.com: 
+watchcartoononline.com: 
+inoreader.com: 
+ggpht.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+dolartoday.com: 
+ultipro.com: v=DMARC1;p=none;sp=none;pct=100;fo=1;ruf=mailto:mailauth-ruf-reports@ultimatesoftware.com;rua=mailto:mailauth-rua-reports@ultimatesoftware.com
+rarbgproxy.org: 
+aruba.it: v=DMARC1; p=none; fo=1; rua=mailto:dmarcreport@aruba.it
+rg.ru: v=DMARC1; p=quarantine; rua=mailto:postmaster@rg.ru; ruf=mailto:postmaster@rg.ru;
+  fo=1; ri=172800; aspf=r; adkim=r; pct=75; sp=none
+linguee.fr: 
+ig.com.br: v=DMARC1; p=none; sp=none; fo=; ri=3600
+geocities.jp: 
+geforce.com: 
+watchcartoononline.io: 
+bankbazaar.com: v=DMARC1; p=none; sp=none; aspf=s
+adbtc.top: v=DMARC1; p=quarantine; rua=mailto:support@adbtc.top
+maplestage.com: 
+t66y.com: 
+buy123.com.tw: 
+happyon.jp: 
+yournewtab.com: 
+flightaware.com: 
+kickass.cd: 
+gumtree.pl: v=DMARC1; p=none; sp=none; rua=mailto:dl-bolt-postmaster@ebay.com; ruf=mailto:dl-bolt-postmaster@ebay.com;
+  rf=afrf; pct=100; ri=86400
+goindigo.in: v=DMARC1; P=none; sp=none; aspf=r; pct=10; fo=1; rf=afrf; ri=3600; rua=mailto:dmarc-admin@goindigo.in;
+  ruf=mailto:dmarc-admin@goindigo.in
+81.cn: 
+qwant.com: v=spf1 ip4:154.45.216.0/24 ip4:194.187.168.35/32 ~all
+hmyquickconverter.com: 
+addtoany.com: 
+anidub.com: v=DMARC1; p=reject; sp=reject; aspf=s
+zulily.com: v=DMARC1; p=none; pct=100; ri=86400; fo=1; rua=mailto:dmarc-reports@zulily.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+cameraprive.com: 
+girlsaskguys.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+kyhc5wb18ym@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+bsnl.in: 
+check24.de: v=DMARC1; rua=mailto:9e4db7426924212@rep.dmarcanalyzer.com,mailto:dmarc@check24.de;
+  ruf=mailto:dmarc_ruf@check24.de; p=none; sp=none; fo=1; ri=3600;
+ubc.ca: 
+litres.ru: v=DMARC1;p=none;rua=mailto:56535d2834@rep.dmarcanalyzer.com;ruf=dmarc-f@e.litres.ru
+aif.ru: v=spf1 a mx ptr ~all
+suamusica.com.br: 
+muzofond.org: 
+imooc.com: 
+webmoney.ru: 
+mihanblog.com: 
+declk.com: 
+russianfood.com: v=DMARC1;p=reject;aspf=s;adkim=s;rua=mailto:admin@russianfood.com;ruf=mailto:admin@russianfood.com;fo=1
+itch.io: zoho-verification=zb14183429.zmverify.zoho.com
+soompi.com: 
+mainichi.jp: 
+lazada.vn: 
+teacherspayteachers.com: 
+shimo.im: 
+ledgerwallet.com: 
+dns-shop.ru: v=spf1 a:smtp1.technopoint.ru +mx -all
+ibt.uk: 
+royalmail.com: v=DMARC1;p=none;rua=mailto:rua@csp.email;ruf=mailto:ruf@csp.email;pct=100;sp=none
+sport-express.ru: 
+tesla.com: v=DMARC1; pct=100; p=none
+hln.be: 
+analdin.com: 
+msnbc.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@vali.email
+xero.com: v=DMARC1; p=none; fo=1; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com
+gridoto.com: 
+lastpass.com: v=DMARC1; p=reject; rua=mailto:postmaster@lastpass.com,mailto:logmein@rua.agari.com;  ruf=mailto:postmaster@lastpass.com,mailto:logmein@ruf.agari.com;  adkim=r;
+  aspf=r; pct=100; rf=afrf; ri=86400; sp=reject
+clksc.com: 
+dealabs.com: 
+dx.com: 
+ebscohost.com: 
+kaiserpermanente.org: v=DMARC1; p=none; fo=1; rua=mailto:kp@rua.agari.com; ruf=mailto:kp@ruf.agari.com
+quizalert.com: 
+prothom-alo.com: 
+wechat.com: 
+trafyield.com: 
+ren.tv: 
+tupaki.com: 
+megafon.ru: v=DMARC1; p=none; rua=mailto:postmaster@megafon.ru
+pornhubpremium.com: 
+translit.net: 
+tarafdari.com: 
+actcorp.in: 
+jsfiddle.net: 
+oyunskor.com: 
+duden.de: 
+sedty.com: 
+yinyuetai.com: 
+freecamsexposed.com: google-site-verification=j9S3XS29GHMpRRNuMnnRGZH9XtvepWbEPk8UPWD58Pc
+bmo.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+banquepopulaire.fr: v=DMARC1; p=none; rua=mailto:7e07c014@mxtoolbox.dmarc-report.com;
+  ruf=mailto:7e07c014@forensics.dmarc-report.com;
+syf.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:synchronyfinancial@rua.agari.com;
+  ruf=mailto:synchronyfinancial@ruf.agari.com
+origin.com: 
+ipko.pl: 
+heureka.cz: v=DMARC1; p=quarantine; pct=100; ruf=mailto:dmarc@heureka.cz; rua=mailto:re+clugsozudqz@dmarc.postmarkapp.com;
+  sp=quarantine; aspf=r; adkim=r
+goibibo.com: v=DMARC1; p=none; rua=mailto:dmarc@goibibo.com
+puu.sh: 
+theknot.com: v=DMARC1; p=none; rua=mailto:vjypgutm@ag.dmarcian.com; ruf=mailto:vjypgutm@fr.dmarcian.com;
+alibaba-inc.com: v=DMARC1; p=none; rua=mailto:dmarc-ab@service.alibaba.com; ruf=mailto:dmarc-ab@service.alibaba.com
+squareup.com: v=DMARC1; p=reject; rua=mailto:dmarc_agg@vali.email,mailto:postmasters@squareup.com,mailto:square-dmarc@datafeeds.phishlabs.com;
+  ruf=mailto:dmarc-ruf@squareup.com,mailto:square-dmarc@datafeeds.phishlabs.com
+kerala.gov.in: 
+dinamalar.com: 
+denizhaber.com.tr: 
+google.com.et: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+takealot.com: 
+gq.com: 
+amazon.com.au: 
+echoroukonline.com: 
+58b.tv: 
+13dl.net: 
+smartpcmechanics.com: 
+indiapost.gov.in: 
+uscis.gov: 
+mint.com: v=DMARC1; p=none; fo=1; rua=mailto:silverpop@rua.agari.com; ruf=mailto:silverpop@ruf.agari.com
+cooch.tv: 
+rakuten.ne.jp: 
+bapb.gdn: 
+crunchbase.com: 
+altadefinizione.pink: 
+wildlatinporn.com: 
+famousbirthdays.com: 
+dkb.de: 
+watchonlinemovies.com.pk: 
+bankersadda.com: 
+adobelogin.com: v=DMARC1; p=reject; sp=reject; pct=100; rua=mailto:adobe@rua.agari.com;
+  ruf=mailto:adobe@ruf.agari.com; fo=1
+jma.go.jp: 
+hackstore.net: 
+n-tv.de: 
+snopes.com: 
+3djuegos.com: 
+walmart.com.br: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+vistaprint.com: v=DMARC1;p=none;fo=1; rua=mailto:dmarc_agg@auth.returnpath.net, mailto:prodrua@vistaprint.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+mangapanda.com: 
+walmart.ca: 
+myasiantv.se: 
+futbolarena.com: 
+barisderin.com: v=DMARC1; p=none; rua=mailto:baris@barisderin.com
+jeemain.nic.in: 
+gotowebinar.com: 
+angel.co: v=DMARC1; p=quarantine; pct=5; rua=mailto:infra+dmarc@angel.co
+kemdikbud.go.id: 
+iwara.tv: v=DMARC1; p=none
+secureinternetbank.com: 
+endclothing.com: 
+overdrive.com: 
+google.hn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+vagalume.com.br: v=DMARC1; p=quarantine; pct=100; rua=mailto:root@vagalume.com.br;
+  ruf=mailto:root@vagalume.com.br
+kanald.com.tr: 
+masterani.me: 
+sanjesh.org: 
+588ku.com: 
+libertyvf.com: 
+anitube.se: 
+dr.dk: 
+instiz.net: 
+bancsabadell.com: 
+woman.ru: 
+anyporn.com: 
+elkhamis.com: 
+kicker.de: 
+juegos.com: 
+google.cd: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+binarybusinessbay.com: 
+nanxie.tmall.com: 
+picofile.com: 
+expressvpn.com: 
+google.ge: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+alza.cz: v=DMARC1; p=none; rua=mailto:dmarc-reports@alza.cz; ruf=mailto:dmarc-reports@alza.cz;
+  adkim=r; aspf=r; pct=100; sp=none
+eldiario.es: 
+telecharger-youtube-mp3.com: 
+probuilds.net: 
+wolframalpha.com: 
+sakshi.com: 
+euronews.com: 
+buy.tmall.com: 
+moneyforward.com: 
+wenger.tmall.com: 
+mp3converter.net: 
+eastpak.tmall.com: 
+extremetube.com: 
+getmedianetnow.com: 
+tubegalore.com: 
+fobshanghai.com: 
+solidfiles.com: v=DMARC1; p=quarantine; rua=mailto:re+cjn6nur3fjo@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+glassdoor.co.in: 
+pscp.tv: 
+advertiserurl.com: 
+wikidot.com: 
+dostor.org: 
+imore.com: 
+shein.com: 
+blackdoctor.org: spf2.0/pra include:aspmx.sailthru.com -all
+barclays.co.uk: v=DMARC1;p=reject;fo=1;ri=3600;rua=mailto:barclays@rua.agari.com;ruf=mailto:barclays@ruf.agari.com
+qiannaimei.tmall.com: 
+hitc.com: 
+css-tricks.com: 
+forocoches.com: 
+terra.com.br: 
+zimuzu.tv: 
+square-enix.com: 
+threegun.tmall.com: 
+testbook.com: 
+err.tmall.com: 
+userbenchmark.com: 
+anandabazar.com: 
+whois.com: 
+screenrant.com: 
+tiscali.it: v=DMARC1; p=none; rua=mailto:dmarc_reports@tiscali.it
+linktender.net: 
+subhd.com: 
+fmovies.to: 
+sbisec.co.jp: 
+wemakeprice.com: 
+onelogin.com: v=DMARC1; p=quarantine; rua=mailto:dmarc@onelogin.com; ruf=mailto:dmarc@onelogin.com
+redbus.in: v=DMARC1; p=none; rua=mailto:dmarc@redbus.in , mailto:vijil@redbus.in
+data1rtb.com: 
+nu.nl: 
+gome.com.cn: 
+infoseek.co.jp: 
+alohatube.com: 
+q.gs: 
+lonelyplanet.com: 
+lamoda.ru: v=DMARC1;p=quarantine;sp=none;rua=mailto:dmarc@lamoda.ru;fo=1;aspf=r;adkim=r
+joemonster.org: google-site-verification=3ndVfJFv8VBOdCJMmOMsH6eL-ihVjz0dD65yJdkkAp0
+3158.cn: 
+diretta.it: v=DMARC1; p=none
+eater.com: v=DMARC1; p=none; rua=mailto:zicaptxt@ag.dmarcian.com
+ibt.com: 
+ntdtv.kr: 
+jawapos.com: 
+alc.co.jp: 
+exblog.jp: 
+olx.com.eg: 
+alexa.com: 
+slither.io: 
+dunyanews.tv: 
+guildwars2.com: 
+openclassrooms.com: v=DMARC1;p=quarantine;sp=quarantine;pct=100;
+eclash.tv: 
+elnuevodiario.com.ni: 
+calvinklein.tmall.com: 
+nvxie.tmall.com: 
+rarbgmirror.org: 
+almubasher.com.sa: 
+super.cz: 
+cifraclub.com.br: v=spf1 ip4:162.254.151.139 include:mail.cifraclub.com.br include:mailgun.org
+  include:spf.mandrillapp.com include:sparkpostmail.com ~all
+tpsl-india.in: 
+senscritique.com: 
+sciencemag.org: 
+nanzhuang.tmall.com: 
+officedepot.com: v=DMARC1; p=none; rua=mailto:postperson@officedepot.com
+wizzair.com: 
+consumerreports.org: 
+hk01.com: 
+scroll.in: 
+pixiv.net: 
+wunderlist.com: v=DMARC1;p=quarantine;pct=100;rua=mailto:hahassel@microsoft.com
+sammobile.com: v=DMARC1;pct=100;p=none;rua=mailto:dmarc@smtpeter.com
+smbc-card.com: 
+wallpaperscraft.com: 
+umeng.com: 
+currys.co.uk: v=DMARC1; p=reject; fo=1; pct=100; ri=3600; rua=mailto:dixons-carphone@rua.agari.com,mailto:postmaster@currys.co.uk;
+  ruf=mailto:dixons-carphone@ruf.agari.com,mailto:postmaster@currys.co.uk
+aksalser.com: 
+strawpoll.me: 
+kimcartoon.me: 
+tamilrockers.ro: 
+sina.com.tw: 
+miao.tmall.com: 
+bfmtv.com: v=spf1 include:amazonses.com ~all
+index.hr: 
+car.tmall.com: 
+1001fonts.com: 
+xitek.com: 
+pizzahut.com: 
+tripadvisor.it: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+dstv.com: 
+abv.bg: v=DMARC1; p=none; rua=mailto:dmarc-rua@abv.bg
+autotrader.co.uk: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+jstv.com: 
+google.lu: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+torrentino.top: 
+cointraffic.io: 
+advertserve.com: 
+fmkorea.com: v=spf1 ip4:27.255.93.6 ~all
+movieweb.com: 
+bungie.net: v=DMARC1; p=none; sp=none; rua=mailto:dmarcreports@bungie.com;
+thewirecutter.com: 
+halifax-online.co.uk: v=DMARC1; p=reject; ruf=mailto:d@ruf.agari.com; rua=mailto:d@rua.agari.com
+com-directory.co: 
+qatarairways.com: v=spf1 redirect=spf.qatarairways.com.qa
+pornhublive.com: v=DMARC1; p=none; pct=0; rua=mailto:dmarc-reports@flyingcroc.net;
+  aspf=r; adkim=r; sp=reject; ruf=mailto:dmarc-abuse-reports@flyingcroc.net;
+archive.is: 
+mapquest.com: v=DMARC1; p=none; fo=1; rua=mailto:aol@rua.agari.com; ruf=mailto:aol@ruf.agari.com
+2chan.net: 
+vz.ru: 
+shopbop.com: 
+jetblue.com: 
+imis.tmall.com: 
+walla.co.il: v=spf1 a mx ip4:192.118.69.0/24 ip4:192.118.68.0/24 ip4:192.118.70.0/24
+  ip4:192.118.71.0/24 ip4:192.118.81.0/24 ip4:192.118.80.0/24 ip4:213.8.166.57 ip4:68.232.139.83
+  ip4:68.232.150.121 ip4:68.232.150.134 ip4:68.232.150.136 ip4:68.232.156.118 ip4:68.232.156.119
+  ip4:68.232.156.120 ip4:68.232.156.174 ip4:68.232.156.175 ip4:68.232.156.251 ip4:68.232.159.226
+  ip4:68.232.159.228 ip4:216.71.156.16 ip4:216.71.156.153 ip4:216.71.156.179 ip4:216.71.156.180
+  ip4:216.71.156.181 ip4:216.71.158.12 ip4:216.71.158.23 ip4:216.71.158.24 ip4:10.200.7.0/24
+  ip4:68.232.159.231 ip4:68.232.159.232 ip4:68.232.156.183 ip4:68.232.156.190 ip4:216.71.156.170
+  ip4:216.71.156.171 ip4:216.71.156.172 ip4:216.71.158.16 ip4:216.71.158.17 ip4:216.71.158.18
+  ip4:68.232.152.164 ip4:68.232.156.42 ip4:68.232.152.167 ip4:68.232.156.43 ip4:68.232.159.63
+  ip4:68.232.156.47 ip4:68.232.159.253 ip4:68.232.156.53 ip4:216.71.156.13 ip4:68.232.156.62
+  ip4:52.214.94.229 ip4:52.210.127.95 ip4:34.240.168.86 include:mymarketing.co.il  include:activetrail.com
+  ~all
+91jm.com: 
+gdeposylka.ru: 
+wittyfeed.me: 
+g22rbb7.com: 
+vidto.me: 
+mangahere.cc: 
+watch.tmall.com: 
+google.am: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+sony.com: 
+gainreel.tmall.com: 
+dek-d.com: 
+sports.tmall.com: 
+bancadigitalbod.com: 
+suntrust.com: v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+extraimage.net: 
+onclkds.com: 
+sportzwiki.com: 
+corotos.com.do: 
+cibc.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;
+  fo=1
+tawk.to: 
+shouji.tmall.com: 
+xataka.com: 
+samehadaku.net: 
+watchmenow.co: 
+amctheatres.com: 
+dramafever.com: 
+google.com.qa: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+ldblog.jp: 
+ccavenue.com: 
+sparknotes.com: 
+bd24live.com: 
+nvzhuang.tmall.com: 
+livescience.com: v=DMARC1; p=reject; pct=100; rua=mailto:helpdesk@purch.com; ruf=mailto:helpdesk@purch.com;
+  fo=1
+unam.mx: 
+trackmkxoffers.se: 
+umd.edu: 
+edmunds.com: v=DMARC1; p=none; rua=mailto:dmarc-feedback@edmunds.com,mailto:re+lisujlp3h5h@dmarc.postmarkapp.com;
+  ruf=mailto:dmarc-message-failure@edmunds.com; fo=0;
+3movs.com: 
+semrush.com: v=DMARC1; p=none; sp=none; aspf=r; adkim=s; ri=86400; rua=mailto:dmarc@semrush.com;
+  fo=1:d:s
+mercadolivre.com: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre.com,mailto:mercadolibre@ruf.netcraft.com; rf=afrf;
+  pct=100
+windowscentral.com: 
+mojang.com: v=spf1 a mx include:spf.mtasv.net include:_spf.google.com ~all
+btbtdy.com: 
+myreadingmanga.info: 
+bag.tmall.com: 
+faucethub.io: 
+cafe24.com: 
+liens-telechargement.com: 
+fakaza.com: 
+biggo.com.tw: 
+bneoc.pro: 
+maniform.tmall.com: 
+worldfree4u.link: 
+fbdown.net: 
+qvc.com: 
+geico.com: v=DMARC1;p=reject;sp=reject;fo=1;ri=3600;rua=mailto:geico@rua.agari.com;ruf=mailto:geico@ruf.agari.com
+sme.sk: google-site-verification=NbHUR8o3J6kJVbvoaovZBJrTL94EmCFlvLjnhHTos4A
+bradesco.com.br: 
+solvusoft.com: 
+passinst.com: 
+stonecalcom.com: 
+nanopool.org: 
+rivals.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-yahoo-rua@yahoo-inc.com;
+fresherslive.com: 
+agar.io: 
+hi.fo: 
+edmodo.com: v=DMARC1; p=none; rua=mailto:blizzard@edmodo.com
+voanews.com: 
+saturn.de: 
+ddmix.net: 
+bravotube.net: 
+cheapoair.com: 
+glaz.tv: 
+jd.hk: 
+almaany.com: 
+moz.com: 
+ebayimg.com: v=DMARC1; p=none; fo=1; rua=mailto:ebay@rua.agari.com; ruf=mailto:ebay@ruf.agari.com
+firefox.com: v=DMARC1; p=none; rua=mailto:accounts@firefox.com; ruf=mailto:accounts@firefox.com;
+  adkim=r; aspf=r
+pierrecardinxb.tmall.com: 
+netgear.com: 
+wt.tmall.com: 
+alquds.co.uk: 
+ntv.ru: 
+mashreghnews.ir: 
+uci.edu: 
+giga.de: 
+fossil.tmall.com: 
+tnkexchange.com: 
+fotor.com: 
+protothema.gr: 
+ooopic.com: 
+thethao247.vn: 
+radikal.ru: 
+gamme.com.tw: 
+csc.gov.in: 
+iltalehti.fi: 
+mangapark.me: 
+szn.cz: 
+tgbus.com: 
+uc.cn: 
+langsha.tmall.com: 
+safeharborredir.com: 
+zopim.com: v=DMARC1; p=none; fo=0; rua=mailto:bwvlu6ki@ag.dmarcian-eu.com; ruf=mailto:bwvlu6ki@fr.dmarcian-eu.com
+yle.fi: v=DMARC1; p=none; rua=mailto:dmarc@yle.fi; ruf=mailto:dmarc@yle.fi; fo=d:s;
+  adkim=s; aspf=s; sp=none
+ticketmonster.co.kr: 
+slideplayer.com: 
+90tv.ir: 
+alarab.com: v=spf1 a ptr mx ip4:62.219.10.147 ip4:62.219.10.148 include:_spf.google.com
+  ~all
+polyvore.com: 
+farpost.ru: v=DMARC1;p=quarantine
+tirto.id: 
+korrespondent.net: 
+nptel.ac.in: 
+jia.tmall.com: 
+convertio.co: 
+genesis-mining.com: v=DMARC1; p=reject; rua=mailto:admin+postmaster@genesis-mining.com;
+  ruf=mailto:admin+forensics@genesis-mining.com; fo=1;
+derstandard.at: 
+v2profit.com: 
+toyokeizai.net: 
+bigcartel.com: v=DMARC1; p=reject; sp=reject; aspf=r; adkim=r; fo=1; pct=100; rua=mailto:re+sycgjgqt580@dmarc.postmarkapp.com,mailto:bigcartelshop@rua.netcraft.com;
+  ruf=mailto:bigcartelshop@ruf.netcraft.com;
+guitarcenter.com: 
+sxstube.com: 
+ucdavis.edu: 
+uchicago.edu: 
+atozmanuals.com: 
+rakuten.com: v=DMARC1; p=none; rua=mailto:dmarc-report-a@rx.rakuten.co.jp
+aranzulla.it: 
+findepended.com: 
+disp.cc: 
+carsforsale.com: 
+trendyol.com: v=DMARC1; p=none; rua=mailto:deliverability@euromsg.com; ruf=mailto:deliverability@euromsg.com;
+freeones.com: 
+elcomercio.pe: 
+nnrdntrrjf.bid: 
+lianjia.com: 
+2ch.hk: 
+charmflirt.com: 
+huobi.pro: 
+cltrkr.com: 
+santandernet.com.br: 
+serverfault.com: 
+suumo.jp: v=spf1 include:spf01.suumo.com include:spf02.suumo.com include:spf-bma.rec.mpme.jp
+  include:spf.tricorn.net include:crmstyle.com include:spf.betrend.com ~all
+colorado.edu: v=DMARC1; p=none; rua=mailto:4iaqhhnp@ag.dmarcian.com
+capacitly.com: 
+azure.com: v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+sonhoo.com: 
+yts.me: 
+kisscartoon.es: 
+ucoz.com: 
+downloadhelper.net: 
+gomovies.pet: 
+indiarailinfo.com: 
+guokr.com: 6CgsdNCe
+quidco.com: 
+hyxyr.tmall.com: 
+binnitu.tmall.com: 
+shahrekhabar.com: 
+olx.pt: v=DMARC1; p=reject; rua=mailto:abuse@olx.pt; adkim=s; aspf=s
+indeed.co.uk: 
+tamilrockers.ax: 
+shatel.ir: 
+cic.gc.ca: 
+ally.com: v=DMARC1; p=none; fo=1; pct=100; ri=3600; rua=mailto:ally@rua.agari.com;
+  ruf=mailto:ally@ruf.agari.com
+lihkg.com: 
+msu.edu: v=DMARC1; p=none; sp=none; aspf=s; rua=mailto:postmaster@msu.edu; ruf=mailto:postmaster@msu.edu;
+  rf=afrf; pct=100; ri=86400
+electroneum.com: 
+99114.com: 
+vecteezy.com: 
+dikaiologitika.gr: 
+alnaharegypt.com: 
+cdac.in: 
+azams.tmall.com: 
+dict.cn: 
+selectedvideos.club: 
+ingdirect.es: v=DMARC1;p=quarantine;rua=mailto:postmaster@ingdirect.es,mailto:trojanalert@security.ingdirect.es,mailto:Global.Mail.DMARC@ing.com,mailto:ejdvezzq@ag.dmarcian-eu.com;ruf=mailto:postmaster@ingdirect.es
+rsc.org: 
+zapmetasearch.com: 
+budsgunshop.com: 
+on.cc: 
+mixcloud.com: 
+dailystar.co.uk: 
+ftchinese.com: 
+ennaharonline.com: 
+znds.com: 
+eluniverso.com: 
+bcvc.mobi: 
+myscore.com.ua: 
+arga-mag.com: 
+storage.googleapis.com: 
+cuny.edu: 
+linguee.com: 
+allmusic.com: 
+band.us: 
+xpau.se: 
+utarget.ru: v=DMARC1; p=none; rua=mailto:admin@utarget.ru
+fehobmasr.com: 
+himasoku.com: 
+answers.com: 
+zalando.de: 
+shmoop.com: 
+hangseng.com: v=DMARC1; p=none; sp=reject;fo=1; ri=3600; rua=mailto:hsbc@rua.agari.com;
+  ruf=mailto:hsbc@ruf.agari.com
+sftwrads.com: 
+evite.com: 
+pandora.tv: v=spf1 ip4:61.111.9.176 ip4:61.111.9.228 ip4:110.45.255.2 ip4:110.45.255.3
+  ip4:61.111.8.245 ip4:61.111.8.179 ip4:110.45.195.191 ip4:14.63.230.247 ip4:110.45.195.170
+  ip4:110.45.195.171 include:_spf.google.com ~all
+sportsdirect.com: 
+ipetgroup.com: 
+massdrop.com: 
+book.tmall.com: 
+indiewire.com: 
+exlibrisgroup.com: 
+wallpaperswide.com: 
+vrbo.com: v=DMARC1; p=reject; adkim=s; aspf=r; fo=1; pct=100; rua=mailto:jlavhtnn@ag.dmarcian.com,mailto:rua@haspf.com;
+  ruf=mailto:jlavhtnn@fr.dmarcian.com,mailto:ruf@haspf.com;
+ox.ac.uk: 
+eluniversal.com.mx: 
+ouest-france.fr: 
+1337x.st: 
+baomoi.com: v=DMARC1; p=none; pct=100; rua=mailto:re+ftcxzmuvcn7@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+ea3w.com: 
+nasdaq.com: 
+piratebay247.net: 
+tripadvisor.ru: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+idope.se: 
+bartarinha.ir: 
+battlefield.com: 
+baiduccdn1.com: 
+thomsonreuters.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+adbetclickin.pink: 
+imgsrc.ru: 
+impots.gouv.fr: v=DMARC1;p=reject;sp=none;pct=100;aspf=s;fo=s;rua=mailto:rua@dgfip.finances.gouv.fr!5m;ruf=mailto:ruf@dgfip.finances.gouv.fr!5m
+lazada.sg: 
+clicktabs.net: 
+phoenixads.co.in: 
+picmonkey.com: 
+chomikuj.pl: google-site-verification=9I4Gr4WV9zn9bq0svr9QlljbDYvs2091jAj8MIK4apc
+almowaten.net: default._domainkeyINTXTv=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArq/iEfwjYghcVb6JqXVlOJ/13svEOzMirAC43Q3TCiSAAvDBHrtgRuCMx3gLWWprl8OoCHeLgQfJ0854NojYzyjnFZN0XQkx7L9JUfsHs+ioUnVR5J+/Fl+I/N/wsbsQAQwdxdVvnX/LMq+RF3kH00y5bvP6JyCkCMvoe6JPygYSU0d5vxbK2/rq1tyiGgHiGZC3hw91kbxGUk0e5tGI8Tay2e7T2gjP6mnTkP2Fl9KtOsM2YlmgFoL20IMTwGms3iYnilYGNSY3KL1WiH8YB5PMjIRBPrrqOL+lsrQ1GWGLevp6MRcVjyw7ZJmhF+6rKttc1vRZVHWPa02HL2y3swIDAQAB;
+mudah.my: 
+wixstatic.com: 
+ngacn.cc: 
+read01.com: 
+hotjar.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+ox9ezfwltqq@dmarc.postmarkapp.com;
+  sp=quarantine; aspf=r;
+here.com: 
+dailywire.com: 
+ameritrade.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+gnavi.co.jp: 
+samsonite.tmall.com: 
+justwatch.com: 
+darty.com: 
+rutgers.edu: 
+ulmart.ru: v=DMARC1; p=quarantine; sp=quarantine
+telekom.de: 
+thefuncoolstuff.com: 
+ustc.edu.cn: 
+yellowpages.com: 
+torrentfreak.com: 
+cncn.org.cn: 
+price.com.hk: " "
+mercadolibre.cl: 
+clkin.me: 
+eslamoda.com: 
+javmost.com: 
+hdfilmcehennemi2.org: 
+weheartit.com: 
+songsterr.com: v=DMARC1; p=none; pct=100; rua=mailto:complaints@songsterr.com;
+stern.de: 
+18183.com: 
+51hejia.com: 
+cplusplus.com: 
+newsru.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@newsru.com
+just-eat.co.uk: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+hackernoon.com: 
+google.co.mz: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+nest.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+modiseh.com: 
+torrentday.com: 
+dai.tmall.com: 
+netsuite.com: v=DMARC1; p=none; rua=mailto:emaildmarcfeedback@netsuite.com; ruf=mailto:emaildmarcfeedbackfr@netsuite.com;
+  adkim=r; aspf=r; pct=100; sp=none;
+alfabank.ru: v=DMARC1;p=none;pct=100;fo=s;rua=mailto:dmarc_ag@alfabank.ru
+jisho.org: 
+zergnet.com: 
+today.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@vali.email
+kym-cdn.com: 
+bu.edu: 
+elzmannews.com: 
+kotak.com: v=DMARC1; p=none; pct=100; rua=mailto:rua.kotak@progist.in
+graphicriver.net: 
+teatroporno.com: 
+amediahub.com: 
+revimedia.com: 
+ytssubtitles.com: 
+raspberrypi.org: 
+stardewvalleywiki.com: 
+expressen.se: v=DMARC1; pct=100; ruf=mailto:7da41b8dca95365@for.dmarcanalyzer.com;
+  rua=mailto:7da41b8dca95365@rep.dmarcanalyzer.com; p=none; adkim=r; aspf=r
+oxu.az: 
+google.co.bw: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+miomio.tv: 
+baby.tmall.com: 
+iheart.com: 
+tcgplayer.com: 
+nab.com.au: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:natausbank@rua.agari.com;
+  ruf=mailto:natausbank@ruf.agari.com
+hearthstonetopdecks.com: 
+tv2.no: 
+lankasri.com: 
+banco.bradesco: 
+gruposantander.es: v=DMARC1; p=none; fo=1; rua=mailto:postmanagerdmarc@gsnetcloud.com;
+  ruf=mailto:postmanagerdmarc@gsnetcloud.com;
+multitran.ru: 
+file-upload.com: 
+islamweb.net: 
+bytefence.com: 
+ilsole24ore.com: 
+gucci.com: 
+funsafetab.com: 
+mover.uz: 
+faptitans.com: 
+gitlab.com: v=DMARC1; p=reject; pct=100
+tororango.com: 
+chsi.com.cn: 
+vivino.com: 
+netease.com: 
+keezmovies.com: 
+delish.com: 
+mangvieclam.com: 
+djelfa.info: 
+csod.com: v=DMARC1; p=none; pct=100;
+rfa.org: 
+fritz.box: 
+fantasti.cc: 
+preev.com: 
+arte.tv: 
+qoo10.sg: 
+nhaccuatui.com: 
+findgofind.co: 
+mango.com: 
+world4ufree.to: 
+elblog.com: 
+skyscrapercity.com: 
+bitsociety.co: 
+alyamanalaraby.com: 
+hugedomains.com: 
+liepin.com: 
+usmagazine.com: v=DMARC1; p=none; rua=mailto:dmreports@usmagazine.com; ruf=mailto:dmreports_fo@usmagazine.com;
+  sp=none; fo=1; aspf=r; adkim=r; ri=86400
+serving-sys.com: 
+b-ok.org: 
+ximalaya.com: 
+xing.al: 
+tudou.com: 
+cnyes.com: 
+svyaznoy.ru: v=DMARC1; p=none
+gamestorrents.to: 
+digginst.com: 
+trovaprezzi.it: 
+michaels.com: 
+mabanque.bnpparibas: 
+letterboxd.com: 
+javtorrent.re: 
+anz.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:dmarc_rua@anz.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+etnet.com.hk: 
+finalfantasyxiv.com: 
+pluralsight.com: 
+comenity.net: 
+netdna-ssl.com: 
+thoughtcatalog.com: google-site-verification=3xDmYDU4snhOkUikWlMiHexO5xC2GqLnrGKifqUJrj4
+zoznam.sk: 
+lidl.de: v=DMARC1;p=none;sp=none;adkim=s;aspf=s;rua=mailto:schwarz-dmarc-rua@mail.schwarz
+torrent-games.net: 
+novelupdates.com: 
+cox.net: 
+redsys.es: 
+timewarnercable.com: 
+my.com: v=DMARC1;p=reject;rua=mailto:d@rua.agari.com,mailto:dmarc_rua@corp.mail.ru;ruf=mailto:d@ruf.agari.com;fo=1;
+bluewin.ch: 
+jbhifi.com.au: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:jb-hifi@rua.agari.com;
+  ruf=mailto:jb-hifi@ruf.agari.com
+23andme.com: v=DMARC1; p=none; sp=none; rua=mailto:r-dmarc+rua@23andme.com!10m; ruf=mailto:r-dmarc+ruf@23andme.com!10m;
+  rf=afrf; pct=100; ri=86400
+ynet.com: 
+vogue.com.tw: 
+ap2tg.com: 
+ilacrehberi.com: 
+tamilyogi.fm: 
+the-star.co.ke: 
+balkanweb.com: 
+hdpopcorns.com: 
+archdaily.com: 
+otakustream.tv: 
+cool3c.com: 
+llbean.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+is.fi: 
+filgoal.com: 
+superanimes.site: 
+vsetop.com: 
+salon.com: 
+netshoes.com.br: v=DMARC1;p=reject;pct=100;fo=1;ri=86400;rua=mailto:netsho_rua@dm.easysol.net;ruf=mailto:netsho_ruf@dm.easysol.net
+adorocinema.com: 
+wyborcza.pl: 
+720pizle.com: 
+freedoge.co.in: 
+channel4.com: 
+proxyship.click: 
+statcounter.com: 
+ibps.in: 
+techweb.com.cn: 
+scoop.it: 
+planetminecraft.com: 
+anthropologie.com: 
+pearsoncmg.com: 
+manga-zip.net: 
+appmedia.jp: 
+beeline.ru: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc@beeline.ru;
+vietnamnet.vn: 
+mastercard.com.au: 
+fanserials.org: 
+denofgeek.com: 
+traveloka.com: v=DMARC1; p=none; fo=1; pct=100; rua=mailto:dmarc@traveloka.com
+autotimes.com.cn: 
+linkonclick.com: 
+cleartrip.com: 
+yale.edu: v=DMARC1; p=none; rua=mailto:dmarc_agg@vali.email,mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:s3mdu9kw@ag.dmarcian.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com,mailto:s3mdu9kw@fr.dmarcian.com;
+  fo=1
+centrum24.pl: 
+bigmir.net: 
+theblackloop.com: 
+ksl.com: 
+tparser.org: 
+cimbclicks.com.my: 
+gsmhosting.com: 
+moneysavingexpert.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+sarahah.com: v=DMARC1; p=none; rua=mailto:postmaster@sarahah.com; ruf=mailto:postmaster@sarahah.com;
+basketball-reference.com: 
+computerhope.com: 
+sarayanews.com: 
+freecodecamp.org: 
+comdirect.de: 
+viralinindia.net: 
+kommersant.ru: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@kommersant.ru
+reportersclick.com: 
+kwejk.pl: 
+gatech.edu: 
+journaldesfemmes.com: v=DMARC1; p=reject; pct=50; rua=mailto:hwi3eaxz@ag.dmarcian-eu.com;
+  ruf=mailto:hwi3eaxz@fr.dmarcian-eu.com;
+clickppcbuzz.com: 
+redirect2719.ws: 
+replainy.co: 
+at.ua: 
+doubledeepclick.com: 
+cryptonator.com: v=DMARC1; p=reject; aspf=s; sp=reject
+alhilalalyoum.com: 
+jet.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com; ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+thinkgeek.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+bbcgoodfood.com: 
+xiachufang.com: v=DMARC1;p=none;ruf=mailto:dmarc@xiachufang.com;rua=mailto:dmarc_report@xiachufang.com
+8muses.com: 
+zimbio.com: 
+blick.ch: 
+hirufm.lk: 
+eltiempo.es: 
+injuredcandy.com: 
+syri.net: 
+nts.org.pk: 
+accenture.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+bookdepository.com: 
+eleconomista.es: 
+drakorindo.co: 
+poki.com: 
+qoolquiz.com: 
+vercomicsporno.com: 
+techwalla.com: 
+freenet.de: 
+aviasales.ru: v=DMARC1; p=none; rua=mailto:dmarc@aviasales.ru; ruf=mailto:dmarc@aviasales.ru;
+  fo=0;
+jalan.net: 
+t-nation.com: 
+rzd.ru: v=DMARC1; pct=50; rua=mailto:qjbaxzus@ag.dmarcian.com; ruf=mailto:postmaster@rzd.ru;
+  p=quarantine; sp=quarantine; adkim=r; aspf=s
+protonmail.com: v=DMARC1; p=quarantine; fo=1;
+obozrevatel.com: 
+socialplant.com: 
+uproxx.com: 
+xx1.me: 
+pc6.com: 
+yxdown.com: 
+orbitz.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@dmarc.250ok.net; ruf=mailto:dmarc_fr@dmarc.250ok.net;
+  fo=1; pct=100; rf=afrf
+daftsex.com: 
+ccb.com: 
+light-dark.net: 
+todoist.com: 
+moviescounter.co: 
+xiu.com: 
+bobibanking.com: 
+seek.com.au: v=DMARC1; p=none; pct=100; rua=mailto:re+gkrdbkhie8c@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+aktuality.sk: v=spf1 ip4:91.235.52.0/22 ip4:64.18.0.0/20 ip4:207.126.144.0/20 ip4:74.125.148.0/22
+  include:_spf.google.com ~all
+stuff.co.nz: 
+geniusdisplay.com: 
+gazzetta.gr: 
+diaforetiko.gr: 
+zimbra.free.fr: 
+tooxclusive.com: 
+presslogic.com: 
+juksy.com: 
+packagetracer.com: 
+gradeup.co: v=DMARC1; p=none; rua=mailto:accepted@gradeup.co; ruf=mailto:quarantine@gradeup.co;
+  rf=afrf; pct=100
+docker.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:q1xwnepx@ag.dmarcian.com;
+  ruf=mailto:q1xwnepx@fr.dmarcian.com;
+money.pl: 
+backchina.com: 
+mediamarkt.es: 
+clckads.com: 
+aftership.com: v=DMARC1; p=none; sp=reject; rua=mailto:mail@aftership.net; ruf=mailto:mail@aftership.net;
+  rf=afrf; pct=100; ri=86400
+wnd.com: 
+vivo.sx: 
+marksandspencer.com: v=DMARC1; p=none; rua=mailto:dmarc.RUA_reports@marks-and-spencer.com;
+  ruf=mailto:dmarc.RUF_reports@marks-and-spencer.com; pct=100
+britishairways.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net;
+tureng.com: 
+piaohua.com: 
+listentoyoutube.com: 
+voluumtrk2.com: 
+fmovies.is: 
+ve-porn.net: 
+sapo.ao: 
+smartsheet.com: 
+flv2mp3.org: 
+beatport.com: 
+saraiva.com.br: v=DMARC1; p=none; rua=mailto:dmarc@saraiva.com.br
+onlinemultfilmy.ru: 
+princeton.edu: 
+kotobank.jp: 
+bazos.sk: 
+m4ufree.com: 
+pku.edu.cn: 
+freemake.com: 
+louisvuitton.com: v=DMARC1; p=none; fo=1;  rua=mailto:dmarc_rua@emaildefense.proofpoint.com;  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+rackcdn.com: 
+forumcommunity.net: v=spf1 ip4:37.59.16.91 ip6:2001:41D0:8:635b::/64 ~all
+jang.com.pk: 
+qualityfilehosting.com: 
+shareae.com: 
+proboards.com: 
+prensalibre.com: 
+lesnumeriques.com: 
+ihg.com: 
+amarujala.com: 
+dmkt-sp.jp: 
+vix.com: v=DMARC1; p=quarantine; pct=100; adkim=s; aspf=r; rua=mailto:frank.urbina@vix.com,mailto:08cf23d3@mxtoolbox.dmarc-report.com
+eurosport.fr: 
+diarioinenglish.com: 
+bolly4u.me: 
+duke.edu: v=DMARC1; p=none; rua=mailto:dmarc-rua@duke.edu,mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+shabdkosh.com: 
+img.yt: 
+gelocal.it: 
+vsco.co: 
+lbldy.com: 
+asu.edu: v=DMARC1;p=none;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+search-privacy.biz: 
+blic.rs: 
+rokna.net: 
+acroscow.com: 
+acer.com: 
+ctrip.com: 
+manualslib.com: v=DMARC1; p=none; rua=mailto:main.admin@manualslib.com
+fosshub.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m;
+  rf=afrf; pct=100; ri=86400
+jawharafm.net: 
+sdamgia.ru: 
+etecsa.net: 
+ths9j89.com: 
+wpbeginner.com: 
+iyiou.com: v=DMARC1; p=none
+pornxs.com: 
+thebuzztube.com: 
+earthlink.net: v=DMARC1; p=none; rua=mailto:dmarc@abuse.earthlink.net; ruf=mailto:dmarc@abuse.earthlink.net;
+  fo=0; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400; sp=none;
+duga.jp: 
+finanzen.net: 
+coinigy.com: 
+tmearn.com: 
+wetalk.tw: 
+letswatchseries.ac: 
+mailchi.mp: 
+ssa.gov: v=DMARC1; p=quarantine; rua=mailto:dmarc@ssa.gov; fo=1; adkim=r; aspf=r;
+  pct=100; ri=86400; sp=quarantine
+thepost24.com: 
+delfi.lt: 
+eghtesadnews.com: 
+tomtop.com: 
+armorgames.com: 
+namanbharat.net: 
+livescores.com: 
+cainiao.com: 
+mundosexanuncio.com: v=DMARC1; p=none
+topcinema.tv: 
+zazzle.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+ixbt.com: 
+readcomiconline.to: 
+taroot-rangi.com: 
+ikinohd.club: 
+netfind.com: 
+one.com: v=DMARC1; p=none; rua=mailto:ovht5fex@ag.dmarcian.com; ruf=mailto:ovht5fex@fr.dmarcian.com;
+ivi.tv: 
+ssraju3n.com: 
+casasbahia.com.br: 
+thestar.com: 
+systemrequirementslab.com: 
+metrolyrics.com: 
+yobxvotn.bid: 
+tripadvisor.fr: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+hkgolden.com: 
+j.gs: 
+yinxiang.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc@evernote.com; ruf=mailto:dmarc-ruf@evernote.com;
+  fo=0:s
+cnki.net: 
+hgtv.com: v=DMARC1; p=none; fo=1; rua=mailto:scripps@rua.agari.com; ruf=mailto:scripps@ruf.agari.com
+code.org: 
+linguee.de: 
+sofascore.com: 
+template.net: 
+yimg.jp: 
+hi.ru: 
+zoosi.club: 
+rule34.xxx: 
+tvboxnow.com: 
+topwar.ru: 
+alaskaair.com: v=DMARC1; p=none; pct=100;
+serienstream.to: 
+slidesharecdn.com: v=DMARC1; p=none; rua=mailto:linkedin@rua.agari.com; ruf=mailto:linkedin@ruf.agari.com
+rateyourmusic.com: 
+zi.media: 
+producthunt.com: v=DMARC1; p=none; rua=mailto:6sbroxn9@ag.dmarcian.com; ruf=mailto:6sbroxn9@fr.dmarcian.com;
+anime-sharing.com: 
+sina.cn: 
+cna.com.tw: 
+techrepublic.com: 
+forumfree.it: 
+globaltestmarket.com: 
+webofknowledge.com: 
+jpmorganchase.com: v=DMARC1; p=reject; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+  fo=1
+searchalgo.com: 
+proquest.com: v=DMARC1; pct=1; p=none; rua=mailto:noreply@proquest.com; ruf=mailto:noreply@proquest.com
+buscape.com.br: 
+hpjav.com: 
+oricon.co.jp: 
+linustechtips.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+whpligeibwh@dmarc.postmarkapp.com;
+  sp=quarantine; aspf=r;
+elperiodico.com: 
+facenama.com: 
+clicknshare.net: 
+cibercuba.com: 
+smv.to: 
+newasiantv.io: 
+wikispaces.com: google-site-verification=HKfivR28kckEhZjKaRqALMPrWfO6Q3QQrS5Gp3KWmKM
+huffingtonpost.fr: 
+travelocity.com: v=DMARC1; p=none; rua=mailto:dmarc_agg@dmarc.250ok.net; ruf=mailto:dmarc_fr@dmarc.250ok.net;
+  fo=1; pct=100; rf=afrf
+mentalfloss.com: 
+ekstrabladet.dk: 
+yummyanime.com: 
+nsw.gov.au: 
+zalukaj.com: 
+mysynchrony.com: 
+bbt.com: v=DMARC1; p=none; sp=none; adkim=r; aspf=r; fo=1; pct=100; ri=86400; rua=mailto:bbt@rua.agari.com,mailto:spoof@bbandt.com;
+  ruf=mailto:bbt@ruf.agari.com,mailto:spoof@bbandt.com
+granbluefantasy.jp: 
+about.com: v=DMARC1; p=none; fo=1; rua=mailto:about@rua.agari.com; ruf=mailto:about@ruf.agari.com
+ss.com: v=DMARC1; p=reject; pct=100; sp=none;
+cybersource.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+bangbros.com: v=spf1 ip4:207.126.144.0/20 ip4:64.18.0.0/20 ip4:74.125.148.0/22 ip4:64.111.193.0/24
+  mx a:bbrostools1-1.isprime.com include:_spf.google.com ip4:74.116.233.45 ip4:74.116.233.54
+  ip4:74.116.233.55 ip4:74.116.233.56 ~all
+ems.com.cn: 
+hackerrank.com: 
+pccomponentes.com: v=DMARC1; p=none
+liontravel.com: 
+gadgetsnow.com: v=DMARC1; p=none; rua=mailto:accepted@gadgetsnow.com; ruf=mailto:quarantine@gadgetsnow.com;
+  rf=afrf; pct=100
+fararu.com: 
+meaww.com: 
+07073.com: 
+poshmark.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@poshmark.com;
+badtameezdil.net: 
+asianwiki.com: 
+iloveoldschoolmusic.com: 
+tsn.ca: 
+freepik.es: 
+macworld.co.uk: 
+pagseguro.uol.com.br: 
+ebay.ie: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+yammer.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+creofive.com: 
+imgrum.org: 
+shop-pro.jp: 
+frshdmn.com: 
+c-ij.com: 
+net-a-porter.com: 
+vidal.fr: 
+jc-affiliates.com: 
+riafan.ru: stop
+showroom-live.com: 
+lacuerda.net: 
+huomao.com: 
+tamu.edu: 
+studopedia.ru: 
+gamesradar.com: 
+rose-drops.com: 
+69oxt4q05.com: 
+freepdfconvert.com: 
+tutu.ru: v=DMARC1; p=none; sp=none; rua=mailto:mail-admins@tutu.ru; ruf=mailto:mail-admins@tutu.ru;
+  fo=1;
+alamy.com: 
+amazon.com.br: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@bounces.amazon.com;
+  ruf=mailto:dmarc-reports@bounces.amazon.com
+yes24.com: 
+unilad.co.uk: 
+medicinenet.com: 
+esporte.uol.com.br: 
+game-game.com.ua: 
+westernunion.com: v=DMARC1; p=reject; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+mintmanga.com: empty
+bitmain.com: 
+pcgames-download.com: 
+pinterest.com.mx: v=DMARC1; p=reject
+origo.hu: 
+imagevenue.com: 
+wetter.de: 
+netvasco.com.br: 
+time.ir: 
+kar.nic.in: 
+greenhouse.io: v=DMARC1; p=none; adkim=r; aspf=r; fo=1; rua=mailto:dmarc-reporting@greenhouse.io;
+  ruf=mailto:dmarc-reporting@greenhouse.io
+onlinedown.net: 
+telugu360.com: 
+trafficserving.com: 
+proxysite.com: 
+c-sharpcorner.com: 
+nseindia.com: 
+laptopmag.com: v=DMARC1; p=reject; pct=100; rua=mailto:helpdesk@purch.com; ruf=mailto:helpdesk@purch.com;
+  fo=1
+linuxmint.com: 
+redbox.com: 
+yatra.com: v=DMARC1; p=reject; rua=mailto:dmarc-reports@yatra.com; ruf=mailto:dmarc-reports@yatra.com
+tower.im: 
+cpmofferconvert.com: 
+goodgamestudios.com: v=DMARC1; p=quarantine; rua=mailto:postmaster@goodgamestudios.com;
+typepad.com: 
+torrenthaja.com: 
+f95zone.com: v=DMARC1; p=none;
+fssnet.co.in: 
+hardestgame.net: 
+leroymerlin.fr: 
+banamex.com: v=DMARC1; p=reject; rua=mailto:citi@rua.agari.com,mailto:dmarc.reports.rua@citi.com
+torrentmovies.co: 
+vodafone.in: 
+moonbit.co.in: 
+llnwd.net: 
+kink.com: v=DMARC1; p=none; rua=mailto:postmaster@kink.com
+gorillavid.in: 
+xiaomi.cn: 
+statista.com: 
+ford.com: 
+timesnownews.com: 
+loteriasyapuestas.es: 
+smbc-comics.com: 
+ufl.edu: 
+jal.co.jp: 
+newdmn.com: 
+leju.com: 
+jhu.edu: v=DMARC1;p=none;rua=mailto:twd3anjc@ag.dmarcian.com;ruf=mailto:twd3anjc@fr.dmarcian.com
+autozone.com: 
+tribune.com.pk: 
+stripchat.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@stripchat.com
+itslearning.com: 
+tradeadexchange.com: 
+ovh.com: v=DMARC1; p=none; rua=mailto:dmarc+ovh.com@abuse.ovh.net; rf=afrf; pct=100;
+hinet.net: 
+ecollege.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+robertsspaceindustries.com: 
+inbox.lv: v=DMARC1; p=quarantine; pct=100; sp=none; aspf=s; adkim=s; rua=mailto:abuse@inbox.lv
+sep.gob.mx: 
+dv37.com: 
+instamp3.live: 
+puhutv.com: v=DMARC1;p=reject;rua=mailto:postmaster@puhutv.com;ruf=mailto:postmaster@puhutv.com;adkim=s;aspf=s;sp=reject
+ntv.com.tr: 
+cox.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:cox@rua.agari.com; ruf=mailto:cox@ruf.agari.com
+178.com: 
+dmzj.com: 
+infowars.com: 
+campograndenews.com.br: 
+ebaydesc.com: 
+velocitycdn.com: 
+shaadi.com: 
+flipboard.com: v=DMARC1; p=none; pct=100; rua=mailto:postmaster@flipboard.com
+thewildcard.com: 
+seemorgh.com: 
+nerdwallet.com: 
+w3.org: 
+beginads.com: 
+wday.ru: 
+sarzamindownload.com: 
+shiftdelete.net: 
+mp3juices.cc: 
+softbank.jp: 
+ascii.jp: 
+waploaded.com: 
+worldbank.org: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:worldb_rua@dm.easysol.net
+diamond.jp: 
+southcn.com: 
+cmbchina.com: 
+parivahan.gov.in: 
+stihi.ru: 
+fasttorrent.ru: 
+demonoid.pw: 
+huffingtonpost.jp: 
+thenewslens.com: 
+ethermine.org: 
+google.mg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+slimcdn.com: 
+bpi.ir: 
+cpm20.com: 
+theinfo.ng: 
+ogone.com: v=DMARC1; p=none; rua=mailto:dmarc@ogone.com
+nos.nl: 
+afip.gob.ar: 
+javsex.net: 
+mthai.com: 
+megafilmestorrents.net: 
+ntdtv.com: 
+cocolog-nifty.com: 
+khabarfarsi.com: 
+intellicast.com: 
+fanatik.com.tr: 
+tune.pk: 
+vonvon.me: 
+fuq.com: 
+tsa-algerie.com: 
+eurostreaming.club: 
+patagonia.com: v=DMARC1; p=none; rua=mailto:postmaster@patagonia.com
+yoitect.com: 
+joyreactor.cc: 
+sdmoviespoint.club: 
+ifttt.com: v=DMARC1; p=reject; rua=mailto:arqctnow@ag.dmarcian.com;
+mizuhobank.co.jp: 
+rawstory.com: 
+iflscience.com: 
+kuaidi100.com: 
+gdz.ru: 
+ti.com: v=DMARC1;p=quarantine;sp=none;rua=mailto:dmarc-aggr@ti.com;ruf=mailto:dmarc-for@ti.com;fo=0
+gamestar.de: 
+highsnobiety.com: 
+okaz.com.sa: 
+stoiximan.gr: 
+pussl26.com: 
+gametop.com: 
+aznude.com: 
+torrent.ceo: 
+groupme.com: 
+blogsky.com: 
+proxyof.com: 
+canadapost.ca: 
+mahaonline.gov.in: v=DMARC1; p=none; sp=none; rua=mailto:techops@vfirst.com; ruf=mailto:techops@vfirst.com;
+  rf=afrf; pct=100; ri=86400
+theonion.com: 
+driverscape.com: 
+thevideo.us: 
+cityheaven.net: 
+traffic-media.co: 
+yout.com: 
+kdslife.com: 
+efu.com.cn: 
+dnsrsearch.com: 
+fcc.gov: v=DMARC1; p=none; rua=mailto:postmaster@fcc.gov
+sport24.gr: 
+skyscanner.com: 
+ardmediathek.de: 
+cam.ac.uk: 
+ih5.cn: 
+regions.com: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:region_rua@dm.easysol.net;ruf=mailto:region_ruf@dm.easysol.net
+jacquielawson.com: 'v=DMARC1; p=reject; pct=100; rua=mailto:fbl@americangreetings.com,mailto:d@rua.agari.com;
+  ruf=mailto:d@ruf.agari.com; '
+jsmptjmp.com: 
+memrise.com: 
+indiabix.com: 
+usgs.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+adveric.net: 
+loverslab.com: 
+canalrcn.com: 
+schoology.com: 
+piaotian.com: 
+myfonts.com: 
+mtggoldfish.com: 
+kroger.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+incognitosearches.com: 
+zvooq.online: 
+okex.com: 
+jamnews.com: 
+prizegrab.com: 
+westpac.com.au: 
+editorialmanager.com: v=DMARC1; p=quarantine; fo=0; adkim=r; aspf=r; pct=100; sp=quarantine
+epicurious.com: 
+cosmo.ru: 
+frys.com: 
+wolfram.com: 
+rus.porn: 
+ravelry.com: v=DMARC1; p=quarantine; adkim=r; aspf=r; rf=afrf; sp=none
+grand-casino19.com: 
+jutarnji.hr: 
+buybitcoinworldwide.com: 
+ifanr.com: 
+myshared.ru: v=DMARC1; p=none
+national-lottery.co.uk: v=DMARC1; p=none; rua=mailto:rua@camelotgroup.co.uk; ruf=mailto:ruf@camelotgroup.co.uk;
+  fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=10800; sp=none
+shopstyle.com: 
+disney.com: 
+laprensagrafica.com: 
+nios.ac.in: 
+techadvisor.co.uk: 
+uw.edu: 
+y2mate.com: 
+hentai-foundry.com: v=DMARC1; p=none; fo=1; rua=mailto:feedbackloop@hentai-foundry.com;
+  ruf=mailto:feedbackloop@hentai-foundry.com;
+warhistoryonline.com: 
+shine.com: v=DMARC1; p=reject; pct=100; fo=1; rua=mailto:emailreports@shine.com;ruf=mailto:emailreports@shine.com
+tf1.fr: 
+incisozluk.com.tr: v=spf1 include:_spf.google.com include:spf.mandrillapp.com ~all
+godinworld.com: 
+stitchfix.com: 
+terraclicks.com: 
+samplicio.us: 
+futbol24.com: 
+elegantthemes.com: 
+resetera.com: v=DMARC1; p=none; pct=100; rua=mailto:resetera.dev@gmail.com
+filehorse.com: 
+inps.it: 
+starwoodhotels.com: 
+uptvs.com: 
+rstyle.me: 
+bato.to: 
+worldfree4u.lol: 
+pcbaby.com.cn: 
+ameli.fr: 
+lolcounter.com: 
+viid.me: 
+broced.co: 
+rapidtables.com: 
+rocketnews24.com: v=DMARC1; p=reject; rua=mailto:postmaster@rocketnews24.com; ruf=mailto:postmaster@rocketnews24.com
+tampermonkey.net: 
+google.sn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+viu.com: 
+10010.com: 
+porn300.com: 
+finecobank.com: 
+doktorsitesi.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m;
+  ruf=mailto:dmarc@mailinblue.com!10m; rf=afrf; pct=100; ri=86400
+shooshtime.com: 
+gocomics.com: 
+adsupplyads.net: 
+caranddriver.com: 
+creaders.net: v=spf1 ip4:50.97.192.162/32 mx ~all
+camelcamelcamel.com: 
+alarabonline.biz: 
+venezuelaaldia.com: 
+northwestern.edu: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+cafebazaar.ir: v=DMARC1; rua=mailto:99bfbe49b961684@rep.dmarcanalyzer.com; ruf=mailto:99bfbe49b961684@for.dmarcanalyzer.com;
+  p=none; sp=none; fo=1;
+bloomingdales.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:bloomiesdmarc@bloomingdales.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+tasteofhome.com: 'v=DMARC1; rua=mailto:8e2955e720d7497@rep.dmarcanalyzer.com; ruf=mailto:8e2955e720d7497@for.dmarcanalyzer.com;
+  p=reject; pct=100; sp=reject; fo=0:1; '
+rakuten-sec.co.jp: 
+cuevana2.tv: 
+diariolibre.com: 
+pr0gramm.com: v=DMARC1; p=none; adkim=r; aspf=r
+javedch.com: 
+myfedloan.org: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+ibb.co: 
+delfi.lv: 
+lexpress.fr: 
+vidnode.net: 
+8ch.net: 
+songkick.com: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:re+gztcity7uge@dmarc.postmarkapp.com
+tiket.com: 
+solvettube.com: 
+pcgamesn.com: 
+hemailaccessonline.com: 
+ganool.se: 
+alwakeelnews.com: 
+monsterindia.com: 
+zangsisi.net: 
+pagesix.com: 
+space.com: v=DMARC1; p=reject; pct=100; rua=mailto:helpdesk@purch.com; ruf=mailto:helpdesk@purch.com;
+  fo=1
+mosreg.ru: v=DMARC1; p=reject; rua=mailto:postmaster@mosreg.ru
+slrclub.com: 
+user-bust.ru: 
+parimatch.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@parimatch.com
+pickaflick.co: 
+katestube.com: 
+googlesyndication.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@google.com
+zoopla.co.uk: MS=ms48390651
+cineulagam.com: 
+akhbarak.net: 
+giallozafferano.it: 
+anysex.com: v=DMARC1; p=reject; adkim=s; aspf=r; rf=afrf; pct=100; rua=mailto:dmarc-feedback@report.yourlustmedia.com;
+  ruf=mailto:authfail@report.yourlustmedia.com
+ntdin.tv: 
+champion.gg: 
+myvideotab.com: 
+ytmp3.cc: 
+bzadx.pro: 
+theadgateway.com: 
+kookporn.com: 
+krone.at: 
+foxsports.com: 
+nationwide.co.uk: 
+bskn.pro: 
+ebaumsworld.com: 
+sensacine.com: 
+fushaar.com: 
+diary.ru: v=DMARC1;p=reject;sp=reject;aspf=r;rua=mailto:admin@diary.ru;ruf=mailto:admin@diary.ru
+hot-sex-tube.com: 
+akinator.com: 
+sagawa-exp.co.jp: 
+pcgamer.site: 
+memurlar.net: 
+zamzar.com: v=DMARC1; p=none; rua=mailto:postmaster@zamzar.com
+getresponse.com: v=DMARC1; p=reject; sp=none; rua=mailto:delivery@getresponse.com,mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_fr@dmarc.250ok.net; rf=afrf
+studentdoctor.net: v=DMARC1; rua=mailto:51c09926a3@rep.dmarcanalyzer.com; ruf=mailto:51c09926a3@for.dmarcanalyzer.com;
+  p=none; sp=none; fo=0;
+livelib.ru: v=DMARC1;p=none;rua=mailto:reports@livelib.ru
+centrum.cz: v=DMARC1; p=none; rua=mailto:dmarc@centrum.cz; ruf=mailto:dmarcf@centrum.cz
+ismedia.jp: 
+bankia.es: 
+shikimori.org: 
+imagecurl.com: 
+notjustok.com: 
+pcwelt.de: 
+menshealth.com: 
+imgbox.com: 
+20min.ch: 
+plusdede.com: 
+trckonspot.com: 
+blockchain.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:dmarc-reports@blockchain.info
+grtyi.com: v=spf1 mx -all
+imgchili.net: 
+goodhousekeeping.com: 
+auspost.com.au: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+null.com: 
+comdotgame.com: v=DMARC1; p=reject; adkim=s; aspf=s; pct=100; sp=reject
+backcountry.com: 
+crazygames.com: 
+naughtyamerica.com: 
+alriyadh.com: 
+arcgis.com: 
+blockcypher.com: 
+k2nblog.com: 
+standardnews.com: 
+labporn.com: v=DMARC1; p=none
+miaopai.com: 
+onejav.com: 
+telegra.ph: 
+latam.com: 
+tampabay.com: 
+rueconomics.ru: stop
+chewy.com: 
+porngames.adult: 
+vodafone.it: 
+bgr.com: 
+zdnet.com: 
+curiouscat.me: 
+startimes.com: 
+footlocker.com: 
+airbnb.fr: v=DMARC1;pct=100;ruf=mailto:dmarc.forensic@airbnb.com;rua=mailto:dmarc.aggregate@airbnb.com;p=reject;aspf=r;adkim=r;fo=1
+staseraintv.com: 
+brother.com: 
+cas.sk: v=spf1 ip4:91.235.52.0/22 ip4:64.18.0.0/20 ip4:207.126.144.0/20 ip4:74.125.148.0/22
+  include:_spf.google.com ~all
+tci.ir: 
+index-education.net: 
+jobvite.com: 
+templatemonster.com: v=DMARC1; p=none
+dl-protect1.com: 
+bitgrail.com: v=DMARC1; p=none; rua=mailto:dmarc-report@bitgrail.com; ruf=mailto:dmarc-report@bitgrail.com
+directadvert.ru: 
+totalsportek.com: 
+theglobeandmail.com: 
+kazagames.com: 
+pons.com: 
+realitykings.com: v=DMARC1; p=none
+agenziaentrate.gov.it: 
+getfirstcut.com: 
+liaoxuefeng.com: 
+wikifeet.com: 
+namemc.com: 
+coinspot.com.au: v=DMARC1; p=reject; rua=mailto:uxlifev3@ag.dmarcian-ap.com;
+teachable.com: v=DMARC1;p=none
+ip138.com: 
+037hd.com: 
+www.nhs.uk: 
+bizrate.com: 
+calculator.net: 
+rockpapershotgun.com: 
+microcenter.com: v=DMARC1; p=quarantine; pct=10
+neimanmarcus.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+fmovies.ac: 
+mbalib.com: 
+worldcat.org: 
+gmx.at: 
+ovh.net: v=DMARC1; p=none; rua=mailto:dmarc+ovh.net@abuse.ovh.net; rf=afrf; pct=100;
+doctissimo.fr: 
+sulekha.com: v=spf1 include:sendgrid.net include:amazonses.com include:spf10.netcore.co.in
+  include:spf.protection.outlook.com -all
+iplayer.info: 
+fontspace.com: 
+hateblo.jp: 
+nfemo.com: 
+sky.de: v=DMARC1; rua=mailto:5763eef50c@rep.dmarcanalyzer.com; ruf=mailto:5763eef50c@for.dmarcanalyzer.com;
+  p=none; sp=none; fo=1;
+seneweb.com: 
+best-muzon.fm: 
+thetrainline.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@trainline.com
+ilgiornale.it: 
+digistyle.com: 
+mangatown.com: 
+docin.com: 
+citationmachine.net: 
+natwest.com: v=DMARC1; p=reject; sp=reject; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+gtbank.com: v=DMARC1; p=quarantine; rua=mailto:spam@gtbank.com; ruf=mailto:spam@gtbank.com
+wikisource.org: 
+hanime.tv: 
+centurylink.com: v=DMARC1; p=none; sp=none; rua=mailto:eoul3qkc@ag.dmarcian.com; adkim=r;
+  aspf=r; pct=100; rf=afrf; ri=86400
+ezgif.com: 
+cgpeers.com: 
+a9vg.com: 
+lyricstranslate.com: 
+laleggepertutti.it: 
+dhs.gov: v=DMARC1; p=none; pct=100; rua=mailto:DMARC@hq.dhs.gov
+steamgifts.com: 
+tsn.ua: 
+manofile.com: 
+qj.com.cn: 
+medlineplus.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:hhs@rua.agari.com; ruf=mailto:hhs@ruf.agari.com
+winfortuna.com: 
+nieuwsblad.be: 
+1plus1tv.ru: 
+qatarliving.com: 
+extreme-down.pro: 
+venmo.com: 
+experts-exchange.com: v=DMARC1; p=none
+regnum.ru: 
+hdeuropix.com: 
+manuscriptcentral.com: v=DMARC1; p=quarantine
+cinetux.io: 
+kafan.cn: 
+airbnb.co.uk: v=DMARC1;pct=100;ruf=mailto:dmarc.forensic@airbnb.com;rua=mailto:dmarc.aggregate@airbnb.com;p=reject;aspf=r;adkim=r;fo=1
+maalaimalar.com: 
+pdf2doc.com: 
+metrotvnews.com: 
+teamtreehouse.com: 
+lloydsbank.com: v=DMARC1; p=reject; sp=reject; ruf=mailto:d@ruf.agari.com; rua=mailto:d@rua.agari.com
+winbank.gr: 
+mysmartprice.com: 
+uploadboy.com: 
+greasyfork.org: 
+logmein.com: v=DMARC1; p=reject; fo=1; rua=mailto:logmein@rua.agari.com,mailto:dmarc.monitoring@logmein.com;
+  ruf=mailto:logmein@ruf.agari.com
+repretel.com: 
+ddanzi.com: 
+mrporter.com: 
+mponline.gov.in: 
+teespring.com: v=DMARC1; p=none; rua=mailto:573f2b6308@rep.dmarcanalyzer.com,mailto:dmarc_agg@vali.email;
+  rf=afrf
+kurir.rs: 
+fedsit.com: 
+reference.com: 
+btcclicks.com: 
+adreactor.com: 
+tsetmc.com: 
+jst.go.jp: 
+bankrate.com: 
+fdj.fr: 
+adyen.com: v=DMARC1; p=none; rua=mailto:dmarc_report@adyen.com; adkim=s
+news24nepal.tv: 
+twinfinite.net: 
+wa.gov: 
+mtv.com: 
+unblockall.org: 
+abadis.ir: 
+santander.com.br: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com;fo=1
+cdkeys.com: 
+koreaboo.com: 
+service-public.fr: 
+rentalcars.com: v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+xmovies8.es: 
+worktile.com: 
+miercn.com: 
+mycanal.fr: 
+sbi.co.in: v=DMARC1;p=none;rua=mailto:dmarc.alerts@sbi.co.in;ruf=mailto:dmarc.ruf@sbi.co.in;fo=1
+kinokong.cc: 
+tabmemfree.appspot.com: 
+droom.in: 
+todaypk.se: 
+thepiratefilmeshd.com: 
+dbs.com.sg: 
+bestchange.ru: v=DMARC1; p=reject
+persianblog.ir: 
+olx.uz: 'yandex-verification: 5d98b11602e19321'
+virginia.edu: 
+getchu.com: 
+canadiantire.ca: 
+porndig.com: 
+9tsu.com: v=spf1 ip4:52.39.94.199 ip4:50.7.77.242 ip4:50.7.77.218 ip4:50.7.77.26 ip4:66.90.93.34
+  ip4:35.165.27.71 a mx ~all
+djmaza.info: 
+offerup.com: v=DMARC1; p=none; rua=mailto:m8twujrm@ag.dmarcian.com;ruf=mailto:m8twujrm@fr.dmarcian.com;
+escapefromtarkov.com: v=DMARC1; p=none; rua=mailto:admin@escapefromtarkov.com
+gopro.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+playoverwatch.com: 
+unc.edu: 
+box.net: v=DMARC1; p=reject; fo=1; rua=mailto:kx2dsqjd@ag.dmarcian.com,mailto:box@rua.agari.com;
+  ruf=mailto:kx2dsqjd@fr.dmarcian.com,mailto:box@ruf.agari.com
+donya-e-eqtesad.com: 
+swzz.xyz: 
+canon.com: 
+thewindowsclub.com: 
+carousell.com: 
+edimdoma.ru: v=DMARC1; p=none; rua=mailto:devs@edimdoma.ru
+imgmak.com: 
+seamless.com: v=DMARC1; rua=mailto:9b038150044e830@rep.dmarcanalyzer.com; p=none;
+tt1069.com: 
+chinanews.com: 
+tn.gov.in: 
+mp3eg.com: 
+aquipelis.net: 
+nyc.gov: 
+vivo.com.br: v=DMARC1; p=reject; sp=reject; fo=1; pct=100; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf
+warthunder.com: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@devops.gaijin.ru; ruf=mailto:dmarc@devops.gaijin.ru;
+  fo=1
+admarketplace.net: 
+ole.com.ar: v=DMARC1; p=none; rua=dmarc@planisys.com
+2ch-c.net: 
+ssisurveys.com: 
+foozine.com: 
+vip.com: 
+hi5.com: v=DMARC1; p=reject; aspf=s ; adkim=s; rua=mailto:dmarcrpts@tagged.com
+fotolia.com: v=DMARC1; p=reject; sp=reject; pct=100; rua=mailto:adobe@rua.agari.com;
+  ruf=mailto:adobe@ruf.agari.com; fo=1
+yy.com: 
+sofort.com: v=DMARC1; p=reject; adkim=r; aspf=r; fo=1; rua=mailto:dmarc-reports@klarna.com
+dailykos.com: 
+24tv.ua: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@24tv.ua
+khan.co.kr: 
+infojobs.net: 
+tamilwin.com: 
+eltiempo.com: 
+livelyoffers.club: 
+591.com.tw: 
+tmall.hk: 
+4gamer.net: 
+interpals.net: 
+rai.it: 
+cheezburger.com: 
+oi.com.br: v=spf1 include:spf.oi.com.br a:partners.oi.com.br -all
+chinaunix.net: 
+gusuwang.com: 
+mcgill.ca: 
+cumlouder.com: 
+fantasypros.com: 
+meishichina.com: 
+pushedwebnews.com: 
+zaycev.net: 
+alfalfalfa.com: 
+mobile.free.fr: 
+idbibank.co.in: 
+marinetraffic.com: v=DMARC1; p=none
+transferwise.com: v=DMARC1; p=reject; pct=100; fo=1; ri=3600; rua=mailto:bb3c5ff6@inbox.ondmarc.com,mailto:aivo.koger@transferwise.com;
+  ruf=mailto:bb3c5ff6@inbox.ondmarc.com,mailto:aivo.koger@transferwise.com;
+vultr.com: 
+lindaikejisblog.com: 
+ethz.ch: 
+shopee.com.my: v=DMARC1; p=none; rua=mailto:fakeemailalert@shopeemobile.com; ruf=mailto:fakeemailalert@shopeemobile.com;
+  adkim=r; aspf=r; rf=afrf; fo=1; ri=900
+kinguin.net: v=DMARC1; p=quarantine; rua=mailto:sec@kinguin.net; adkim=s; aspf=s;
+skrill.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_agg@auth.returnpath.net,mailto:857ae6c897ba508@rep.dmarcanalyzer.com;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net,mailto:857ae6c897ba508@for.dmarcanalyzer.com;
+  fo=1
+hola.org: v=DMARC1; p=none; rua=mailto:dmarc_rua@hola.org
+noticias.uol.com.br: 
+salamdl.info: 
+akairan.com: 
+plos.org: 
+bitcoin.co.id: v=DMARC1; p=reject; adkim=s; aspf=r; rua=mailto:postmaster@bitcoin.co.id
+oanda.com: v=DMARC1; p=none; pct=100; rua=mailto:dmarc-reports@oanda.com;
+isubtitles.in: 
+aa.com.tr: 
+bitclubnetwork.com: 
+4dsply.com: 
+bighits4u.com: 
+cartooncrazy.net: 
+iop.org: 
+redlink.com.ar: 
+movistar.es: 
+kakprosto.ru: v=DMARC1; p=none; rua=mailto:bugs@kakprosto.ru; ruf=mailto:bugs@kakprosto.ru;
+  fo=1;
+leadzupc.com: 
+techspot.com: 
+sommons.co: 
+nj.com: v=DMARC1; p=none; rua=mailto:xnnzrak0@ag.dmarcian.com; ruf=mailto:xnnzrak0@fr.dmarcian.com;
+  fo=1;
+pokemonshowdown.com: 
+pogo.com: 
+carwale.com: 
+pdfdrive.net: 
+panasonic.com: 
+vokrug.tv: 
+oriflame.com: 
+torrentkim12.com: 
+phncdn.com: 
+freecharge.in: v=DMARC1; p=none
+kabum.com.br: 
+instant-gaming.com: v=DMARC1; p=none; rua=mailto:571903f8d7@rep.dmarcanalyzer.com;
+  ruf=mailto:571903f8d7@for.dmarcanalyzer.com; rf=afrf; pct=100;
+fapality.com: v=DMARC1; p=reject; adkim=s; aspf=r; rf=afrf; pct=100; rua=mailto:dmarc-feedback@report.yourlustmedia.com;
+  ruf=mailto:authfail@report.yourlustmedia.com
+boxof.porn: 
+ampverified.com: 
+advcash.com: v=DMARC1; p=reject; rua=mailto:postmaster@advcash.com; ruf=mailto:postmaster@advcash.com
+skyrock.com: v=DMARC1; p=none; sp=none; adkim=s; aspf=s; rua=mailto:postmaster.dmarc@skyrock.com;
+  ruf=mailto:postmaster.dmarc@skyrock.com; rf=afrf; pct=100; ri=86400
+rrdiscovery.com: 
+successfactors.eu: 
+pornbb.org: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@pornbb.org
+dumedia.ru: 
+garanti.com.tr: 
+resultados-futbol.com: 
+google.com.pg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+uwaterloo.ca: v=DMARC1; p=none; adkim=s; aspf=s; fo=1; rua=mailto:postmaster+dmarcrua@uwaterloo.ca;
+  ruf=mailto:postmaster+dmarcruf@uwaterloo.ca
+myutiitsl.com: 
+hamusoku.com: 
+hdfilmakinasi.com: 
+movavi.com: v=DMARC1; p=quarantine; sp=quarantine; pct=10; adkim=r; aspf=r; rua=mailto:webdev-mail-reports@movavi.com;
+  ruf=mailto:webdev-mail-reports@movavi.com; ri=86400; fo=1
+hellcase.com: v=DMARC1;p=none;rua=mailto:dmarc@sendgrid.com;ruf=mailto:dmarc@sendgrid.com;rf=afrf;pct=100
+tc-clicks.com: 
+99acres.com: v=DMARC1; p=none; sp=none; rua=mailto:mmmdevalerts@99acres.com!10m;  rf=afrf;
+  pct=100; ri=86400
+a10.com: 
+domesticatedcompanion.com: 
+jetstar.com: 
+vogue.com: 
+enstage-sas.com: 
+mydramalist.com: 
+twitcasting.tv: 
+sony.jp: 
+oberlo.com: v=DMARC1; p=none
+technews.tw: 
+niksalehi.com: 
+animelek.com: 
+indeed.co.in: 
+game8.jp: 
+pudelek.pl: 
+lyst.com: v=DMARC1; p=quarantine; pct=5; rua=mailto:dmarc-reports@lyst.com; ruf=mailto:dmarc-failures@lyst.com
+newsx9.com: 
+iu.edu: 
+icdrama.se: 
+infox.sg: 
+goldesel.to: 
+tableau.com: 
+pornoxo.com: 
+xiumi.us: 
+explosm.net: v=DMARC1; p=none;
+aglasem.com: 
+gogy.com: 
+gujarat.gov.in: 
+getformsonline.com: 
+yify-torrent.org: 
+irna.ir: 
+paraloscuriosos.com: 
+9to5mac.com: adn_verification=9to5mac
+jiayuan.com: 
+hbr.org: 
+cyberforum.ru: 
+cgg.gov.in: v=DMARC1; p=none; adkim=r; aspf=r; rf=afrf; sp=none
+uwants.com: " "
+ebrun.com: 
+myspace.com: MS=ms89904786
+arizona.edu: 
+collider.com: 
+letscorp.net: 
+appfolio.com: v=DMARC1; p=none; rua=mailto:security+dmarc@appfolio.com
+tubeoffline.com: 
+ntu.edu.tw: 
+dubizzle.com: v=DMARC1; p=reject; adkim=s; aspf=r; rf=afrf; pct=100;
+gate.io: 
+usajobs.gov: 
+fastcompany.com: 
+alternativeto.net: 
+fao.org: 
+befunky.com: v=DMARC1; rua=mailto:8d030ab803ab479@rep.dmarcanalyzer.com; ruf=mailto:8d030ab803ab479@for.dmarcanalyzer.com;
+  p=quarantine; pct=50; sp=reject; fo=0;
+dvdvideosoft.com: 
+buzzintersection.com: 
+alrakoba.net: 
+mediaworld.it: 
+onlainfilm.me: 
+tvmuse.com: v=DMARC1; p=none
+androidfilehost.com: 
+juntadeandalucia.es: 
+boudja.com: 
+football365.com: 
+bien.hu: 
+kolesa.kz: v=DMARC1; p=none;
+bollywoodshaadis.com: 
+siemens.com: 
+islcollective.com: 
+telstra.com.au: 
+optimum.net: 
+retre.org: 
+couchsurfing.com: v=DMARC1; p=reject; rua=mailto:postmaster@couchsurfing.com,mailto:hbfmzraa@ag.dmarcian.com;
+  ruf=mailto:postmaster@couchsurfing.com,mailto:hbfmzraa@fr.dmarcian.com; rf=afrf;
+  pct=100
+javpop.com: 
+forexfactory.com: 
+pepecine.tv: 
+ashleymadison.com: v=DMARC1; fo=1; p=reject; pct=100; rua=mailto:dmarc_dump@ashleymadison.com;
+  ruf=mailto:dmarc_dump@ashleymadison.com
+tineye.com: 
+entekhab.ir: 
+sea-saw.com: 
+barlamane.com: 
+blu-ray.com: 
+msftconnecttest.com: 
+machieved.com: 
+fantasticoffers.club: 
+laravel.com: 
+bd-pratidin.com: 
+apnews.com: 
+googleblog.com: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+tvp.pl: 
+bizjournals.com: v=DMARC1; p=none; sp=none; rua=mailto:postmaster@bizjournals.com;
+  ruf=mailto:postmaster@bizjournals.com;
+combo-search.com: 
+peoplefindthis.com: adbistro-client-sc-us-click.azurewebsites.net
+faceit.com: 
+sling.com: 
+mheducation.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:mc-graw-hill-education@rua.agari.com;
+  ruf=mailto:mc-graw-hill-education@ruf.agari.com
+sellfy.com: 
+codeplex.com: 
+elsalvador.com: 
+privalia.com: v=DMARC1; p=none; fo=1;rua=mailto:dmarc-rua@ms1.privalia.com, mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; pct=100
+zezoomglobal.com: 
+movizland.com: 
+yyets.com: 
+topky.sk: 
+kiwilimon.com: v=DMARC1; p=none; rua=mailto:hostmaster@kiwilimon.com; ruf=mailto:hostmaster@kiwilimon.com;
+  fo=0; adkim=r; aspf=r; rf=afrf; sp=none
+inboxace.com: 
+car.gr: v=DMARC1; p=none; sp=none; rua=mailto:sliakis@car.gr
+biccamera.com: 
+voyeur-house.tv: 
+nme.com: 
+scientificamerican.com: 
+anandtech.com: 
+adnxs.com: 
+phonearena.com: 
+synology.com: v=DMARC1; p=quarantine; pct=100; rua=mailto:postmaster@synology.com
+theage.com.au: 
+footmercato.net: 
+doc88.com: 
+sonymobile.com: 
+ceconline.com: 
+stockx.com: 
+newtab.club: 
+javhdporn.com: 
+acm.org: 
+axios.com: 
+gfan.com: 
+fardanews.com: 
+pelisplanet.com: 
+newsplatter.com: 
+secretsdujeu.com: 
+moonliteco.in: 
+euro.com.pl: 
+liverpool.com.mx: v=DMARC1; p=none; rua=mailto:reportedmarc@liverpool.com.mx
+iconfont.cn: 
+todaytvseries.com: 
+imvu.com: 
+masrawy.com: 
+putrr16.com: 
+bdupload.info: 
+imagerar.com: 
+notification.team: 
+tp-link.com: 
+netacad.com: 
+redhat.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@redhat.com; ruf=mailto:dmarc-ruf@redhat.com;
+  sp=none; ri=86400
+rae.es: 
+telecomitalia.it: 
+lepoint.fr: 
+cumicumi.com: 
+next.co.uk: 
+sabavision.com: 
+androidpolice.com: 
+vivud.com: 
+etherdelta.com: 
+compucalitv.com: 
+qiku.com: 
+bmoviesfree.net: 
+yimg.com: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-yahoo-rua@yahoo-inc.com;
+corsair.com: 
+siriusxm.com: v=DMARC1; p=none; pct=100
+pubted.com: 
+normalexchange.com: 
+buzzorange.com: 
+16personalities.com: v=DMARC1; p=none; rua=mailto:dmarc@neris.tech
+eclipse.org: 
+jogos360.com.br: 
+nesn.com: 
+exclusiveofferings.pro: v=DMARC1; p=quarantine
+strapolan.com: 
+draxe.com: v=DMARC1; p=none; pct=100; rua=mailto:re+djjdhckswgw@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+coinone.co.kr: v=DMARC1; p=none; rua=info@devignlab.com
+2mdn.net: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+99bitcoins.com: v=DMARC1; p=none; rua=mailto:dmarc@99bitcoins.com; ruf=mailto:dmarc@99bitcoins.com;
+  fo=0; adkim=r; aspf=r; pct=100; rf=afrf; ri=604800; sp=none
+kijiji.it: google-site-verification=nJDocJ_m6LCUhtUpfCvQZ780FHbxNMJYN6qXmMnebCE
+exmo.me: 
+nuomi.com: 
+52pk.com: 
+spectrum.com: 
+downloadgot.com: 
+toranoana.jp: 
+somosmovies.com: 
+scottrade.com: 
+upsc.gov.in: 
+sportskeeda.com: 
+utah.edu: 
+handy-tab.com: v=DMARC1; p=quarantine
+icbc.com.cn: 
+outlook.com: v=DMARC1; p=none; sp=quarantine; pct=100; rua=mailto:d@rua.agari.com;
+  ruf=mailto:d@ruf.agari.com; fo=1
+curapelanatureza.com.br: 
+tv2.dk: v=DMARC1; p=none; rua=mailto:svc3emdx@ag.dmarcian-eu.com;
+medianewpage.com: 
+lghtds.net: 
+liansuo.com: DU5bwP4Z
+valemedia.net: 
+youtubemp3.to: 
+2nn.jp: 
+larepublica.pe: 
+justjared.com: 
+rk.com: 
+wpengine.com: v=DMARC1; p=none; rua=mailto:dmarc-aggrep@wpengine.com
+thefappening.pro: 
+hani.co.kr: 
+ns21.me: 
+iconfinder.com: v=DMARC1; p=quarantine; sp=quarantine; rf=afrf; pct=100; ri=86400
+wikiquote.org: 
+share-online.biz: 
+computerbase.de: v=DMARC1; p=none
+sde.co.ke: 
+boulanger.com: 
+99.com: 
+lufthansa.com: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:lufthansa@rua.agari.com
+verycd.com: 
+leetcode.com: 
+deutschepost.de: v=DMARC1; p=reject; fo=0; rua=mailto:dmarc-reports@dhl.com
+oclasrv.com: 
+lolesports.com: 
+intercambiosvirtuales.org: 
+new-rutor.org: 
+xdf.cn: 
+webtretho.com: 
+ccn.com: 
+povarenok.ru: 
+tinhte.vn: v=DMARC1; p=none; rua=mailto:mailmaster@tinhte.vn
+dizibox1.com: 
+geektimes.ru: v=DMARC1; p=quarantine; sp=quarantine; rua=mailto:dmarc-receiver@habramail.net;
+  ri=86400;
+litebit.eu: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@litebit.eu
+debenhams.com: 
+transfermarkt.de: 
+baiducontent.com: 
+123moviesfree.ac: 
+mk.co.kr: 
+clickpost.jp: 
+ksu.edu.sa: v=dmarc1; p=quarantine; pct=20; rf=afrf; aspf=r;
+asda.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+bankmandiri.co.id: 
+homepage-web.com: 
+tvsubtitles.net: 
+mitbbs.com: 
+tver.jp: 
+iflix.com: 
+speedrun.com: v=DMARC1; p=none
+adnetworkperformance.com: 
+discordapp.net: v=DMARC1; p=quarantine
+aladin.co.kr: 
+scbl54virared.com: 
+ageofmusketeers.com: v=DMARC1; p=none; rua=mailto:dns_support@gain2f.com
+liuxue86.com: 
+bitcoadz.io: 
+expansion.com: 
+statefarm.com: 
+ssg.com: 
+whatismyipaddress.com: 
+yoineer.com: 
+cwb.gov.tw: 
+animefreak.tv: 
+telegraaf.nl: 
+yande.re: 
+dnb.no: v=DMARC1; p=none; rua=mailto:dmarc-reports@dnb.no; ruf=mailto:dmarc-forensics@dnb.no;
+engageya.com: 
+filejoker.net: 
+kuleuven.be: 
+daraz.com.bd: 
+jusbrasil.com.br: v=DMARC1; p=none; rua=mailto:llryvt03@ag.dmarcian.com; ruf=mailto:llryvt03@fr.dmarcian.com
+flashback.org: 
+scopus.com: v=DMARC1; p=none; fo=1; rua=mailto:reed-elsevier@rua.agari.com; ruf=mailto:reed-elsevier@ruf.agari.com
+hrloo.com: 
+moondash.co.in: 
+keywordblocks.com: 
+ufreegames.com: 
+record.pt: 
+minhateca.com.br: 
+smbc.co.jp: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:smbcjp_rua@dm.easysol.net;ruf=mailto:smbcjp_ruf@dm.easysol.net
+careerbuilder.com: v=DMARC1; p=none; fo=1;rua=mailto:dmarc_rua@careerbuilder.com,mailto:dmarc_agg@dmarc.250ok.net;
+  ruf=mailto:dmarc_fr@dmarc.250ok.net; pct=100; rf=afrf
+000webhostapp.com: 
+menclub.hk: google-site-verification=xhUpzC9551IkqIZVbr7dlTrYSUojyN1vIxwpzEsmGWs
+gamebanana.com: 
+zoom.com.br: 
+xozilla.com: 
+macmillandictionary.com: 
+divyabhaskar.co.in: 
+videoaf.com: 
+gomaji.com: v=DMARC1;p=none
+usda.gov: 
+extendoffice.com: 
+ipg-online.com: v=DMARC1; p=none; fo=1; rua=mailto:first-data@rua.agari.com; ruf=mailto:first-data@ruf.agari.com
+adk2x.com: 
+hkjc.com: v=DMARC1;p=none;fo=1;rua=mailto:dmarc_rua@hkjc.com
+gefc.gdn: 
+leafly.com: 
+hrazens.com: 
+nbg.gr: 
+animenewsnetwork.com: 
+loveroms.com: 
+x-minus.me: 
+stream-direct.co: 
+thepaper.cn: 
+newstracklive.com: 
+rhymezone.com: 
+linkmyc.com: 
+musescore.com: v=DMARC1; p=none
+amadeus.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net; ruf=mailto:dmarc_afrf@auth.returnpath.net
+javstore.net: 
+hentai2read.com: 
+thebay.com: 
+losangelespost.com: 
+pastemagazine.com: 
+cyberlink.com: 
+raialyoum.com: 
+youzan.com: 
+tuoitre.vn: 
+ay.gy: 
+boston.com: 
+ingbank.pl: v=DMARC1; p=none; rua=mailto:dmarc.feedback@ingbank.pl
+jbzdy.pl: 
+drivereasy.com: 
+e-reading.club: 
+canalblog.com: 
+zapier.com: v=DMARC1; p=reject; pct=100; rua=mailto:re+govljzv7iqv@dmarc.postmarkapp.com;
+  sp=none; aspf=r; adkim=r;
+aps.org: 
+turkishairlines.com: 
+telangana.gov.in: 
+independent.ie: 
+pullandbear.com: 
+slashfilm.com: 
+bod.com.ve: v=DMARC1;p=none;pct=100;fo=1;ri=86400;rua=mailto:bodd_rua@dm.easysol.net;ruf=mailto:bodd_ruf@dm.easysol.net
+symbolab.com: 
+mapsofindia.com: 
+soycarmin.com: 
+raw.githubusercontent.com: 
+yahoo.com.tw: v=DMARC1; p=reject; pct=100; rua=mailto:dmarc_y_rua@yahoo.com;
+allcalidad.com: 
+rackspace.com: v=DMARC1; p=none; fo=1; ri=3600; sp=none; adkim=r; aspf=r; pct=100;
+  rua=mailto:rackspace@rua.agari.com; ruf=mailto:rackspace@ruf.agari.com
+sbs.co.kr: v=DMARC1; p=quarantine;
+pokemondb.net: 
+censor.net.ua: 
+rtvonline.com: 
+moviegoat.com: 
+showtv.com.tr: 
+2dehands.be: v=DMARC1; p=none; sp=none; rua=mailto:ebay-classifieds@rua.agari.com;
+  ruf=mailto:ebay-classifieds@ruf.agari.com; aspf=r; adkim=r
+straitstimes.com: 
+pbskids.org: 
+cic.fr: 
+kaggle.com: v=DMARC1; p=none; rua=mailto:dmarc-aggregates@kaggle.com; ruf=mailto:dmarc-forensics@kaggle.com;
+i-doxs.net: 
+secretchina.com: 
+playbattlegrounds.com: 
+kugou.com: v=DMARC1;p=quarantine;fo=0;ruf=mailto:dmarc@qiye.163.com;rua=mailto:dmarc_report@qiye.163.com
+scmp.com: v=DMARC1; p=reject; pct=100;rua=mailto:it-alert@scmp.com
+thenorthface.com: v=DMARC1; p=none; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com; fo=1
+netbarg.com: 
+streamplay.to: 
+vt.edu: v=DMARC1; p=none; rua=mailto:abr6xwnr@ag.dmarcian.com;
+www.gob.mx: 
+ithome.com: 
+ixl.com: 
+livestream.com: v=DMARC1; p=quarantine; sp=none; pct=100; rua=mailto:dmarc-reports@livestream.com
+soccervista.com: 
+theappjunkies.com: 
+melon.com: 
+apkmirror.com: 
+saraba1st.com: 
+raiffeisen.at: 
+bitfun.co: 
+payeer.com: v=DMARC1; p=quarantine; adkim=s; aspf=s; sp=reject;
+navient.com: 
+cybozu.com: v=DMARC1; p=none; rua=mailto:mailauth-reports@cybozu.com
+sfacg.com: 
+nairabet.com: 
+sovets.net: 
+misionesonline.net: 
+blesk.cz: 
+allabout.co.jp: 
+kodi.tv: 
+snapchat.com: v=DMARC1; p=quarantine; rua=mailto:dmarc-report@snapchat.com
+vidup.me: 
+farfeshplus.com: 
+newinform.com: 
+bizpacreview.com: 
+governmentjobs.com: 
+jorudan.co.jp: 
+cutestat.com: 
+aydinlik.com.tr: 
+cgpersia.com: 
+inceptionradionetwork.com: 
+wifewine.com: 
+powerschool.com: 
+jiemian.com: 
+planetlagu.online: 
+tamilmv.re: 
+probiller.com: 
+katfile.com: 
+icicidirect.com: v=DMARC1; p=reject;fo=1; rua=mailto:icici-bank@rua.agari.com,mailto:dmarc-rua@icicibank.com;ruf=mailto:icici-bank@ruf.agari.com,mailto:dmarc-ruf@icicibank.com
+symbaloo.com: v=DMARC1; p=quarantine
+citruspay.com: 
+3bmeteo.com: v=DMARC1; p=none
+city-data.com: v=spf1 ip4:173.193.25.16 ip4:50.22.78.27 mx ~all
+git-scm.com: 
+daily.co.jp: 
+aizhan.com: 
+maintracker.org: 
+itv.com: 
+gamepress.gg: 
+huxiu.com: 
+cashnet.com: 
+sanguosha.com: 
+lachainemeteo.com: 
+movie4k.org: 
+paultan.org: 
+nonno.hk: v=spf1 mx ptr -all
+ipeen.com.tw: 
+uznayvse.ru: v=DMARC1; p=none
+detmir.ru: 
+geekbuying.com: 
+wondershare.net: 
+netbk.co.jp: 
+societe.com: v=DMARC1; p=none; rua=mailto:postmaster@societe.com
+morningstar.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+residentadvisor.net: 
+familysearch.org: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com,mailto:dmarcadmin@ldschurch.org;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com,mailto:dmarcadmin@ldschurch.org
+thepointsguy.com: 
+monotaro.com: 
+activehosted.com: v=DMARC1; p=none; rua=hrmhxpcg@ag.dmarcian.com;
+hc360.com: 
+rozblog.com: 
+tripadvisor.es: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+bitinfocharts.com: 
+imgprime.com: 
+demotywatory.pl: spf2.0/pra a mx ip4:87.98.237.52 ip4:176.31.230.221 ip4:94.23.93.33
+  ip4:188.165.12.85 ip4:188.165.12.75 ip4:188.165.22.129 ip4:94.23.90.4 ip4:188.165.14.86
+  include:spf-iq-4.com include:_spf.google.com ~all
+apartmenttherapy.com: 0506de5c-bfef-11e5-b8d6-d3337a1fc028
+discretesearch.com: 
+carview.co.jp: 
+assistindoanimesonline.com: 
+powvideo.net: 
+abobe.me: 
+soccer24.com: 
+onclickpulse.com: 
+360kan.com: 
+correos.es: 
+asp.net: 
+google.cg: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+speedvideo.net: 
+somethingawful.com: 
+nationalrail.co.uk: 
+prothomalo.com: 
+megaresheba.ru: 
+anon-ib.la: 
+emailaccountlogin.co: 
+hindawi.com: v=DMARC1;p=none;pct=0;adkim=r;aspf=r;sp=none;rua=mailto:dmarc.rua@hindawi.com;ruf=mailto:dmarc.ruf@hindawi.com
+amtrak.com: v=DMARC1; p=quarantine; ruf=mailto:DL_Unified_Communications_Support@amtrak.com;
+  fo=1; pct=100
+plays.tv: v=DMARC1; p=none; rua=mailto:mailauth-reports@plays.tv
+ipsosinteractive.com: 
+opendns.com: 
+ashams.com: 
+9minecraft.net: 
+online-freebee.ru: 
+vagaro.com: 
+javjunkies.com: 
+kseries.co: 
+matchesfashion.com: 
+cont.ws: 
+leroymerlin.ru: 
+google.com.bn: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+tamasha.com: 
+ssconline.nic.in: 
+internshala.com: rua=mailto:aseem@internshala.com; ruf=mailto:aseem@internshala.com;
+  sp=none; ri=21600
+femmevetements.net: 
+mexgroup.com: 
+theindianpeople.com: 
+hattrick.org: 
+5dcar.com: 
+aeroflot.ru: 
+state.tx.us: 
+tvspielfilm.de: 
+zoombangla.com: 
+qcloud.com: 
+mail.gov.in: 
+photofans.cn: 
+bamtoki.com: 
+clothing-marketing.com: 
+srt.am: 
+mexashare.com: 
+fontsquirrel.com: v=DMARC1; p=none; pct=100;
+downloadhub.ws: 
+france.tv: 
+yumpu.com: 
+duniaku.net: 
+bostonglobe.com: 
+ebalka.net: 
+heureka.sk: v=DMARC1; p=quarantine; pct=100; rua=mailto:re+vqb0zwqvcv5@dmarc.postmarkapp.com;
+  ruf=mailto:dmarc@heureka.cz; sp=quarantine; aspf=r; adkim=r;
+dahe.cn: 
+akiba-online.com: 
+pdfconverttools.com: 
+po-kaki-to.com: 
+currencio.co: 
+thenextweb.com: 
+online-live-streaming.com: 
+datacamp.com: v=DMARC1; p=none
+serialssolutions.com: 
+dealnews.com: '"v=DMARC1; p=none; rua=mailto:admin+dmarc@dealnews.com"'
+arbeitsagentur.de: 
+ubs.com: v=DMARC1; p=quarantine; sp=none; rua=mailto:dmarc-reports-57574806756964364169@open.ch,mailto:dmarc-reports@ubs.com;
+  ruf=mailto:dmarc-forensics@ubs.com; rf=afrf; pct=100; ri=86400
+ticketfly.com: 
+sharelatex.com: v=DMARC1; rua=mailto:8c3d55807c08995@rep.dmarcanalyzer.com; ruf=mailto:8c3d55807c08995@for.dmarcanalyzer.com;
+  p=none; sp=none; fo=1;
+hds.to: 
+cint.com: 
+vector.co.jp: 
+aarp.org: v=DMARC1; p=none; sp=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net; rf=afrf; pct=100
+addic7ed.com: 
+osxdaily.com: 
+up-4ever.com: 
+standard.co.uk: 
+sigmalive.com: 
+eprice.com.tw: 
+top1health.com: 
+pandora.net: v=DMARC1; p=none; fo=1; adkim=r; aspf=r; pct=100; rf=afrf; ri=86400;
+  sp=none; rua=mailto:9mx1tet4@ag.dmarcian-eu.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:9mx1tet4@fr.dmarcian-eu.com,mailto:dmarc_afrf@auth.returnpath.net
+carmax.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+e1.ru: v=spf1 redirect=_spf.e1.ru
+marthastewart.com: google-site-verification=Q5EI2JCj7Sc-6X5tGyFKm1jNDxvOqOY8eUFUrDenfUw
+hotfiesta.com: 
+eldiariony.com: v=DMARC1; p=none; rua=mailto:postmaster@eldiariony.com
+dorkly.com: 
+yify.is: 
+imgflip.com: 
+bershka.com: 
+sc.com: v=DMARC1; p=quarantine; fo=1; rua=mailto:dmarc-sc.rua@sc.com,mailto:sc@rua.netcraft.com;
+  ruf=mailto:dmarc-sc.ruf@sc.com,mailto:sc@ruf.netcraft.com
+google.com.tj: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+nzherald.co.nz: 
+uchi.ru: v=DMARC1;p=none;rua=rua@uchi.ru;ruf=ruf@uchi.ru;fo=s
+pornohub.su: 
+ixquick.com: v=DMARC1; p=none; rua=mailto:dmarc@ixquick.com; pct=100
+destyy.com: 
+sport.pl: 
+costco.ca: v=DMARC1; p=none; sp=none; fo=1; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+whirlpool.net.au: 
+bitadexchange.com: 
+yourbreakingnews.com: 
+gelbooru.com: 
+bookingbuddy.com: v=DMARC1; p=none; rua=mailto:dmarc-rua@tripadvisor.com
+nchsoftware.com: 
+srf.ch: 
+monografias.com: 
+frivplus.com: 
+kmart.com: 
+thisvid.com: 
+indosport.com: 
+vudu.com: 
+boohoo.com: 
+mackolik.com: 
+lexilogos.com: 
+zum.com: 
+patoghu.com: 
+mygreatlakes.org: v=DMARC1; p=none; sp=none; rua=mailto:dmarc@glhec.org!10m; ruf=mailto:dmarc-detail@glhec.org!10m;
+  rf=afrf; pct=20; ri=86400
+shufoo.net: 
+lesechos.fr: 
+novaposhta.ua: v=DMARC1; p=none; rua=mailto:postmaster@novaposhta.ua
+zhcw.com: 
+videopornstories.com: 
+allbest.ru: 
+cinemablend.com: 
+osu.edu: v=DMARC1; p=none; sp=none; fo=1; rua=mailto:dmarcreports@osu.edu,mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarcreports@osu.edu,mailto:dmarc_ruf@emaildefense.proofpoint.com; rf=afrf;
+  pct=100; ri=86400
+superjob.ru: v=DMARC1; p=quarantine; pct=100; rua=mailto:mailauth-reports@superjob.ru
+mirrorcreator.com: 
+bluekai.com: 
+cwtv.com: v=DMARC1; p=quarantine; rua=mailto:dmarc_agg@vali.email
+tvrain.ru: 
+propaganda-eg.com: 
+sponichi.co.jp: 
+ucl.ac.uk: 
+tube2017.com: 
+companieshouse.gov.uk: 
+onehallyu.com: 
+usembassy.gov: v=DMARC1;p=none;adkim=r;rua=mailto:DMARCReport@state.gov
+b2b.cn: 
+audiojungle.net: 
+7cfmnf.top: 
+mismarcadores.com: v=DMARC1; p=none
+selfridges.com: 
+xtqimdqeekij.bid: 
+symantec.com: v=DMARC1; p=none; fo=1; pct=100; ri=3600; rua=mailto:symantec@rua.agari.com,mailto:postmaster@symantec.com,mailto:SymDMARCReports@submit-44.brightmail.com,mailto:security@symantec.com;
+  ruf=mailto:symantec@ruf.agari.com,mailto:postmaster@symantec.com,mailto:SymDMARCReports@submit-44.brightmail.com,mailto:security@symantec.com
+gazetevatan.com: 
+kataweb.it: 
+twirpx.com: 
+24sata.hr: 
+clickvideodownload.com: 
+russian7.ru: 
+tvzvezda.ru: v=DMARC1; p=none
+ralkipa.info: 
+startv.com.tr: 
+searchdconvertnow.com: 
+torrentleex.com: 
+moondoge.co.in: 
+yandex.net: 
+upfile.mobi: 
+libgen.pw: 
+minijuegos.com: 
+tfile.cc: 
+pravda.com.ua: 
+caraotadigital.net: 
+marcaapuestas.es: 
+myplaycity.com: 
+freshersworld.com: 
+education.com: 
+goglogo.com: 
+cnnturk.com: 
+clickbank.com: 
+jamb.org.ng: 
+afisha.ru: 
+kanoon.ir: v=DMARC1; p=none
+ubereats.com: v=DMARC1; p=reject;
+williams-sonoma.com: 
+digiato.com: 
+musiciansfriend.com: 
+arab-clothing.com: 
+mercurynews.com: 
+mangago.me: 
+decolar.com: v=DMARC1; p=none; rua=mailto:dmarc@decolar.com; ruf=mailto:dmarc@decolar.com;
+natalie.mu: 
+vslovetv.com: 
+aktualne.cz: 
+showroomprive.com: v=DMARC1; p=none; pct=100; rua=mailto:re+kbtc3brhddv@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+sguru.org: 
+estrenosdoramas.net: 
+segodnya.ua: 
+tbs.co.jp: 
+underarmour.com: v=DMARC1; p=none; rua=mailto:webmaster@underarmour.com; adkim=r;
+  aspf=r; pct=1; ri=86400
+adliran.ir: 
+coinpan.com: 
+absa.co.za: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:barclays@rua.agari.com; ruf=mailto:barclays@ruf.agari.com
+premiado.shop: 
+wellmov.com: 
+mailerlite.com: v=DMARC1; p=quarantine; rua=mailto:abuse@mailerlite.com;
+creativebloq.com: 
+tuazar.com: 
+goredirect.party: 
+wonderhowto.com: 
+desire2learn.com: 
+btcmarkets.net: v=DMARC1; p=quarantine; pct=80; rua=mailto:info@btcmarkets.net; ruf=mailto:info@btcmarkets.net;
+merrjep.com: v=DMARC1; p=none; pct=100; rua=mailto:re+f5xu7sg7obt@dmarc.postmarkapp.com;
+  sp=none; aspf=r;
+boots.com: 
+elitedaily.com: 
+sherdog.com: 
+streamfrenzy.com: 
+biomedcentral.com: 
+thebitcoincode.com: 
+biji.co: 
+toutiaoabc.com: 
+sheknows.com: 
+sockshare.net: 
+utiitsl.com: v=DMARC1; p=none; rua=mailto:<email-address>@utiitsl.com
+nokia.com: v=DMARC1; p=none; pct=100
+myscore.ru: v=DMARC1; p=none
+adscpm.net: 
+interfax.ru: 
+publico.es: 
+adweek.com: 
+fixya.com: v=DMARC1; p=none; rua=mailto:admin@fixya.com; aspf=r
+victoriabrides.com: v=DMARC1; p=none
+pajak.go.id: 
+hpe.com: 
+mobiletak.in: 
+medu.ir: 
+conrad.de: 
+meta.ua: v=DMARC1; p=none; pct=100; fo=1; rua=mailto:postmaster@meta.ua
+mercola.com: v=DMARC1;p=quarantine;pct=100;fo=1;rua=mailto:pj5y1xfl@ag.dmarcian.com,mailto:dmarcadmin@mercola.com;ruf=mailto:pj5y1xfl@fr.dmarcian.com,mailto:dmarcadmin@mercola.com
+eurosport.ru: 
+bbb.org: v=DMARC1; p=reject; sp=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com;
+enotes.com: v=DMARC1;p=none;rua=mailto:noc@enotes.com
+time.mk: 
+ed.ac.uk: 
+ubuntuforums.org: 
+winshang.com: 
+topuniversities.com: 
+cisfrectt.in: 
+onlinemapsearch.com: 
+jpdress.com: 
+91porn.com: 
+webmasterplan.com: 
+estream.to: v=DMARC1; p=none; rua=mailto:0sdy1oev@ag.dmarcian.com;
+historyinorbit.com: 
+clickjogos.com.br: 
+diario.mx: 
+tfile-video.cc: 
+thairath.co.th: 
+nex1music.ir: 
+vulcan.net.pl: 
+supremenewyork.com: 
+wholesale-dress.co.in: 
+spyoff.com: 
+raj.nic.in: 
+myzuka.club: 
+niusnews.com: 
+jofogas.hu: 
+easybib.com: 
+xxlargepop.com: 
+nps.gov: v=DMARC1;p=none;rua=mailto:dmarc_reports@doi.gov,mailto:reports@dmarc.cyber.dhs.gov
+applyyourself.com: 
+flashx.tv: 
+qichacha.com: 
+gasengi.com: 
+hbonow.com: v=DMARC1; p=reject; rua=mailto:dmarc@hbo.com,mailto:dmarc_agg@vali.email;
+  ruf=mailto:dmarc@hbo.com
+securecafe.com: 
+docomo.ne.jp: v=DMARC1; p=none
+theyoump3.com: v=DMARC1; p=none
+ebay.com.hk: v=DMARC1; p=none; rua=mailto:ebay@rua.agari.com,mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:ebay@ruf.agari.com,mailto:dmarc_afrf@auth.returnpath.net; fo=1; rf=afrf;
+  pct=100
+aemet.es: 
+extra.com.br: 
+e-hentai.org: 
+qihoo.com: 
+volafile.org: 
+tabloidbintang.com: 
+tdameritrade.com: v=DMARC1; p=none; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;
+  ruf=mailto:dmarc_ruf@emaildefense.proofpoint.com
+tensorflow.org: 
+zarinpal.com: 
+chatango.com: 
+subdivx.com: 
+jd.id: v=DMARC1;p=none;rua=mailto:dmarc@jd.id
+bigfishgames.com: 
+stocktwits.com: 
+shoptime.com.br: v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc_agg@auth.returnpath.net;
+  ruf=mailto:dmarc_afrf@auth.returnpath.net
+hdfilmcehennemi.com: 
+soha.vn: 
+jpnn.com: 
+reklama5.mk: 
+ammonnews.net: 
+hibapress.com: 
+transaccionesbancolombia.com: 
+ricardo.ch: v=DMARC1; p=reject;
+al.com: v=DMARC1; p=none; rua=mailto:xnnzrak0@ag.dmarcian.com; ruf=mailto:xnnzrak0@fr.dmarcian.com;
+  fo=1;
+inverse.com: 
+saisoncard.co.jp: v=spf1 include:spf.saisoncard.co.jp ~all
+rst.ua: 
+3dwwwgame.com: 
+xxxbanjo.com: 
+senego.com: 
+imagefapusercontent.com: 
+abebooks.com: 
+metal-archives.com: 
+pciconcursos.com.br: v=DMARC1; p=reject; rua=mailto:dmarc@pci.net.br
+guenstigkleidung.de: 
+funimation.com: 
+google.ht: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+house365.com: 
+muyzorras.com: 
+majhinaukri.in: 
+mobiletracking.ru: 
+tomshw.it: 
+playsport.cc: 
+hdonline.is: 
+mercadopago.com: v=DMARC1; p=reject; rua=mailto:dmarcrua@mercadolibre.com, mailto:mercadolibre@rua.netcraft.com;
+  ruf=mailto:dmarcruf@mercadolibre. com,mailto:mercadolibre@ruf.netcraft.com; rf=afrf;
+  pct=100;
+bonappetit.com: 
+utilitooltech.com: 
+conduit.com: v=DMARC1; p=none; rua=mailto:dmarcrep@conduit.com; ruf=mailto:dmarcfor@conduit.com;
+  fo=1;
+cliphunter.com: 
+laredoute.fr: 
+svpressa.ru: 
+yamechanic.com: 
+cineaste.co.kr: 
+google.co.zm: v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com
+va.gov: v=DMARC1; p=none; fo=1; ri=3600; rua=mailto:va@rua.agari.com,mailto:reports@dmarc.cyber.dhs.gov;
+  ruf=mailto:va@ruf.agari.com
+trang-phuc.com: 
+timesjobs.com: v=DMARC1; p=quarantine; pct=5; rua=mailto:dmarc_agg@timesjobs.com;
+  ruf=mailto:dmarc_agg@timesjobs.com
+santabanta.com: 
+zuke.com: 
+activeation.com: 
+watch2gether.com: 
+bludv.com: 
+2cto.com: 
+thequestion.ru: 
+gomlab.com: 
+jerseymujeres.com: 
+downloadha.com: 
+poringa.net: v=spf1 a mx ip4:209.160.0.0/16 include:support.zendesk.com include:aspmx.googlemail.com
+  -all
+mp4upload.com: 
+looper.com: 
+thegameraccess.com: 
+cloudscar.com: 
+walmart.com.mx: v=DMARC1;p=reject;fo=1;rua=mailto:dmarc_agg@auth.returnpath.net;ruf=mailto:dmarc_afrf@auth.returnpath.net
+spring.io: 
+persianv.com: 
+nordvpn.com: 
+beautyexchange.com.hk: v=spf1 include:_spf.google.com ~all
+packtpub.com: 
+saramin.co.kr: 
+ikman.lk: 
+elbilad.net: 
+ldoceonline.com: 
+sciencenet.cn: 
+yektanet.com: v=DMARC1; p=none;
+spirit.com: v=DMARC1; p=none; fo=1; rua=mailto:rua+spirit.com@dmarc.barracudanetworks.com;
+  ruf=mailto:ruf+spirit.com@dmarc.barracudanetworks.com
