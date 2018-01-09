@@ -12,8 +12,8 @@ SelfDomainMap = {
   'bitly.com' => 'dmarc.bitly.net',
   'commbank.com.au' => 'cba.com.au',
   'deutsche-bank.de' => 'db.com',
+  'federalreserve.gov' => 'frb.gov',
   'hi5.com' => 'tagged.com',
-  'nps.gov' => 'doi.gov',
   'userapi.com' => 'vk.com',
   'washingtonpost.com' => 'washpost.com',
   'wikipedia.org' => 'wikimedia.org',
@@ -25,15 +25,43 @@ SelfDomainMap = {
 # Inverse of SelfDomainMap, used to populate the mapping for properties that
 # have many domain names all pointing at the same DMARC mailto domain.
 SelfDomainReverseMap = {
+  'abilenetx.com' => %w{abilenetx.gov},
   'airbnb.com' => %w{airbnb.ca airbnb.co.uk airbnb.com.au airbnb.de airbnb.es airbnb.fr airbnb.it airbnb.ru},
+  'cfpb.gov' => %w{consumerfinance.gov},
   'citi.com' => %w{citibank.com citibank.co.in citibankonline.com banamex.com},
+  'cns.gov' => %w{americorps.gov vistacampus.gov presidentialserviceawards.gov},
+  'consumersentinel.gov' => %w{econsumer.gov ftccomplaintassistant.gov},
   'corp.mail.ru' => %w{ok.ru my.com},
+  'cpsc.gov' => %w{recalls.gov},
+  'doi.gov' => %w{usgs.gov fws.gov blm.gov usbr.gov nationalmap.gov nifc.gov nps.gov sciencebase.gov indianaffairs.gov boem.gov bia.gov bsee.gov mrlc.gov fgdc.gov geomac.gov volunteer.gov osmre.gov},
+  'dol.gov' => %w{benefits.gov},
   'ebay.com' => %w{gumtree.pl gumtree.co.za},
+  'ed.gov' => %w{studentloans.gov fafsa.gov g5.gov nationsreportcard.gov},
   'facebook.com' => %w{messenger.com oculus.com},
+  'fcc.gov' => %w{broadbandmap.gov},
+  'fda.hhs.gov' => %w{fda.gov},
+  'fema.dhs.gov' => %w{fema.gov},
+  'fhfa.gov' => %w{harp.gov},
+  'frb.gov' => %w{ffiec.gov uscurrency.gov},
+  'ftc.gov' => %w{consumer.gov consumidor.gov},
   'groupon.com' => %w{groupon.it groupon.co.uk groupon.fr groupon.de livingsocial.com},
+  'gsa.gov' => %w{18f.gov acquisition.gov challenge.gov data.gov eac.gov everykidinapark.gov fedramp.gov fpds.gov fsd.gov govsales.gov gsaadvantage.gov gsaauctions.gov reginfo.gov sam.gov section508.gov usa.gov},
+  'hq.dhs.gov' => %w{cbp.gov secretservice.gov},
+  'mail.house.gov' => %w{jct.gov},
+  'mail.nasa.gov' => %w{globe.gov scijinks.gov},
+  'mecknc.gov' => %w{mecklenburgcountync.gov},
   'mercadolibre.com' => %w{mercadolivre.com.br mercadolibre.com.ar mercadolibre.com.mx mercadolibre.com.ve mercadolibre.com.co mercadolivre.com mercadopago.com mercadolibre.com.pe mercadolibre.com.uy},
+  'nrel.gov' => %w{smartgrid.gov},
+  'nsf.gov' => %w{science360.gov research.gov},
+  'ofdp.irs.gov' => %w{tax.gov irsvideos.gov},
+  'omb.gov' => %w{max.gov},
+  'orau.org' => %w{orau.gov},
   'rambler-co.ru' => %w{rambler.ru},
   'service.alibaba.com' => %w{taobao.com tmall.com alipay.com aliexpress.com alibaba.com alibaba-inc.com},
+  'ssa.gov' => %w{socialsecurity.gov},
+  'state.gov' => %w{america.gov foreignassistance.gov osac.gov pepfar.gov usconsulate.gov usembassy.gov usmission.gov},
+  'treasury.gov' => %w{cdfifund.gov eftps.gov financialresearch.gov fincen.gov helpwithmybank.gov moneyfactory.gov moneyfactorystore.gov mymoney.gov occ.gov treas.gov treasurydirect.gov ttb.gov ttbonline.gov usaspending.gov usmint.gov},
+  'usdoj.gov' => %w{ada.gov},
   'yahoo-inc.com' => %w{flickr.com tumblr.com umblr.com staticflickr.com rivals.com yimg.com yahoo.net},
   'yandex.ru' => %w{yandex.ua yandex.kz yandex.com.tr yandex.by yandex.com ya.ru postila.ru},
   'yelp.com' => %w{yelp.ca},
@@ -207,6 +235,8 @@ class DmarcAnalyzer
       'phishlabs'
     when 'mxtoolbox.dmarc-report.com', 'forensics.dmarc-report.com', 'dmarc-report.com'
       'mxtoolbox'
+    when 'dmarc.cyber.dhs.gov'
+      'dhs-nppd'
     else
       if mailto_domain.include?(domain)
         # this heuristic is inexact but still useful
