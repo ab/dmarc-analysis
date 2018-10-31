@@ -14,6 +14,7 @@ SelfDomainMap = {
   'deutsche-bank.de' => 'db.com',
   'federalreserve.gov' => 'frb.gov',
   'hi5.com' => 'tagged.com',
+  'mchenrycountyil.gov' => 'co.mchenry.il.us',
   'userapi.com' => 'vk.com',
   'washingtonpost.com' => 'washpost.com',
   'wikipedia.org' => 'wikimedia.org',
@@ -27,41 +28,65 @@ SelfDomainMap = {
 SelfDomainReverseMap = {
   'abilenetx.com' => %w{abilenetx.gov},
   'airbnb.com' => %w{airbnb.ca airbnb.co.uk airbnb.com.au airbnb.de airbnb.es airbnb.fr airbnb.it airbnb.ru},
+  'cbp.dhs.gov' => %w{cbp.gov evus.gov},
   'cfpb.gov' => %w{consumerfinance.gov},
   'citi.com' => %w{citibank.com citibank.co.in citibankonline.com banamex.com},
   'cns.gov' => %w{americorps.gov vistacampus.gov presidentialserviceawards.gov},
   'consumersentinel.gov' => %w{econsumer.gov ftccomplaintassistant.gov},
   'corp.mail.ru' => %w{ok.ru my.com},
-  'cpsc.gov' => %w{recalls.gov},
-  'doi.gov' => %w{usgs.gov fws.gov blm.gov usbr.gov nationalmap.gov nifc.gov nps.gov sciencebase.gov indianaffairs.gov boem.gov bia.gov bsee.gov mrlc.gov fgdc.gov geomac.gov volunteer.gov osmre.gov},
-  'dol.gov' => %w{benefits.gov},
+  'cpsc.gov' => %w{poolsafely.gov recalls.gov saferproducts.gov},
+  'doc.gov' => %w{2020census.gov aviationweather.gov bea.gov bldrdoc.gov census.gov climate.gov firstnet.gov gps.gov manufacturing.gov mbda.gov noaa.gov ntis.gov time.gov weather.gov},
+  'doe.gov' => %w{energy.gov},
+  'doi.gov' => %w{usgs.gov fws.gov blm.gov usbr.gov nationalmap.gov nifc.gov nps.gov sciencebase.gov indianaffairs.gov boem.gov bia.gov bsee.gov mrlc.gov fgdc.gov geomac.gov volunteer.gov osmre.gov alaskacenters.gov anstaskforce.gov geoplatform.gov klamathrestoration.gov onrr.gov},
+  'dol.gov' => %w{apprenticeship.gov benefits.gov dol-esa.gov msha.gov},
+  'dot.gov' => %w{bts.gov nhtsa.gov safercar.gov transportation.gov},
   'ebay.com' => %w{gumtree.pl gumtree.co.za},
-  'ed.gov' => %w{studentloans.gov fafsa.gov g5.gov nationsreportcard.gov},
+  'ed.gov' => %w{childstats.gov studentloans.gov fafsa.gov g5.gov nagb.gov nationsreportcard.gov},
+  'epa.gov' => %w{airnow.gov regulations.gov},
+  'faa.gov' => %w{faasafety.gov},
   'facebook.com' => %w{messenger.com oculus.com},
+  'fbi.gov' => %w{cjis.gov nicsezcheckfbi.gov},
   'fcc.gov' => %w{broadbandmap.gov},
   'fda.hhs.gov' => %w{fda.gov},
-  'fema.dhs.gov' => %w{fema.gov},
+  'fema.dhs.gov' => %w{disasterassistance.gov fema.gov floodsmart.gov ready.gov},
   'fhfa.gov' => %w{harp.gov},
   'frb.gov' => %w{ffiec.gov uscurrency.gov},
+  'fs.fed.us' => %w{nwcg.gov},
   'ftc.gov' => %w{consumer.gov consumidor.gov},
   'groupon.com' => %w{groupon.it groupon.co.uk groupon.fr groupon.de livingsocial.com},
-  'gsa.gov' => %w{18f.gov acquisition.gov challenge.gov data.gov eac.gov everykidinapark.gov fedramp.gov fpds.gov fsd.gov govsales.gov gsaadvantage.gov gsaauctions.gov reginfo.gov sam.gov section508.gov usa.gov},
-  'hq.dhs.gov' => %w{cbp.gov secretservice.gov},
+  'gsa.gov' => %w{18f.gov acquisition.gov acus.gov cbca.gov cfo.gov challenge.gov cio.gov code.gov cpars.gov data.gov digital.gov digitaldashboard.gov eac.gov esrs.gov everykidinapark.gov fai.gov fbo.gov fedramp.gov fpds.gov fsd.gov govsales.gov gsaadvantage.gov gsaauctions.gov idmanagement.gov performance.gov plainlanguage.gov reginfo.gov sam.gov search.gov section508.gov usa.gov vote.gov},
+  'hartford.gov' => %w{hartfordschools.org},
+  'hq.dhs.gov' => %w{cbp.gov e-verify.gov fletc.gov secretservice.gov tsa.gov uscis.gov},
+  'hq.doe.gov' => %w{energy.gov},
+  'ice.dhs.gov' => %w{ice.gov},
   'mail.house.gov' => %w{jct.gov},
   'mail.nasa.gov' => %w{globe.gov scijinks.gov},
+  'mail.pci.gov' => %w{whitehouse.gov},
   'mecknc.gov' => %w{mecklenburgcountync.gov},
   'mercadolibre.com' => %w{mercadolivre.com.br mercadolibre.com.ar mercadolibre.com.mx mercadolibre.com.ve mercadolibre.com.co mercadolivre.com mercadopago.com mercadolibre.com.pe mercadolibre.com.uy},
+  'nist.gov' => %w{bldrdoc.gov manufacturing.gov time.gov},
   'nrel.gov' => %w{smartgrid.gov},
   'nsf.gov' => %w{science360.gov research.gov},
+  'occ.treas.gov' => %w{occ.gov},
+  'ocio.usda.gov' => %w{ars-grin.gov biopreferred.gov choosemyplate.gov invasivespeciesinfo.gov nutrition.gov nwcg.gov},
   'ofdp.irs.gov' => %w{tax.gov irsvideos.gov},
-  'omb.gov' => %w{max.gov},
+  'omb.gov' => %w{itdashboard.gov max.gov},
+  'opm.gov' => %w{applicationmanager.gov usajobs.gov usastaffing.gov usalearning.gov employeeexpress.gov fedshirevets.gov chcoc.gov},
   'orau.org' => %w{orau.gov},
+  'ornl.gov' => %w{fueleconomy.gov},
+  'other.mail.census.gov' => %w{2020census.gov},
+  'pnnl.gov' => %w{pnl.gov},
   'rambler-co.ru' => %w{rambler.ru},
+  'sec.gov' => %w{investor.gov},
   'service.alibaba.com' => %w{taobao.com tmall.com alipay.com aliexpress.com alibaba.com alibaba-inc.com},
   'ssa.gov' => %w{socialsecurity.gov},
   'state.gov' => %w{america.gov foreignassistance.gov osac.gov pepfar.gov usconsulate.gov usembassy.gov usmission.gov},
-  'treasury.gov' => %w{cdfifund.gov eftps.gov financialresearch.gov fincen.gov helpwithmybank.gov moneyfactory.gov moneyfactorystore.gov mymoney.gov occ.gov treas.gov treasurydirect.gov ttb.gov ttbonline.gov usaspending.gov usmint.gov},
-  'usdoj.gov' => %w{ada.gov},
+  'trade.gov' => %w{export.gov privacyshield.gov},
+  'treasury.gov' => %w{cdfifund.gov eftps.gov financialresearch.gov fincen.gov helpwithmybank.gov makinghomeaffordable.gov moneyfactory.gov moneyfactorystore.gov mymoney.gov occ.gov pay.gov treas.gov treasurydirect.gov ttb.gov ttbonline.gov usaspending.gov usmint.gov},
+  'usaid.gov' => %w{pmi.gov},
+  'uscg.mil' => %w{uscg.gov},
+  'usda.gov' => %w{ars-grin.gov biopreferred.gov choosemyplate.gov invasivespeciesinfo.gov nutrition.gov nwcg.gov},
+  'usdoj.gov' => %w{ada.gov atf.gov atfonline.gov bjs.gov bop.gov dea.gov ic3.gov justice.gov justthinktwice.gov lep.gov namus.gov nationalgangcenter.gov ncirc.gov ncjrs.gov nicic.gov nij.gov nsopw.gov ojp.gov ovcttac.gov smart.gov ucrdatatool.gov usmarshals.gov vcf.gov vehiclehistory.gov},
   'yahoo-inc.com' => %w{flickr.com tumblr.com umblr.com staticflickr.com rivals.com yimg.com yahoo.net},
   'yandex.ru' => %w{yandex.ua yandex.kz yandex.com.tr yandex.by yandex.com ya.ru postila.ru},
   'yelp.com' => %w{yelp.ca},
@@ -199,6 +224,8 @@ class DmarcAnalyzer
       'returnpath'
     when 'ag.dmarcian.com', 'fr.dmarcian.com', 'ag.dmarcian-eu.com', 'fr.dmarcian-eu.com'
       'dmarcian'
+    when 'rua.dmp.cisco.com', 'ruf.dmp.cisco.com'
+      'cisco'
     when 'cyberint.com'
       'cyberint'
     when 'dmarc.250ok.net', 'dmarc.250ok.com', '250ok.com'
@@ -227,7 +254,7 @@ class DmarcAnalyzer
       'dmarcanalyzer'
     when 'qiye.163.com'
       'self:netease'
-    when 'vali.email', 'valimail.com'
+    when 'vali.email', 'valimail.com', 'valigov.email'
       'valimail'
     when 'mailinblue.com', 'sendinblue.com'
       'sendinblue'
