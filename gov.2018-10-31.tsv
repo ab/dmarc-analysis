@@ -1,0 +1,1194 @@
+domain	policy	dmarc-providers
+nih.gov	quarantine	agari,dhs-nppd
+state.gov	reject	self,dhs-nppd
+ca.gov	DNE	
+ed.gov	reject	self,dhs-nppd
+nasa.gov	reject	proofpoint,self,dhs-nppd
+irs.gov	reject	self,dhs-nppd
+cdc.gov	reject	agari,dhs-nppd
+weather.gov	reject	self,dhs-nppd
+ny.gov	DNE	
+noaa.gov	reject	self,dhs-nppd
+uscis.gov	reject	self,dhs-nppd
+medlineplus.gov	reject	agari,dhs-nppd
+dhs.gov	reject	self,dhs-nppd
+wa.gov	DNE	
+usgs.gov	reject	self,dhs-nppd,valimail
+texas.gov	DNE	
+ssa.gov	reject	dhs-nppd
+usajobs.gov	reject	self,dhs-nppd
+usda.gov	reject	dhs-nppd,proofpoint,self
+va.gov	reject	agari,dhs-nppd
+nyc.gov	DNE	
+loc.gov	none	proofpoint
+usembassy.gov	reject	self,dhs-nppd
+healthcare.gov	reject	agari,dhs-nppd
+sec.gov	reject	self,dhs-nppd
+fda.gov	quarantine	self,dhs-nppd,agari
+uspto.gov	none	self,dhs-nppd
+epa.gov	none	mxtoolbox,self,dhs-nppd
+in.gov	DNE	
+uscourts.gov	none	self
+virginia.gov	DNE	
+usa.gov	reject	self,dhs-nppd
+census.gov	reject	self,agari,dhs-nppd
+nps.gov	reject	self,dhs-nppd,valimail
+login.gov	reject	agari,self,dhs-nppd,valimail
+nist.gov	invalid	
+house.gov	none	self,returnpath
+michigan.gov	none	self
+ohio.gov	DNE	
+pa.gov	DNE	
+maryland.gov	DNE	
+cbp.gov	reject	self,dhs-nppd
+hhs.gov	quarantine	agari,dhs-nppd
+ga.gov	DNE	
+bls.gov	reject	self,agari,dhs-nppd
+studentloans.gov	reject	self,dhs-nppd
+mo.gov	DNE	
+utah.gov	DNE	
+medicare.gov	reject	agari,dhs-nppd
+faa.gov	reject	valimail,self,dhs-nppd
+nsf.gov	reject	self,dhs-nppd
+mass.gov	none	proofpoint
+archives.gov	reject	dhs-nppd
+ct.gov	DNE	
+illinois.gov	none	self
+clinicaltrials.gov	reject	agari,dhs-nppd
+ftc.gov	reject	dhs-nppd,self
+fbi.gov	reject	self,dhs-nppd
+colorado.gov	DNE	
+cia.gov	DNE	
+cancer.gov	reject	agari,dhs-nppd
+wi.gov	DNE	
+georgia.gov	DNE	
+senate.gov	reject	self
+oregon.gov	none	self
+justice.gov	reject	dhs-nppd,self
+dot.gov	none	cisco,self,dhs-nppd
+tn.gov	DNE	
+drugabuse.gov	reject	agari,dhs-nppd
+congress.gov	DNE	
+fcc.gov	reject	dhs-nppd,self,proofpoint
+opm.gov	reject	self,dhs-nppd
+energy.gov	reject	dhs-nppd,self
+nj.gov	DNE	
+eftps.gov	reject	self,dhs-nppd
+osha.gov	reject	self,dhs-nppd
+cms.gov	reject	agari,dhs-nppd
+kingcounty.gov	DNE	
+mn.gov	DNE	
+whitehouse.gov	none	self
+ky.gov	DNE	
+lacounty.gov	none	mxtoolbox
+eia.gov	reject	dhs-nppd,self
+iowa.gov	DNE	
+nysed.gov	DNE	
+usps.gov	reject	agari,dhs-nppd
+lbl.gov	none	self,dmarcian
+wisconsin.gov	DNE	
+sc.gov	DNE	
+dc.gov	DNE	
+export.gov	reject	dhs-nppd,self
+fema.gov	reject	self,dhs-nppd
+gsa.gov	DNE	
+nc.gov	DNE	
+maricopa.gov	DNE	
+arkansas.gov	DNE	
+idaho.gov	DNE	
+seattle.gov	DNE	
+sba.gov	none	dhs-nppd,self
+phila.gov	DNE	
+tsp.gov	reject	self,dhs-nppd
+data.gov	reject	self,dhs-nppd
+nycourts.gov	none	postmarkapp
+tsa.gov	reject	self,dhs-nppd
+ncsbe.gov	DNE	
+nrel.gov	reject	mxtoolbox,self,dhs-nppd
+maine.gov	none	self
+aviationweather.gov	reject	self,dhs-nppd
+votetexas.gov	DNE	
+pay.gov	reject	self,dhs-nppd
+pr.gov	DNE	
+txdmv.gov	DNE	
+ahrq.gov	reject	agari,dhs-nppd
+gpo.gov	none	unknown:dmarc@gov,self
+az.gov	DNE	
+science.gov	reject	self,dhs-nppd
+delaware.gov	DNE	
+nhtsa.gov	reject	agari,self,dhs-nppd
+boston.gov	none	self
+ok.gov	DNE	
+federalregister.gov	DNE	
+miamidade.gov	DNE	
+usitc.gov	reject	self,dhs-nppd
+clarkcountynv.gov	DNE	
+ncdot.gov	DNE	
+treasury.gov	reject	self,dhs-nppd,cisco
+mt.gov	none	self
+nv.gov	DNE	
+usaid.gov	reject	valimail,self,dhs-nppd
+ne.gov	DNE	
+genome.gov	reject	agari,dhs-nppd
+hawaii.gov	none	agari,self
+fvap.gov	DNE	
+osti.gov	reject	self,dhs-nppd
+alaska.gov	DNE	
+donotcall.gov	reject	dhs-nppd
+dol.gov	reject	self,dhs-nppd
+mymedicare.gov	reject	agari,dhs-nppd
+sandiego.gov	DNE	
+louisiana.gov	DNE	
+la.gov	DNE	
+hud.gov	reject	self,dhs-nppd
+usastaffing.gov	reject	self,dhs-nppd
+montgomerycountymd.gov	DNE	
+fueleconomy.gov	reject	self,dhs-nppd
+supremecourt.gov	none	mxtoolbox
+nh.gov	DNE	
+flhsmv.gov	DNE	
+njcourts.gov	none	
+fws.gov	reject	self,dhs-nppd,valimail
+vermont.gov	DNE	
+consumerfinance.gov	reject	dhs-nppd
+choosemyplate.gov	reject	dhs-nppd,proofpoint,self
+penndot.gov	DNE	
+peacecorps.gov	reject	self,dhs-nppd
+defense.gov	none	self
+ilsos.gov	DNE	
+coloradojudicialperformance.gov	DNE	
+recreation.gov	quarantine	self,dhs-nppd
+federalreserve.gov	reject	self,dhs-nppd
+ri.gov	DNE	
+fairfaxcounty.gov	none	agari
+sandia.gov	reject	self,dhs-nppd
+ms.gov	DNE	
+llnl.gov	reject	self,dhs-nppd,dmarcian
+alabama.gov	none	proofpoint
+houstontx.gov	none	proofpoint
+nd.gov	none	self
+treasurydirect.gov	reject	self,dhs-nppd
+austintexas.gov	DNE	
+pacer.gov	DNE	
+fultoncountyga.gov	none	proofpoint
+txdot.gov	none	self
+bart.gov	DNE	
+eeoc.gov	reject	proofpoint,self,dhs-nppd
+ice.gov	reject	self,dhs-nppd
+treas.gov	reject	self,dhs-nppd,cisco
+portlandoregon.gov	DNE	
+fbo.gov	reject	self,dhs-nppd
+bnl.gov	reject	self,dhs-nppd
+samhsa.gov	reject	agari,dhs-nppd
+sam.gov	reject	self,dhs-nppd
+vets.gov	reject	agari,dhs-nppd
+grants.gov	reject	agari,dhs-nppd
+sosnc.gov	none	mxtoolbox
+nvsos.gov	DNE	
+nashville.gov	DNE	
+hrsa.gov	reject	agari,dhs-nppd
+cpsc.gov	reject	dhs-nppd,self
+evus.gov	reject	self,dhs-nppd
+nebraska.gov	none	self
+ilga.gov	DNE	
+vote.gov	reject	self,dhs-nppd
+copyright.gov	DNE	
+wicourts.gov	DNE	
+ks.gov	DNE	
+safercar.gov	reject	agari,self,dhs-nppd
+nga.gov	reject	dhs-nppd
+panynj.gov	DNE	
+fec.gov	none	self
+wisconsindot.gov	DNE	
+wv.gov	none	dmarcanalyzer
+atf.gov	reject	dhs-nppd,self
+usdoj.gov	none	dhs-nppd,self
+ornl.gov	reject	self,dhs-nppd
+blm.gov	reject	self,dhs-nppd,valimail
+azsos.gov	DNE	
+fdic.gov	reject	agari,dhs-nppd
+lanl.gov	reject	proofpoint,dhs-nppd,self
+regulations.gov	reject	self,dhs-nppd
+malegislature.gov	DNE	
+climate.gov	reject	self,dhs-nppd
+energystar.gov	reject	dmarcian,dhs-nppd,self
+bea.gov	reject	self,dmarcian,dhs-nppd
+nsa.gov	DNE	
+dea.gov	reject	dhs-nppd,self
+stopbullying.gov	reject	agari,dhs-nppd
+traviscountytx.gov	quarantine	self
+baltimorecity.gov	none	mxtoolbox
+mi.gov	none	self
+fnal.gov	none	mxtoolbox,dhs-nppd
+medicaid.gov	reject	agari,dhs-nppd
+azdot.gov	DNE	
+sss.gov	reject	self,dhs-nppd
+womenshealth.gov	reject	agari,dhs-nppd
+anl.gov	quarantine	dmarcian,dhs-nppd,self
+txcourts.gov	DNE	
+sanantonio.gov	none	dmarcian
+minneapolismn.gov	none	
+utcourts.gov	DNE	
+bop.gov	reject	dhs-nppd,self
+marylandtaxes.gov	DNE	
+doe.gov	reject	dhs-nppd,self
+fbijobs.gov	reject	dhs-nppd
+indy.gov	DNE	
+commerce.gov	none	proofpoint,self
+osac.gov	reject	self,dhs-nppd
+gao.gov	none	proofpoint,self
+usbr.gov	reject	self,dhs-nppd,valimail
+ecfr.gov	DNE	
+ncjrs.gov	reject	dhs-nppd,self
+ncpublicschools.gov	DNE	
+neh.gov	none	self,dhs-nppd
+americaslibrary.gov	DNE	
+americorps.gov	none	dhs-nppd
+mncourts.gov	DNE	
+ehawaii.gov	DNE	
+gsaadvantage.gov	reject	self,dhs-nppd
+healthearizonaplus.gov	DNE	
+sciencebase.gov	reject	self,dhs-nppd,valimail
+cabq.gov	none	postmarkapp
+us-cert.gov	reject	self,dhs-nppd
+time.gov	reject	self,dhs-nppd
+ncdor.gov	none	proofpoint
+registertovoteflorida.gov	DNE	
+bouldercolorado.gov	DNE	
+sd.gov	DNE	
+tnk12.gov	DNE	
+azed.gov	DNE	
+wvlegislature.gov	DNE	
+nrc.gov	reject	dhs-nppd,self
+doleta.gov	reject	self,dhs-nppd
+research.gov	reject	self,dhs-nppd
+cjis.gov	reject	self,dhs-nppd
+nassaucountyny.gov	DNE	
+snohomishcountywa.gov	DNE	
+investor.gov	reject	self,dhs-nppd
+ohiodnr.gov	DNE	
+phoenix.gov	quarantine	
+mecknc.gov	reject	self
+childwelfare.gov	reject	agari,dhs-nppd
+nysenate.gov	none	self
+iowadot.gov	DNE	
+healthypeople.gov	reject	agari,dhs-nppd
+doc.gov	none	proofpoint,self,dhs-nppd
+loudoun.gov	DNE	
+cambridgema.gov	DNE	
+arcourts.gov	DNE	
+e-verify.gov	reject	self,dhs-nppd
+usmint.gov	reject	self,dhs-nppd
+gsaauctions.gov	reject	self,dhs-nppd
+wyo.gov	DNE	
+usability.gov	reject	agari,dhs-nppd
+transportation.gov	reject	agari,self,dhs-nppd
+pnnl.gov	none	dhs-nppd,agari,self
+atlantaga.gov	DNE	
+ourdocuments.gov	reject	dhs-nppd
+stlouis-mo.gov	DNE	
+ada.gov	reject	dhs-nppd,self
+franklincountyohio.gov	DNE	
+raleighnc.gov	DNE	
+ustr.gov	DNE	
+huduser.gov	reject	self,dhs-nppd
+ftccomplaintassistant.gov	reject	dhs-nppd
+nationalmap.gov	reject	self,dhs-nppd,valimail
+intelligencecareers.gov	DNE	
+sanjoseca.gov	DNE	
+collincountytx.gov	DNE	
+marylandhealthconnection.gov	DNE	
+azcourts.gov	DNE	
+pima.gov	DNE	
+ttb.gov	reject	self,dhs-nppd
+tempe.gov	none	dmarcanalyzer
+scstatehouse.gov	none	self
+cftc.gov	reject	self,dhs-nppd
+floridahealth.gov	DNE	
+mdcourts.gov	DNE	
+ffiec.gov	reject	self,dhs-nppd
+brooklinema.gov	DNE	
+flhealth.gov	DNE	
+benefits.gov	reject	self,dhs-nppd
+arkansased.gov	DNE	
+educateiowa.gov	DNE	
+globalchange.gov	DNE	
+privacyshield.gov	reject	dhs-nppd,self
+ready.gov	reject	self,dhs-nppd
+azcc.gov	DNE	
+alacourt.gov	DNE	
+fortworthtexas.gov	none	self
+read.gov	DNE	
+wyoming.gov	DNE	
+louisvilleky.gov	none	self
+alexandriava.gov	DNE	
+charlottenc.gov	DNE	
+nsopw.gov	reject	dmarcanalyzer,dhs-nppd,self,unknown:knickens@iir.com
+lakecountyil.gov	DNE	
+orau.gov	reject	dhs-nppd,self
+glendaleca.gov	DNE	
+ihs.gov	reject	agari,dhs-nppd
+nationalservice.gov	reject	dhs-nppd
+tucsonaz.gov	DNE	
+seminolecountyfl.gov	none	postmarkapp
+healthfinder.gov	reject	agari,dhs-nppd
+columbus.gov	DNE	
+santaclaraca.gov	none	postmarkapp
+ntsb.gov	reject	dhs-nppd,self
+njconsumeraffairs.gov	DNE	
+azdoa.gov	DNE	
+dni.gov	DNE	
+bjs.gov	reject	dhs-nppd,self
+airnow.gov	reject	self,dhs-nppd
+healthit.gov	reject	agari,dhs-nppd
+mecklenburgcountync.gov	reject	self
+access-board.gov	reject	dhs-nppd,self
+america.gov	reject	self,dhs-nppd
+ndcourts.gov	DNE	
+como.gov	DNE	
+azcleanelections.gov	DNE	
+nwcg.gov	reject	self,dhs-nppd,proofpoint
+trade.gov	reject	dhs-nppd,self
+iowadnr.gov	DNE	
+sdsos.gov	DNE	
+cityofrochester.gov	DNE	
+identitytheft.gov	reject	dhs-nppd
+cbo.gov	none	valimail,self
+sbcounty.gov	DNE	
+somervillema.gov	DNE	
+flsenate.gov	DNE	
+fsd.gov	reject	self,dhs-nppd
+gps.gov	reject	self,dhs-nppd
+kentucky.gov	DNE	
+longbeach.gov	none	
+cookcountyil.gov	none	self
+de.gov	DNE	
+eac.gov	none	self,dhs-nppd
+bloomingtonmn.gov	DNE	
+aoc.gov	DNE	
+mesaaz.gov	none	proofpoint
+alamedaca.gov	DNE	
+milwaukee.gov	none	self
+ic3.gov	none	self,dhs-nppd
+okc.gov	DNE	
+suffolkcountyny.gov	DNE	
+sandiegocounty.gov	DNE	
+aqmd.gov	DNE	
+foodsafety.gov	reject	agari,dhs-nppd
+arts.gov	reject	dhs-nppd,self
+oregonmetro.gov	DNE	
+vaccines.gov	reject	agari,dhs-nppd
+fjc.gov	none	self
+monroecounty.gov	DNE	
+edinamn.gov	DNE	
+health.gov	reject	agari,dhs-nppd
+chandleraz.gov	DNE	
+fpds.gov	reject	self,dhs-nppd
+plano.gov	DNE	
+acl.gov	reject	agari,dhs-nppd
+scottsdaleaz.gov	DNE	
+torranceca.gov	none	self
+usalearning.gov	reject	self,dhs-nppd
+doi.gov	reject	self,dhs-nppd,valimail
+nyassembly.gov	DNE	
+hillsboro-oregon.gov	DNE	
+harriscountytx.gov	DNE	
+utahcounty.gov	DNE	
+itis.gov	none	dhs-nppd
+idahovotes.gov	DNE	
+azasrs.gov	DNE	
+lexingtonky.gov	DNE	
+ncdhhs.gov	DNE	
+wilmingtonde.gov	DNE	
+codot.gov	DNE	
+fresno.gov	none	self
+disasterassistance.gov	reject	self,dhs-nppd
+nij.gov	reject	dhs-nppd,self
+fortbendcountytx.gov	none	self
+frederickcountymd.gov	DNE	
+tva.gov	reject	self,dhs-nppd
+wichita.gov	DNE	
+ncifcrf.gov	reject	agari,dhs-nppd
+nmcourts.gov	DNE	
+govinfo.gov	DNE	
+dekalbcountyga.gov	DNE	
+longmontcolorado.gov	none	dmarcian
+hiv.gov	reject	agari,dhs-nppd
+detroitmi.gov	DNE	
+elpasotexas.gov	reject	mxtoolbox,self
+md.gov	DNE	
+richlandcountysc.gov	DNE	
+santabarbaraca.gov	DNE	
+visitthecapitol.gov	invalid	
+il.gov	DNE	
+2020census.gov	reject	self,agari,dhs-nppd
+nmlegis.gov	DNE	
+sussexcountyde.gov	DNE	
+bbg.gov	none	self,dhs-nppd,postmarkapp
+nola.gov	DNE	
+nyjuror.gov	DNE	
+charleston-sc.gov	DNE	
+wy.gov	DNE	
+lasvegasnevada.gov	none	self
+presidio.gov	reject	self,dhs-nppd
+greensboro-nc.gov	DNE	
+vehiclehistory.gov	reject	dhs-nppd,self
+nvsilverflume.gov	DNE	
+floridahealthfinder.gov	DNE	
+stamfordct.gov	DNE	
+baltimorecountymd.gov	DNE	
+dconc.gov	DNE	
+durhamnc.gov	DNE	
+montgomerycountyva.gov	DNE	
+pullman-wa.gov	DNE	
+smartgrid.gov	reject	mxtoolbox,self,dhs-nppd
+nnlm.gov	reject	agari,dhs-nppd
+mpro.gov	DNE	
+uspis.gov	reject	agari,dhs-nppd
+csb.gov	DNE	
+ncdps.gov	DNE	
+newhavenct.gov	DNE	
+truman.gov	DNE	
+floridadep.gov	DNE	
+capnhq.gov	DNE	
+pbgc.gov	reject	self,dhs-nppd
+fincen.gov	reject	self,dhs-nppd
+invasivespeciesinfo.gov	none	dhs-nppd,self,proofpoint
+azleg.gov	DNE	
+eugene-or.gov	DNE	
+riversideca.gov	DNE	
+portlandmaine.gov	DNE	
+bellevuewa.gov	DNE	
+coloradosprings.gov	none	mxtoolbox
+mentalhealth.gov	reject	agari,dhs-nppd
+chesterfield.gov	DNE	
+scdhec.gov	DNE	
+surpriseaz.gov	DNE	
+pinecrest-fl.gov	DNE	
+az511.gov	DNE	
+daviscountyutah.gov	DNE	
+kcmo.gov	DNE	
+tncourts.gov	DNE	
+williamsoncounty-tn.gov	DNE	
+orangecountync.gov	DNE	
+everykidinapark.gov	reject	self,dhs-nppd
+nutrition.gov	none	self,dhs-nppd,proofpoint
+ashevillenc.gov	DNE	
+nlrb.gov	reject	valimail,self,dhs-nppd
+surgeongeneral.gov	reject	agari,dhs-nppd
+sbir.gov	reject	unknown:sba-operations@reisystems.com,dhs-nppd
+huntingtonny.gov	DNE	
+storycountyiowa.gov	DNE	
+redmond.gov	DNE	
+reginfo.gov	reject	self,dhs-nppd
+worcesterma.gov	DNE	
+santamonica.gov	DNE	
+providenceri.gov	DNE	
+opensource.gov	none	self
+azbn.gov	DNE	
+bernco.gov	NONE	
+columbiacountyga.gov	DNE	
+cstx.gov	DNE	
+eriecountypa.gov	DNE	
+patersonnj.gov	DNE	
+nersc.gov	DNE	
+cincinnati-oh.gov	DNE	
+lakecountyfl.gov	DNE	
+marysvillewa.gov	DNE	
+kdheks.gov	DNE	
+illinoiscourts.gov	DNE	
+greenecountymo.gov	DNE	
+cityofrockhillsc.gov	DNE	
+corvallisoregon.gov	DNE	
+pinalcountyaz.gov	DNE	
+princegeorgescountymd.gov	invalid	
+springfieldmo.gov	none	postmarkapp
+ncagr.gov	DNE	
+nano.gov	DNE	
+sfwmd.gov	DNE	
+bia.gov	reject	self,dhs-nppd,valimail
+bridgeportct.gov	DNE	
+chattanooga.gov	DNE	
+missouri.gov	DNE	
+myfloridahouse.gov	DNE	
+jobcorps.gov	reject	self,dhs-nppd
+msha.gov	reject	self,dhs-nppd
+myohio.gov	DNE	
+faasafety.gov	reject	valimail,self,dhs-nppd
+cuidadodesalud.gov	reject	agari,dhs-nppd
+healthvermont.gov	DNE	
+nccourts.gov	DNE	
+oregonvotes.gov	DNE	
+bts.gov	reject	agari,self,dhs-nppd
+fayettecountyga.gov	DNE	
+brokenarrowok.gov	none	self
+majury.gov	DNE	
+buffalony.gov	DNE	
+burlingtonvt.gov	DNE	
+fhfa.gov	reject	postmarkapp,dhs-nppd,self
+mauicounty.gov	DNE	
+outdoornebraska.gov	DNE	
+polkcountyiowa.gov	DNE	
+geoplatform.gov	reject	self,dhs-nppd,valimail
+baaqmd.gov	DNE	
+hayward-ca.gov	DNE	
+mountainview.gov	DNE	
+democraticleader.gov	DNE	
+lomalinda-ca.gov	DNE	
+savannahga.gov	DNE	
+justthinktwice.gov	reject	dhs-nppd,self
+njstart.gov	DNE	
+carlsbadca.gov	DNE	
+cor.gov	DNE	
+dublinohiousa.gov	DNE	
+fargond.gov	DNE	
+flhealthsource.gov	DNE	
+honolulu.gov	DNE	
+marylandattorneygeneral.gov	DNE	
+newmexico.gov	DNE	
+ntis.gov	reject	self,dhs-nppd
+ohioauditor.gov	DNE	
+pittsburghpa.gov	DNE	
+stpaul.gov	DNE	
+iowacore.gov	DNE	
+kirklandwa.gov	DNE	
+psc.gov	reject	agari,dhs-nppd
+rrb.gov	none	self,dhs-nppd
+rutherfordcountytn.gov	DNE	
+mycreditunion.gov	DNE	
+aztaxes.gov	DNE	
+chulavistaca.gov	DNE	
+iowaworkforcedevelopment.gov	DNE	
+itdashboard.gov	reject	self,dhs-nppd
+moneyfactory.gov	reject	self,dhs-nppd
+caledonia-wi.gov	DNE	
+camdenmaine.gov	DNE	
+friscotexas.gov	DNE	
+hamiltontn.gov	DNE	
+lowellma.gov	none	self
+mcleancountyil.gov	DNE	
+employeeexpress.gov	reject	self,dhs-nppd
+cdfifund.gov	reject	self,dhs-nppd
+coag.gov	DNE	
+id.gov	DNE	
+ncparks.gov	DNE	
+princetonnj.gov	DNE	
+ttbonline.gov	reject	self,dhs-nppd
+ustaxcourt.gov	DNE	
+waukeshacounty.gov	DNE	
+laquintaca.gov	DNE	
+berkeleycountysc.gov	DNE	
+carlislema.gov	DNE	
+lauderhill-fl.gov	none	mxtoolbox
+namus.gov	reject	dhs-nppd,self
+oh.gov	DNE	
+girlshealth.gov	reject	agari,dhs-nppd
+greshamoregon.gov	DNE	
+amherstma.gov	DNE	
+columbiasc.gov	DNE	
+courtswv.gov	DNE	
+iowacollegeaid.gov	DNE	
+norwoodma.gov	DNE	
+ohioattorneygeneral.gov	DNE	
+opic.gov	reject	self,dhs-nppd
+pppl.gov	reject	self,dhs-nppd
+fltreasurehunt.gov	DNE	
+organdonor.gov	reject	agari,dhs-nppd
+bldrdoc.gov	reject	self,dhs-nppd
+birminghamal.gov	DNE	
+annapolis.gov	reject	self
+brevardfl.gov	DNE	
+claytonmo.gov	DNE	
+newportbeachca.gov	DNE	
+nnva.gov	DNE	
+yukonok.gov	DNE	
+uscp.gov	DNE	
+atfonline.gov	reject	dhs-nppd,self
+cfpb.gov	none	dhs-nppd,self
+energycodes.gov	reject	dhs-nppd
+oaklandca.gov	DNE	
+occ.gov	reject	self,dhs-nppd
+uspsoig.gov	none	self,dhs-nppd,postmarkapp
+exim.gov	reject	self,dhs-nppd
+fdot.gov	DNE	
+azdps.gov	DNE	
+augustaga.gov	DNE	
+azmd.gov	DNE	
+blacksburg.gov	DNE	
+manchesternh.gov	DNE	
+ncworks.gov	DNE	
+usmarshals.gov	reject	dhs-nppd,self
+usap.gov	reject	self,dhs-nppd
+abilenetx.gov	none	self
+akronohio.gov	DNE	
+ankenyiowa.gov	DNE	
+dccourts.gov	DNE	
+gilbertaz.gov	DNE	
+memphistn.gov	DNE	
+springfield-or.gov	DNE	
+washingtondc.gov	DNE	
+wvinsurance.gov	DNE	
+plainlanguage.gov	reject	self,dhs-nppd
+cedarparktexas.gov	DNE	
+ndhealth.gov	DNE	
+norfolk.gov	DNE	
+digital.gov	reject	self,dhs-nppd
+ncdcr.gov	DNE	
+arlington-tx.gov	DNE	
+azdhs.gov	DNE	
+beaumonttexas.gov	DNE	
+beavercountypa.gov	DNE	
+cityofpleasantonca.gov	DNE	
+claycountymo.gov	DNE	
+ferndalemi.gov	DNE	
+fortsmithar.gov	DNE	
+herndon-va.gov	DNE	
+illinoiscomptroller.gov	DNE	
+irsvideos.gov	reject	self,dhs-nppd
+lynnwoodwa.gov	DNE	
+miamitwpoh.gov	DNE	
+nevadatreasurer.gov	DNE	
+newarkde.gov	DNE	
+newbostonnh.gov	DNE	
+nystax.gov	DNE	
+peoriaaz.gov	DNE	
+pflugervilletx.gov	DNE	
+richfieldmn.gov	DNE	
+romi.gov	DNE	
+roundrocktexas.gov	reject	dmarcian
+shelbycountytn.gov	DNE	
+sosmt.gov	none	self
+stcharlesil.gov	DNE	
+tigard-or.gov	DNE	
+woodstockga.gov	DNE	
+wvsos.gov	DNE	
+sdlegislature.gov	DNE	
+deldot.gov	DNE	
+texasattorneygeneral.gov	DNE	
+usconsulate.gov	reject	self,dhs-nppd
+arcadiaca.gov	DNE	
+mbda.gov	none	self
+globe.gov	reject	proofpoint,self,dhs-nppd
+azjobconnection.gov	DNE	
+digitaldashboard.gov	reject	self,dhs-nppd
+ncdoj.gov	DNE	
+teachiowa.gov	DNE	
+azlibrary.gov	DNE	
+andoverma.gov	DNE	
+beavertonoregon.gov	DNE	
+christiancountymo.gov	DNE	
+fremont.gov	DNE	
+harfordcountymd.gov	DNE	
+healthdata.gov	reject	agari,dhs-nppd
+islandcountywa.gov	DNE	
+lansingmi.gov	DNE	
+newtonma.gov	DNE	
+oregonlegislature.gov	DNE	
+pnl.gov	none	dhs-nppd,agari,self
+sannet.gov	DNE	
+sarasotafl.gov	none	dmarcian
+search.gov	reject	self,dhs-nppd
+slc.gov	DNE	
+springdalear.gov	DNE	
+usbg.gov	DNE	
+watertown-ma.gov	DNE	
+uscg.gov	reject	self,dhs-nppd
+kansas.gov	DNE	
+brookhavenga.gov	DNE	
+alabcboard.gov	DNE	
+consumer.gov	reject	dhs-nppd,self
+buckeyeaz.gov	none	mxtoolbox
+filelocal-wa.gov	DNE	
+lewiscountywa.gov	DNE	
+gloucestercountynj.gov	DNE	
+acquisition.gov	reject	self,dhs-nppd
+hobokennj.gov	DNE	
+cpars.gov	reject	self,dhs-nppd
+jobs4tn.gov	DNE	
+leoncountyfl.gov	none	dmarcanalyzer,proofpoint
+pittcountync.gov	DNE	
+staffordcountyva.gov	DNE	
+tnreconnect.gov	DNE	
+vi.gov	DNE	
+fletc.gov	reject	self,dhs-nppd
+ramq.gov	DNE	
+texasagriculture.gov	none	self
+alabamapublichealth.gov	DNE	
+amarillo.gov	DNE	
+attorneygeneral.gov	DNE	
+baldwincountyal.gov	DNE	
+bendoregon.gov	DNE	
+coronaca.gov	none	
+courtnewsohio.gov	DNE	
+danville-va.gov	DNE	
+erie.gov	none	
+floodsmart.gov	reject	self,dhs-nppd
+floridaspharmacy.gov	DNE	
+grapevinetexas.gov	DNE	
+hamiltoncountyohio.gov	DNE	
+howardcountymd.gov	DNE	
+huntingtonbeachca.gov	DNE	
+iowaagriculture.gov	DNE	
+monroecounty-fl.gov	none	self
+mylacounty.gov	DNE	
+nebraskalegislature.gov	DNE	
+performance.gov	reject	self,dhs-nppd
+plymouthmn.gov	DNE	
+portagemi.gov	DNE	
+presidentialserviceawards.gov	reject	dhs-nppd
+randolphcountync.gov	DNE	
+reno.gov	DNE	
+sanmarcostx.gov	quarantine	
+virginiageneralassembly.gov	DNE	
+webercountyutah.gov	DNE	
+wilmingtonnc.gov	DNE	
+woodburymn.gov	DNE	
+wrp.gov	reject	self,dhs-nppd,unknown:netops@devis.com
+esrs.gov	reject	self,dhs-nppd
+leecountync.gov	none	postmarkapp,self
+williamsburgva.gov	DNE	
+fai.gov	reject	self,dhs-nppd
+edmondswa.gov	DNE	
+galvestoncountytx.gov	DNE	
+idahoworks.gov	DNE	
+miamibeachfl.gov	DNE	
+milford-de.gov	DNE	
+elearningnc.gov	DNE	
+patreasury.gov	DNE	
+youth.gov	reject	agari,dhs-nppd
+grantsolutions.gov	reject	agari,dhs-nppd
+firstnet.gov	reject	self,dhs-nppd
+azre.gov	DNE	
+desmoineswa.gov	DNE	
+elbertcounty-co.gov	DNE	
+ofda.gov	reject	valimail,self,agari,dhs-nppd
+stocktonca.gov	DNE	
+vaemergency.gov	DNE	
+ndc.gov	DNE	
+saude.gov	DNE	
+ar.gov	DNE	
+hursttx.gov	DNE	
+sanfordfl.gov	DNE	
+acus.gov	reject	self,dhs-nppd
+clarkcountyohio.gov	none	
+floridashearingaidspecialists.gov	DNE	
+goldenvalleymn.gov	DNE	
+greenvillenc.gov	DNE	
+missouricitytx.gov	DNE	
+nationsreportcard.gov	reject	self,dhs-nppd
+ncbar.gov	DNE	
+ohiohouse.gov	DNE	
+paristexas.gov	DNE	
+shinertexas.gov	DNE	
+vcf.gov	reject	dhs-nppd,self
+wauconda-il.gov	DNE	
+phe.gov	reject	agari,dhs-nppd
+ferc.gov	reject	self,dhs-nppd
+madisonal.gov	DNE	
+alacop.gov	DNE	
+everettwa.gov	none	self
+greenwichct.gov	DNE	
+killeentexas.gov	none	
+kingsporttn.gov	DNE	
+miamisprings-fl.gov	DNE	
+ncirc.gov	reject	dmarcanalyzer,dhs-nppd,self,unknown:knickens@iir.com
+oaklandparkfl.gov	DNE	
+onrr.gov	reject	self,dhs-nppd,valimail
+orangebeachal.gov	DNE	
+ovcttac.gov	reject	dhs-nppd,self
+peabody-ma.gov	DNE	
+prescott-az.gov	DNE	
+scvwd.gov	DNE	
+surrycountyva.gov	DNE	
+ucrdatatool.gov	reject	dhs-nppd,self
+tjgo.gov	DNE	
+midlandtexas.gov	DNE	
+morriscountynj.gov	DNE	
+alea.gov	DNE	
+science360.gov	reject	self,dhs-nppd
+smokefree.gov	reject	agari,dhs-nppd
+511wi.gov	DNE	
+adelantoca.gov	DNE	
+arlingtonma.gov	DNE	
+azdes.gov	DNE	
+bhtx.gov	DNE	
+borgertx.gov	DNE	
+brightonco.gov	DNE	
+cap.gov	DNE	
+cheathamcountytn.gov	DNE	
+daytonohio.gov	DNE	
+deltonafl.gov	DNE	
+encinitasca.gov	DNE	
+eulesstx.gov	none	self
+fayettevillenc.gov	DNE	
+flagstaffaz.gov	DNE	
+futurereadyiowa.gov	DNE	
+gaithersburgmd.gov	DNE	
+gallatintn.gov	DNE	
+gaprobate.gov	DNE	
+garlandtx.gov	none	self
+glastonbury-ct.gov	DNE	
+greenacresfl.gov	none	mxtoolbox,postmarkapp,self
+hickorycreek-tx.gov	DNE	
+holdenma.gov	DNE	
+intelink.gov	DNE	
+lakestevenswa.gov	DNE	
+lakeway-tx.gov	DNE	
+losaltosca.gov	DNE	
+masenate.gov	DNE	
+mchenrycountyil.gov	quarantine	dmarcian,self
+mendonma.gov	DNE	
+mtelectionresults.gov	DNE	
+njdoc.gov	DNE	
+northmiamifl.gov	DNE	
+nypa.gov	none	self
+ranchomirageca.gov	DNE	
+rockfordil.gov	DNE	
+salemcountynj.gov	DNE	
+sourcewell-mn.gov	DNE	
+talbotcountymd.gov	DNE	
+tisburyma.gov	DNE	
+volunteer.gov	reject	self,dhs-nppd,valimail
+costamesaca.gov	DNE	
+nifc.gov	reject	self,dhs-nppd,valimail
+aikencountysc.gov	DNE	
+calhouncountymi.gov	DNE	
+chelseama.gov	DNE	
+claytoncountyga.gov	DNE	
+colchesterct.gov	DNE	
+columbusga.gov	DNE	
+diamondbarca.gov	DNE	
+efiletexas.gov	DNE	
+greenevilletn.gov	DNE	
+hartford.gov	quarantine	unknown:alerts-soc@hartfordschools.org
+hawaiicounty.gov	reject	self
+idmanagement.gov	reject	self,dhs-nppd
+issaquahwa.gov	DNE	
+jacksonwy.gov	DNE	
+keithcountyne.gov	DNE	
+kenmorewa.gov	none	dmarcanalyzer
+kingston-ny.gov	DNE	
+leesburgva.gov	none	dmarcian
+maplegrovemn.gov	DNE	
+marshalltown-ia.gov	DNE	
+montanaworks.gov	DNE	
+morrowcountyohio.gov	DNE	
+mrlc.gov	reject	self,dhs-nppd,valimail
+mtbs.gov	reject	dhs-nppd,proofpoint
+ncua.gov	none	self,dhs-nppd
+needhamma.gov	DNE	
+newarknj.gov	DNE	
+nitrd.gov	DNE	
+normandyparkwa.gov	DNE	
+nrd.gov	DNE	
+or-medicaid.gov	DNE	
+poolsafely.gov	reject	dhs-nppd,self
+putnamcountytn.gov	none	self
+roanokecountyva.gov	none	self
+salisburyma.gov	DNE	
+sandpointidaho.gov	DNE	
+section508.gov	reject	self,dhs-nppd
+sequimwa.gov	DNE	
+springfield-ma.gov	DNE	
+sugargroveil.gov	DNE	
+templetx.gov	DNE	
+thecolonytx.gov	DNE	
+usagm.gov	none	self,dhs-nppd,postmarkapp
+vt.gov	DNE	
+willingboronj.gov	DNE	
+wilsoncountytn.gov	DNE	
+wylietexas.gov	DNE	
+frederickco.gov	DNE	
+unioncountyil.gov	DNE	
+intelligence.gov	DNE	
+apprenticeship.gov	reject	self,dhs-nppd
+simsbury-ct.gov	DNE	
+colliercountyfl.gov	none	self
+anstaskforce.gov	reject	self,dhs-nppd
+code.gov	reject	self,dhs-nppd
+fairfaxva.gov	DNE	
+ars-grin.gov	none	self,dhs-nppd,proofpoint
+merrimacknh.gov	DNE	
+alabamavotes.gov	DNE	
+alaskacenters.gov	reject	self,dhs-nppd,valimail
+antiochca.gov	DNE	
+azarts.gov	DNE	
+azcorrections.gov	DNE	
+azdeq.gov	DNE	
+bacacountyco.gov	DNE	
+bedfordtx.gov	DNE	
+bellairetx.gov	DNE	
+beltontexas.gov	DNE	
+blissfieldmichigan.gov	DNE	
+brazoriacountytx.gov	DNE	
+brazoscountytx.gov	DNE	
+brla.gov	DNE	
+capitolheightsmd.gov	DNE	
+carrollton-ga.gov	DNE	
+cfo.gov	reject	self,dhs-nppd
+charlescountymd.gov	DNE	
+cio.gov	reject	self,dhs-nppd
+cityofhiramga.gov	DNE	
+claimittn.gov	DNE	
+cns.gov	none	dhs-nppd
+coltonca.gov	DNE	
+concordnh.gov	DNE	
+coppelltx.gov	DNE	
+davie-fl.gov	DNE	
+dutchessny.gov	DNE	
+energyhelpohio.gov	DNE	
+fedshirevets.gov	reject	self,dhs-nppd
+fl.gov	DNE	
+flboardofmedicine.gov	DNE	
+floridasnursing.gov	DNE	
+grantspassoregon.gov	none	self
+greenecountyva.gov	DNE	
+guam.gov	DNE	
+guilfordcountync.gov	DNE	
+hamptonga.gov	DNE	
+harp.gov	reject	postmarkapp,dhs-nppd
+hopewellva.gov	DNE	
+huntsvilleal.gov	none	self
+imls.gov	reject	self,dhs-nppd
+iowacourts.gov	DNE	
+iprcenter.gov	reject	
+kinggeorgecountyva.gov	DNE	
+knoxvilletn.gov	DNE	
+leaguecitytx.gov	DNE	
+leominster-ma.gov	DNE	
+lexingtonma.gov	DNE	
+longbeachny.gov	DNE	
+lovelandoh.gov	DNE	
+lsc.gov	DNE	
+makinghomeaffordable.gov	reject	self,dhs-nppd
+mtc.gov	DNE	
+murrietaca.gov	DNE	
+ndstudies.gov	DNE	
+njmeadowlands.gov	DNE	
+njt.gov	DNE	
+nsep.gov	DNE	
+ohiosenate.gov	DNE	
+oregonstudentaid.gov	DNE	
+palmspringsca.gov	DNE	
+pasco-wa.gov	DNE	
+radfordva.gov	DNE	
+readingpa.gov	DNE	
+richmondtx.gov	DNE	
+rochelleparknj.gov	DNE	
+rosenbergtx.gov	DNE	
+sandisfieldma.gov	DNE	
+santafenm.gov	DNE	
+sbmtd.gov	invalid	
+sebastiancountyar.gov	DNE	
+sf.gov	DNE	
+smyrnaga.gov	DNE	
+stateoig.gov	reject	self,dhs-nppd
+sugarlandtx.gov	DNE	
+summitcountyco.gov	DNE	
+tax.gov	reject	self,dhs-nppd
+townofpalermony.gov	DNE	
+usds.gov	DNE	
+wallawallawa.gov	DNE	
+waterfordmi.gov	DNE	
+wiltonnh.gov	DNE	
+wrga.gov	DNE	
+wvdnr.gov	DNE	
+wyoleg.gov	DNE	
+ycsoaz.gov	DNE	
+yonkersny.gov	DNE	
+econsumer.gov	reject	dhs-nppd
+villageofpeninsula-oh.gov	DNE	
+usmission.gov	reject	self,dhs-nppd
+mcc.gov	reject	dhs-nppd,self
+pmi.gov	reject	self,dhs-nppd
+stcharlescitymo.gov	DNE	
+nlm.gov	reject	agari,dhs-nppd
+gahanna.gov	DNE	
+enem.gov	DNE	
+www.gov	DNE	
+ojp.gov	reject	dhs-nppd,self
+pepfar.gov	reject	self,dhs-nppd
+broadbandmap.gov	reject	self,dhs-nppd
+donaciondeorganos.gov	reject	agari,dhs-nppd
+usphs.gov	reject	agari,dhs-nppd
+docline.gov	reject	agari,dhs-nppd
+boem.gov	reject	self,dhs-nppd,valimail
+bsee.gov	reject	self,dhs-nppd,valimail
+fgdc.gov	reject	self,dhs-nppd,valimail
+vidol.gov	DNE	
+ab-tech.gov	DNE	
+agingstats.gov	reject	agari,dhs-nppd
+albemarlenc.gov	DNE	
+aldoi.gov	DNE	
+allentownpa.gov	DNE	
+amherstnh.gov	DNE	
+applicationmanager.gov	reject	self,dhs-nppd
+auburnwa.gov	DNE	
+avonct.gov	DNE	
+azahcccs.gov	none	self
+azgovernor.gov	DNE	
+azica.gov	DNE	
+azland.gov	DNE	
+azunclaimed.gov	DNE	
+ballotready.gov	DNE	
+bevercountypa.gov	DNE	
+bigsandytx.gov	DNE	
+binghamton-ny.gov	DNE	
+biopreferred.gov	reject	self,dhs-nppd,proofpoint
+bonnercountyid.gov	DNE	
+brookhavenny.gov	DNE	
+burbankca.gov	DNE	
+canalwinchesterohio.gov	DNE	
+capemaycountynj.gov	DNE	
+cathedralcity.gov	DNE	
+cbca.gov	reject	self,dhs-nppd
+centervilletx.gov	DNE	
+centrecountypa.gov	DNE	
+champaignil.gov	DNE	
+chcoc.gov	reject	self,dhs-nppd
+chemungcountyny.gov	none	self
+childstats.gov	reject	self,dhs-nppd
+chowancounty-nc.gov	DNE	
+cityofboston.gov	none	self
+cityofeudoraks.gov	DNE	
+cityofmidlandmi.gov	DNE	
+collegeparkmd.gov	DNE	
+colrain-ma.gov	DNE	
+concordnc.gov	DNE	
+covinaca.gov	DNE	
+cravencountync.gov	DNE	
+creedthoughts.gov	DNE	
+crisisnextdoor.gov	DNE	
+cutlerbay-fl.gov	DNE	
+dems.gov	DNE	
+dmv.gov	DNE	
+dojmt.gov	DNE	
+dol-esa.gov	reject	self,dhs-nppd
+dolks.gov	DNE	
+douglascounty-ne.gov	DNE	
+duluthmn.gov	DNE	
+dyersburgtn.gov	DNE	
+eastvaleca.gov	DNE	
+fasfa.gov	DNE	
+fayetteville-ar.gov	DNE	
+fdicoig.gov	reject	agari,dhs-nppd
+fitchburgwi.gov	DNE	
+flauditor.gov	DNE	
+flcrc.gov	DNE	
+flhealthcomplaint.gov	DNE	
+florence-nj.gov	DNE	
+floridaelectionwatch.gov	DNE	
+framinghamma.gov	DNE	
+franklintn.gov	DNE	
+g5.gov	reject	self,dhs-nppd
+georgiacourts.gov	DNE	
+glennheightstx.gov	DNE	
+goldsboronc.gov	DNE	
+gop.gov	DNE	
+greenwoodsc.gov	DNE	
+halifaxcountyva.gov	DNE	
+hanoverva.gov	DNE	
+harrisonburgva.gov	DNE	
+healtherarizonaplus.gov	DNE	
+healthysd.gov	DNE	
+heathcare.gov	DNE	
+heathearizona.gov	DNE	
+hempsteadny.gov	DNE	
+herdon-va.gov	DNE	
+highlandparkmi.gov	DNE	
+history.gov	reject	dhs-nppd
+hopi-nsn.gov	DNE	
+hudoig.gov	DNE	
+hurontownship-mi.gov	DNE	
+illinoisattorneygeneral.gov	DNE	
+indianaunclaimed.gov	DNE	
+inl.gov	reject	proofpoint,dhs-nppd,self
+insurekidsnow.gov	reject	agari,dhs-nppd
+iowaattorneygeneral.gov	DNE	
+iowatreasurer.gov	DNE	
+jccs.gov	DNE	
+jct.gov	none	self,returnpath
+jeffersoncitymo.gov	DNE	
+kansasemployer.gov	DNE	
+kansastag.gov	DNE	
+kauai.gov	DNE	
+kentcountymi.gov	DNE	
+klamathrestoration.gov	reject	self,dhs-nppd
+lafayettela.gov	DNE	
+lakeforestca.gov	DNE	
+lakewoodnj.gov	DNE	
+lawtonok.gov	DNE	
+leandertx.gov	DNE	
+lebanonnh.gov	DNE	
+lehi-ut.gov	DNE	
+lep.gov	reject	dhs-nppd,self
+longportnj.gov	DNE	
+lummi-nsn.gov	quarantine	dmarcian,self
+lunenburgma.gov	DNE	
+madisoncountyal.gov	none	self
+mansfieldtexas.gov	DNE	
+manufacturing.gov	reject	self,dhs-nppd
+masshealth.gov	DNE	
+mcncourts.gov	DNE	
+mediacdcrca.gov	DNE	
+meridenct.gov	DNE	
+milwaukieoregon.gov	DNE	
+montgomerytexas.gov	DNE	
+morgantownwv.gov	DNE	
+muskegon-mi.gov	DNE	
+mymoney.gov	reject	self,dhs-nppd
+nagb.gov	reject	dhs-nppd,unknown:dmarc+nagb@quotient-inc.com,self
+narragansettri.gov	DNE	
+nationalgangcenter.gov	reject	unknown:knickens@iir.com,dhs-nppd,self
+nclamp.gov	DNE	
+ncrec.gov	DNE	
+nevadaunclaimedproperty.gov	DNE	
+newportoregon.gov	DNE	
+nicic.gov	reject	dhs-nppd,self
+nicsezcheckfbi.gov	reject	self,dhs-nppd
+nixonlibrary.gov	reject	dhs-nppd
+nm.gov	DNE	
+nolensvilletn.gov	DNE	
+normanok.gov	DNE	
+northandoverma.gov	DNE	
+nylottery.gov	DNE	
+oakparkmi.gov	DNE	
+obamalibrary.gov	reject	dhs-nppd
+ohiopmp.gov	DNE	
+oksenate.gov	DNE	
+ottawaks.gov	DNE	
+owascony.gov	DNE	
+palmettobay-fl.gov	DNE	
+paulding.gov	DNE	
+pearlandtx.gov	none	dmarcanalyzer
+plymouth-ma.gov	DNE	
+portalesnm.gov	DNE	
+promise.gov	DNE	
+reaganlibrary.gov	reject	dhs-nppd
+recalls.gov	reject	dhs-nppd,self
+results.gov	DNE	
+riversideoh.gov	DNE	
+roanokeva.gov	DNE	
+rochestermn.gov	DNE	
+rosebudsiouxtribe-nsn.gov	DNE	
+roswell-nm.gov	DNE	
+rrnm.gov	DNE	
+saferproducts.gov	reject	dhs-nppd,self
+scdps.gov	DNE	
+scottcountymn.gov	DNE	
+seatacwa.gov	DNE	
+seekonk-ma.gov	DNE	
+sherwoodoregon.gov	none	self
+shreveportla.gov	DNE	
+smart.gov	reject	dhs-nppd,self
+stb.gov	reject	self,dhs-nppd
+stlouiscountymn.gov	DNE	
+stlucieco.gov	DNE	
+stow-ma.gov	DNE	
+sturgis-sd.gov	DNE	
+sumtersc.gov	quarantine	self
+taylorsvilleut.gov	DNE	
+thurstoncountywa.gov	DNE	
+townofmaynard-ma.gov	DNE	
+troymi.gov	DNE	
+trs.gov	DNE	
