@@ -1,0 +1,41 @@
+## Summary of results -- "gov.2018-10-31.tsv"
+
+Total domains: 1193
+
+Using DMARC:
+  false: 751 (63.0%)
+  true:  442 (37.0%)
+
+Policies:
+  reject:     308 (69.7%)
+  none:       118 (26.7%)
+  quarantine: 12 (2.7%)
+  invalid:    4 (0.9%)
+
+Providers:
+  dhs-nppd:      329 (77.0%)
+  self:          317 (74.2%)
+  agari:         69 (16.2%)
+  proofpoint:    25 (5.9%)
+  valimail:      25 (5.9%)
+  mxtoolbox:     13 (3.0%)
+  dmarcian:      12 (2.8%)
+  postmarkapp:   12 (2.8%)
+  unrecognized:  8 (1.9%)
+  dmarcanalyzer: 7 (1.6%)
+  cisco:         3 (0.7%)
+  returnpath:    2 (0.5%)
+
+Providers, third-party only:
+  agari:         69 (40.6%)
+  proofpoint:    25 (14.7%)
+  valimail:      25 (14.7%)
+  mxtoolbox:     13 (7.6%)
+  postmarkapp:   12 (7.1%)
+  dmarcian:      12 (7.1%)
+  unrecognized:  8 (4.7%)
+  dmarcanalyzer: 7 (4.1%)
+  cisco:         3 (1.8%)
+  returnpath:    2 (1.2%)
+
+Totals may exceed 100% since domains can use multiple providers.
